@@ -1,0 +1,23 @@
+/* 
+   Champions Customizable Variables
+   Use this file to easily change the primary colors and theme settings of the portal.
+*/
+
+:root {
+    /* Primary brand colors */
+    --accent: #fbbf24;       /* Gold/Amber */
+    --accent-glow: rgba(251, 191, 36, 0.25);
+    --secondary: #10b981;    /* Emerald Green */
+    
+    /* Backgrounds */
+    --bg-main: #030712;      /* Deep Charcoal/Navy */
+    --bg-card: rgba(15, 23, 42, 0.7);
+    
+    /* Borders and Dividers */
+    --border-soft: rgba(255, 255, 255, 0.1);
+    --border-accent: rgba(251, 191, 36, 0.3);
+    
+    /* Typography */
+    --font-header: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}

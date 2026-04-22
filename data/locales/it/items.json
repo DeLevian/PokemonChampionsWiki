@@ -1,0 +1,554 @@
+{
+  "Black Belt": {
+    "name": "Cinturanera",
+    "description": "Potenzia le mosse di tipo Lotta del Pokémon che lo tiene."
+  },
+  "Black Glasses": {
+    "name": "Occhialineri",
+    "description": "Potenzia le mosse di tipo Buio del Pokémon che lo tiene."
+  },
+  "Bright Powder": {
+    "name": "Luminpolvere",
+    "description": "Riduce la precisione delle mosse avversarie che colpiscono il Pokémon che lo tiene."
+  },
+  "Charcoal": {
+    "name": "Carbonella",
+    "description": "Potenzia le mosse di tipo Fuoco del Pokémon che lo tiene."
+  },
+  "Choice Scarf": {
+    "name": "Stolascelta",
+    "description": "Aumenta la Velocità del Pokémon che lo tiene, ma lo blocca sulla prima mossa scelta."
+  },
+  "Dragon Fang": {
+    "name": "Dentedidrago",
+    "description": "Potenzia le mosse di tipo Drago del Pokémon che lo tiene."
+  },
+  "Fairy Feather": {
+    "name": "Piuma fatata",
+    "description": "Potenzia le mosse di tipo Folletto del Pokémon che lo tiene."
+  },
+  "Focus Band": {
+    "name": "Bandana",
+    "description": "Può permettere al Pokémon che lo tiene di resistere con 1 PS a un colpo che lo manderebbe KO."
+  },
+  "Focus Sash": {
+    "name": "Focalnastro",
+    "description": "Se il Pokémon che lo tiene ha PS pieni, resiste con 1 PS a un colpo che lo manderebbe KO. Si attiva una sola volta."
+  },
+  "Hard Stone": {
+    "name": "Pietradura",
+    "description": "Potenzia le mosse di tipo Roccia del Pokémon che lo tiene."
+  },
+  "King's Rock": {
+    "name": "Roccia di re",
+    "description": "Le mosse offensive del Pokémon che lo tiene possono far tentennare il bersaglio."
+  },
+  "Leftovers": {
+    "name": "Avanzi",
+    "description": "Fa recuperare gradualmente PS al Pokémon che lo tiene."
+  },
+  "Light Ball": {
+    "name": "Elettropalla",
+    "description": "Aumenta l'Attacco e l'Attacco Speciale di Pikachu."
+  },
+  "Magnet": {
+    "name": "Calamita",
+    "description": "Potenzia le mosse di tipo Elettro del Pokémon che lo tiene."
+  },
+  "Mental Herb": {
+    "name": "Mentalerba",
+    "description": "Fa svanire una volta gli effetti che limitano le mosse del Pokémon che lo tiene."
+  },
+  "Metal Coat": {
+    "name": "Metalcopertura",
+    "description": "Potenzia le mosse di tipo Acciaio del Pokémon che lo tiene."
+  },
+  "Miracle Seed": {
+    "name": "Miracolseme",
+    "description": "Potenzia le mosse di tipo Erba del Pokémon che lo tiene."
+  },
+  "Mystic Water": {
+    "name": "Acqua magica",
+    "description": "Potenzia le mosse di tipo Acqua del Pokémon che lo tiene."
+  },
+  "Never-Melt Ice": {
+    "name": "Gelomai",
+    "description": "Potenzia le mosse di tipo Ghiaccio del Pokémon che lo tiene."
+  },
+  "Poison Barb": {
+    "name": "Velenaculeo",
+    "description": "Potenzia le mosse di tipo Veleno del Pokémon che lo tiene."
+  },
+  "Quick Claw": {
+    "name": "Rapidartigli",
+    "description": "Può permettere al Pokémon che lo tiene di agire per primo."
+  },
+  "Scope Lens": {
+    "name": "Mirino",
+    "description": "Aumenta la probabilità di mandare a segno un brutto colpo."
+  },
+  "Sharp Beak": {
+    "name": "Beccaffilato",
+    "description": "Potenzia le mosse di tipo Volante del Pokémon che lo tiene."
+  },
+  "Shell Bell": {
+    "name": "Conchinella",
+    "description": "Fa recuperare una piccola quantità di PS quando il Pokémon che lo tiene infligge danni."
+  },
+  "Silk Scarf": {
+    "name": "Sciarpa Seta",
+    "description": "Potenzia le mosse di tipo Normale del Pokémon che lo tiene."
+  },
+  "Silver Powder": {
+    "name": "Argenpolvere",
+    "description": "Potenzia le mosse di tipo Coleottero del Pokémon che lo tiene."
+  },
+  "Soft Sand": {
+    "name": "Sabbia Soffice",
+    "description": "Potenzia le mosse di tipo Terra del Pokémon che lo tiene."
+  },
+  "Spell Tag": {
+    "name": "Spettrotarga",
+    "description": "Potenzia le mosse di tipo Spettro del Pokémon che lo tiene."
+  },
+  "Twisted Spoon": {
+    "name": "Cucchiaio Torto",
+    "description": "Potenzia le mosse di tipo Psico del Pokémon che lo tiene."
+  },
+  "White Herb": {
+    "name": "Erbachiara",
+    "description": "Ripristina una volta le statistiche ridotte del Pokémon che lo tiene."
+  },
+  "Abomasite": {
+    "name": "Abomasnowite",
+    "description": "Permette ad Abomasnow di megaevolversi durante la lotta."
+  },
+  "Absolite": {
+    "name": "Absolite",
+    "description": "Permette ad Absol di megaevolversi durante la lotta."
+  },
+  "Aerodactylite": {
+    "name": "Aerodactylite",
+    "description": "Permette ad Aerodactyl di megaevolversi durante la lotta."
+  },
+  "Aggronite": {
+    "name": "Aggronite",
+    "description": "Permette ad Aggron di megaevolversi durante la lotta."
+  },
+  "Alakazite": {
+    "name": "Alakazite",
+    "description": "Permette ad Alakazam di megaevolversi durante la lotta."
+  },
+  "Altarianite": {
+    "name": "Altarianite",
+    "description": "Permette ad Altaria di megaevolversi durante la lotta."
+  },
+  "Ampharosite": {
+    "name": "Ampharosite",
+    "description": "Permette ad Ampharos di megaevolversi durante la lotta."
+  },
+  "Audinite": {
+    "name": "Audinite",
+    "description": "Permette ad Audino di megaevolversi durante la lotta."
+  },
+  "Banettite": {
+    "name": "Banettite",
+    "description": "Permette a Banette di megaevolversi durante la lotta."
+  },
+  "Beedrillite": {
+    "name": "Beedrillite",
+    "description": "Permette a Beedrill di megaevolversi durante la lotta."
+  },
+  "Blastoisinite": {
+    "name": "Blastoisite",
+    "description": "Permette a Blastoise di megaevolversi durante la lotta."
+  },
+  "Cameruptite": {
+    "name": "Cameruptite",
+    "description": "Permette a Camerupt di megaevolversi durante la lotta."
+  },
+  "Chandelurite": {
+    "name": "Chandelurite",
+    "description": "Permette a Chandelure di megaevolversi durante la lotta."
+  },
+  "Charizardite X": {
+    "name": "Charizardite X",
+    "description": "Permette a Charizard di megaevolversi in Mega Charizard X durante la lotta."
+  },
+  "Charizardite Y": {
+    "name": "Charizardite Y",
+    "description": "Permette a Charizard di megaevolversi in Mega Charizard Y durante la lotta."
+  },
+  "Chesnaughtite": {
+    "name": "Chesnaughtite",
+    "description": "Permette a Chesnaught di megaevolversi durante la lotta."
+  },
+  "Chimechite": {
+    "name": "Chimechite",
+    "description": "Permette a Chimecho di megaevolversi durante la lotta."
+  },
+  "Clefablite": {
+    "name": "Clefablite",
+    "description": "Permette a Clefable di megaevolversi durante la lotta."
+  },
+  "Crabominite": {
+    "name": "Crabominite",
+    "description": "Permette a Crabominable di megaevolversi durante la lotta."
+  },
+  "Delphoxite": {
+    "name": "Delphoxite",
+    "description": "Permette a Delphox di megaevolversi durante la lotta."
+  },
+  "Dragoninite": {
+    "name": "Dragoninite",
+    "description": "Permette a Dragonite di megaevolversi durante la lotta."
+  },
+  "Drampanite": {
+    "name": "Drampanite",
+    "description": "Permette a Drampa di megaevolversi durante la lotta."
+  },
+  "Emboarite": {
+    "name": "Emboarite",
+    "description": "Permette a Emboar di megaevolversi durante la lotta."
+  },
+  "Excadrite": {
+    "name": "Excadrite",
+    "description": "Permette a Excadrill di megaevolversi durante la lotta."
+  },
+  "Feraligite": {
+    "name": "Feraligite",
+    "description": "Permette a Feraligatr di megaevolversi durante la lotta."
+  },
+  "Floettite": {
+    "name": "Floettite",
+    "description": "Permette alla Floette Fiore Eterno di megaevolversi durante la lotta."
+  },
+  "Froslassite": {
+    "name": "Froslassite",
+    "description": "Permette a Froslass di megaevolversi durante la lotta."
+  },
+  "Galladite": {
+    "name": "Galladite",
+    "description": "Permette a Gallade di megaevolversi durante la lotta."
+  },
+  "Garchompite": {
+    "name": "Garchompite",
+    "description": "Permette a Garchomp di megaevolversi durante la lotta."
+  },
+  "Gardevoirite": {
+    "name": "Gardevoirite",
+    "description": "Permette a Gardevoir di megaevolversi durante la lotta."
+  },
+  "Gengarite": {
+    "name": "Gengarite",
+    "description": "Permette a Gengar di megaevolversi durante la lotta."
+  },
+  "Glalitite": {
+    "name": "Glalitite",
+    "description": "Permette a Glalie di megaevolversi durante la lotta."
+  },
+  "Glimmoranite": {
+    "name": "Glimmoranite",
+    "description": "Permette a Glimmora di megaevolversi durante la lotta."
+  },
+  "Golurkite": {
+    "name": "Golurkite",
+    "description": "Permette a Golurk di megaevolversi durante la lotta."
+  },
+  "Greninjite": {
+    "name": "Greninjite",
+    "description": "Permette a Greninja di megaevolversi durante la lotta."
+  },
+  "Gyaradosite": {
+    "name": "Gyaradosite",
+    "description": "Permette a Gyarados di megaevolversi durante la lotta."
+  },
+  "Hawluchanite": {
+    "name": "Hawluchanite",
+    "description": "Permette a Hawlucha di megaevolversi durante la lotta."
+  },
+  "Heracronite": {
+    "name": "Heracronite",
+    "description": "Permette a Heracross di megaevolversi durante la lotta."
+  },
+  "Houndoominite": {
+    "name": "Houndoominite",
+    "description": "Permette a Houndoom di megaevolversi durante la lotta."
+  },
+  "Kangaskhanite": {
+    "name": "Kangaskhanite",
+    "description": "Permette a Kangaskhan di megaevolversi durante la lotta."
+  },
+  "Lopunnite": {
+    "name": "Lopunnite",
+    "description": "Permette a Lopunny di megaevolversi durante la lotta."
+  },
+  "Lucarionite": {
+    "name": "Lucarionite",
+    "description": "Permette a Lucario di megaevolversi durante la lotta."
+  },
+  "Manectite": {
+    "name": "Manectite",
+    "description": "Permette a Manectric di megaevolversi durante la lotta."
+  },
+  "Medichamite": {
+    "name": "Medichamite",
+    "description": "Permette a Medicham di megaevolversi durante la lotta."
+  },
+  "Meganiumite": {
+    "name": "Meganiumite",
+    "description": "Permette a Meganium di megaevolversi durante la lotta."
+  },
+  "Meowsticite": {
+    "name": "Meowsticite",
+    "description": "Permette a Meowstic di megaevolversi durante la lotta."
+  },
+  "Pidgeotite": {
+    "name": "Pidgeotite",
+    "description": "Permette a Pidgeot di megaevolversi durante la lotta."
+  },
+  "Pinsirite": {
+    "name": "Pinsirite",
+    "description": "Permette a Pinsir di megaevolversi durante la lotta."
+  },
+  "Sablenite": {
+    "name": "Sablenite",
+    "description": "Permette a Sableye di megaevolversi durante la lotta."
+  },
+  "Scizorite": {
+    "name": "Scizorite",
+    "description": "Permette a Scizor di megaevolversi durante la lotta."
+  },
+  "Scovillainite": {
+    "name": "Scovillainite",
+    "description": "Permette a Scovillain di megaevolversi durante la lotta."
+  },
+  "Sharpedonite": {
+    "name": "Sharpedite",
+    "description": "Permette a Sharpedo di megaevolversi durante la lotta."
+  },
+  "Skarmorite": {
+    "name": "Skarmorite",
+    "description": "Permette a Skarmory di megaevolversi durante la lotta."
+  },
+  "Slowbronite": {
+    "name": "Slowbroite",
+    "description": "Permette a Slowbro di megaevolversi durante la lotta. Non si applica alla forma di Galar."
+  },
+  "Starminite": {
+    "name": "Starminite",
+    "description": "Permette a Starmie di megaevolversi durante la lotta."
+  },
+  "Steelixite": {
+    "name": "Steelixite",
+    "description": "Permette a Steelix di megaevolversi durante la lotta."
+  },
+  "Tyranitarite": {
+    "name": "Tyranitarite",
+    "description": "Permette a Tyranitar di megaevolversi durante la lotta."
+  },
+  "Venusaurite": {
+    "name": "Venusaurite",
+    "description": "Permette a Venusaur di megaevolversi durante la lotta."
+  },
+  "Victreebelite": {
+    "name": "Victreebelite",
+    "description": "Permette a Victreebel di megaevolversi durante la lotta."
+  },
+  "Aspear Berry": {
+    "name": "Baccaperina",
+    "description": "Scongela il Pokémon che la tiene."
+  },
+  "Babiri Berry": {
+    "name": "Baccababiri",
+    "description": "Indebolisce una mossa di tipo Acciaio superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Charti Berry": {
+    "name": "Baccaciofo",
+    "description": "Indebolisce una mossa di tipo Roccia superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Cheri Berry": {
+    "name": "Baccaliegia",
+    "description": "Cura la paralisi del Pokémon che la tiene."
+  },
+  "Chesto Berry": {
+    "name": "Baccastagna",
+    "description": "Sveglia il Pokémon che la tiene dal sonno."
+  },
+  "Chilan Berry": {
+    "name": "Baccacinlan",
+    "description": "Indebolisce una mossa di tipo Normale subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Chople Berry": {
+    "name": "Baccarosmel",
+    "description": "Indebolisce una mossa di tipo Lotta superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Coba Berry": {
+    "name": "Baccababa",
+    "description": "Indebolisce una mossa di tipo Volante superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Colbur Berry": {
+    "name": "Baccaxan",
+    "description": "Indebolisce una mossa di tipo Buio superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Haban Berry": {
+    "name": "Baccahaban",
+    "description": "Indebolisce una mossa di tipo Drago superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Kasib Berry": {
+    "name": "Baccacitrus",
+    "description": "Indebolisce una mossa di tipo Spettro superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Kebia Berry": {
+    "name": "Baccakebia",
+    "description": "Indebolisce una mossa di tipo Veleno superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Leppa Berry": {
+    "name": "Baccamela",
+    "description": "Ripristina 10 PP di una mossa."
+  },
+  "Lum Berry": {
+    "name": "Baccaprugna",
+    "description": "Cura qualsiasi problema di stato del Pokémon che la tiene."
+  },
+  "Occa Berry": {
+    "name": "Baccacao",
+    "description": "Indebolisce una mossa di tipo Fuoco superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Oran Berry": {
+    "name": "Baccarancia",
+    "description": "Ripristina 10 PS al Pokémon che la tiene."
+  },
+  "Passho Berry": {
+    "name": "Baccapasflo",
+    "description": "Indebolisce una mossa di tipo Acqua superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Payapa Berry": {
+    "name": "Baccapayapa",
+    "description": "Indebolisce una mossa di tipo Psico superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Pecha Berry": {
+    "name": "Baccapesca",
+    "description": "Cura l'avvelenamento del Pokémon che la tiene."
+  },
+  "Persim Berry": {
+    "name": "Baccaki",
+    "description": "Cura la confusione del Pokémon che la tiene."
+  },
+  "Rawst Berry": {
+    "name": "Baccafrago",
+    "description": "Cura la scottatura del Pokémon che la tiene."
+  },
+  "Rindo Berry": {
+    "name": "Baccarindo",
+    "description": "Indebolisce una mossa di tipo Erba superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Roseli Berry": {
+    "name": "Baccarcadè",
+    "description": "Indebolisce una mossa di tipo Folletto superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Shuca Berry": {
+    "name": "Baccanaca",
+    "description": "Indebolisce una mossa di tipo Terra superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Sitrus Berry": {
+    "name": "Baccacedro",
+    "description": "Ripristina una piccola quantità di PS al Pokémon che la tiene."
+  },
+  "Tanga Berry": {
+    "name": "Baccaitan",
+    "description": "Indebolisce una mossa di tipo Coleottero superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Wacan Berry": {
+    "name": "Baccaparmen",
+    "description": "Indebolisce una mossa di tipo Elettro superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Yache Berry": {
+    "name": "Baccamoya",
+    "description": "Indebolisce una mossa di tipo Ghiaccio superefficace subita dal Pokémon che la tiene. Si consuma dopo l'uso."
+  },
+  "Bug-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Coleottero",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Coleottero."
+  },
+  "Dark-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Buio",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Buio."
+  },
+  "Dragon-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Drago",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Drago."
+  },
+  "Electric-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Elettro",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Elettro."
+  },
+  "Fairy-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Folletto",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Folletto."
+  },
+  "Fighting-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Lotta",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Lotta."
+  },
+  "Fire-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Fuoco",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Fuoco."
+  },
+  "Flying-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Volante",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Volante."
+  },
+  "Ghost-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Spettro",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Spettro."
+  },
+  "Grass-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Erba",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Erba."
+  },
+  "Ground-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Terra",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Terra."
+  },
+  "Ice-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Ghiaccio",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Ghiaccio."
+  },
+  "Normal-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Normale",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Normale."
+  },
+  "Poison-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Veleno",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Veleno."
+  },
+  "Psychic-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Psico",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Psico."
+  },
+  "Quick Coupon": {
+    "name": "Coupon rapido",
+    "description": "Riduce il tempo di attesa nelle attività legate al Recruit Ranch e ad altri progressi temporizzati."
+  },
+  "Rock-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Roccia",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Roccia."
+  },
+  "Steel-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Acciaio",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Acciaio."
+  },
+  "Teammate Ticket": {
+    "name": "Biglietto standard",
+    "description": "Permette di reclutare un Pokémon nel Recruit Ranch."
+  },
+  "Training Ticket": {
+    "name": "Biglietto allenamento",
+    "description": "Permette di allenare un Pokémon senza usare Victory Points."
+  },
+  "Water-Type Affinity Ticket": {
+    "name": "Biglietto affinità di tipo Acqua",
+    "description": "Aumenta la probabilità di incontrare Pokémon di tipo Acqua."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Adamant": {
+    "name": "Decisa"
+  },
+  "Bashful": {
+    "name": "Ritrosa"
+  },
+  "Bold": {
+    "name": "Sicura"
+  },
+  "Brave": {
+    "name": "Audace"
+  },
+  "Calm": {
+    "name": "Calma"
+  },
+  "Careful": {
+    "name": "Cauta"
+  },
+  "Docile": {
+    "name": "Docile"
+  },
+  "Gentle": {
+    "name": "Gentile"
+  },
+  "Hardy": {
+    "name": "Ardita"
+  },
+  "Hasty": {
+    "name": "Lesta"
+  },
+  "Impish": {
+    "name": "Scaltra"
+  },
+  "Jolly": {
+    "name": "Allegra"
+  },
+  "Lax": {
+    "name": "Fiacca"
+  },
+  "Lonely": {
+    "name": "Schiva"
+  },
+  "Mild": {
+    "name": "Mite"
+  },
+  "Modest": {
+    "name": "Modesta"
+  },
+  "Naive": {
+    "name": "Ingenua"
+  },
+  "Naughty": {
+    "name": "Birbona"
+  },
+  "Quiet": {
+    "name": "Quieta"
+  },
+  "Quirky": {
+    "name": "Bizzarra"
+  },
+  "Rash": {
+    "name": "Ardente"
+  },
+  "Relaxed": {
+    "name": "Placida"
+  },
+  "Sassy": {
+    "name": "Vivace"
+  },
+  "Serious": {
+    "name": "Seria"
+  },
+  "Timid": {
+    "name": "Timida"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "added": [
+    "abilities/abilities.json",
+    "items/items.json",
+    "learnsets/learnsets.json",
+    "meta/version.json",
+    "moves/moves.json",
+    "natures/natures.json",
+    "pokemon/base-stats.json",
+    "pokemon/roster.json",
+    "type-chart/effectiveness.json"
+  ],
+  "changed": [],
+  "removed": [],
+  "unchanged": []
+}

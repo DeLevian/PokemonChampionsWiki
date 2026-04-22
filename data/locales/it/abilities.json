@@ -1,0 +1,770 @@
+{
+  "Mega Sol": {
+    "name": "Megasolar",
+    "description": "Anche se la luce solare non è intensa, il Pokémon usa le sue mosse come se ci fosse luce solare intensa."
+  },
+  "Dragonize": {
+    "name": "Pelledrago",
+    "description": "Le mosse di tipo Normale del Pokémon diventano di tipo Drago e la loro potenza aumenta del 20%."
+  },
+  "Piercing Drill": {
+    "name": "Punta Perforante",
+    "description": "Quando il Pokémon usa mosse di contatto, può colpire anche i bersagli che si stanno proteggendo, infliggendo 1/4 dei danni normali."
+  },
+  "Spicy Spray": {
+    "name": "Spargipiccante",
+    "description": "Quando il Pokémon subisce danni da una mossa, brucia l'attaccante."
+  },
+  "Adaptability": {
+    "name": "Adattabilità",
+    "description": "Potenzia del 100% invece che del 50% le mosse dello stesso tipo del Pokémon."
+  },
+  "Aerilate": {
+    "name": "Pellecielo",
+    "description": "Le mosse di tipo Normale del Pokémon diventano di tipo Volante e la loro potenza aumenta del 20%."
+  },
+  "Aftermath": {
+    "name": "Scoppio",
+    "description": "Chi manda KO il Pokémon con una mossa di contatto subisce danni pari a 1/4 dei PS massimi."
+  },
+  "Analytic": {
+    "name": "Ponderazione",
+    "description": "Potenzia del 30% le mosse del Pokémon se è l'ultimo a muovere nel turno."
+  },
+  "Anger Point": {
+    "name": "Grancollera",
+    "description": "Porta l'Attacco del Pokémon al livello massimo quando subisce un brutto colpo."
+  },
+  "Anticipation": {
+    "name": "Presagio",
+    "description": "Quando entra in campo, il Pokémon percepisce mosse da KO immediato o mosse superefficaci degli avversari."
+  },
+  "Armor Tail": {
+    "name": "Codarmatura",
+    "description": "Gli avversari non possono usare mosse con priorità contro il Pokémon o i suoi alleati."
+  },
+  "Aroma Veil": {
+    "name": "Aromavelo",
+    "description": "Il Pokémon e i suoi alleati sono protetti da Infatuazione, Provocazione, Encore e altri effetti simili."
+  },
+  "Battle Bond": {
+    "name": "Morfosintonia",
+    "description": "Quando il Pokémon attacca e manda KO un Pokémon avversario, la sua Velocità, Attacco e Attacco Speciale aumentano di 1 livello."
+  },
+  "Berserk": {
+    "name": "Furore",
+    "description": "Aumenta di 1 livello l'Attacco Speciale quando un attacco riduce i PS del Pokémon a metà o meno."
+  },
+  "Big Pecks": {
+    "name": "Pettinfuori",
+    "description": "La Difesa del Pokémon non può essere ridotta da mosse o abilità avversarie."
+  },
+  "Blaze": {
+    "name": "Aiutofuoco",
+    "description": "Potenzia del 50% le mosse di tipo Fuoco quando i PS del Pokémon scendono a 1/3 o meno."
+  },
+  "Bulletproof": {
+    "name": "Antiproiettile",
+    "description": "Il Pokémon è immune alle mosse palla e alle mosse bomba."
+  },
+  "Cheek Pouch": {
+    "name": "Guancegonfie",
+    "description": "Quando mangia una Bacca, il Pokémon recupera anche 1/3 dei PS massimi oltre all'effetto normale."
+  },
+  "Chlorophyll": {
+    "name": "Clorofilla",
+    "description": "Raddoppia la Velocità del Pokémon con luce solare intensa."
+  },
+  "Clear Body": {
+    "name": "Corpochiaro",
+    "description": "Le statistiche del Pokémon non possono essere ridotte da mosse o abilità avversarie."
+  },
+  "Cloud Nine": {
+    "name": "Antimeteo",
+    "description": "Neutralizza gli effetti delle condizioni atmosferiche."
+  },
+  "Competitive": {
+    "name": "Tenacia",
+    "description": "Se un avversario riduce una statistica del Pokémon, il suo Attacco Speciale aumenta di 2 livelli."
+  },
+  "Compound Eyes": {
+    "name": "Insettocchi",
+    "description": "Aumenta del 30% la precisione delle mosse del Pokémon."
+  },
+  "Contrary": {
+    "name": "Inversione",
+    "description": "Inverte tutte le variazioni di statistiche del Pokémon."
+  },
+  "Corrosion": {
+    "name": "Corrosione",
+    "description": "Il Pokémon può avvelenare anche i bersagli di tipo Acciaio o Veleno."
+  },
+  "Cud Chew": {
+    "name": "Ruminante",
+    "description": "Se il Pokémon mangia una Bacca, la mangerà di nuovo alla fine del turno successivo."
+  },
+  "Curious Medicine": {
+    "name": "Stranofarmaco",
+    "description": "Quando entra in campo, azzera tutte le variazioni di statistiche degli alleati."
+  },
+  "Cursed Body": {
+    "name": "Corpofunesto",
+    "description": "Quando subisce danni, l'attaccante ha il 30% di probabilità di subire Assillo sulla mossa usata."
+  },
+  "Cute Charm": {
+    "name": "Incantevole",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di infatuarsi."
+  },
+  "Damp": {
+    "name": "Umidità",
+    "description": "Impedisce l'uso di mosse esplosive e l'attivazione di abilità esplosive."
+  },
+  "Defiant": {
+    "name": "Agonismo",
+    "description": "Se un avversario riduce una statistica del Pokémon, il suo Attacco aumenta di 2 livelli."
+  },
+  "Disguise": {
+    "name": "Fantasmanto",
+    "description": "Se Mimikyu è nella Forma Camuffata, il primo attacco subito viene assorbito e poi cambia forma."
+  },
+  "Drizzle": {
+    "name": "Piovischio",
+    "description": "Fa iniziare la pioggia per 5 turni quando il Pokémon entra in campo."
+  },
+  "Drought": {
+    "name": "Siccità",
+    "description": "Fa splendere luce solare intensa per 5 turni quando il Pokémon entra in campo."
+  },
+  "Dry Skin": {
+    "name": "Pellearsa",
+    "description": "Le mosse Acqua curano il Pokémon, la pioggia lo rigenera, il sole lo danneggia e le mosse Fuoco gli infliggono più danni."
+  },
+  "Early Bird": {
+    "name": "Sveglialampo",
+    "description": "Il Pokémon si sveglia dal sonno due volte più in fretta."
+  },
+  "Earth Eater": {
+    "name": "Mangiaterra",
+    "description": "Le mosse di tipo Terra non hanno effetto sul Pokémon e gli fanno recuperare 1/4 dei PS massimi."
+  },
+  "Electromorphosis": {
+    "name": "Convertivolt",
+    "description": "Quando il Pokémon subisce danni da una mossa, ottiene Sottocarica e raddoppia la potenza della prossima mossa Elettro."
+  },
+  "Fairy Aura": {
+    "name": "Aurafolletto",
+    "description": "Potenzia del 33% le mosse di tipo Folletto di tutti i Pokémon in campo."
+  },
+  "Filter": {
+    "name": "Filtro",
+    "description": "Riduce del 25% i danni subiti dalle mosse superefficaci."
+  },
+  "Flame Body": {
+    "name": "Corpodifuoco",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di scottarsi."
+  },
+  "Flash Fire": {
+    "name": "Fuocardore",
+    "description": "Le mosse Fuoco non hanno effetto sul Pokémon e potenziano del 50% le sue mosse Fuoco."
+  },
+  "Flower Veil": {
+    "name": "Fiorvelo",
+    "description": "Gli alleati di tipo Erba sono immuni ai problemi di stato e ai cali di statistiche."
+  },
+  "Forecast": {
+    "name": "Previsioni",
+    "description": "Il Pokémon cambia forma e tipo in base al meteo."
+  },
+  "Friend Guard": {
+    "name": "Amicoscudo",
+    "description": "Riduce del 25% i danni subiti dagli alleati."
+  },
+  "Frisk": {
+    "name": "Indagine",
+    "description": "Quando entra in campo, il Pokémon identifica gli strumenti tenuti dagli avversari."
+  },
+  "Fur Coat": {
+    "name": "Foltopelo",
+    "description": "Dimezza i danni subiti dalle mosse fisiche."
+  },
+  "Gale Wings": {
+    "name": "Aliraffica",
+    "description": "Finché ha tutti i PS, le mosse Volante del Pokémon hanno priorità +1."
+  },
+  "Gluttony": {
+    "name": "Voracità",
+    "description": "Il Pokémon mangia prima del normale le Bacche che si attivano con PS bassi."
+  },
+  "Gooey": {
+    "name": "Viscosità",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto perde 1 livello di Velocità."
+  },
+  "Guts": {
+    "name": "Dentistretti",
+    "description": "Se il Pokémon ha un problema di stato, il suo Attacco aumenta del 50% e la scottatura non dimezza le mosse fisiche."
+  },
+  "Harvest": {
+    "name": "Coglibacche",
+    "description": "Se il Pokémon ha usato una Bacca, può crearne un'altra alla fine del turno; con il sole ci riesce sempre."
+  },
+  "Healer": {
+    "name": "Curacuore",
+    "description": "Alla fine di ogni turno, il Pokémon ha il 50% di probabilità di curare i problemi di stato degli alleati."
+  },
+  "Heatproof": {
+    "name": "Antifuoco",
+    "description": "Dimezza i danni subiti dalle mosse Fuoco e dalla scottatura."
+  },
+  "Heavy Metal": {
+    "name": "Metalpesante",
+    "description": "Raddoppia il peso del Pokémon."
+  },
+  "Hospitality": {
+    "name": "Ospitalità",
+    "description": "Quando entra in campo, fa recuperare al suo alleato 1/4 dei PS massimi."
+  },
+  "Huge Power": {
+    "name": "Macroforza",
+    "description": "Raddoppia la potenza delle mosse fisiche del Pokémon."
+  },
+  "Hunger Switch": {
+    "name": "Pancialterna",
+    "description": "Morpeko cambia forma alternando Motivo Panciapiena e Motivo Panciavuota alla fine di ogni turno."
+  },
+  "Hustle": {
+    "name": "Agitazione",
+    "description": "Aumenta del 50% l'Attacco, ma riduce la precisione delle mosse fisiche."
+  },
+  "Hydration": {
+    "name": "Idratazione",
+    "description": "Cura i problemi di stato del Pokémon alla fine di ogni turno sotto la pioggia."
+  },
+  "Hyper Cutter": {
+    "name": "Ipertaglio",
+    "description": "L'Attacco del Pokémon non può essere ridotto da mosse o abilità avversarie."
+  },
+  "Ice Body": {
+    "name": "Corpogelo",
+    "description": "Il Pokémon recupera 1/16 dei PS massimi alla fine di ogni turno sotto la neve."
+  },
+  "Illuminate": {
+    "name": "Risplendi",
+    "description": "Il Pokémon ignora le variazioni dell'elusione dei bersagli e la sua precisione non può essere ridotta."
+  },
+  "Illusion": {
+    "name": "Illusione",
+    "description": "Il Pokémon entra in campo travestito da ultimo Pokémon della squadra finché non subisce danni."
+  },
+  "Immunity": {
+    "name": "Immunità",
+    "description": "Il Pokémon non può essere avvelenato né gravemente avvelenato."
+  },
+  "Imposter": {
+    "name": "Sosia",
+    "description": "Il Pokémon si trasforma nel bersaglio di fronte a lui, copiandone anche le statistiche tranne i PS."
+  },
+  "Infiltrator": {
+    "name": "Intrapasso",
+    "description": "Il Pokémon ignora Schermoluce, Riflesso, Velaurora, Salvaguardia e Sostituto del bersaglio."
+  },
+  "Innards Out": {
+    "name": "Espellinterno",
+    "description": "Quando il Pokémon viene mandato KO da una mossa, infligge all'attaccante la stessa quantità di PS che gli restavano."
+  },
+  "Inner Focus": {
+    "name": "Forza Interiore",
+    "description": "Il Pokémon non tentenna ed è immune a Prepotenza."
+  },
+  "Insomnia": {
+    "name": "Insonnia",
+    "description": "Il Pokémon non può diventare assonnato né addormentarsi."
+  },
+  "Intimidate": {
+    "name": "Prepotenza",
+    "description": "Quando entra in campo, riduce di 1 livello l'Attacco degli avversari."
+  },
+  "Iron Fist": {
+    "name": "Ferropugno",
+    "description": "Potenzia del 20% le mosse pugno del Pokémon."
+  },
+  "Justified": {
+    "name": "Giustizia",
+    "description": "Quando il Pokémon subisce una mossa Buio, il suo Attacco aumenta di 1 livello."
+  },
+  "Keen Eye": {
+    "name": "Sguardofermo",
+    "description": "La precisione del Pokémon non può essere ridotta ed esso ignora le variazioni di elusione del bersaglio."
+  },
+  "Klutz": {
+    "name": "Impaccio",
+    "description": "Gli strumenti tenuti non hanno effetto sul Pokémon."
+  },
+  "Leaf Guard": {
+    "name": "Fogliamanto",
+    "description": "Con luce solare intensa, il Pokémon è immune ai problemi di stato."
+  },
+  "Levitate": {
+    "name": "Levitazione",
+    "description": "Il Pokémon è immune alle mosse di tipo Terra e alle trappole da campo basate sul terreno."
+  },
+  "Light Metal": {
+    "name": "Metalleggero",
+    "description": "Dimezza il peso del Pokémon."
+  },
+  "Lightning Rod": {
+    "name": "Parafulmine",
+    "description": "Attira le mosse Elettro, le annulla e aumenta di 1 livello l'Attacco Speciale."
+  },
+  "Limber": {
+    "name": "Scioltezza",
+    "description": "Il Pokémon non può essere paralizzato."
+  },
+  "Liquid Voice": {
+    "name": "Idrovoce",
+    "description": "Le mosse sonore del Pokémon diventano di tipo Acqua."
+  },
+  "Long Reach": {
+    "name": "Distacco",
+    "description": "Le mosse del Pokémon non sono considerate mosse di contatto."
+  },
+  "Magic Bounce": {
+    "name": "Magispecchio",
+    "description": "Il Pokémon rimanda al mittente le mosse di stato senza subirne gli effetti."
+  },
+  "Magic Guard": {
+    "name": "Magicscudo",
+    "description": "Il Pokémon subisce danni solo dagli attacchi."
+  },
+  "Magician": {
+    "name": "Prestigiatore",
+    "description": "Se non ha già uno strumento, il Pokémon ruba quello del bersaglio che colpisce."
+  },
+  "Magma Armor": {
+    "name": "Magmascudo",
+    "description": "Il Pokémon non può essere congelato."
+  },
+  "Marvel Scale": {
+    "name": "Pelledura",
+    "description": "Se il Pokémon ha un problema di stato, la sua Difesa aumenta del 50%."
+  },
+  "Mega Launcher": {
+    "name": "Megalancio",
+    "description": "Potenzia del 50% le mosse impulso."
+  },
+  "Merciless": {
+    "name": "Spietatezza",
+    "description": "Gli attacchi del Pokémon sono sempre brutti colpi contro bersagli avvelenati."
+  },
+  "Mimicry": {
+    "name": "Mimetismo",
+    "description": "Il tipo del Pokémon cambia in base al terreno attivo."
+  },
+  "Minus": {
+    "name": "Meno",
+    "description": "Aumenta del 50% l'Attacco Speciale se è in campo un alleato con Più o Meno."
+  },
+  "Mirror Armor": {
+    "name": "Blindospecchio",
+    "description": "Rimanda al mittente gli effetti che riducono le statistiche del Pokémon."
+  },
+  "Mold Breaker": {
+    "name": "Rompiforma",
+    "description": "Le mosse del Pokémon ignorano l'abilità del bersaglio, con alcune eccezioni."
+  },
+  "Moody": {
+    "name": "Altalena",
+    "description": "Alla fine di ogni turno, una statistica aumenta di 2 livelli e un'altra diminuisce di 1."
+  },
+  "Motor Drive": {
+    "name": "Elettrorapid",
+    "description": "Le mosse Elettro non hanno effetto sul Pokémon e gli aumentano di 1 livello la Velocità."
+  },
+  "Moxie": {
+    "name": "Arroganza",
+    "description": "Quando manda KO un bersaglio, il Pokémon aumenta di 1 livello il proprio Attacco."
+  },
+  "Multiscale": {
+    "name": "Multisquame",
+    "description": "Dimezza i danni subiti quando il Pokémon ha tutti i PS."
+  },
+  "Mummy": {
+    "name": "Mummia",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto acquisisce l'abilità Mummia."
+  },
+  "Natural Cure": {
+    "name": "Alternacura",
+    "description": "I problemi di stato vengono curati quando il Pokémon lascia il campo."
+  },
+  "No Guard": {
+    "name": "Nullodifesa",
+    "description": "Le mosse usate dal Pokémon e contro il Pokémon non sbagliano mai."
+  },
+  "Oblivious": {
+    "name": "Indifferenza",
+    "description": "Il Pokémon è immune a Infatuazione, Provocazione e Prepotenza."
+  },
+  "Opportunist": {
+    "name": "Scrocco",
+    "description": "Quando un avversario aumenta le proprie statistiche, il Pokémon copia gli stessi aumenti."
+  },
+  "Overcoat": {
+    "name": "Copricapo",
+    "description": "Il Pokémon è immune ai danni da tempesta di sabbia e alle mosse o abilità basate su polveri e spore."
+  },
+  "Overgrow": {
+    "name": "Erbaiuto",
+    "description": "Potenzia del 50% le mosse di tipo Erba quando i PS del Pokémon scendono a 1/3 o meno."
+  },
+  "Own Tempo": {
+    "name": "Mente Locale",
+    "description": "Il Pokémon non può confondersi ed è immune a Prepotenza."
+  },
+  "Parental Bond": {
+    "name": "Amorefiliale",
+    "description": "Genitore e figlio attaccano uno dopo l'altro; il secondo colpo infligge 1/4 dei danni del primo."
+  },
+  "Pickpocket": {
+    "name": "Arraffalesto",
+    "description": "Quando viene colpito da una mossa di contatto, il Pokémon ruba lo strumento dell'attaccante se non ne ha uno."
+  },
+  "Pickup": {
+    "name": "Raccolta",
+    "description": "Se non ha uno strumento, il Pokémon può raccogliere uno strumento consumato da un altro Pokémon."
+  },
+  "Pixilate": {
+    "name": "Pellefolletto",
+    "description": "Le mosse di tipo Normale del Pokémon diventano di tipo Folletto e la loro potenza aumenta del 20%."
+  },
+  "Plus": {
+    "name": "Più",
+    "description": "Aumenta del 50% l'Attacco Speciale se è in campo un alleato con Più o Meno."
+  },
+  "Poison Heal": {
+    "name": "Velencura",
+    "description": "Se è avvelenato, il Pokémon recupera 1/8 dei PS massimi invece di perderli."
+  },
+  "Poison Point": {
+    "name": "Velenopunto",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di essere avvelenato."
+  },
+  "Poison Touch": {
+    "name": "Velentocco",
+    "description": "Le mosse di contatto del Pokémon hanno il 30% di probabilità di avvelenare il bersaglio."
+  },
+  "Prankster": {
+    "name": "Burla",
+    "description": "Le mosse di stato del Pokémon hanno priorità +1."
+  },
+  "Pressure": {
+    "name": "Pressione",
+    "description": "Gli avversari consumano 1 PP in più quando usano mosse contro il Pokémon."
+  },
+  "Protean": {
+    "name": "Mutatipo",
+    "description": "Il Pokémon cambia il proprio tipo in quello della mossa che sta per usare, una volta per ingresso in campo."
+  },
+  "Pure Power": {
+    "name": "Forzapura",
+    "description": "Raddoppia la potenza delle mosse fisiche del Pokémon."
+  },
+  "Purifying Salt": {
+    "name": "Sale Purificante",
+    "description": "Il Pokémon è immune ai problemi di stato e subisce metà danni dalle mosse Spettro."
+  },
+  "Queenly Majesty": {
+    "name": "Regalità",
+    "description": "Gli avversari non possono usare mosse con priorità contro il Pokémon o i suoi alleati."
+  },
+  "Quick Draw": {
+    "name": "Colpolesto",
+    "description": "Le mosse del Pokémon hanno il 30% di probabilità di agire per prime tra quelle della stessa priorità."
+  },
+  "Quick Feet": {
+    "name": "Piedisvelti",
+    "description": "Se il Pokémon ha un problema di stato, la sua Velocità aumenta del 50% e la paralisi non la riduce."
+  },
+  "Rain Dish": {
+    "name": "Copripioggia",
+    "description": "Il Pokémon recupera 1/16 dei PS massimi alla fine di ogni turno sotto la pioggia."
+  },
+  "Receiver": {
+    "name": "Ricezione",
+    "description": "Il Pokémon acquisisce l'abilità di un alleato andato KO."
+  },
+  "Reckless": {
+    "name": "Temerarietà",
+    "description": "Potenzia del 20% le mosse che causano contraccolpo o danni da schianto."
+  },
+  "Refrigerate": {
+    "name": "Pellegelo",
+    "description": "Le mosse di tipo Normale del Pokémon diventano di tipo Ghiaccio e la loro potenza aumenta del 20%."
+  },
+  "Regenerator": {
+    "name": "Rigenergia",
+    "description": "Il Pokémon recupera 1/3 dei PS massimi quando lascia il campo."
+  },
+  "Ripen": {
+    "name": "Maturità",
+    "description": "Raddoppia gli effetti delle Bacche mangiate dal Pokémon."
+  },
+  "Rivalry": {
+    "name": "Antagonismo",
+    "description": "Le mosse infliggono più danni a Pokémon dello stesso sesso e meno danni a quelli del sesso opposto."
+  },
+  "Rock Head": {
+    "name": "Testadura",
+    "description": "Il Pokémon non perde PS a causa del contraccolpo delle sue mosse."
+  },
+  "Rough Skin": {
+    "name": "Cartavetro",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto subisce danni pari a 1/8 dei PS massimi."
+  },
+  "Sand Force": {
+    "name": "Silicoforza",
+    "description": "Durante una tempesta di sabbia, potenzia del 30% le mosse Roccia, Terra e Acciaio."
+  },
+  "Sand Rush": {
+    "name": "Remasabbia",
+    "description": "Raddoppia la Velocità del Pokémon durante una tempesta di sabbia."
+  },
+  "Sand Spit": {
+    "name": "Sputasabbia",
+    "description": "Fa iniziare una tempesta di sabbia per 5 turni quando il Pokémon subisce danni da una mossa."
+  },
+  "Sand Stream": {
+    "name": "Sabbiafiume",
+    "description": "Fa iniziare una tempesta di sabbia per 5 turni quando il Pokémon entra in campo."
+  },
+  "Sand Veil": {
+    "name": "Sabbiavelo",
+    "description": "Aumenta del 25% l'elusione del Pokémon durante una tempesta di sabbia."
+  },
+  "Sap Sipper": {
+    "name": "Mangiaerba",
+    "description": "Le mosse Erba non hanno effetto sul Pokémon e gli aumentano di 1 livello l'Attacco."
+  },
+  "Scrappy": {
+    "name": "Nervisaldi",
+    "description": "Il Pokémon può colpire i tipi Spettro con mosse Normale e Lotta ed è immune a Prepotenza."
+  },
+  "Screen Cleaner": {
+    "name": "Annullabarriere",
+    "description": "Quando entra in campo, rimuove Schermoluce, Riflesso e Velaurora dal campo."
+  },
+  "Shadow Tag": {
+    "name": "Pedinombra",
+    "description": "Gli avversari non possono essere sostituiti."
+  },
+  "Sharpness": {
+    "name": "Affilama",
+    "description": "Potenzia del 50% le mosse che tagliano."
+  },
+  "Shed Skin": {
+    "name": "Muta",
+    "description": "Alla fine di ogni turno, il Pokémon ha il 30% di probabilità di curare i propri problemi di stato."
+  },
+  "Sheer Force": {
+    "name": "Forzabruta",
+    "description": "Le mosse del Pokémon perdono gli effetti aggiuntivi ma la loro potenza aumenta del 30%."
+  },
+  "Shell Armor": {
+    "name": "Guscioscudo",
+    "description": "Gli attacchi contro il Pokémon non sono mai brutti colpi."
+  },
+  "Shield Dust": {
+    "name": "Polvoscudo",
+    "description": "Il Pokémon è immune agli effetti aggiuntivi degli attacchi."
+  },
+  "Skill Link": {
+    "name": "Abillegame",
+    "description": "Le mosse multicolpo del Pokémon colpiscono sempre il numero massimo di volte."
+  },
+  "Slush Rush": {
+    "name": "Spalaneve",
+    "description": "Raddoppia la Velocità del Pokémon sotto la neve."
+  },
+  "Sniper": {
+    "name": "Cecchino",
+    "description": "Potenzia molto di più del normale i brutti colpi del Pokémon."
+  },
+  "Snow Cloak": {
+    "name": "Mantelneve",
+    "description": "Aumenta del 25% l'elusione del Pokémon sotto la neve."
+  },
+  "Snow Warning": {
+    "name": "Scendineve",
+    "description": "Fa iniziare la neve per 5 turni quando il Pokémon entra in campo."
+  },
+  "Solar Power": {
+    "name": "Solarpotere",
+    "description": "Con luce solare intensa, l'Attacco Speciale aumenta del 50%, ma il Pokémon perde 1/8 dei PS massimi a fine turno."
+  },
+  "Solid Rock": {
+    "name": "Solidroccia",
+    "description": "Riduce del 25% i danni subiti dalle mosse superefficaci."
+  },
+  "Soundproof": {
+    "name": "Antisuono",
+    "description": "Il Pokémon è immune alle mosse sonore."
+  },
+  "Speed Boost": {
+    "name": "Acceleratore",
+    "description": "Aumenta di 1 livello la Velocità del Pokémon alla fine di ogni turno."
+  },
+  "Stall": {
+    "name": "Rallentatore",
+    "description": "Le mosse del Pokémon agiscono per ultime tra quelle con la stessa priorità."
+  },
+  "Stalwart": {
+    "name": "Volontà di Ferro",
+    "description": "Il Pokémon ignora mosse e abilità che attirano gli attacchi."
+  },
+  "Stamina": {
+    "name": "Sopportazione",
+    "description": "Quando il Pokémon subisce danni da una mossa, la sua Difesa aumenta di 1 livello."
+  },
+  "Stance Change": {
+    "name": "Accendilotta",
+    "description": "Aegislash passa alla Forma Spada quando attacca e torna alla Forma Scudo quando usa Scudo Reale."
+  },
+  "Static": {
+    "name": "Statico",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di essere paralizzato."
+  },
+  "Steadfast": {
+    "name": "Cuordeciso",
+    "description": "Quando il Pokémon tentenna, la sua Velocità aumenta di 1 livello."
+  },
+  "Stench": {
+    "name": "Tanfo",
+    "description": "Quando infligge danni, il Pokémon ha il 10% di probabilità di far tentennare il bersaglio."
+  },
+  "Sticky Hold": {
+    "name": "Antifurto",
+    "description": "Lo strumento tenuto dal Pokémon non può essere rubato o rimosso da altri Pokémon."
+  },
+  "Strong Jaw": {
+    "name": "Ferromascella",
+    "description": "Potenzia del 50% le mosse morso del Pokémon."
+  },
+  "Sturdy": {
+    "name": "Vigore",
+    "description": "Se ha tutti i PS, il Pokémon resiste con 1 PS a un colpo che lo manderebbe KO; è anche immune alle mosse OHKO."
+  },
+  "Super Luck": {
+    "name": "Supersorte",
+    "description": "Aumenta di 1 livello il rapporto di brutto colpo del Pokémon."
+  },
+  "Supersweet Syrup": {
+    "name": "Sciroppo Sublime",
+    "description": "La prima volta che entra in campo, il Pokémon riduce di 1 livello l'elusione degli avversari."
+  },
+  "Supreme Overlord": {
+    "name": "Generale Supremo",
+    "description": "Quando entra in campo, la potenza delle mosse del Pokémon aumenta del 10% per ogni alleato già andato KO, fino al 50%."
+  },
+  "Surge Surfer": {
+    "name": "Codasurf",
+    "description": "Raddoppia la Velocità del Pokémon su Campo Elettrico."
+  },
+  "Swarm": {
+    "name": "Aiutinsetto",
+    "description": "Potenzia del 50% le mosse di tipo Coleottero quando i PS del Pokémon scendono a 1/3 o meno."
+  },
+  "Sweet Veil": {
+    "name": "Dolcevelo",
+    "description": "Il Pokémon e i suoi alleati non possono diventare assonnati né addormentarsi."
+  },
+  "Swift Swim": {
+    "name": "Nuotovelox",
+    "description": "Raddoppia la Velocità del Pokémon sotto la pioggia."
+  },
+  "Symbiosis": {
+    "name": "Simbiosi",
+    "description": "Quando un alleato consuma uno strumento, il Pokémon gli passa il proprio."
+  },
+  "Synchronize": {
+    "name": "Sincronismo",
+    "description": "Se il Pokémon viene scottato, paralizzato o avvelenato da un altro Pokémon, anche l'altro Pokémon subisce lo stesso problema di stato."
+  },
+  "Tangled Feet": {
+    "name": "Intricopiedi",
+    "description": "Raddoppia l'elusione del Pokémon se è confuso."
+  },
+  "Technician": {
+    "name": "Tecnico",
+    "description": "Potenzia del 50% le mosse con potenza pari o inferiore a 60."
+  },
+  "Telepathy": {
+    "name": "Telepatia",
+    "description": "Il Pokémon evita gli attacchi dei suoi alleati."
+  },
+  "Thick Fat": {
+    "name": "Grassospesso",
+    "description": "Dimezza i danni subiti dalle mosse di tipo Fuoco e Ghiaccio."
+  },
+  "Torrent": {
+    "name": "Acquaiuto",
+    "description": "Potenzia del 50% le mosse di tipo Acqua quando i PS del Pokémon scendono a 1/3 o meno."
+  },
+  "Tough Claws": {
+    "name": "Unghiedure",
+    "description": "Potenzia del 30% le mosse di contatto."
+  },
+  "Toxic Debris": {
+    "name": "Mantossina",
+    "description": "Quando il Pokémon subisce danni da una mossa fisica, dissemina Fielepunte sul lato di campo avversario."
+  },
+  "Trace": {
+    "name": "Traccia",
+    "description": "Quando entra in campo, il Pokémon copia l'abilità di un avversario."
+  },
+  "Unaware": {
+    "name": "Imprudenza",
+    "description": "Il Pokémon ignora le modifiche alle statistiche del bersaglio quando attacca e quelle dell'attaccante quando difende."
+  },
+  "Unburden": {
+    "name": "Agiltecnica",
+    "description": "Raddoppia la Velocità del Pokémon quando lo strumento tenuto viene consumato o perso."
+  },
+  "Unnerve": {
+    "name": "Agitazione",
+    "description": "Impedisce agli avversari di mangiare Bacche."
+  },
+  "Unseen Fist": {
+    "name": "Pugni Invisibili",
+    "description": "Quando il Pokémon usa mosse di contatto, può colpire anche i bersagli che si stanno proteggendo, infliggendo 1/4 dei danni normali."
+  },
+  "Vital Spirit": {
+    "name": "Spiritovivo",
+    "description": "Il Pokémon non può diventare assonnato né addormentarsi."
+  },
+  "Volt Absorb": {
+    "name": "Assorbivolt",
+    "description": "Le mosse Elettro non hanno effetto sul Pokémon e gli fanno recuperare 1/4 dei PS massimi."
+  },
+  "Wandering Spirit": {
+    "name": "Anima Errante",
+    "description": "Quando il Pokémon viene colpito da una mossa di contatto, scambia abilità con l'attaccante."
+  },
+  "Water Absorb": {
+    "name": "Assorbacqua",
+    "description": "Le mosse Acqua non hanno effetto sul Pokémon e gli fanno recuperare 1/4 dei PS massimi."
+  },
+  "Water Bubble": {
+    "name": "Bolladacqua",
+    "description": "Dimezza i danni subiti dalle mosse Fuoco, raddoppia la potenza delle mosse Acqua del Pokémon e lo rende immune alle scottature."
+  },
+  "Weak Armor": {
+    "name": "Vulnerasguscio",
+    "description": "Quando subisce una mossa fisica, il Pokémon perde 1 livello di Difesa ma guadagna 2 livelli di Velocità."
+  },
+  "White Smoke": {
+    "name": "Fumochiaro",
+    "description": "Le statistiche del Pokémon non possono essere ridotte da mosse o abilità avversarie."
+  },
+  "Zero to Hero": {
+    "name": "Supercambio",
+    "description": "Quando lascia il campo, il Pokémon si trasforma nella sua Forma Eroe."
+  }
+}

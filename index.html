@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Pokémon Champions Wiki</title>
+    <meta name="description" content="Wiki ufficiale di Pokémon Champions: Pokédex, Mosse e Abilità.">
+    
+    <link rel="stylesheet" href="src/styles/main.css?v=20">
+    
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <h1 class="app-title">Pokémon Champions</h1>
+        <div class="app-tabs">
+            <button class="tab-btn active" data-target="pokedex-view">Pokédex</button>
+            <button class="tab-btn" data-target="moves-view">Mosse</button>
+            <button class="tab-btn" data-target="abilities-view">Abilità</button>
+            <button class="tab-btn" data-target="items-view">Oggetti</button>
+            <button class="tab-btn" data-target="teambuilding-view">Team Building</button>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <section id="pokedex-view" class="view-section active">
+            
+            <div class="toolbar">
+                <select id="list-mode-select" class="game-select" style="min-width: 200px;">
+                    <!-- Populated dynamically -->
+                </select>
+                <input type="text" id="search-input" placeholder="Cerca Pokemon per Nome o ID..." class="search-box" style="flex: 1;">
+                <select id="type-select" class="game-select">
+                    <option value="all">Tutti i Tipi</option>
+                    <option value="normal">Normale</option>
+                    <option value="fire">Fuoco</option>
+                    <option value="water">Acqua</option>
+                    <option value="grass">Erba</option>
+                    <option value="electric">Elettro</option>
+                    <option value="ice">Ghiaccio</option>
+                    <option value="fighting">Lotta</option>
+                    <option value="poison">Veleno</option>
+                    <option value="ground">Terra</option>
+                    <option value="flying">Volante</option>
+                    <option value="psychic">Psico</option>
+                    <option value="bug">Coleottero</option>
+                    <option value="rock">Roccia</option>
+                    <option value="ghost">Spettro</option>
+                    <option value="dragon">Drago</option>
+                    <option value="dark">Buio</option>
+                    <option value="steel">Acciaio</option>
+                    <option value="fairy">Folletto</option>
+                </select>
+            </div>
+
+            <div class="view-switch-container">
+                <button class="view-switch-btn active" data-view="all">
+                    Pokemon
+                </button>
+                <button class="view-switch-btn" data-view="mega">
+                    Mega
+                </button>
+            </div>
+            
+            <div id="dynamic-chip-row" class="chip-row"></div>
+            <div id="pokemon-count" class="pokemon-count"></div>
+            <div id="pokedex-grid" class="pokemon-grid"></div>
+        </section>
+
+        <section id="moves-view" class="view-section">
+            <div id="moves-root"></div>
+        </section>
+
+        <section id="abilities-view" class="view-section">
+            <div id="abilities-root"></div>
+        </section>
+
+        <section id="items-view" class="view-section">
+            <div id="items-root"></div>
+        </section>
+
+        <section id="teambuilding-view" class="view-section">
+            <div id="teambuilding-root"></div>
+        </section>
+    </main>
+
+    <div id="global-loader" class="loader-overlay hidden">
+        <div class="loader-spinner"></div>
+    </div>
+    <div id="modals-root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="src/main.js?v=10"></script>
+</body>
+</html>

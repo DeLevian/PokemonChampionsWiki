@@ -1,0 +1,54 @@
+{
+  "default_branch": "main",
+  "files": {
+    "abilities/abilities.json": {
+      "blob_sha": "7d706f41818b414a9077f615f80c5cbc39fa2e8d",
+      "size": 46042,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/abilities/abilities.json"
+    },
+    "items/items.json": {
+      "blob_sha": "0ec32c001b159418c6e1c57bc62a4e2677112173",
+      "size": 70422,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/items/items.json"
+    },
+    "learnsets/learnsets.json": {
+      "blob_sha": "a7c6915f1de6e1e07c27f197bd45815b67b0f1bb",
+      "size": 786634,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/learnsets/learnsets.json"
+    },
+    "meta/version.json": {
+      "blob_sha": "e7d54326a528c7a7a47985a1c60a3b393406ac1d",
+      "size": 1267,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/meta/version.json"
+    },
+    "moves/moves.json": {
+      "blob_sha": "e086f85e91bc1ae90a597bef209449d9e3270377",
+      "size": 406605,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/moves/moves.json"
+    },
+    "natures/natures.json": {
+      "blob_sha": "6c951cbec4e5d33c00e187400bfbec22fb91e04a",
+      "size": 2305,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/natures/natures.json"
+    },
+    "pokemon/base-stats.json": {
+      "blob_sha": "26c15204b339fb7db4a20d59d6e35afc477e25f3",
+      "size": 55612,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/pokemon/base-stats.json"
+    },
+    "pokemon/roster.json": {
+      "blob_sha": "12dfd54a0a17ab4b08a914a53c330a7db7d5f286",
+      "size": 59138,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/pokemon/roster.json"
+    },
+    "type-chart/effectiveness.json": {
+      "blob_sha": "b1236b8dbf59d8620f1d88bd54346e2dcec1f207",
+      "size": 8754,
+      "source_url": "https://raw.githubusercontent.com/otterlyclueless/pokemon-champions-data/main/type-chart/effectiveness.json"
+    }
+  },
+  "last_sync_at_utc": "2026-04-21T08:59:46.242441+00:00",
+  "repo": "otterlyclueless/pokemon-champions-data",
+  "snapshot": "20260421T085943Z_cb874a304017",
+  "tree_sha": "cb874a3040174314f67642f382143cc8a401122a"
+}

@@ -1,0 +1,2102 @@
+{
+  "Pound": {
+    "name": "Botta",
+    "description": "—"
+  },
+  "Fire Punch": {
+    "name": "Fuocopugno",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Ice Punch": {
+    "name": "Gelopugno",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Congelamento al bersaglio."
+  },
+  "Thunder Punch": {
+    "name": "Tuonopugno",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Paralisi al bersaglio."
+  },
+  "Guillotine": {
+    "name": "Ghigliottina",
+    "description": "Il Pokémon manda KO il bersaglio. La precisione di questa mossa è del 30%."
+  },
+  "Swords Dance": {
+    "name": "Danzaspada",
+    "description": "Il Pokémon aumenta di 2 gradi il suo Attacco."
+  },
+  "Whirlwind": {
+    "name": "Turbine",
+    "description": "Il bersaglio viene sostituito da un compagno di squadra casuale, se presente."
+  },
+  "Fly": {
+    "name": "Volo",
+    "description": "Il Pokémon entra nello stato In aria nel turno in cui usa la mossa e attacca in quello seguente."
+  },
+  "Bind": {
+    "name": "Legatutto",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Mega Kick": {
+    "name": "Megacalcio",
+    "description": "—"
+  },
+  "Horn Drill": {
+    "name": "Perforcorno",
+    "description": "Il Pokémon manda KO il bersaglio. La precisione di questa mossa è del 30%."
+  },
+  "Body Slam": {
+    "name": "Corposcontro",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Paralisi al bersaglio. Se il bersaglio è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Wrap": {
+    "name": "Avvolgibotta",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Thrash": {
+    "name": "Colpo",
+    "description": "Il Pokémon entra nello stato Collera."
+  },
+  "Double-Edge": {
+    "name": "Sdoppiatore",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti."
+  },
+  "Pin Missile": {
+    "name": "Missilspillo",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Bite": {
+    "name": "Morso",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "Roar": {
+    "name": "Boato",
+    "description": "Il bersaglio viene sostituito da un compagno di squadra casuale, se presente."
+  },
+  "Sing": {
+    "name": "Canto",
+    "description": "Il Pokémon causa lo stato Sonno al bersaglio."
+  },
+  "Disable": {
+    "name": "Inibitore",
+    "description": "Il Pokémon causa lo stato Mossa bloccata al bersaglio per 4 turni."
+  },
+  "Flamethrower": {
+    "name": "Lanciafiamme",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Hydro Pump": {
+    "name": "Idropompa",
+    "description": "—"
+  },
+  "Surf": {
+    "name": "Surf",
+    "description": "Se il bersaglio è nello stato Sott’acqua, la potenza della mossa raddoppia."
+  },
+  "Ice Beam": {
+    "name": "Geloraggio",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Congelamento al bersaglio."
+  },
+  "Blizzard": {
+    "name": "Bora",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Congelamento al bersaglio. Se lo stato Neve è attivo, questa mossa va sempre a segno."
+  },
+  "Hyper Beam": {
+    "name": "Iper Raggio",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Drill Peck": {
+    "name": "Perforbecco",
+    "description": "—"
+  },
+  "Low Kick": {
+    "name": "Colpo Basso",
+    "description": "Più pesante è il bersaglio, maggiore è la potenza della mossa, da un minimo di 20 a un massimo di 120."
+  },
+  "Counter": {
+    "name": "Contrattacco",
+    "description": "Se il Pokémon ha subito una mossa fisica durante il turno in corso, infligge a chi lo ha attaccato il doppio dei danni ricevuti."
+  },
+  "Seismic Toss": {
+    "name": "Movim. Sismico",
+    "description": "Il Pokémon infligge al bersaglio un danno pari a 50 PS."
+  },
+  "Leech Seed": {
+    "name": "Parassiseme",
+    "description": "Il Pokémon causa lo stato Seme parassita al bersaglio."
+  },
+  "Growth": {
+    "name": "Crescita",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco e il suo Attacco Speciale. Se lo stato Sole intenso è attivo, li aumenta di 2 gradi."
+  },
+  "Solar Beam": {
+    "name": "Solarraggio",
+    "description": "Il Pokémon entra nello stato Carica nel turno in cui usa la mossa e attacca in quello seguente. Se lo stato Sole intenso è attivo, il Pokémon non entra nello stato Carica e può attaccare immediatamente. Se invece sono attive altre condizioni atmosferiche, la potenza di questa mossa è dimezzata."
+  },
+  "Poison Powder": {
+    "name": "Velenpolvere",
+    "description": "Il Pokémon causa lo stato Avvelenamento al bersaglio."
+  },
+  "Stun Spore": {
+    "name": "Paralizzante",
+    "description": "Il Pokémon causa lo stato Paralisi al bersaglio."
+  },
+  "Sleep Powder": {
+    "name": "Sonnifero",
+    "description": "Il Pokémon causa lo stato Sonno al bersaglio."
+  },
+  "Petal Dance": {
+    "name": "Petalodanza",
+    "description": "Il Pokémon entra nello stato Collera."
+  },
+  "String Shot": {
+    "name": "Millebave",
+    "description": "Il Pokémon riduce di 2 gradi la Velocità del bersaglio."
+  },
+  "Fire Spin": {
+    "name": "Turbofuoco",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Thunderbolt": {
+    "name": "Fulmine",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Paralisi al bersaglio."
+  },
+  "Thunder Wave": {
+    "name": "Tuononda",
+    "description": "Il Pokémon causa lo stato Paralisi al bersaglio."
+  },
+  "Thunder": {
+    "name": "Tuono",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Paralisi al bersaglio. Questa mossa può colpire anche se il bersaglio è nello stato In aria e, se lo stato Pioggia è attivo, va sempre a segno."
+  },
+  "Earthquake": {
+    "name": "Terremoto",
+    "description": "La potenza della mossa raddoppia se il bersaglio è nello stato Sottoterra, mentre si dimezza se lo stato Campo erboso è attivo."
+  },
+  "Fissure": {
+    "name": "Abisso",
+    "description": "Il Pokémon manda KO il bersaglio. La precisione di questa mossa è del 30%."
+  },
+  "Dig": {
+    "name": "Fossa",
+    "description": "Il Pokémon entra nello stato Sottoterra nel turno in cui usa la mossa e attacca in quello seguente."
+  },
+  "Toxic": {
+    "name": "Tossina",
+    "description": "Il Pokémon causa lo stato Iperavvelenamento al bersaglio. Se usata da un Pokémon di tipo Veleno, la mossa va sempre a segno."
+  },
+  "Psychic": {
+    "name": "Psichico",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Hypnosis": {
+    "name": "Ipnosi",
+    "description": "Il Pokémon causa lo stato Sonno al bersaglio."
+  },
+  "Agility": {
+    "name": "Agilità",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Velocità."
+  },
+  "Quick Attack": {
+    "name": "Attacco Rapido",
+    "description": "—"
+  },
+  "Night Shade": {
+    "name": "Ombra Notturna",
+    "description": "Il Pokémon infligge al bersaglio un danno pari a 50 PS."
+  },
+  "Screech": {
+    "name": "Stridio",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa del bersaglio."
+  },
+  "Double Team": {
+    "name": "Doppioteam",
+    "description": "Il Pokémon aumenta di 1 grado la sua elusione."
+  },
+  "Recover": {
+    "name": "Ripresa",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi."
+  },
+  "Minimize": {
+    "name": "Minimizzato",
+    "description": "Il Pokémon aumenta di 2 gradi la sua elusione ed entra nello stato Minimizzato."
+  },
+  "Confuse Ray": {
+    "name": "Stordiraggio",
+    "description": "Il Pokémon causa lo stato Confusione al bersaglio."
+  },
+  "Light Screen": {
+    "name": "Schermoluce",
+    "description": "Il Pokémon causa lo stato Schermoluce sul proprio campo di lotta per 5 turni."
+  },
+  "Haze": {
+    "name": "Nube",
+    "description": "Le modifiche alle statistiche di tutti i Pokémon in campo vengono eliminate."
+  },
+  "Reflect": {
+    "name": "Riflesso",
+    "description": "Il Pokémon causa lo stato Riflesso sul proprio campo di lotta per 5 turni."
+  },
+  "Focus Energy": {
+    "name": "Focalenergia",
+    "description": "Il Pokémon entra nello stato Brutto colpo+2."
+  },
+  "Self-Destruct": {
+    "name": "Autodistruzione",
+    "description": "Il Pokémon va KO."
+  },
+  "Fire Blast": {
+    "name": "Fuocobomba",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Waterfall": {
+    "name": "Cascata",
+    "description": "Il Pokémon ha il 20% di probabilità di far tentennare il bersaglio."
+  },
+  "Amnesia": {
+    "name": "Amnesia",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Difesa Speciale."
+  },
+  "Soft-Boiled": {
+    "name": "Covauova",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi."
+  },
+  "High Jump Kick": {
+    "name": "Calcinvolo",
+    "description": "Se questa mossa non va a segno o fallisce, il Pokémon subisce danni pari alla metà dei suoi PS massimi."
+  },
+  "Glare": {
+    "name": "Sguardo Feroce",
+    "description": "Il Pokémon causa lo stato Paralisi al bersaglio."
+  },
+  "Leech Life": {
+    "name": "Sanguisuga",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Sky Attack": {
+    "name": "Aeroattacco",
+    "description": "Il Pokémon entra nello stato Carica nel turno in cui usa la mossa e attacca in quello seguente con lo stato Brutto colpo+1. Questa mossa ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "Transform": {
+    "name": "Trasformazione",
+    "description": "Il Pokémon si trasforma nel bersaglio, copiandone le statistiche ma non i PS."
+  },
+  "Spore": {
+    "name": "Spora",
+    "description": "Il Pokémon causa lo stato Sonno al bersaglio."
+  },
+  "Acid Armor": {
+    "name": "Scudo Acido",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Difesa."
+  },
+  "Crabhammer": {
+    "name": "Martellata",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Explosion": {
+    "name": "Esplosione",
+    "description": "Il Pokémon va KO."
+  },
+  "Rest": {
+    "name": "Riposo",
+    "description": "Il Pokémon recupera tutti i PS e guarisce dai problemi di stato, ma entra nello stato Sonno per 2 turni. Se il Pokémon ha tutti i PS, la mossa fallisce."
+  },
+  "Rock Slide": {
+    "name": "Frana",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "Tri Attack": {
+    "name": "Tripletta",
+    "description": "Il Pokémon ha il 20% di probabilità di causare lo stato Paralisi, Scottatura o Congelamento al bersaglio."
+  },
+  "Super Fang": {
+    "name": "Superzanna",
+    "description": "Il Pokémon dimezza i PS residui del bersaglio. Infligge danni pari a 1 PS se è quanto resta al bersaglio."
+  },
+  "Substitute": {
+    "name": "Sostituto",
+    "description": "Il Pokémon perde 1/4 dei suoi PS massimi e crea un sostituto. Il sostituto viene colpito dalle mosse al posto del Pokémon e sparisce dopo aver subito danni pari a 1/4 dei PS massimi del Pokémon che lo ha creato."
+  },
+  "Struggle": {
+    "name": "Scontro",
+    "description": "Si usa solo se nessun'altra mossa del Pokémon è utilizzabile. Chi la usa subisce anche danni da contraccolpo."
+  },
+  "Thief": {
+    "name": "Furto",
+    "description": "Il Pokémon ruba lo strumento del bersaglio se non ne ha già uno con sé."
+  },
+  "Snore": {
+    "name": "Russare",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio. Questa mossa può essere usata solo se è affetto dallo stato Sonno."
+  },
+  "Curse": {
+    "name": "Maledizione",
+    "description": "Il Pokémon perde metà dei suoi PS massimi e causa lo stato Maledizione al bersaglio."
+  },
+  "Flail": {
+    "name": "Flagello",
+    "description": "Più bassi sono i PS residui del Pokémon, maggiore è la potenza della mossa, da un minimo di 20 a un massimo di 200."
+  },
+  "Cotton Spore": {
+    "name": "Cotonspora",
+    "description": "Il Pokémon riduce di 2 gradi la Velocità del bersaglio."
+  },
+  "Reversal": {
+    "name": "Contropiede",
+    "description": "Più bassi sono i PS residui del Pokémon, maggiore è la potenza della mossa, da un minimo di 20 a un massimo di 200."
+  },
+  "Spite": {
+    "name": "Dispetto",
+    "description": "Il Pokémon riduce di 4 i PP dell’ultima mossa usata dal bersaglio."
+  },
+  "Protect": {
+    "name": "Protezione",
+    "description": "Il Pokémon si protegge dalle mosse altrui durante il turno in corso. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Mach Punch": {
+    "name": "Pugnorapido",
+    "description": "—"
+  },
+  "Scary Face": {
+    "name": "Visotruce",
+    "description": "Il Pokémon riduce di 2 gradi la Velocità del bersaglio."
+  },
+  "Sweet Kiss": {
+    "name": "Dolcebacio",
+    "description": "Il Pokémon causa lo stato Confusione al bersaglio."
+  },
+  "Belly Drum": {
+    "name": "Panciamburo",
+    "description": "Il Pokémon perde metà dei suoi PS massimi e aumenta il suo Attacco fino al sesto grado. Se non ha abbastanza PS, la mossa fallisce."
+  },
+  "Sludge Bomb": {
+    "name": "Fangobomba",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Avvelenamento al bersaglio."
+  },
+  "Mud-Slap": {
+    "name": "Fangosberla",
+    "description": "Il Pokémon riduce di 1 grado la precisione del bersaglio."
+  },
+  "Spikes": {
+    "name": "Punte",
+    "description": "Il Pokémon causa lo stato Punte sul campo di lotta avversario."
+  },
+  "Zap Cannon": {
+    "name": "Elettrocannone",
+    "description": "Il Pokémon causa lo stato Paralisi al bersaglio."
+  },
+  "Destiny Bond": {
+    "name": "Destinobbligato",
+    "description": "Il Pokémon è affetto dallo stato Destino obbligato. Se usata consecutivamente, questa mossa fallisce."
+  },
+  "Perish Song": {
+    "name": "Ultimocanto",
+    "description": "Il Pokémon causa lo stato Turni contati a tutti i Pokémon in campo."
+  },
+  "Icy Wind": {
+    "name": "Ventogelato",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Detect": {
+    "name": "Individua",
+    "description": "Il Pokémon si protegge dalle mosse altrui durante il turno in corso. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Bone Rush": {
+    "name": "Ossoraffica",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Lock-On": {
+    "name": "Localizza",
+    "description": "Il Pokémon entra nello stato Localizzato."
+  },
+  "Outrage": {
+    "name": "Oltraggio",
+    "description": "Il Pokémon entra nello stato Collera."
+  },
+  "Sandstorm": {
+    "name": "Terrempesta",
+    "description": "Il Pokémon causa lo stato Tempesta di sabbia per 5 turni."
+  },
+  "Giga Drain": {
+    "name": "Gigassorbimento",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Endure": {
+    "name": "Resistenza",
+    "description": "Il Pokémon resiste a una mossa che lo manderebbe KO e rimane invece con 1 PS. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Charm": {
+    "name": "Fascino",
+    "description": "Il Pokémon riduce di 2 gradi l’Attacco del bersaglio."
+  },
+  "Swagger": {
+    "name": "Bullo",
+    "description": "Il Pokémon aumenta di 2 gradi l’Attacco del bersaglio e gli causa lo stato Confusione."
+  },
+  "Milk Drink": {
+    "name": "Buonlatte",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi."
+  },
+  "Steel Wing": {
+    "name": "Alacciaio",
+    "description": "Il Pokémon ha il 10% di probabilità di aumentare di 1 grado la sua Difesa."
+  },
+  "Mean Look": {
+    "name": "Malosguardo",
+    "description": "Il Pokémon causa lo stato Antifuga al bersaglio."
+  },
+  "Attract": {
+    "name": "Attrazione",
+    "description": "Il Pokémon causa lo stato Infatuazione al bersaglio. Se usata su bersagli dello stesso sesso o di sesso sconosciuto, la mossa fallisce."
+  },
+  "Sleep Talk": {
+    "name": "Sonnolalia",
+    "description": "Il Pokémon sferra una mossa a caso tra le altre mosse conosciute. Questa mossa può essere usata solo se è affetto dallo stato Sonno."
+  },
+  "Heal Bell": {
+    "name": "Rintoccasana",
+    "description": "Il Pokémon cura i suoi problemi di stato e quelli di tutta la sua squadra."
+  },
+  "Safeguard": {
+    "name": "Salvaguardia",
+    "description": "Il Pokémon causa lo stato Salvaguardia sul proprio campo di lotta per 5 turni."
+  },
+  "Pain Split": {
+    "name": "Malcomune",
+    "description": "Il Pokémon somma i propri PS residui a quelli del bersaglio, poi ridistribuisce equamente il risultato a ciascuno dei due."
+  },
+  "Sacred Fire": {
+    "name": "Sacred Fire",
+    "description": "Ha il 50% di probabilità di causare Scottatura al bersaglio e può anche scongelare chi la usa."
+  },
+  "Dynamic Punch": {
+    "name": "Dinamipugno",
+    "description": "Il Pokémon causa lo stato Confusione al bersaglio."
+  },
+  "Megahorn": {
+    "name": "Megacorno",
+    "description": "—"
+  },
+  "Baton Pass": {
+    "name": "Staffetta",
+    "description": "Il Pokémon si fa sostituire da un compagno di squadra, che eredita anche tutte le modifiche alle statistiche e gli effetti di mosse come Sostituto."
+  },
+  "Encore": {
+    "name": "Ripeti",
+    "description": "Il Pokémon causa lo stato Ripetizione al bersaglio."
+  },
+  "Rapid Spin": {
+    "name": "Rapigiro",
+    "description": "Il Pokémon si libera dagli stati Imprigionamento e Seme parassita, e rimuove gli stati Punte, Punte velenose, Rete vischiosa e Rocce levitanti dal suo campo di lotta. Aumenta inoltre di 1 grado la sua Velocità."
+  },
+  "Sweet Scent": {
+    "name": "Profumino",
+    "description": "Il Pokémon riduce di 2 gradi l’elusione del bersaglio."
+  },
+  "Iron Tail": {
+    "name": "Codacciaio",
+    "description": "Il Pokémon ha il 30% di probabilità di ridurre di 1 grado la Difesa del bersaglio."
+  },
+  "Morning Sun": {
+    "name": "Mattindoro",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi. Se lo stato Sole intenso è attivo, ne recupera 2/3. Se è attiva un’altra condizione atmosferica, ne recupera invece 1/4."
+  },
+  "Synthesis": {
+    "name": "Sintesi",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi. Se lo stato Sole intenso è attivo, ne recupera 2/3. Se è attiva un’altra condizione atmosferica, ne recupera invece 1/4."
+  },
+  "Moonlight": {
+    "name": "Lucelunare",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi. Se lo stato Sole intenso è attivo, ne recupera 2/3. Se è attiva un’altra condizione atmosferica, ne recupera invece 1/4."
+  },
+  "Cross Chop": {
+    "name": "Incrocolpo",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Rain Dance": {
+    "name": "Pioggiadanza",
+    "description": "Il Pokémon causa lo stato Pioggia per 5 turni."
+  },
+  "Sunny Day": {
+    "name": "Giornodisole",
+    "description": "Il Pokémon causa lo stato Sole intenso per 5 turni."
+  },
+  "Crunch": {
+    "name": "Sgranocchio",
+    "description": "Il Pokémon ha il 20% di probabilità di ridurre di 1 grado la Difesa del bersaglio."
+  },
+  "Mirror Coat": {
+    "name": "Specchiovelo",
+    "description": "Se il Pokémon ha subito una mossa speciale durante il turno in corso, infligge all’attaccante il doppio dei danni ricevuti."
+  },
+  "Psych Up": {
+    "name": "Psicamisù",
+    "description": "Il Pokémon copia le modifiche alle statistiche del bersaglio."
+  },
+  "Extreme Speed": {
+    "name": "Extrarapido",
+    "description": "—"
+  },
+  "Ancient Power": {
+    "name": "Forzantica",
+    "description": "Il Pokémon ha il 10% di probabilità di aumentare di 1 grado l’Attacco, la Difesa, l’Attacco Speciale, la Difesa Speciale e la Velocità."
+  },
+  "Shadow Ball": {
+    "name": "Palla Ombra",
+    "description": "Il Pokémon ha il 20% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Future Sight": {
+    "name": "Divinazione",
+    "description": "Il Pokémon causa lo stato Attacco futuro nella posizione del bersaglio."
+  },
+  "Whirlpool": {
+    "name": "Mulinello",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio. Se il bersaglio è nello stato Sott’acqua, la potenza della mossa raddoppia."
+  },
+  "Beat Up": {
+    "name": "Picchiaduro",
+    "description": "Il Pokémon attacca tante volte quanti sono i membri della sua squadra, eccetto quelli KO o affetti da problemi di stato. La potenza della mossa è calcolata in base all’Attacco dei membri della squadra."
+  },
+  "Fake Out": {
+    "name": "Bruciapelo",
+    "description": "Il Pokémon fa tentennare il bersaglio. Se non è la prima a essere usata quando il Pokémon entra in campo, questa mossa fallisce."
+  },
+  "Uproar": {
+    "name": "Baraonda",
+    "description": "Il Pokémon entra nello stato Baraonda."
+  },
+  "Stockpile": {
+    "name": "Accumulo",
+    "description": "Il Pokémon aumenta di 1 grado la sua Difesa e la sua Difesa Speciale, e di 1 livello il suo stato Accumulo. Quest’ultimo non può aumentare più di 3 volte."
+  },
+  "Spit Up": {
+    "name": "Sfoghenergia",
+    "description": "Più il livello dello stato Accumulo del Pokémon è alto, maggiore è la potenza della mossa, da un minimo di 100 a un massimo di 300. Se il Pokémon non è nello stato Accumulo, questa mossa fallisce."
+  },
+  "Swallow": {
+    "name": "Introenergia",
+    "description": "Più il livello dello stato Accumulo del Pokémon è alto, maggiori sono i PS recuperati con questa mossa. A 1 livello, il Pokémon recupera 1/4 dei suoi PS massimi, a 2 livelli metà, e a 3 livelli recupera tutti i PS. Se il Pokémon non è nello stato Accumulo, questa mossa fallisce."
+  },
+  "Heat Wave": {
+    "name": "Ondacalda",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Torment": {
+    "name": "Attaccalite",
+    "description": "Il Pokémon causa lo stato Ripetizione bloccata al bersaglio."
+  },
+  "Flatter": {
+    "name": "Adulazione",
+    "description": "Il Pokémon aumenta di 1 grado l’Attacco Speciale del bersaglio, ma gli causa lo stato Confusione."
+  },
+  "Will-O-Wisp": {
+    "name": "Fuocofatuo",
+    "description": "Il Pokémon causa lo stato Scottatura al bersaglio."
+  },
+  "Memento": {
+    "name": "Memento",
+    "description": "Il Pokémon va KO, ma riduce di 2 gradi l’Attacco e l’Attacco Speciale del bersaglio."
+  },
+  "Facade": {
+    "name": "Facciata",
+    "description": "Se il Pokémon è affetto dallo stato Avvelenamento, Iperavvelenamento, Paralisi o Scottatura, la potenza della mossa raddoppia, ignorando anche il dimezzamento dei danni delle mosse fisiche dovuto allo stato Scottatura."
+  },
+  "Focus Punch": {
+    "name": "Centripugno",
+    "description": "Se il Pokémon subisce danni da un attacco nel turno in cui sta per sferrarla, questa mossa fallisce."
+  },
+  "Follow Me": {
+    "name": "Sonoqui",
+    "description": "Il Pokémon diventa il bersaglio di tutte le mosse avversarie che permettono di selezionarne uno."
+  },
+  "Charge": {
+    "name": "Sottocarica",
+    "description": "Il Pokémon aumenta di 1 grado la sua Difesa Speciale ed entra nello stato Carica elettrica."
+  },
+  "Taunt": {
+    "name": "Provocazione",
+    "description": "Il Pokémon causa lo stato Provocazione al bersaglio."
+  },
+  "Helping Hand": {
+    "name": "Altruismo",
+    "description": "Il Pokémon aumenta del 50% la potenza delle mosse sferrate da un alleato durante questo turno."
+  },
+  "Trick": {
+    "name": "Raggiro",
+    "description": "Il Pokémon scambia lo strumento che ha con sé con quello del bersaglio."
+  },
+  "Role Play": {
+    "name": "Giocodiruolo",
+    "description": "Il Pokémon cambia la propria abilità in quella del bersaglio."
+  },
+  "Wish": {
+    "name": "Desiderio",
+    "description": "Il Pokémon causa lo stato Desiderio nella posizione in cui si trova."
+  },
+  "Ingrain": {
+    "name": "Radicamento",
+    "description": "Il Pokémon entra nello stato Radicamento."
+  },
+  "Superpower": {
+    "name": "Troppoforte",
+    "description": "Il Pokémon riduce di 1 grado il suo Attacco e la sua Difesa."
+  },
+  "Recycle": {
+    "name": "Riciclo",
+    "description": "Il Pokémon rigenera l’ultimo strumento consumato che aveva con sé."
+  },
+  "Brick Break": {
+    "name": "Breccia",
+    "description": "Il Pokémon attacca rimuovendo gli stati Schermo di luce, Riflesso e Velo dell’aurora dal campo di lotta avversario."
+  },
+  "Yawn": {
+    "name": "Sbadiglio",
+    "description": "Il Pokémon causa lo stato Sonnolenza al bersaglio. Questa mossa va sempre a segno."
+  },
+  "Knock Off": {
+    "name": "Privazione",
+    "description": "Se il bersaglio ha con sé uno strumento, la potenza di questa mossa aumenta del 50% e il Pokémon fa perdere lo strumento al bersaglio."
+  },
+  "Endeavor": {
+    "name": "Rimonta",
+    "description": "Il Pokémon infligge al bersaglio una quantità di danni pari alla differenza tra i PS residui del bersaglio e i suoi. Se i PS residui del bersaglio sono uguali o inferiori a quelli del Pokémon, questa mossa fallisce."
+  },
+  "Eruption": {
+    "name": "Eruzione",
+    "description": "Più bassi sono i PS residui del Pokémon, minore è la potenza della mossa, da un minimo di 1 a un massimo di 150."
+  },
+  "Skill Swap": {
+    "name": "Baratto",
+    "description": "Il Pokémon scambia la propria abilità con quella del bersaglio."
+  },
+  "Imprison": {
+    "name": "Esclusiva",
+    "description": "Il Pokémon entra nello stato Esclusiva."
+  },
+  "Dive": {
+    "name": "Sub",
+    "description": "Il Pokémon entra nello stato Sott’acqua nel turno in cui usa la mossa e attacca in quello seguente."
+  },
+  "Feather Dance": {
+    "name": "Danzadipiume",
+    "description": "Il Pokémon riduce di 2 gradi l’Attacco del bersaglio."
+  },
+  "Teeter Dance": {
+    "name": "Strampadanza",
+    "description": "Il Pokémon causa lo stato Confusione a tutti gli altri Pokémon."
+  },
+  "Blaze Kick": {
+    "name": "Calciardente",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1, e ha il 10% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Slack Off": {
+    "name": "Pigro",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi."
+  },
+  "Hyper Voice": {
+    "name": "Granvoce",
+    "description": "—"
+  },
+  "Poison Fang": {
+    "name": "Velenodenti",
+    "description": "Il Pokémon ha il 50% di probabilità di causare lo stato Iperavvelenamento al bersaglio."
+  },
+  "Crush Claw": {
+    "name": "Tritartigli",
+    "description": "Il Pokémon ha il 50% di probabilità di ridurre di 1 grado la Difesa del bersaglio."
+  },
+  "Blast Burn": {
+    "name": "Incendio",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Hydro Cannon": {
+    "name": "Idrocannone",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Meteor Mash": {
+    "name": "Meteorpugno",
+    "description": "Il Pokémon ha il 20% di probabilità di aumentare di 1 grado il suo Attacco."
+  },
+  "Weather Ball": {
+    "name": "Palla Clima",
+    "description": "Se è attiva una condizione atmosferica, la potenza di questa mossa raddoppia e il suo tipo cambia: Fuoco se è attivo lo stato Sole intenso, Acqua se è attivo lo stato Pioggia, Ghiaccio se è attivo lo stato Neve e Roccia se è attivo lo stato Tempesta di sabbia."
+  },
+  "Fake Tears": {
+    "name": "Falselacrime",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa Speciale del bersaglio."
+  },
+  "Air Cutter": {
+    "name": "Aerasoio",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Overheat": {
+    "name": "Vampata",
+    "description": "Il Pokémon riduce di 2 gradi il suo Attacco Speciale."
+  },
+  "Rock Tomb": {
+    "name": "Rocciotomba",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Metal Sound": {
+    "name": "Ferrostrido",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa Speciale del bersaglio."
+  },
+  "Tickle": {
+    "name": "Solletico",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco e la Difesa del bersaglio."
+  },
+  "Cosmic Power": {
+    "name": "Cosmoforza",
+    "description": "Il Pokémon aumenta di 1 grado la sua Difesa e la sua Difesa Speciale."
+  },
+  "Water Spout": {
+    "name": "Zampillo",
+    "description": "Più bassi sono i PS residui del Pokémon, minore è la potenza della mossa, da un minimo di 1 a un massimo di 150."
+  },
+  "Shadow Punch": {
+    "name": "Pugnodombra",
+    "description": "Questa mossa va sempre a segno."
+  },
+  "Extrasensory": {
+    "name": "Extrasenso",
+    "description": "Il Pokémon ha il 10% di probabilità di far tentennare il bersaglio."
+  },
+  "Sand Tomb": {
+    "name": "Sabbiotomba",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Sheer Cold": {
+    "name": "Purogelo",
+    "description": "Il Pokémon manda KO il bersaglio. La precisione di questa mossa è del 30%, ma se usata da un Pokémon che non è di tipo Ghiaccio, scende al 20%. Inoltre, la mossa non ha effetto sui bersagli di tipo Ghiaccio."
+  },
+  "Muddy Water": {
+    "name": "Fanghiglia",
+    "description": "Il Pokémon ha il 30% di probabilità di ridurre di 1 grado la precisione del bersaglio."
+  },
+  "Bullet Seed": {
+    "name": "Semitraglia",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Aerial Ace": {
+    "name": "Aeroassalto",
+    "description": "Questa mossa va sempre a segno."
+  },
+  "Icicle Spear": {
+    "name": "Gelolancia",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Iron Defense": {
+    "name": "Ferroscudo",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Difesa."
+  },
+  "Block": {
+    "name": "Blocco",
+    "description": "Il Pokémon causa lo stato Antifuga al bersaglio."
+  },
+  "Howl": {
+    "name": "Gridodilotta",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco e quello dell’alleato."
+  },
+  "Dragon Claw": {
+    "name": "Dragartigli",
+    "description": "—"
+  },
+  "Frenzy Plant": {
+    "name": "Radicalbero",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Bulk Up": {
+    "name": "Granfisico",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco e la sua Difesa."
+  },
+  "Bounce": {
+    "name": "Rimbalzo",
+    "description": "Il Pokémon entra nello stato In aria nel turno in cui usa la mossa e attacca in quello seguente. Questa mossa ha il 30% di probabilità di causare lo stato Paralisi al bersaglio."
+  },
+  "Mud Shot": {
+    "name": "Colpodifango",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Covet": {
+    "name": "Supplica",
+    "description": "Il Pokémon ruba lo strumento del bersaglio se non ne ha già uno con sé."
+  },
+  "Volt Tackle": {
+    "name": "Locomovolt",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti. Ha il 10% di probabilità di causare lo stato Paralisi al bersaglio."
+  },
+  "Calm Mind": {
+    "name": "Calmamente",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco Speciale e la sua Difesa Speciale."
+  },
+  "Leaf Blade": {
+    "name": "Fendifoglia",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Dragon Dance": {
+    "name": "Dragodanza",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco e la sua Velocità."
+  },
+  "Rock Blast": {
+    "name": "Cadutamassi",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Water Pulse": {
+    "name": "Idropulsar",
+    "description": "Il Pokémon ha il 20% di probabilità di causare lo stato Confusione al bersaglio."
+  },
+  "Roost": {
+    "name": "Trespolo",
+    "description": "Il Pokémon recupera metà dei suoi PS massimi. Se è di tipo Volante, lo perde nel turno in cui usa questa mossa."
+  },
+  "Gravity": {
+    "name": "Gravità",
+    "description": "Il Pokémon causa lo stato Gravità sull’intero campo di lotta per 5 turni."
+  },
+  "Hammer Arm": {
+    "name": "Martelpugno",
+    "description": "Il Pokémon riduce di 1 grado la sua Velocità."
+  },
+  "Gyro Ball": {
+    "name": "Vortexpalla",
+    "description": "Minore è la Velocità del Pokémon rispetto a quella del bersaglio, maggiore è la potenza della mossa, da un minimo di 1 a un massimo di 150."
+  },
+  "Healing Wish": {
+    "name": "Curardore",
+    "description": "Il Pokémon va KO, ma chi lo sostituisce recupera tutti i PS e guarisce dai problemi di stato."
+  },
+  "Feint": {
+    "name": "Fintoattacco",
+    "description": "Il Pokémon attacca rimuovendo dal bersaglio gli effetti di mosse come Protezione e Individua."
+  },
+  "Pluck": {
+    "name": "Spennata",
+    "description": "Se il bersaglio ha con sé una bacca, il Pokémon la mangia ricevendone gli effetti."
+  },
+  "Tailwind": {
+    "name": "Ventoincoda",
+    "description": "Il Pokémon causa lo stato Vento in coda sul proprio campo di lotta per 4 turni."
+  },
+  "Acupressure": {
+    "name": "Acupressione",
+    "description": "Il Pokémon aumenta di 2 gradi una statistica sua o del suo alleato, scelta a caso tra Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione ed elusione."
+  },
+  "Metal Burst": {
+    "name": "Metalscoppio",
+    "description": "Se il Pokémon ha subito danni da una mossa durante il turno in corso, infligge a chi lo ha colpito il 150% dei danni ricevuti."
+  },
+  "U-turn": {
+    "name": "Retromarcia",
+    "description": "Il Pokémon si fa sostituire da un compagno di squadra subito dopo aver attaccato."
+  },
+  "Close Combat": {
+    "name": "Zuffa",
+    "description": "Il Pokémon riduce di 1 grado la sua Difesa e la sua Difesa Speciale."
+  },
+  "Payback": {
+    "name": "Rivincita",
+    "description": "Se il Pokémon attacca dopo il bersaglio, la potenza della mossa raddoppia."
+  },
+  "Assurance": {
+    "name": "Garanzia",
+    "description": "Se il bersaglio ha già subito danni in questo turno, la potenza della mossa raddoppia."
+  },
+  "Fling": {
+    "name": "Lancio",
+    "description": "La potenza e l’effetto di questa mossa dipendono dallo strumento che il Pokémon ha con sé. Dopo averla usata, il Pokémon perde lo strumento."
+  },
+  "Power Trick": {
+    "name": "Ingannoforza",
+    "description": "Il Pokémon entra nello stato Statistiche scambiate."
+  },
+  "Gastro Acid": {
+    "name": "Gastroacido",
+    "description": "Il Pokémon causa lo stato Abilità bloccata al bersaglio."
+  },
+  "Copycat": {
+    "name": "Copione",
+    "description": "Il Pokémon copia l’ultima mossa utilizzata. Se non ne è ancora stata usata una, questa mossa fallisce."
+  },
+  "Power Swap": {
+    "name": "Barattoforza",
+    "description": "Il Pokémon scambia le proprie modifiche all’Attacco e all’Attacco Speciale con quelle del bersaglio."
+  },
+  "Guard Swap": {
+    "name": "Barattoscudo",
+    "description": "Il Pokémon scambia le proprie modifiche alla Difesa e alla Difesa Speciale con quelle del bersaglio."
+  },
+  "Last Resort": {
+    "name": "Ultimascelta",
+    "description": "Se il Pokémon non ha usato tutte le altre mosse che conosce, questa mossa fallisce."
+  },
+  "Worry Seed": {
+    "name": "Affannoseme",
+    "description": "Il Pokémon cambia l’abilità del bersaglio in Insonnia."
+  },
+  "Sucker Punch": {
+    "name": "Sbigoattacco",
+    "description": "La mossa va a segno solo se nel turno in corso il bersaglio ha scelto di usare un attacco e non l’ha ancora sferrato."
+  },
+  "Toxic Spikes": {
+    "name": "Fielepunte",
+    "description": "Il Pokémon causa lo stato Punte velenose sul campo di lotta avversario."
+  },
+  "Aqua Ring": {
+    "name": "Acquanello",
+    "description": "Il Pokémon entra nello stato Velo d’acqua."
+  },
+  "Magnet Rise": {
+    "name": "Magnetascesa",
+    "description": "Il Pokémon entra nello stato Ascesa magnetica."
+  },
+  "Flare Blitz": {
+    "name": "Fuococarica",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti e ha il 10% di probabilità di causare lo stato Scottatura al bersaglio. Inoltre, guarisce dallo stato Congelamento."
+  },
+  "Aura Sphere": {
+    "name": "Sferapulsar",
+    "description": "Questa mossa va sempre a segno."
+  },
+  "Rock Polish": {
+    "name": "Lucidatura",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Velocità."
+  },
+  "Poison Jab": {
+    "name": "Velenpuntura",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Avvelenamento al bersaglio."
+  },
+  "Dark Pulse": {
+    "name": "Neropulsar",
+    "description": "Il Pokémon ha il 20% di probabilità di far tentennare il bersaglio."
+  },
+  "Night Slash": {
+    "name": "Nottesferza",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Aqua Tail": {
+    "name": "Idrondata",
+    "description": "—"
+  },
+  "Seed Bomb": {
+    "name": "Semebomba",
+    "description": "—"
+  },
+  "Air Slash": {
+    "name": "Eterelama",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "X-Scissor": {
+    "name": "Forbice X",
+    "description": "—"
+  },
+  "Bug Buzz": {
+    "name": "Ronzio",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Dragon Pulse": {
+    "name": "Dragopulsar",
+    "description": "—"
+  },
+  "Dragon Rush": {
+    "name": "Dragofuria",
+    "description": "Il Pokémon ha il 20% di probabilità di far tentennare il bersaglio. Inoltre, se questo è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Power Gem": {
+    "name": "Gemmoforza",
+    "description": "—"
+  },
+  "Drain Punch": {
+    "name": "Assorbipugno",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Vacuum Wave": {
+    "name": "Vuotonda",
+    "description": "—"
+  },
+  "Focus Blast": {
+    "name": "Focalcolpo",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Energy Ball": {
+    "name": "Energipalla",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Brave Bird": {
+    "name": "Baldeali",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti."
+  },
+  "Earth Power": {
+    "name": "Geoforza",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Switcheroo": {
+    "name": "Rapidscambio",
+    "description": "Il Pokémon scambia lo strumento che ha con sé con quello del bersaglio."
+  },
+  "Giga Impact": {
+    "name": "Gigaimpatto",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Nasty Plot": {
+    "name": "Congiura",
+    "description": "Il Pokémon aumenta di 2 gradi il suo Attacco Speciale."
+  },
+  "Bullet Punch": {
+    "name": "Pugnoscarica",
+    "description": "—"
+  },
+  "Avalanche": {
+    "name": "Slavina",
+    "description": "Se il Pokémon ha subito danni dal bersaglio nel turno in corso, la potenza di questa mossa raddoppia."
+  },
+  "Ice Shard": {
+    "name": "Geloscheggia",
+    "description": "—"
+  },
+  "Shadow Claw": {
+    "name": "Ombrartigli",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Thunder Fang": {
+    "name": "Fulmindenti",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Paralisi al bersaglio e il 10% di probabilità di farlo tentennare."
+  },
+  "Ice Fang": {
+    "name": "Gelodenti",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Congelamento al bersaglio e il 10% di probabilità di farlo tentennare."
+  },
+  "Fire Fang": {
+    "name": "Rogodenti",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Scottatura al bersaglio e il 10% di probabilità di farlo tentennare."
+  },
+  "Shadow Sneak": {
+    "name": "Furtivombra",
+    "description": "—"
+  },
+  "Psycho Cut": {
+    "name": "Psicotaglio",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Zen Headbutt": {
+    "name": "Cozzata Zen",
+    "description": "Il Pokémon ha il 20% di probabilità di far tentennare il bersaglio."
+  },
+  "Flash Cannon": {
+    "name": "Cannonflash",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Defog": {
+    "name": "Scacciabruma",
+    "description": "Il Pokémon riduce di 1 grado l’elusione del bersaglio. Inoltre rimuove gli stati Riflesso, Punte, Salvaguardia, gli stati Campo e simili."
+  },
+  "Trick Room": {
+    "name": "Distortozona",
+    "description": "Il Pokémon causa lo stato Zona distorta sull’intero campo di lotta per 5 turni."
+  },
+  "Draco Meteor": {
+    "name": "Dragobolide",
+    "description": "Il Pokémon riduce di 2 gradi il suo Attacco Speciale."
+  },
+  "Discharge": {
+    "name": "Scarica",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Paralisi al bersaglio."
+  },
+  "Lava Plume": {
+    "name": "Lavasbuffo",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Scottatura al bersaglio."
+  },
+  "Leaf Storm": {
+    "name": "Verdebufera",
+    "description": "Il Pokémon riduce di 2 gradi il suo Attacco Speciale."
+  },
+  "Power Whip": {
+    "name": "Vigorcolpo",
+    "description": "—"
+  },
+  "Rock Wrecker": {
+    "name": "Devastomasso",
+    "description": "Il turno dopo aver usato questa mossa, il Pokémon è affetto dallo stato Ricarica."
+  },
+  "Cross Poison": {
+    "name": "Velenocroce",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1 e ha il 10% di probabilità di causare lo stato Avvelenamento al bersaglio."
+  },
+  "Gunk Shot": {
+    "name": "Sporcolancio",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Avvelenamento al bersaglio."
+  },
+  "Iron Head": {
+    "name": "Metaltestata",
+    "description": "Il Pokémon ha il 20% di probabilità di far tentennare il bersaglio."
+  },
+  "Stone Edge": {
+    "name": "Pietrataglio",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Stealth Rock": {
+    "name": "Levitoroccia",
+    "description": "Il Pokémon causa lo stato Rocce levitanti sul campo di lotta avversario."
+  },
+  "Grass Knot": {
+    "name": "Laccioerboso",
+    "description": "Più pesante è il bersaglio, maggiore è la potenza della mossa, da un minimo di 20 a un massimo di 120."
+  },
+  "Bug Bite": {
+    "name": "Coleomorso",
+    "description": "Se il bersaglio ha con sé una bacca, il Pokémon la mangia ricevendone gli effetti."
+  },
+  "Charge Beam": {
+    "name": "Raggioscossa",
+    "description": "Il Pokémon ha il 70% di probabilità di aumentare di 1 grado il suo Attacco Speciale."
+  },
+  "Wood Hammer": {
+    "name": "Mazzuolegno",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti."
+  },
+  "Aqua Jet": {
+    "name": "Acquagetto",
+    "description": "—"
+  },
+  "Head Smash": {
+    "name": "Zuccata",
+    "description": "Il Pokémon subisce metà dei danni inflitti."
+  },
+  "Double Hit": {
+    "name": "Doppiosmash",
+    "description": "Il Pokémon colpisce 2 volte di fila."
+  },
+  "Wide Guard": {
+    "name": "Bodyguard",
+    "description": "Il Pokémon protegge sé stesso e l’alleato dalle mosse che colpiscono tutti gli alleati durante il turno in corso."
+  },
+  "Guard Split": {
+    "name": "Paridifesa",
+    "description": "Il Pokémon somma la propria Difesa e Difesa Speciale a quelle del bersaglio, poi ridistribuisce equamente il risultato a ciascuno dei due."
+  },
+  "Power Split": {
+    "name": "Pariattacco",
+    "description": "Il Pokémon somma il proprio Attacco e Attacco Speciale a quelli del bersaglio, poi ridistribuisce equamente il risultato a ciascuno dei due."
+  },
+  "Wonder Room": {
+    "name": "Mirabilzona",
+    "description": "Il Pokémon causa lo stato Zona miracolosa sull’intero campo di lotta per 5 turni."
+  },
+  "Psyshock": {
+    "name": "Psicoshock",
+    "description": "I danni di questa mossa speciale vengono calcolati in base alla Difesa del bersaglio."
+  },
+  "Venoshock": {
+    "name": "Velenoshock",
+    "description": "Se il bersaglio è affetto dallo stato Avvelenamento o Iperavvelenamento, la potenza della mossa raddoppia."
+  },
+  "Rage Powder": {
+    "name": "Polverabbia",
+    "description": "Il Pokémon diventa il bersaglio di tutte le mosse avversarie che permettono di selezionarne uno."
+  },
+  "Magic Room": {
+    "name": "Magicozona",
+    "description": "Il Pokémon causa lo stato Zona magica sull’intero campo di lotta per 5 turni."
+  },
+  "Smack Down": {
+    "name": "Abbattimento",
+    "description": "Il Pokémon causa lo stato Atterrato al bersaglio se questo non è a contatto con il terreno. La mossa può colpire anche se il bersaglio è nello stato In aria."
+  },
+  "Storm Throw": {
+    "name": "Tempestretta",
+    "description": "Questa mossa risulta sempre in un brutto colpo."
+  },
+  "Sludge Wave": {
+    "name": "Fangonda",
+    "description": "Il Pokémon ha il 10% di probabilità di causare lo stato Avvelenamento al bersaglio."
+  },
+  "Quiver Dance": {
+    "name": "Eledanza",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco Speciale, la sua Difesa Speciale e la sua Velocità."
+  },
+  "Heavy Slam": {
+    "name": "Pesobomba",
+    "description": "Più pesante è il Pokémon rispetto al bersaglio, maggiore è la potenza della mossa, da un minimo di 40 a un massimo di 120. Se il bersaglio è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Electro Ball": {
+    "name": "Energisfera",
+    "description": "Maggiore è la Velocità del Pokémon rispetto a quella del bersaglio, maggiore è la potenza della mossa, da un minimo di 40 a un massimo di 150."
+  },
+  "Soak": {
+    "name": "Inondazione",
+    "description": "Cambia il tipo del bersaglio in Acqua."
+  },
+  "Flame Charge": {
+    "name": "Nitrocarica",
+    "description": "Il Pokémon aumenta di 1 grado la sua Velocità."
+  },
+  "Coil": {
+    "name": "Arrotola",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco, la sua Difesa e la sua precisione."
+  },
+  "Low Sweep": {
+    "name": "Calciobasso",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Acid Spray": {
+    "name": "Acidobomba",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa Speciale del bersaglio."
+  },
+  "Foul Play": {
+    "name": "Ripicca",
+    "description": "I danni di questa mossa non vengono calcolati in base all’Attacco del Pokémon che la usa ma in base alla Difesa del bersaglio."
+  },
+  "Simple Beam": {
+    "name": "Ondisinvolta",
+    "description": "Il Pokémon cambia l’abilità del bersaglio in Disinvoltura."
+  },
+  "Entrainment": {
+    "name": "Saltamicizia",
+    "description": "Il Pokémon cambia l’abilità del bersaglio, copiando la propria. "
+  },
+  "After You": {
+    "name": "Cortesia",
+    "description": "Il Pokémon costringe il bersaglio ad agire subito dopo di sé."
+  },
+  "Round": {
+    "name": "Coro",
+    "description": "Se più Pokémon usano questa mossa nello stesso turno, attaccheranno uno dopo l’altro. Inoltre, la potenza della mossa raddoppia dal secondo Pokémon che la usa in poi."
+  },
+  "Clear Smog": {
+    "name": "Pulifumo",
+    "description": "Il Pokémon annulla tutte le modifiche alle statistiche del bersaglio. Questa mossa va sempre a segno."
+  },
+  "Stored Power": {
+    "name": "Veicolaforza",
+    "description": "La potenza di questa mossa aumenta di 20 per ogni grado di aumento alle statistiche del Pokémon."
+  },
+  "Quick Guard": {
+    "name": "Anticipo",
+    "description": "Il Pokémon protegge sé stesso e l’alleato dalle mosse ad alta priorità durante il turno in corso."
+  },
+  "Ally Switch": {
+    "name": "Cambiaposto",
+    "description": "Il Pokémon cambia di posto con l’alleato. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Scald": {
+    "name": "Idrovampata",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Scottatura al bersaglio. Sia il Pokémon che il bersaglio guariscono dallo stato Congelamento."
+  },
+  "Shell Smash": {
+    "name": "Gettaguscio",
+    "description": "Il Pokémon riduce di 1 grado la sua Difesa e Difesa Speciale, ma aumenta di 2 gradi l’Attacco, l’Attacco Speciale e la Velocità."
+  },
+  "Heal Pulse": {
+    "name": "Curapulsar",
+    "description": "Il Pokémon fa recuperare al bersaglio metà dei suoi PS massimi."
+  },
+  "Hex": {
+    "name": "Sciagura",
+    "description": "Se il bersaglio è affetto da problemi di stato, la potenza della mossa raddoppia."
+  },
+  "Circle Throw": {
+    "name": "Ribaltiro",
+    "description": "Il bersaglio viene sostituito da un compagno di squadra casuale, se presente."
+  },
+  "Quash": {
+    "name": "Spintone",
+    "description": "Il bersaglio agisce per ultimo nel turno in corso."
+  },
+  "Acrobatics": {
+    "name": "Acrobazia",
+    "description": "Se il Pokémon non ha con sé uno strumento, la potenza della mossa raddoppia."
+  },
+  "Reflect Type": {
+    "name": "Riflettipo",
+    "description": "Il Pokémon cambia il proprio tipo in quello del bersaglio."
+  },
+  "Final Gambit": {
+    "name": "Azzardo",
+    "description": "Il Pokémon infligge danni pari ai suoi PS residui al bersaglio, e poi va KO."
+  },
+  "Inferno": {
+    "name": "Marchiatura",
+    "description": "Il Pokémon causa lo stato Scottatura al bersaglio."
+  },
+  "Volt Switch": {
+    "name": "Invertivolt",
+    "description": "Il Pokémon si fa sostituire da un compagno di squadra subito dopo aver attaccato."
+  },
+  "Struggle Bug": {
+    "name": "Entomoblocco",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Bulldoze": {
+    "name": "Battiterra",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio. Se lo stato Campo erboso è attivo, la potenza della mossa si dimezza."
+  },
+  "Frost Breath": {
+    "name": "Alitogelido",
+    "description": "Questa mossa risulta sempre in un brutto colpo."
+  },
+  "Dragon Tail": {
+    "name": "Codadrago",
+    "description": "Il bersaglio viene sostituito da un compagno di squadra casuale, se presente."
+  },
+  "Electroweb": {
+    "name": "Elettrotela",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Wild Charge": {
+    "name": "Sprizzalampo",
+    "description": "Il Pokémon subisce 1/4 dei danni inflitti."
+  },
+  "Drill Run": {
+    "name": "Giravvita",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Horn Leech": {
+    "name": "Legnicorno",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Sacred Sword": {
+    "name": "Spadasolenne",
+    "description": "I danni di questa mossa vengono calcolati ignorando le modifiche alle statistiche del bersaglio."
+  },
+  "Razor Shell": {
+    "name": "Conchilama",
+    "description": "Il Pokémon ha il 50% di probabilità di ridurre di 1 grado la Difesa del bersaglio."
+  },
+  "Heat Crash": {
+    "name": "Marchiafuoco",
+    "description": "Più pesante è il Pokémon rispetto al bersaglio, maggiore è la potenza della mossa, da un minimo di 40 a un massimo di 120. Se il bersaglio è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Cotton Guard": {
+    "name": "Cotonscudo",
+    "description": "Il Pokémon aumenta di 3 gradi la sua Difesa."
+  },
+  "Night Daze": {
+    "name": "Urtoscuro",
+    "description": "Il Pokémon ha il 40% di probabilità di ridurre di 1 grado la precisione del bersaglio."
+  },
+  "Tail Slap": {
+    "name": "Spazzasberla",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Hurricane": {
+    "name": "Tifone",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Confusione al bersaglio. Questa mossa può colpire anche se il bersaglio è nello stato In aria e, se lo stato Pioggia è attivo, va sempre a segno."
+  },
+  "Fiery Dance": {
+    "name": "Voldifuoco",
+    "description": "Il Pokémon ha il 50% di probabilità di aumentare di 1 grado il suo Attacco Speciale."
+  },
+  "Snarl": {
+    "name": "Urlorabbia",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Icicle Crash": {
+    "name": "Scagliagelo",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "Flying Press": {
+    "name": "Schiacciatuffo",
+    "description": "I danni di questa mossa sono il risultato della combinazione dell’efficacia del suo tipo e del tipo Volante. Se il bersaglio è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Belch": {
+    "name": "Rutto",
+    "description": "Se il Pokémon non ha mangiato una bacca durante la lotta, questa mossa fallisce."
+  },
+  "Sticky Web": {
+    "name": "Rete Vischiosa",
+    "description": "Il Pokémon causa lo stato Rete vischiosa sul campo di lotta avversario."
+  },
+  "Fell Stinger": {
+    "name": "Pungiglione",
+    "description": "Il Pokémon aumenta di 3 gradi il suo Attacco quando causa un KO con questa mossa."
+  },
+  "Phantom Force": {
+    "name": "Spettrotuffo",
+    "description": "Il Pokémon entra nello stato Scomparso nel turno in cui usa la mossa e attacca in quello seguente, rimuovendo dal bersaglio gli effetti di mosse come Protezione e Individua."
+  },
+  "Trick-or-Treat": {
+    "name": "Halloween",
+    "description": "Il Pokémon causa lo stato Halloween al bersaglio."
+  },
+  "Noble Roar": {
+    "name": "Urlo",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco e l’Attacco Speciale del bersaglio."
+  },
+  "Parabolic Charge": {
+    "name": "Caricaparabola",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Forest’s Curse": {
+    "name": "Boscomalocchio",
+    "description": "Il Pokémon causa lo stato Malocchio del bosco al bersaglio."
+  },
+  "Petal Blizzard": {
+    "name": "Fiortempesta",
+    "description": "—"
+  },
+  "Freeze-Dry": {
+    "name": "Liofilizzazione",
+    "description": "Questa mossa è superefficace anche sui Pokémon di tipo Acqua."
+  },
+  "Parting Shot": {
+    "name": "Monito",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco e l’Attacco Speciale del bersaglio e si fa sostituire da un compagno di squadra."
+  },
+  "Draining Kiss": {
+    "name": "Assorbibacio",
+    "description": "Il Pokémon recupera PS pari a 3/4 dei danni inflitti al bersaglio."
+  },
+  "Grassy Terrain": {
+    "name": "Campo Erboso",
+    "description": "Il Pokémon causa lo stato Campo erboso sull’intero campo di lotta per 5 turni."
+  },
+  "Misty Terrain": {
+    "name": "Campo Nebbioso",
+    "description": "Il Pokémon causa lo stato Campo nebbioso sull’intero campo di lotta per 5 turni."
+  },
+  "Electrify": {
+    "name": "Elettrocontagio",
+    "description": "Se questa mossa va a segno prima che il bersaglio abbia sferrato la sua, quest’ultima diventa di tipo Elettro."
+  },
+  "Play Rough": {
+    "name": "Carineria",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado l’Attacco del bersaglio."
+  },
+  "Moonblast": {
+    "name": "Forza Lunare",
+    "description": "Il Pokémon ha il 10% di probabilità di ridurre di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Boomburst": {
+    "name": "Ondaboato",
+    "description": "—"
+  },
+  "Fairy Lock": {
+    "name": "Blocco Fatato",
+    "description": "Il Pokémon causa lo stato Blocco fatato a tutti i Pokémon in campo."
+  },
+  "King’s Shield": {
+    "name": "Scudo Reale",
+    "description": "Il Pokémon assume la Forma Scudo, proteggendosi dagli attacchi altrui e riducendo di 1 grado l’Attacco di chi lo colpisce con una mossa da contatto durante il turno in corso. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Water Shuriken": {
+    "name": "Acqualame",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila."
+  },
+  "Mystical Fire": {
+    "name": "Magifiamma",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Spiky Shield": {
+    "name": "Agodifesa",
+    "description": "Il Pokémon si protegge dalle mosse altrui durante il turno in corso, infliggendo inoltre danni pari a 1/8 dei suoi PS massimi a chi lo colpisce con una mossa da contatto. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Aromatic Mist": {
+    "name": "Nebularoma",
+    "description": "Il Pokémon aumenta di 1 grado la Difesa Speciale di un alleato."
+  },
+  "Eerie Impulse": {
+    "name": "Elettromistero",
+    "description": "Il Pokémon riduce di 2 gradi l’Attacco Speciale del bersaglio."
+  },
+  "Magnetic Flux": {
+    "name": "Controllo Polare",
+    "description": "Se il Pokémon o l’alleato hanno l’abilità Più o Meno, la loro Difesa e Difesa Speciale aumentano di 1 grado."
+  },
+  "Electric Terrain": {
+    "name": "Campo Elettrico",
+    "description": "Il Pokémon causa lo stato Campo elettrico sull’intero campo di lotta per 5 turni."
+  },
+  "Dazzling Gleam": {
+    "name": "Magibrillio",
+    "description": "—"
+  },
+  "Baby-Doll Eyes": {
+    "name": "Occhioni Teneri",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Nuzzle": {
+    "name": "Elettrococcola",
+    "description": "Il Pokémon causa lo stato Paralisi al bersaglio."
+  },
+  "Infestation": {
+    "name": "Assillo",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Light of Ruin": {
+    "name": "Luce Nefasta",
+    "description": "Il Pokémon subisce metà dei danni inflitti."
+  },
+  "Origin Pulse": {
+    "name": "Origin Pulse",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "First Impression": {
+    "name": "Schermaglia",
+    "description": "Se non è la prima a essere usata quando il Pokémon entra in campo, questa mossa fallisce."
+  },
+  "Baneful Bunker": {
+    "name": "Fortino",
+    "description": "Il Pokémon si protegge dalle mosse altrui durante il turno in corso, causando inoltre lo stato Avvelenamento a chi lo colpisce con una mossa da contatto. Con ogni uso consecutivo, la probabilità che questa mossa vada a segno diminuisce di 2/3 rispetto all’uso precedente."
+  },
+  "Spirit Shackle": {
+    "name": "Cucitura d’Ombra",
+    "description": "Il Pokémon causa lo stato Antifuga al bersaglio."
+  },
+  "Darkest Lariat": {
+    "name": "Braccioteso",
+    "description": "I danni di questa mossa vengono calcolati ignorando le modifiche alle statistiche del bersaglio."
+  },
+  "Sparkling Aria": {
+    "name": "Canto Effimero",
+    "description": "Il Pokémon cura lo stato Scottatura del bersaglio."
+  },
+  "Ice Hammer": {
+    "name": "Martelgelo",
+    "description": "Il Pokémon riduce di 1 grado la sua Velocità."
+  },
+  "High Horsepower": {
+    "name": "Forza Equina",
+    "description": "—"
+  },
+  "Strength Sap": {
+    "name": "Assorbiforza",
+    "description": "Il Pokémon recupera PS pari all’Attacco del bersaglio, e poi lo riduce di 1 grado."
+  },
+  "Solar Blade": {
+    "name": "Lama Solare",
+    "description": "Il Pokémon entra nello stato Carica nel turno in cui usa la mossa e attacca in quello seguente. Se lo stato Sole intenso è attivo, il Pokémon non entra nello stato Carica e può attaccare immediatamente. Se invece sono attive altre condizioni atmosferiche, la potenza di questa mossa è dimezzata."
+  },
+  "Toxic Thread": {
+    "name": "Velenotela",
+    "description": "Il Pokémon riduce di 2 gradi la Velocità del bersaglio e gli causa lo stato Avvelenamento."
+  },
+  "Throat Chop": {
+    "name": "Colpo Infernale",
+    "description": "Il Pokémon causa lo stato Colpo infernale al bersaglio."
+  },
+  "Pollen Puff": {
+    "name": "Sferapolline",
+    "description": "Se usata sull’alleato, questa mossa non infligge danni, ma gli fa recuperare invece metà dei suoi PS massimi."
+  },
+  "Psychic Terrain": {
+    "name": "Campo Psichico",
+    "description": "Il Pokémon causa lo stato Campo psichico sull’intero campo di lotta per 5 turni."
+  },
+  "Lunge": {
+    "name": "Assalto",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Fire Lash": {
+    "name": "Frusta di Fuoco",
+    "description": "Il Pokémon riduce di 1 grado la Difesa del bersaglio."
+  },
+  "Power Trip": {
+    "name": "Tracotanza",
+    "description": "La potenza di questa mossa aumenta di 20 per ogni grado di aumento alle statistiche del Pokémon."
+  },
+  "Burn Up": {
+    "name": "Ultima Fiamma",
+    "description": "Il Pokémon perde il tipo Fuoco e guarisce dallo stato Congelamento. Se il Pokémon non è di tipo Fuoco, la mossa fallisce."
+  },
+  "Speed Swap": {
+    "name": "Velociscambio",
+    "description": "Il Pokémon scambia la propria Velocità con quella del bersaglio."
+  },
+  "Smart Strike": {
+    "name": "Sottilcorno",
+    "description": "Questa mossa va sempre a segno."
+  },
+  "Trop Kick": {
+    "name": "Tropicalcio",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Instruct": {
+    "name": "Imposizione",
+    "description": "Il Pokémon costringe il bersaglio a ripetere l’ultima mossa che ha sferrato."
+  },
+  "Beak Blast": {
+    "name": "Cannonbecco",
+    "description": "Il Pokémon causa lo stato Scottatura a chi lo colpisce con una mossa da contatto prima di aver sferrato questa mossa."
+  },
+  "Clanging Scales": {
+    "name": "Clamorsquame",
+    "description": "Il Pokémon riduce di 1 grado la sua Difesa."
+  },
+  "Brutal Swing": {
+    "name": "Vorticolpo",
+    "description": "—"
+  },
+  "Aurora Veil": {
+    "name": "Velaurora",
+    "description": "Il Pokémon causa lo stato Velo dell’aurora sul proprio campo di lotta per 5 turni. Questa mossa può essere usata solo se lo stato Neve è attivo."
+  },
+  "Psychic Fangs": {
+    "name": "Psicozanna",
+    "description": "Il Pokémon attacca rimuovendo gli stati Schermo di luce, Riflesso e Velo dell’aurora dal campo di lotta avversario."
+  },
+  "Stomping Tantrum": {
+    "name": "Battipiedi",
+    "description": "La potenza della mossa raddoppia se nel turno precedente il Pokémon non ha potuto agire, se la sua mossa ha fallito o se non è andata a segno."
+  },
+  "Accelerock": {
+    "name": "Rocciarapida",
+    "description": "—"
+  },
+  "Liquidation": {
+    "name": "Idrobreccia",
+    "description": "Il Pokémon ha il 20% di probabilità di ridurre di 1 grado la Difesa del bersaglio."
+  },
+  "Moongeist Beam": {
+    "name": "Moongeist Beam",
+    "description": "L’effetto offensivo di questa mossa non viene impedito dalle abilità."
+  },
+  "Tearful Look": {
+    "name": "Occhionilucidi",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco e l’Attacco Speciale del bersaglio. Questa mossa ignora l’elusione del bersaglio e gli effetti di mosse come Protezione."
+  },
+  "Stuff Cheeks": {
+    "name": "Riempiguance",
+    "description": "Il Pokémon mangia la bacca che ha con sé e aumenta di 2 gradi la sua Difesa. Questa mossa può essere usata solo se il Pokémon ha con sé una bacca."
+  },
+  "Magic Powder": {
+    "name": "Magipolvere",
+    "description": "Il Pokémon cambia il tipo del bersaglio in Psico."
+  },
+  "Dragon Darts": {
+    "name": "Dragofrecce",
+    "description": "Il Pokémon colpisce 2 volte di fila. Se sono presenti due avversari, colpisce entrambi i bersagli, una volta ciascuno."
+  },
+  "Teatime": {
+    "name": "Ora del Tè",
+    "description": "Il Pokémon fa sì che tutti i Pokémon in campo mangino le bacche che hanno con sé."
+  },
+  "Clangorous Soul": {
+    "name": "Dracofonia",
+    "description": "Il Pokémon perde 1/3 dei suoi PS massimi e aumenta di 1 grado l’Attacco, la Difesa, l’Attacco Speciale, la Difesa Speciale e la Velocità. Se il Pokémon non ha abbastanza PS, questa mossa fallisce."
+  },
+  "Body Press": {
+    "name": "Schiacciacorpo",
+    "description": "I danni di questa mossa non vengono calcolati in base all’Attacco del Pokémon che la usa ma in base alla sua Difesa."
+  },
+  "Decorate": {
+    "name": "Decorazione",
+    "description": "Il Pokémon aumenta di 2 gradi l’Attacco e l’Attacco Speciale del bersaglio."
+  },
+  "Snap Trap": {
+    "name": "Tagliola",
+    "description": "Il Pokémon causa lo stato Imprigionamento al bersaglio."
+  },
+  "Aura Wheel": {
+    "name": "Ruota d’Aura",
+    "description": "Il Pokémon aumenta di 1 grado la sua Velocità. Il tipo di questa mossa cambia in base alla forma assunta da Morpeko."
+  },
+  "Breaking Swipe": {
+    "name": "Vastoimpatto",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Apple Acid": {
+    "name": "Acido Malico",
+    "description": "Il Pokémon riduce di 1 grado la Difesa Speciale del bersaglio."
+  },
+  "Grav Apple": {
+    "name": "Forza G",
+    "description": "Il Pokémon riduce di 1 grado la Difesa del bersaglio. Se lo stato Gravità è attivo, la potenza della mossa aumenta del 50%."
+  },
+  "Spirit Break": {
+    "name": "Spirit Break",
+    "description": "Riduce di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Life Dew": {
+    "name": "Goccia Vitale",
+    "description": "Il Pokémon e il suo alleato recuperano 1/4 dei rispettivi PS massimi."
+  },
+  "Steel Beam": {
+    "name": "Raggio d’Acciaio",
+    "description": "Dopo aver attaccato, il Pokémon perde metà dei PS massimi."
+  },
+  "Expanding Force": {
+    "name": "Vastenergia",
+    "description": "Se il Pokémon subisce l’effetto dello stato Campo psichico, questo attacco ha come bersaglio tutti gli avversari e la sua potenza aumenta del 50%."
+  },
+  "Steel Roller": {
+    "name": "Ferrorullo",
+    "description": "Il Pokémon rimuove lo stato Campo attivo. Se non ce ne sono attivi, la mossa fallisce."
+  },
+  "Scale Shot": {
+    "name": "Squamacolpo",
+    "description": "Il Pokémon colpisce da 2 a 5 volte di fila, riducendo di 1 grado la sua Difesa e aumentando di 1 grado la sua Velocità."
+  },
+  "Meteor Beam": {
+    "name": "Raggiometeora",
+    "description": "Il Pokémon entra nello stato Carica e aumenta di 1 grado il suo Attacco Speciale nel turno in corso, poi attacca in quello seguente."
+  },
+  "Shell Side Arm": {
+    "name": "Armaguscio",
+    "description": "Il Pokémon ha il 20% di probabilità di causare lo stato Avvelenamento al bersaglio. Questa mossa diventa fisica se così dovesse infliggere più danni."
+  },
+  "Misty Explosion": {
+    "name": "Nebbioscoppio",
+    "description": "Se il Pokémon subisce l’effetto dello stato Campo nebbioso, la potenza della mossa aumenta del 50%, poi il Pokémon va KO."
+  },
+  "Grassy Glide": {
+    "name": "Erboscivolata",
+    "description": "Se il Pokémon subisce l’effetto dello stato Campo erboso, la mossa guadagna priorità +1."
+  },
+  "Rising Voltage": {
+    "name": "Elettroimpennata",
+    "description": "Se il bersaglio subisce l’effetto dello stato Campo elettrico, la potenza della mossa raddoppia."
+  },
+  "Terrain Pulse": {
+    "name": "Campopulsar",
+    "description": "Se il Pokémon subisce l’effetto di uno stato Campo, la potenza della mossa raddoppia. Il tipo della mossa cambia in base allo stato Campo attivo."
+  },
+  "Skitter Smack": {
+    "name": "Strisciacolpo",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio."
+  },
+  "Burning Jealousy": {
+    "name": "Fiamminvidia",
+    "description": "Se una delle statistiche del bersaglio è stata aumentata durante il turno in corso, il Pokémon gli causa lo stato Scottatura."
+  },
+  "Lash Out": {
+    "name": "Sfogarabbia",
+    "description": "Se una delle statistiche del Pokémon è stata ridotta durante il turno in corso, la potenza della mossa raddoppia."
+  },
+  "Poltergeist": {
+    "name": "Poltergeist",
+    "description": "Se il bersaglio non ha con sé uno strumento, questa mossa fallisce."
+  },
+  "Corrosive Gas": {
+    "name": "Gas Corrosivo",
+    "description": "Il Pokémon fa sì che tutti gli altri Pokémon in campo perdano gli strumenti che hanno con sé."
+  },
+  "Coaching": {
+    "name": "Coaching",
+    "description": "Il Pokémon aumenta di 1 grado l’Attacco e la Difesa dell’alleato."
+  },
+  "Flip Turn": {
+    "name": "Virata",
+    "description": "Il Pokémon si fa sostituire da un compagno di squadra subito dopo aver attaccato."
+  },
+  "Triple Axel": {
+    "name": "Triplo Axel",
+    "description": "Il Pokémon colpisce 3 volte di fila: la prima volta con potenza 20, la seconda 40 e la terza 60. L’attacco termina appena un colpo non va a segno."
+  },
+  "Dual Wingbeat": {
+    "name": "Doppia Ala",
+    "description": "Il Pokémon colpisce 2 volte di fila."
+  },
+  "Scorching Sands": {
+    "name": "Sabbiardente",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Scottatura al bersaglio. Sia il Pokémon che il bersaglio guariscono dallo stato Congelamento."
+  },
+  "Wicked Blow": {
+    "name": "Wicked Blow",
+    "description": "—"
+  },
+  "Surging Strikes": {
+    "name": "Surging Strikes",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Dragon Energy": {
+    "name": "Dragon Energy",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Freezing Glare": {
+    "name": "Freezing Glare",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Fiery Wrath": {
+    "name": "Fiery Wrath",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Thunderous Kick": {
+    "name": "Thunderous Kick",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Glacial Lance": {
+    "name": "Glacial Lance",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Astral Barrage": {
+    "name": "Astral Barrage",
+    "description": "Infligge danni normali senza effetti aggiuntivi."
+  },
+  "Eerie Spell": {
+    "name": "Inquietantesimo",
+    "description": "Il Pokémon riduce di 3 i PP dell’ultima mossa usata dal bersaglio."
+  },
+  "Dire Claw": {
+    "name": "Artigli Fatali",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Avvelenamento, Paralisi o Sonno al bersaglio."
+  },
+  "Psyshield Bash": {
+    "name": "Barrierassalto",
+    "description": "Il Pokémon aumenta di 1 grado la sua Difesa."
+  },
+  "Power Shift": {
+    "name": "Scambioforza",
+    "description": "Il Pokémon entra nello stato Statistiche scambiate."
+  },
+  "Stone Axe": {
+    "name": "Rocciascure",
+    "description": "Il Pokémon causa lo stato Rocce levitanti sul campo di lotta avversario."
+  },
+  "Raging Fury": {
+    "name": "Ira Furente",
+    "description": "Il Pokémon entra nello stato Collera."
+  },
+  "Wave Crash": {
+    "name": "Ondaschianto",
+    "description": "Il Pokémon subisce 1/3 dei danni inflitti."
+  },
+  "Mountain Gale": {
+    "name": "Soffio d’Iceberg",
+    "description": "Il Pokémon ha il 30% di probabilità di far tentennare il bersaglio."
+  },
+  "Headlong Rush": {
+    "name": "Scontro Frontale",
+    "description": "Il Pokémon riduce di 1 grado la sua Difesa e la sua Difesa Speciale."
+  },
+  "Bitter Malice": {
+    "name": "Livore",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Shelter": {
+    "name": "Barricata",
+    "description": "Il Pokémon aumenta di 2 gradi la sua Difesa."
+  },
+  "Triple Arrows": {
+    "name": "Triplodardo",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1. Inoltre, ha il 50% di probabilità di ridurre di 1 grado la Difesa del bersaglio e il 30% di probabilità di farlo tentennare."
+  },
+  "Infernal Parade": {
+    "name": "Corteo Spettrale",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Scottatura al bersaglio. Se il bersaglio è affetto da problemi di stato, la potenza della mossa raddoppia."
+  },
+  "Ceaseless Edge": {
+    "name": "Lama Milleflutti",
+    "description": "Il Pokémon causa lo stato Punte sul campo di lotta avversario."
+  },
+  "Bleakwind Storm": {
+    "name": "Bleakwind Storm",
+    "description": "Può anche lasciare il bersaglio con frostbite / gelo persistente."
+  },
+  "Wildbolt Storm": {
+    "name": "Wildbolt Storm",
+    "description": "—"
+  },
+  "Sandsear Storm": {
+    "name": "Sandsear Storm",
+    "description": "Lascia inoltre il bersaglio con Scottatura."
+  },
+  "Lunar Blessing": {
+    "name": "Lunar Blessing",
+    "description": "Cura i propri problemi di stato e recupera PS. Inoltre rende più facile evitare le mosse in arrivo."
+  },
+  "Tera Blast": {
+    "name": "Tera Blast",
+    "description": "—"
+  },
+  "Axe Kick": {
+    "name": "Calcio ad Ascia",
+    "description": "Il Pokémon ha il 30% di probabilità di causare lo stato Confusione al bersaglio. Se questa mossa non va a segno o fallisce, il Pokémon subisce danni pari alla metà dei suoi PS massimi."
+  },
+  "Last Respects": {
+    "name": "Omaggio ai KO",
+    "description": "Ogni volta che un compagno di squadra va KO, la potenza di questa mossa aumenta di 50."
+  },
+  "Lumina Crash": {
+    "name": "Fotocollisione",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa Speciale del bersaglio."
+  },
+  "Order Up": {
+    "name": "Order Up",
+    "description": "Se il Pokémon ha un Tatsugiri in bocca, questa mossa aumenta una sua statistica in base alla forma di Tatsugiri."
+  },
+  "Jet Punch": {
+    "name": "Pugnojet",
+    "description": "—"
+  },
+  "Spicy Extract": {
+    "name": "Essenza Piccante",
+    "description": "Il Pokémon riduce di 2 gradi la Difesa del bersaglio ma ne aumenta l’Attacco di 2 gradi."
+  },
+  "Population Bomb": {
+    "name": "Infestazione",
+    "description": "Il Pokémon colpisce da 1 a 10 volte di fila. L’attacco termina appena un colpo non va a segno."
+  },
+  "Ice Spinner": {
+    "name": "Vortighiaccio",
+    "description": "Il Pokémon rimuove lo stato Campo attivo."
+  },
+  "Glaive Rush": {
+    "name": "Glaive Rush",
+    "description": "Dopo l’uso, fino al turno successivo dell’utilizzatore, gli attacchi diretti contro di lui non possono mancare e infliggono danni doppi."
+  },
+  "Salt Cure": {
+    "name": "Sotto Sale",
+    "description": "Il Pokémon causa lo stato Sotto sale al bersaglio."
+  },
+  "Mortal Spin": {
+    "name": "Glitturbine",
+    "description": "Il Pokémon si libera dagli stati Imprigionamento e Seme parassita, e rimuove gli stati Punte, Punte velenose, Rete vischiosa e Rocce levitanti dal suo campo di lotta. Causa inoltre lo stato Avvelenamento al bersaglio."
+  },
+  "Kowtow Cleave": {
+    "name": "Genufendente",
+    "description": "Questa mossa va sempre a segno."
+  },
+  "Flower Trick": {
+    "name": "Prestigiafiore",
+    "description": "Questa mossa va sempre a segno e risulta sempre in un brutto colpo."
+  },
+  "Torch Song": {
+    "name": "Canzone Ardente",
+    "description": "Il Pokémon aumenta di 1 grado il suo Attacco Speciale."
+  },
+  "Aqua Step": {
+    "name": "Idroballetto",
+    "description": "Il Pokémon aumenta di 1 grado la sua Velocità."
+  },
+  "Raging Bull": {
+    "name": "Scatenatoro",
+    "description": "Il Pokémon attacca rimuovendo gli stati Schermo di luce, Riflesso e Velo dell’aurora dal campo di lotta avversario. Il tipo di questa mossa cambia in base alla forma di chi la usa."
+  },
+  "Make It Rain": {
+    "name": "Make It Rain",
+    "description": "—"
+  },
+  "Ruination": {
+    "name": "Ruination",
+    "description": "Dimezza i PS attuali del bersaglio."
+  },
+  "Collision Course": {
+    "name": "Collision Course",
+    "description": "La potenza effettiva aumenta più del normale se la mossa è superefficace."
+  },
+  "Electro Drift": {
+    "name": "Electro Drift",
+    "description": "La potenza effettiva aumenta più del normale se la mossa è superefficace."
+  },
+  "Psyblade": {
+    "name": "Psyblade",
+    "description": "—"
+  },
+  "Shed Tail": {
+    "name": "Tagliacoda",
+    "description": "Il Pokémon perde metà dei suoi PS massimi, crea un sostituto e poi si fa sostituire da un compagno di squadra. Il sostituto viene colpito dalle mosse al posto del Pokémon e sparisce dopo aver subito danni pari a 1/4 dei PS massimi del Pokémon che lo ha creato."
+  },
+  "Chilly Reception": {
+    "name": "Freddura",
+    "description": "Il Pokémon causa lo stato Neve per 5 turni e si fa sostituire da un compagno di squadra."
+  },
+  "Tidy Up": {
+    "name": "Pulizie",
+    "description": "Il Pokémon rimuove gli stati Rete vischiosa, Rocce levitanti, Sostituto, Punte e Punte velenose dall’intero campo di lotta, e aumenta di 1 grado il suo Attacco e la sua Velocità."
+  },
+  "Snowscape": {
+    "name": "Vista Innevata",
+    "description": "Il Pokémon causa lo stato Neve per 5 turni."
+  },
+  "Pounce": {
+    "name": "Balzo",
+    "description": "Il Pokémon riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Trailblaze": {
+    "name": "Apripista",
+    "description": "Il Pokémon aumenta di 1 grado la sua Velocità."
+  },
+  "Chilling Water": {
+    "name": "Doccia Fredda",
+    "description": "Il Pokémon riduce di 1 grado l’Attacco del bersaglio."
+  },
+  "Twin Beam": {
+    "name": "Doppioraggio",
+    "description": "Il Pokémon colpisce 2 volte di fila."
+  },
+  "Armor Cannon": {
+    "name": "Corazza Cannone",
+    "description": "Il Pokémon riduce di 1 grado la sua Difesa e la sua Difesa Speciale."
+  },
+  "Bitter Blade": {
+    "name": "Lama del Rimorso",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio."
+  },
+  "Gigaton Hammer": {
+    "name": "Granmartello",
+    "description": "Questa mossa non può essere usata 2 volte di fila."
+  },
+  "Comeuppance": {
+    "name": "Ritorsione",
+    "description": "Se il Pokémon ha subito danni da una mossa durante il turno in corso, infligge a chi lo ha colpito il 150% dei danni ricevuti."
+  },
+  "Aqua Cutter": {
+    "name": "Idrotaglio",
+    "description": "Il Pokémon attacca con lo stato Brutto colpo+1."
+  },
+  "Blood Moon": {
+    "name": "Blood Moon",
+    "description": "Questa mossa non può essere usata per due turni consecutivi."
+  },
+  "Matcha Gotcha": {
+    "name": "Spruzzatè",
+    "description": "Il Pokémon recupera PS pari alla metà dei danni inflitti al bersaglio, e ha il 20% di probabilità di causargli lo stato Scottatura."
+  },
+  "Syrup Bomb": {
+    "name": "Bomba Sciroppata",
+    "description": "Il Pokémon causa al bersaglio lo stato Ricoperto di sciroppo per 3 turni."
+  },
+  "Ivy Cudgel": {
+    "name": "Ivy Cudgel",
+    "description": "—"
+  },
+  "Electro Shot": {
+    "name": "Elettroraggio",
+    "description": "Il Pokémon entra nello stato Carica e aumenta di 1 grado il suo Attacco Speciale nel turno in corso, poi attacca in quello seguente. Se lo stato Pioggia è attivo, il Pokémon non entra nello stato Carica e può attaccare immediatamente."
+  },
+  "Tera Starstorm": {
+    "name": "Tera Starstorm",
+    "description": "Se usata da Terapagos in forma Stellare, colpisce tutti i Pokémon avversari."
+  },
+  "Fickle Beam": {
+    "name": "Irregolaser",
+    "description": "La potenza di questa mossa ha il 30% di probabilità di raddoppiare."
+  },
+  "Burning Bulwark": {
+    "name": "Burning Bulwark",
+    "description": "Protegge l’utilizzatore dagli attacchi e scotta chiunque lo colpisca con una mossa da contatto."
+  },
+  "Thunderclap": {
+    "name": "Thunderclap",
+    "description": "—"
+  },
+  "Tachyon Cutter": {
+    "name": "Tachyon Cutter",
+    "description": "Lancia due lame di particelle contro il bersaglio in due colpi consecutivi. La mossa non manca."
+  },
+  "Hard Press": {
+    "name": "Pressa d’Acciaio",
+    "description": "Più alti sono i PS residui del bersaglio, maggiore è la potenza della mossa, da un minimo di 1 a un massimo di 100."
+  },
+  "Dragon Cheer": {
+    "name": "Grido del Drago",
+    "description": "Il Pokémon fa entrare l’alleato nello stato Brutto colpo+1. Se l’alleato è di tipo Drago, entra nello stato Brutto colpo+2."
+  },
+  "Alluring Voice": {
+    "name": "Ammaliavoce",
+    "description": "Se una delle statistiche del bersaglio è stata aumentata durante il turno in corso, il Pokémon gli causa lo stato Confusione."
+  },
+  "Temper Flare": {
+    "name": "Rabbia Bruciante",
+    "description": "La potenza della mossa raddoppia se nel turno precedente il Pokémon non ha potuto agire, se la sua mossa ha fallito o se non è andata a segno."
+  },
+  "Supercell Slam": {
+    "name": "Elettrotuffo",
+    "description": "Se questa mossa non va a segno o fallisce, il Pokémon subisce danni pari alla metà dei suoi PS massimi. Se il bersaglio è affetto dallo stato Minimizzato, la mossa va sempre a segno e la sua potenza raddoppia."
+  },
+  "Psychic Noise": {
+    "name": "Psicorumore",
+    "description": "Il Pokémon causa lo stato Cura disabilitata al bersaglio per 2 turni."
+  },
+  "Upper Hand": {
+    "name": "Colpo di Mano",
+    "description": "Il Pokémon fa tentennare il bersaglio. Se quest’ultimo non ha scelto di usare una mossa ad alta priorità, questa mossa fallisce."
+  }
+}
