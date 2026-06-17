@@ -766,5 +766,41 @@
   "Zero to Hero": {
     "name": "Supercambio",
     "description": "Quando lascia il campo, il Pokémon si trasforma nella sua Forma Eroe."
+  },
+  "Elevate": {
+    "name": "Eelevazione",
+    "description": "Fornisce immunità alle mosse di tipo Terra e alle trappole d'ingresso. Aumenta la statistica più alta di 1 livello quando manda KO un bersaglio."
+  },
+  "Fire Mane": {
+    "name": "Criniera di Fuoco",
+    "description": "Aumenta la potenza delle mosse di tipo Fuoco del Pokémon del 50%."
+  },
+  "Suction Cups": {
+    "name": "Ventose",
+    "description": "Il Pokémon si ancora con le ventose e non può essere costretto a sostituirsi da mosse o oggetti."
+  },
+  "Battle Armor": {
+    "name": "Lottacorazza",
+    "description": "Protegge il Pokémon dai brutti colpi grazie a una robusta corazza."
+  },
+  "Electric Surge": {
+    "name": "Elettrogenesi",
+    "description": "Quando entra in campo, il Pokémon crea un Campo Elettrico."
+  },
+  "Fluffy": {
+    "name": "Morbido",
+    "description": "Dimezza i danni subiti da mosse di contatto, ma raddoppia quelli subiti da mosse di tipo Fuoco."
+  },
+  "Forewarn": {
+    "name": "Preveggenza",
+    "description": "All'ingresso in campo, il Pokémon rileva la mossa avversaria con la potenza più elevata."
+  },
+  "Good as Gold": {
+    "name": "Corpodoro",
+    "description": "Il Pokémon è immune alle mosse di stato utilizzate dagli altri Pokémon."
+  },
+  "Effect Spore": {
+    "name": "Spargispora",
+    "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di venire avvelenato, paralizzato o addormentato."
   }
 }

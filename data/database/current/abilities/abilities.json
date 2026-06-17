@@ -954,5 +954,55 @@
     "name": "Zero to Hero",
     "description": "If this Pokemon is a Palafin in Zero Form, switching out has it change to Hero Form.",
     "championsVerified": true
+  },
+  {
+    "name": "Elevate",
+    "description": "This Pokemon is immune to Ground-type moves and entry hazards (Spikes, Toxic Spikes, Sticky Web). Its highest stat is raised by 1 stage when it knocks out another Pokemon.",
+    "championsVerified": true
+  },
+  {
+    "name": "Fire Mane",
+    "description": "This Pokemon's Fire-type moves have their power multiplied by 1.5.",
+    "championsVerified": true
+  },
+  {
+    "name": "Suction Cups",
+    "description": "This Pokemon cannot be forced to switch out by another Pokemon's attack or item.",
+    "championsVerified": true
+  },
+  {
+    "name": "Battle Armor",
+    "description": "This Pokemon cannot be struck by a critical hit.",
+    "championsVerified": true
+  },
+  {
+    "name": "Electric Surge",
+    "description": "On switch-in, this Pokemon summons Electric Terrain.",
+    "championsVerified": true
+  },
+  {
+    "name": "Vital Spirit",
+    "description": "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
+    "championsVerified": true
+  },
+  {
+    "name": "Fluffy",
+    "description": "This Pokemon takes halved damage from contact moves, but doubled damage from Fire-type moves.",
+    "championsVerified": true
+  },
+  {
+    "name": "Forewarn",
+    "description": "On switch-in, this Pokemon is alerted to the opposing Pokemon's move with the highest power.",
+    "championsVerified": true
+  },
+  {
+    "name": "Good as Gold",
+    "description": "This Pokemon is immune to other Pokemon's status moves.",
+    "championsVerified": true
+  },
+  {
+    "name": "Effect Spore",
+    "description": "30% chance a Pokemon making contact with this Pokemon will be poisoned, paralyzed, or put to sleep.",
+    "championsVerified": true
   }
 ]

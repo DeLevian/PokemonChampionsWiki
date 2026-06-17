@@ -51,6 +51,8 @@ export class PokedexView {
         this.filteredList = [];
         this.listMode = 'champions';
         this.activeSection = 'all'; // 'all' (Pokedex) or 'mega' (Mega only)
+        this.compareModeActive = false;
+        this.selectedForCompare = [];
     }
 
     getSpriteUrl(pokemon, type = null) {
@@ -64,7 +66,27 @@ export class PokedexView {
 
         // Costruiamo il nome formattato per il file (es: "Mega Venusaur") 
         // se pokemon è un oggetto, usiamo direttamente pokemon.name che è già formattato
-        const fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
+        let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
+
+        // Gestione dei nuovi file sprite delle Mega Evoluzioni (es. "Sceptile Mega" invece di "Mega Sceptile")
+        const flippedMegas = [
+            "Sceptile", "Blaziken", "Swampert", "Mawile", "Metagross",
+            "Staraptor", "Scolipede", "Scrafty", "Eelektross", "Pyroar",
+            "Malamar", "Barbaracle", "Dragalge", "Falinks", "Raichu"
+        ];
+        if (fileName.startsWith("Mega ")) {
+            const base = fileName.substring(5); // e.g. "Sceptile" o "Raichu X"
+            const match = flippedMegas.find(m => base.startsWith(m));
+            if (match) {
+                if (base.endsWith(" X") || base.endsWith(" Y")) {
+                    const suffix = base.slice(-2); // " X" or " Y"
+                    const mainName = base.slice(0, -2);
+                    fileName = `${mainName} Mega${suffix}`; // "Raichu Mega X"
+                } else {
+                    fileName = `${base} Mega`; // "Sceptile Mega"
+                }
+            }
+        }
 
         const paths = {
             'artwork': `data/sprites/pokemon/artwork/${fileName}.png`,
@@ -161,7 +183,7 @@ export class PokedexView {
 
         return `
             <div class="grouped-section section-effectiveness">
-                <h3><i class="icon">🛡️</i> Difesa e Debolezze</h3>
+                <h3><i class="icon"></i> Difesa e Debolezze</h3>
                 <div class="eff-grid-layout">
                     <div class="eff-column">
                         ${renderGroup('Debolezze Critiche (x4)', groups.weak4, 'eff-weak-critical')}
@@ -211,6 +233,29 @@ export class PokedexView {
             this.visibleCount = 80;
             this.renderGrid();
         });
+
+        this.viewModeSelect = document.getElementById('view-mode-select');
+        this.viewMode = 'grid'; // default view mode
+        this.listSortKey = 'id';
+        this.listSortOrder = 'asc';
+
+        if (this.viewModeSelect) {
+            this.viewModeSelect.addEventListener('change', (e) => {
+                this.viewMode = e.target.value;
+                this.visibleCount = 80;
+
+                if (this.grid) {
+                    this.grid.className = 'pokemon-grid';
+                    if (this.viewMode === 'compact') {
+                        this.grid.classList.add('compact');
+                    } else if (this.viewMode === 'list') {
+                        this.grid.classList.add('list-view');
+                    }
+                }
+
+                this.renderGrid();
+            });
+        }
 
         this.modeSelect = document.getElementById('list-mode-select');
         if (this.modeSelect) {
@@ -266,6 +311,13 @@ export class PokedexView {
             }
         };
         window.addEventListener('scroll', this._scrollHandler);
+
+        const initCompareBtn = document.getElementById('init-compare-btn');
+        if (initCompareBtn) {
+            initCompareBtn.addEventListener('click', () => {
+                this.toggleCompareMode();
+            });
+        }
 
         // Initial render
         this.renderGrid();
@@ -399,46 +451,189 @@ export class PokedexView {
                 return true;
             });
 
-            this.filteredList.sort((a, b) => {
-                const specA = a.dexId || a.id || 0;
-                const specB = b.dexId || b.id || 0;
-                if (specA !== specB) return specA - specB;
-                return (a.name || "").localeCompare(b.name || "");
-            });
+            if (this.viewMode === 'list' && this.listSortKey) {
+                const getStat = (p, statName) => {
+                    const s = p.stats ? p.stats.find(st => st.name === statName) : null;
+                    return s ? s.base_stat : 0;
+                };
+                const getBst = (p) => {
+                    return p.stats ? p.stats.reduce((acc, st) => acc + (st.base_stat || 0), 0) : 0;
+                };
+
+                this.filteredList.sort((a, b) => {
+                    let valA, valB;
+                    if (this.listSortKey === 'id') {
+                        valA = a.dexId || a.id || 0;
+                        valB = b.dexId || b.id || 0;
+                    } else if (this.listSortKey === 'name') {
+                        valA = a.name_it || a.name || '';
+                        valB = b.name_it || b.name || '';
+                    } else if (this.listSortKey === 'bst') {
+                        valA = getBst(a);
+                        valB = getBst(b);
+                    } else {
+                        valA = getStat(a, this.listSortKey);
+                        valB = getStat(b, this.listSortKey);
+                    }
+
+                    let comp = 0;
+                    if (typeof valA === 'string') {
+                        comp = valA.localeCompare(valB);
+                    } else {
+                        comp = valA - valB;
+                    }
+                    return this.listSortOrder === 'asc' ? comp : -comp;
+                });
+            } else {
+                this.filteredList.sort((a, b) => {
+                    const specA = a.dexId || a.id || 0;
+                    const specB = b.dexId || b.id || 0;
+                    if (specA !== specB) return specA - specB;
+                    return (a.name || "").localeCompare(b.name || "");
+                });
+            }
 
             if (this.countDisplay) {
                 this.countDisplay.textContent = `${this.filteredList.length} Pokemon trovati`;
             }
         }
 
-        const renderCard = (p) => {
-            const typesHTML = (p._cachedTypes || []).map(t => `<span class="type ${t}" title="${TYPE_LABELS[t] || t.toUpperCase()}">${TYPE_LABELS[t] || t.toUpperCase()}</span>`).join('');
-            const spriteStr = this.getSpriteUrl(p, 'artwork');
-            const displayName = p.name_it || (p.name ? p.name.charAt(0).toUpperCase() + p.name.slice(1).replace(/-/g, ' ') : `Pokémon #${p.id}`);
-            
-            return `
-                <div class="pokemon-card" data-name="${p.name}">
-                    <img src="${spriteStr}" alt="${displayName}" loading="lazy" onerror="window.pokedexView.handleImageError(this, '${p.name}', 'standard')">
-                    <div class="pokemon-meta">
-                        <span class="pokemon-id">#${String(p.species_id || p.id).padStart(4, '0')}</span>
-                        <h3 class="pokemon-name">${displayName}</h3>
-                        <div class="pokemon-types">${typesHTML}</div>
-                    </div>
-                </div>
+        if (this.viewMode === 'list') {
+            const getStat = (p, statName) => {
+                const s = p.stats ? p.stats.find(st => st.name === statName) : null;
+                return s ? s.base_stat : 0;
+            };
+            const getBst = (p) => {
+                return p.stats ? p.stats.reduce((acc, st) => acc + (st.base_stat || 0), 0) : 0;
+            };
+
+            const sortClass = (key) => {
+                if (this.listSortKey !== key) return 'class="sortable"';
+                return `class="sortable active-sort ${this.listSortOrder}"`;
+            };
+
+            let tableHtml = `
+                <table class="pokedex-list-table">
+                    <thead>
+                        <tr>
+                            <th ${sortClass('id')} data-sort="id">ID</th>
+                            <th>Sprite</th>
+                            <th ${sortClass('name')} data-sort="name">Nome</th>
+                            <th>Tipi</th>
+                            <th ${sortClass('hp')} data-sort="hp" class="col-stat">HP</th>
+                            <th ${sortClass('attack')} data-sort="attack" class="col-stat">Att</th>
+                            <th ${sortClass('defense')} data-sort="defense" class="col-stat">Dif</th>
+                            <th ${sortClass('special-attack')} data-sort="special-attack" class="col-stat">SpA</th>
+                            <th ${sortClass('special-defense')} data-sort="special-defense" class="col-stat">SpD</th>
+                            <th ${sortClass('speed')} data-sort="speed" class="col-stat">Vel</th>
+                            <th ${sortClass('bst')} data-sort="bst" class="col-bst">BST</th>
+                        </tr>
+                    </thead>
+                    <tbody>
             `;
-        };
 
-        const sliced = this.filteredList.slice(0, this.visibleCount);
-        let finalHtml = sliced.map(renderCard).join('');
+            const sliced = this.filteredList.slice(0, this.visibleCount);
+            tableHtml += sliced.map(p => {
+                const spriteStr = this.getSpriteUrl(p, 'artwork');
+                const displayName = p.name_it || (p.name ? p.name.charAt(0).toUpperCase() + p.name.slice(1).replace(/-/g, ' ') : `Pokémon #${p.id}`);
+                const typesHTML = (p._cachedTypes || []).map(t => `<span class="type ${t}" title="${TYPE_LABELS[t] || t.toUpperCase()}">${TYPE_LABELS[t] || t.toUpperCase()}</span>`).join('');
+                
+                const hp = getStat(p, 'hp');
+                const atk = getStat(p, 'attack');
+                const def = getStat(p, 'defense');
+                const spa = getStat(p, 'special-attack');
+                const spd = getStat(p, 'special-defense');
+                const spe = getStat(p, 'speed');
+                const bst = getBst(p);
 
-        if (this.filteredList.length === 0) {
-            this.grid.innerHTML = `<div class="muted" style="grid-column: 1/-1; text-align: center; padding: 2rem;">Nessun Pokémon trovato con questi filtri.</div>`;
+                return `
+                    <tr data-name="${p.name}">
+                        <td class="col-id">#${String(p.dexId || p.id).padStart(4, '0')}</td>
+                        <td><img src="${spriteStr}" class="table-sprite" onerror="window.pokedexView.handleImageError(this, '${p.name}', 'standard')"></td>
+                        <td><strong>${displayName}</strong></td>
+                        <td><div class="pokemon-types">${typesHTML}</div></td>
+                        <td class="col-stat">${hp}</td>
+                        <td class="col-stat">${atk}</td>
+                        <td class="col-stat">${def}</td>
+                        <td class="col-stat">${spa}</td>
+                        <td class="col-stat">${spd}</td>
+                        <td class="col-stat ${spe >= 100 ? 'high-speed' : ''}"><strong>${spe}</strong></td>
+                        <td class="col-bst">${bst}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            tableHtml += `
+                    </tbody>
+                </table>
+            `;
+
+            if (this.filteredList.length === 0) {
+                this.grid.innerHTML = `<div class="muted" style="text-align: center; padding: 2rem;">Nessun Pokémon trovato con questi filtri.</div>`;
+            } else {
+                this.grid.innerHTML = tableHtml;
+            }
+
+            // Click handler on table rows
+            const rows = this.grid.querySelectorAll('tbody tr');
+            rows.forEach(row => {
+                row.addEventListener('click', () => {
+                    const name = row.dataset.name;
+                    if (name) this.handlePokemonClick(name, row);
+                });
+            });
+
+            // Sort handler on column headers
+            const headers = this.grid.querySelectorAll('thead th[data-sort]');
+            headers.forEach(th => {
+                th.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const sortKey = th.dataset.sort;
+                    if (this.listSortKey === sortKey) {
+                        this.listSortOrder = this.listSortOrder === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        this.listSortKey = sortKey;
+                        this.listSortOrder = ['id', 'name'].includes(sortKey) ? 'asc' : 'desc';
+                    }
+                    this.renderGrid();
+                });
+            });
+
         } else {
-            this.grid.innerHTML = finalHtml;
-        }
+            const renderCard = (p) => {
+                const typesHTML = (p._cachedTypes || []).map(t => `<span class="type ${t}" title="${TYPE_LABELS[t] || t.toUpperCase()}">${TYPE_LABELS[t] || t.toUpperCase()}</span>`).join('');
+                const spriteStr = this.getSpriteUrl(p, 'artwork');
+                const displayName = p.name_it || (p.name ? p.name.charAt(0).toUpperCase() + p.name.slice(1).replace(/-/g, ' ') : `Pokémon #${p.id}`);
+                
+                return `
+                    <div class="pokemon-card" data-name="${p.name}">
+                        <img src="${spriteStr}" alt="${displayName}" loading="lazy" onerror="window.pokedexView.handleImageError(this, '${p.name}', 'standard')">
+                        <div class="pokemon-meta">
+                            <span class="pokemon-id">#${String(p.species_id || p.id).padStart(4, '0')}</span>
+                            <h3 class="pokemon-name">${displayName}</h3>
+                            <div class="pokemon-types">${typesHTML}</div>
+                        </div>
+                    </div>
+                `;
+            };
 
-        const cards = this.grid.querySelectorAll('.pokemon-card');
-        cards.forEach(card => card.addEventListener('click', () => this.openDetails(card.dataset.name)));
+            const sliced = this.filteredList.slice(0, this.visibleCount);
+            let finalHtml = sliced.map(renderCard).join('');
+
+            if (this.filteredList.length === 0) {
+                this.grid.innerHTML = `<div class="muted" style="grid-column: 1/-1; text-align: center; padding: 2rem;">Nessun Pokémon trovato con questi filtri.</div>`;
+            } else {
+                this.grid.innerHTML = finalHtml;
+            }
+
+            const cards = this.grid.querySelectorAll('.pokemon-card');
+            cards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const name = card.dataset.name;
+                    if (name) this.handlePokemonClick(name, card);
+                });
+            });
+        }
     }
 
     async openDetails(id) {
@@ -632,7 +827,7 @@ export class PokedexView {
         if (data.species && data.species.gender_rate !== -1) {
             const femaleChance = (data.species.gender_rate / 8) * 100;
             const maleChance = 100 - femaleChance;
-            genderHtml = `<span style="color:#60a5fa;">♂ ${maleChance}%</span> / <span style="color:#f472b6;">♀ ${femaleChance}%</span>`;
+            genderHtml = `<span style="color:#60a5fa;"> ${maleChance}%</span> / <span style="color:#f472b6;"> ${femaleChance}%</span>`;
         }
 
         const bst = (data.stats || []).reduce((acc, s) => acc + s.base_stat, 0);
@@ -740,9 +935,9 @@ export class PokedexView {
                     <button class="modal-close" id="modal-close">&times;</button>
                     <div class="modal-header">
                         <div class="header-titles">
-                            <div style="display:flex; align-items:center; gap:10px;">
-                                <h2 style="text-transform: capitalize;">${targetTitle.replace(/-/g, ' ')}</h2>
-                                <div class="pokemon-types" style="margin-top:0;">${(data.types || []).map(t => `<span class="type-badge-header ${t}"><i class="type-icon-colored ${t}" style="-webkit-mask-image: url('assets/icons/types/${t}.svg'); mask-image: url('assets/icons/types/${t}.svg');"></i></span>`).join('')}</div>
+                            <div style="display:flex; align-items:center; gap:10px; flex-wrap: wrap;">
+                                <h2 style="text-transform: capitalize; margin: 0;">${targetTitle.replace(/-/g, ' ')}</h2>
+                                <div class="pokemon-types" style="margin-top:0; display: flex;">${(data.types || []).map(t => `<span class="type-badge-header ${t}"><i class="type-icon-colored ${t}" style="-webkit-mask-image: url('assets/icons/types/${t}.svg'); mask-image: url('assets/icons/types/${t}.svg');"></i></span>`).join('')}</div>
                             </div>
                             <span class="muted dex-num">#${String(data.id).padStart(4, '0')}</span>
                         </div>
@@ -757,12 +952,12 @@ export class PokedexView {
                         ${this.renderEffectiveness(data.types || [])}
 
                         <div class="grouped-section section-stats">
-                            <h3><i class="icon">📊</i> Statistiche Base</h3>
+                            <h3><i class="icon"></i> Statistiche Base</h3>
                             <div class="stats-container">${statsHtml}</div>
                         </div>
 
                         <div class="grouped-section section-bio">
-                            <h3><i class="icon">📏</i> Biometria</h3>
+                            <h3><i class="icon"></i> Biometria</h3>
                             <div class="bio-grid">
                                 <div><span class="muted">Altezza: </span><strong>${data.height ? (data.height / 10).toFixed(1) + ' m' : '--'}</strong></div>
                                 <div><span class="muted">Peso: </span><strong>${data.weight ? (data.weight / 10).toFixed(1) + ' kg' : '--'}</strong></div>
@@ -774,14 +969,14 @@ export class PokedexView {
                         ${evolutionHtml}
 
                         <div class="grouped-section section-abilities">
-                            <h3><i class="icon">✨</i> Abilità</h3>
+                            <h3><i class="icon"></i> Abilità</h3>
                             <div class="abilities-container">${abilitiesHtml}</div>
                         </div>
 
                         <div class="grouped-section section-moves">
                             <div class="section-header-row">
                                 <div class="title-inline-wrap">
-                                    <h3><i class="icon">⚔️</i> Mosse Disponibili</h3>
+                                    <h3><i class="icon"></i> Mosse Disponibili</h3>
                                     <span class="total-badge">${movesResult.count} mosse</span>
                                 </div>
                             </div>
@@ -805,6 +1000,8 @@ export class PokedexView {
                 }
             });
         });
+
+        // Setup comparison button removed (initiated from home screen instead)
 
         document.getElementById('modal-close').onclick = () => modalsRoot.innerHTML = '';
         document.getElementById('modal-backdrop').onclick = (e) => { if (e.target.id === 'modal-backdrop') modalsRoot.innerHTML = ''; };
@@ -941,7 +1138,7 @@ export class PokedexView {
         
         return `
             <div class="grouped-section section-evolutions">
-                <h3><i class="icon">🔄</i> Catena Evolutiva / Forme</h3>
+                <h3><i class="icon"></i> Catena Evolutiva / Forme</h3>
                 ${chainHtml ? `<div class="evo-chain">${chainHtml}</div>` : ''}
                 ${formsHtml}
             </div>
@@ -1067,5 +1264,472 @@ export class PokedexView {
 
         modal.querySelector('.sub-modal-close').onclick = () => modal.remove();
         modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+    }
+
+    handlePokemonClick(name, element) {
+        if (this.compareModeActive) {
+            const pkm = this.pokemonList.find(p => p.name === name);
+            if (!pkm) return;
+
+            const index = this.selectedForCompare.findIndex(p => p.name === name);
+            if (index > -1) {
+                // Deselect
+                this.selectedForCompare.splice(index, 1);
+                element.classList.remove('card-compare-selected');
+                element.removeAttribute('data-compare-index');
+            } else {
+                // Select
+                if (this.selectedForCompare.length < 2) {
+                    this.selectedForCompare.push(pkm);
+                    element.classList.add('card-compare-selected');
+                    element.setAttribute('data-compare-index', this.selectedForCompare.length);
+                }
+                
+                if (this.selectedForCompare.length === 2) {
+                    const [p1, p2] = this.selectedForCompare;
+                    
+                    // Exit comparison mode on Home page first to clean up UI
+                    this.toggleCompareMode(false);
+                    
+                    // Open the comparison modal
+                    this.openComparisonModal(p1, p2);
+                }
+            }
+        } else {
+            this.openDetails(name);
+        }
+    }
+
+    toggleCompareMode(forceState) {
+        const btn = document.getElementById('init-compare-btn');
+        
+        this.compareModeActive = forceState !== undefined ? forceState : !this.compareModeActive;
+        
+        let banner = document.getElementById('compare-selection-banner');
+        if (!banner) {
+            banner = document.createElement('div');
+            banner.id = 'compare-selection-banner';
+            banner.className = 'compare-banner-info hidden';
+            banner.textContent = 'Modalità Confronto: seleziona 2 Pokémon dalla griglia per iniziare';
+            const countDiv = document.getElementById('pokemon-count');
+            if (countDiv) {
+                countDiv.parentNode.insertBefore(banner, countDiv.nextSibling);
+            }
+        }
+        
+        if (this.compareModeActive) {
+            this.selectedForCompare = [];
+            if (btn) {
+                btn.textContent = 'Annulla';
+                btn.classList.add('active');
+            }
+            if (banner) {
+                banner.classList.remove('hidden');
+            }
+            if (this.grid) {
+                this.grid.classList.add('compare-selection-mode');
+            }
+        } else {
+            this.selectedForCompare = [];
+            if (btn) {
+                btn.textContent = 'Confronta';
+                btn.classList.remove('active');
+            }
+            if (banner) {
+                banner.classList.add('hidden');
+            }
+            if (this.grid) {
+                this.grid.classList.remove('compare-selection-mode');
+                this.grid.querySelectorAll('.card-compare-selected').forEach(el => {
+                    el.classList.remove('card-compare-selected');
+                    el.removeAttribute('data-compare-index');
+                });
+            }
+        }
+    }
+
+    openComparisonModal(pkm1, pkm2) {
+        const modalsRoot = document.getElementById('modals-root');
+        if (!modalsRoot) return;
+
+        // Sort all Pokémon alphabetically for selector dropdowns
+        const sortedList = [...this.pokemonList].sort((a, b) => {
+            const nameA = a.name_it || a.name || '';
+            const nameB = b.name_it || b.name || '';
+            return nameA.localeCompare(nameB);
+        });
+
+        // Helper to generate options with selection
+        const makeOptions = (selectedPkm) => {
+            return sortedList.map(p => {
+                const isSelected = selectedPkm && p.name === selectedPkm.name ? 'selected' : '';
+                return `<option value="${p.name}" ${isSelected}>${p.name_it || p.name}</option>`;
+            }).join('');
+        };
+
+        // Header and selectors HTML
+        let modalHtml = `
+            <div class="modal-backdrop" id="compare-modal-backdrop">
+                <div class="modal-content" style="max-width: 750px; padding: 1.5rem;">
+                    <button class="modal-close" id="compare-modal-close">&times;</button>
+                    
+                    <div class="modal-header" style="padding: 0 0 1rem 0; border-bottom: 1px solid var(--border);">
+                        <h2 style="margin: 0;"> Confronto Pokémon</h2>
+                        <div class="muted">Champions Regulation M-B</div>
+                    </div>
+
+                    <div class="modal-body" style="padding: 1rem 0 0 0; background: transparent;">
+                        
+                        <!-- Selectors -->
+                        <div class="compare-selectors" style="display: flex; gap: 1rem; align-items: center; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
+                            <div style="flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 0.5rem;">
+                                <label style="font-size: 0.85rem; color: var(--muted); font-weight: 500;">Pokémon 1</label>
+                                <select id="compare-select-1" class="game-select" style="width: 100%;">
+                                    <option value="">Seleziona...</option>
+                                    ${makeOptions(pkm1)}
+                                </select>
+                            </div>
+                            <div style="font-weight: bold; color: var(--accent); font-size: 1.2rem; margin-top: 1.2rem;">VS</div>
+                            <div style="flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 0.5rem;">
+                                <label style="font-size: 0.85rem; color: var(--muted); font-weight: 500;">Pokémon 2</label>
+                                <select id="compare-select-2" class="game-select" style="width: 100%;">
+                                    <option value="">Seleziona...</option>
+                                    ${makeOptions(pkm2)}
+                                </select>
+                            </div>
+                        </div>
+        `;
+
+        if (!pkm1 || !pkm2) {
+            // Placeholder view
+            modalHtml += `
+                        <div class="compare-placeholder" style="text-align: center; padding: 3rem 1rem; color: var(--muted);">
+                            <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.3;">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="display: inline-block;">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M8 12h8"/>
+                                    <path d="M12 8v8"/>
+                                </svg>
+                            </div>
+                            <p style="margin: 0; font-size: 1.1rem; font-weight: 500;">Seleziona due Pokémon dai menu a tendina per confrontare le loro statistiche e velocità.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+            modalsRoot.innerHTML = modalHtml;
+
+            // Close modal event listeners
+            const closeModal = () => modalsRoot.innerHTML = '';
+            document.getElementById('compare-modal-close').onclick = closeModal;
+            document.getElementById('compare-modal-backdrop').onclick = (e) => {
+                if (e.target.id === 'compare-modal-backdrop') closeModal();
+            };
+
+            // Setup select dropdown listeners
+            document.getElementById('compare-select-1').addEventListener('change', (e) => {
+                const val = e.target.value;
+                const nextPkm1 = val ? this.pokemonList.find(p => p.name === val) : null;
+                this.openComparisonModal(nextPkm1, pkm2);
+            });
+            document.getElementById('compare-select-2').addEventListener('change', (e) => {
+                const val = e.target.value;
+                const nextPkm2 = val ? this.pokemonList.find(p => p.name === val) : null;
+                this.openComparisonModal(pkm1, nextPkm2);
+            });
+
+            return;
+        }
+
+        // Full Comparison Layout (both selected)
+        const sprite1 = this.getSpriteUrl(pkm1, 'artwork');
+        const sprite2 = this.getSpriteUrl(pkm2, 'artwork');
+
+        const name1 = pkm1.name_it || pkm1.name;
+        const name2 = pkm2.name_it || pkm2.name;
+
+        const types1HTML = (pkm1.types || []).map(t => `<span class="type ${t}">${TYPE_LABELS[t] || t.toUpperCase()}</span>`).join('');
+        const types2HTML = (pkm2.types || []).map(t => `<span class="type ${t}">${TYPE_LABELS[t] || t.toUpperCase()}</span>`).join('');
+
+        const getStat = (p, statName) => {
+            const s = p.stats ? p.stats.find(st => st.name === statName) : null;
+            return s ? s.base_stat : 0;
+        };
+
+        const hp1 = getStat(pkm1, 'hp');
+        const hp2 = getStat(pkm2, 'hp');
+        const atk1 = getStat(pkm1, 'attack');
+        const atk2 = getStat(pkm2, 'attack');
+        const def1 = getStat(pkm1, 'defense');
+        const def2 = getStat(pkm2, 'defense');
+        const spa1 = getStat(pkm1, 'special-attack');
+        const spa2 = getStat(pkm2, 'special-attack');
+        const spd1 = getStat(pkm1, 'special-defense');
+        const spd2 = getStat(pkm2, 'special-defense');
+        const spe1 = getStat(pkm1, 'speed');
+        const spe2 = getStat(pkm2, 'speed');
+
+        const bst1 = hp1 + atk1 + def1 + spa1 + spd1 + spe1;
+        const bst2 = hp2 + atk2 + def2 + spa2 + spd2 + spe2;
+
+        const statCompareRow = (label, val1, val2) => {
+            const pct1 = Math.min(100, (val1 / 160) * 100);
+            const pct2 = Math.min(100, (val2 / 160) * 100);
+            const class1 = val1 > val2 ? 'better' : (val1 < val2 ? 'worse' : '');
+            const class2 = val2 > val1 ? 'better' : (val2 < val1 ? 'worse' : '');
+
+            return `
+                <div class="compare-stat-row">
+                    <span class="compare-stat-val ${class1}">${val1}</span>
+                    <div class="compare-bar-container">
+                        <div class="compare-bar left" style="width: ${pct1}%"></div>
+                    </div>
+                    <span class="compare-stat-lbl">${label}</span>
+                    <div class="compare-bar-container">
+                        <div class="compare-bar right" style="width: ${pct2}%"></div>
+                    </div>
+                    <span class="compare-stat-val ${class2}">${val2}</span>
+                </div>
+            `;
+        };
+
+        const bstCompareRow = (val1, val2) => {
+            const pct1 = Math.min(100, (val1 / 720) * 100);
+            const pct2 = Math.min(100, (val2 / 720) * 100);
+            const class1 = val1 > val2 ? 'better' : (val1 < val2 ? 'worse' : '');
+            const class2 = val2 > val1 ? 'better' : (val2 < val1 ? 'worse' : '');
+
+            return `
+                <div class="compare-stat-row" style="margin-top: 1rem; border-top: 1px dashed var(--border); padding-top: 0.75rem;">
+                    <span class="compare-stat-val ${class1}" style="color:var(--accent);">${val1}</span>
+                    <div class="compare-bar-container" style="height: 12px;">
+                        <div class="compare-bar left" style="width: ${pct1}%; background:var(--accent);"></div>
+                    </div>
+                    <span class="compare-stat-lbl" style="color:var(--accent); font-size: 0.9rem;">BST</span>
+                    <div class="compare-bar-container" style="height: 12px;">
+                        <div class="compare-bar right" style="width: ${pct2}%; background:#3b82f6;"></div>
+                    </div>
+                    <span class="compare-stat-val ${class2}" style="color:#3b82f6;">${val2}</span>
+                </div>
+            `;
+        };
+
+        modalHtml += `
+                        <div class="compare-grid">
+                            <div class="compare-col">
+                                <img src="${sprite1}" class="compare-art" onerror="this.src='data/sprites/pokemon/artwork/0.png'">
+                                <h3>${name1}</h3>
+                                <div class="pokemon-types">${types1HTML}</div>
+                            </div>
+                            <div class="compare-col">
+                                <img src="${sprite2}" class="compare-art" onerror="this.src='data/sprites/pokemon/artwork/0.png'">
+                                <h3>${name2}</h3>
+                                <div class="pokemon-types">${types2HTML}</div>
+                            </div>
+                        </div>
+
+                        <div class="compare-stats-table">
+                            ${statCompareRow('HP', hp1, hp2)}
+                            ${statCompareRow('Att', atk1, atk2)}
+                            ${statCompareRow('Dif', def1, def2)}
+                            ${statCompareRow('SpA', spa1, spa2)}
+                            ${statCompareRow('SpD', spd1, spd2)}
+                            ${statCompareRow('Vel', spe1, spe2)}
+                            ${bstCompareRow(bst1, bst2)}
+                        </div>
+
+                        <!-- VGC Speed Calculator -->
+                        <div class="calc-section">
+                            <h4 style="margin-top: 0; font-size: 1rem;"><i class="icon"></i> Calcolatore Velocità VGC (Lv. 50)</h4>
+                            <div class="calc-inputs-grid">
+                                <div class="calc-col">
+                                    <div class="calc-row flex-row-align">
+                                        <label>EVs Vel: <span id="calc-ev-val-1" style="color: var(--accent); font-weight: bold; min-width: 28px; display: inline-block;">0</span></label>
+                                        <input type="range" id="calc-ev-1" min="0" max="252" step="4" value="0" style="flex: 1; accent-color: var(--accent);">
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Natura</label>
+                                        <select id="calc-nature-1">
+                                            <option value="1">Neutrale</option>
+                                            <option value="1.1">Favorevole (+10%)</option>
+                                            <option value="0.9">Sfavorevole (-10%)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Strumento</label>
+                                        <select id="calc-item-1">
+                                            <option value="1">Nessuno</option>
+                                            <option value="1.5">Stolascelta (Scarf)</option>
+                                            <option value="0.5">Ferropalla (Iron Ball)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Effetti</label>
+                                        <select id="calc-effect-1">
+                                            <option value="1">Nessuno</option>
+                                            <option value="2">Ventoincoda (Tailwind)</option>
+                                            <option value="1.5">Abilità (+50%)</option>
+                                            <option value="2">Abilità (Raddoppia)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Mod. Stadio</label>
+                                        <select id="calc-stage-1">
+                                            <option value="0">0 (Normale)</option>
+                                            <option value="6">+6</option>
+                                            <option value="5">+5</option>
+                                            <option value="4">+4</option>
+                                            <option value="3">+3</option>
+                                            <option value="2">+2</option>
+                                            <option value="1">+1</option>
+                                            <option value="-1">-1</option>
+                                            <option value="-2">-2</option>
+                                            <option value="-3">-3</option>
+                                            <option value="-4">-4</option>
+                                            <option value="-5">-5</option>
+                                            <option value="-6">-6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="calc-col">
+                                    <div class="calc-row flex-row-align">
+                                        <label>EVs Vel: <span id="calc-ev-val-2" style="color: #3b82f6; font-weight: bold; min-width: 28px; display: inline-block;">0</span></label>
+                                        <input type="range" id="calc-ev-2" min="0" max="252" step="4" value="0" style="flex: 1; accent-color: #3b82f6;">
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Natura</label>
+                                        <select id="calc-nature-2">
+                                            <option value="1">Neutrale</option>
+                                            <option value="1.1">Favorevole (+10%)</option>
+                                            <option value="0.9">Sfavorevole (-10%)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Strumento</label>
+                                        <select id="calc-item-2">
+                                            <option value="1">Nessuno</option>
+                                            <option value="1.5">Stolascelta (Scarf)</option>
+                                            <option value="0.5">Ferropalla (Iron Ball)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Effetti</label>
+                                        <select id="calc-effect-2">
+                                            <option value="1">Nessuno</option>
+                                            <option value="2">Ventoincoda (Tailwind)</option>
+                                            <option value="1.5">Abilità (+50%)</option>
+                                            <option value="2">Abilità (Raddoppia)</option>
+                                        </select>
+                                    </div>
+                                    <div class="calc-row">
+                                        <label>Mod. Stadio</label>
+                                        <select id="calc-stage-2">
+                                            <option value="0">0 (Normale)</option>
+                                            <option value="6">+6</option>
+                                            <option value="5">+5</option>
+                                            <option value="4">+4</option>
+                                            <option value="3">+3</option>
+                                            <option value="2">+2</option>
+                                            <option value="1">+1</option>
+                                            <option value="-1">-1</option>
+                                            <option value="-2">-2</option>
+                                            <option value="-3">-3</option>
+                                            <option value="-4">-4</option>
+                                            <option value="-5">-5</option>
+                                            <option value="-6">-6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calc-result-banner" id="calc-speed-result">
+                                Velocità Finale: -- VS --
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        modalsRoot.innerHTML = modalHtml;
+
+        const closeModal = () => modalsRoot.innerHTML = '';
+        document.getElementById('compare-modal-close').onclick = closeModal;
+        document.getElementById('compare-modal-backdrop').onclick = (e) => {
+            if (e.target.id === 'compare-modal-backdrop') closeModal();
+        };
+
+        // Setup select dropdown listeners
+        document.getElementById('compare-select-1').addEventListener('change', (e) => {
+            const val = e.target.value;
+            const nextPkm1 = val ? this.pokemonList.find(p => p.name === val) : null;
+            this.openComparisonModal(nextPkm1, pkm2);
+        });
+        document.getElementById('compare-select-2').addEventListener('change', (e) => {
+            const val = e.target.value;
+            const nextPkm2 = val ? this.pokemonList.find(p => p.name === val) : null;
+            this.openComparisonModal(pkm1, nextPkm2);
+        });
+
+        const calculateSpeed = () => {
+            const calculateSingle = (baseSpeed, evVal, natureVal, itemVal, effectVal, stageVal) => {
+                const statBase = Math.floor((31 + 2 * baseSpeed + Math.floor(evVal / 4)) * 50 / 100 + 5);
+                let finalStat = Math.floor(statBase * natureVal);
+                
+                if (stageVal > 0) {
+                    finalStat = Math.floor(finalStat * (2 + stageVal) / 2);
+                } else if (stageVal < 0) {
+                    finalStat = Math.floor(finalStat * 2 / (2 - stageVal));
+                }
+
+                finalStat = Math.floor(finalStat * itemVal);
+                finalStat = Math.floor(finalStat * effectVal);
+
+                return finalStat;
+            };
+
+            const ev1 = parseInt(document.getElementById('calc-ev-1').value) || 0;
+            const ev2 = parseInt(document.getElementById('calc-ev-2').value) || 0;
+            const nat1 = parseFloat(document.getElementById('calc-nature-1').value);
+            const nat2 = parseFloat(document.getElementById('calc-nature-2').value);
+            const it1 = parseFloat(document.getElementById('calc-item-1').value);
+            const it2 = parseFloat(document.getElementById('calc-item-2').value);
+            const eff1 = parseFloat(document.getElementById('calc-effect-1').value);
+            const eff2 = parseFloat(document.getElementById('calc-effect-2').value);
+            const stg1 = parseInt(document.getElementById('calc-stage-1').value) || 0;
+            const stg2 = parseInt(document.getElementById('calc-stage-2').value) || 0;
+
+            // Update range value labels
+            document.getElementById('calc-ev-val-1').textContent = ev1;
+            document.getElementById('calc-ev-val-2').textContent = ev2;
+
+            const finalSpe1 = calculateSingle(spe1, ev1, nat1, it1, eff1, stg1);
+            const finalSpe2 = calculateSingle(spe2, ev2, nat2, it2, eff2, stg2);
+
+            const banner = document.getElementById('calc-speed-result');
+            if (banner) {
+                if (finalSpe1 > finalSpe2) {
+                    banner.innerHTML = `<strong>${name1}</strong> agisce prima! (Velocità: <span style="color:#10b981;">${finalSpe1}</span> VS ${finalSpe2})`;
+                } else if (finalSpe2 > finalSpe1) {
+                    banner.innerHTML = `<strong>${name2}</strong> agisce prima! (Velocità: ${finalSpe1} VS <span style="color:#10b981;">${finalSpe2}</span>)`;
+                } else {
+                    banner.innerHTML = `Pareggio di Velocità (Speed Tie)! Entrambi hanno <span style="color:#f59e0b;">${finalSpe1}</span>`;
+                }
+            }
+        };
+
+        const inputs = [
+            'calc-ev-1', 'calc-ev-2', 'calc-nature-1', 'calc-nature-2',
+            'calc-item-1', 'calc-item-2', 'calc-effect-1', 'calc-effect-2',
+            'calc-stage-1', 'calc-stage-2'
+        ];
+        inputs.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.addEventListener('input', calculateSpeed);
+                el.addEventListener('change', calculateSpeed);
+            }
+        });
+
+        calculateSpeed();
     }
 }

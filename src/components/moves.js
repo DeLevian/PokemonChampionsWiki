@@ -57,7 +57,7 @@ export class MovesView {
 
         if (!window.movesDb || !window.movesDb.moves) {
             this.grid.innerHTML = `<div class="muted" style="grid-column: 1/-1; text-align: center; padding: 2rem;">
-                <i class="icon" style="font-size: 3rem; display: block; margin-bottom: 1rem;">📂</i>
+                <i class="icon" style="font-size: 3rem; display: block; margin-bottom: 1rem;"></i>
                 Dati delle mosse non caricati correttamente.
             </div>`;
             return;

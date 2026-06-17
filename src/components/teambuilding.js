@@ -45,12 +45,7 @@ export class TeamBuildingView {
         this.selectedPokemon = null; // Pokemon currently selected in the grid
         this.filteredPokemon = [];
 
-        // Cloud Settings (Supabase)
-        this.cloudSettings = JSON.parse(localStorage.getItem('pkm_champions_cloud_config') || '{"url":"","key":"","owner":""}');
-        this.supabase = null;
-        if (this.cloudSettings.url && this.cloudSettings.key) {
-            this.initSupabase();
-        }
+
 
         this.filters = {
             query: '',
@@ -62,6 +57,42 @@ export class TeamBuildingView {
             sortOrder: 'asc',
             showMegas: false
         };
+    }
+
+    getSpriteUrl(pokemon, type = null) {
+        if (!pokemon) return 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2UyZThlZiIvPjx0ZXh0IHg9IjUwIiB5PSI2NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ1IiBmaWxsPSIjOTQzMzIyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4/PC90ZXh0Pjwvc3ZnPg==';
+        
+        const id = typeof pokemon === 'object' ? pokemon.id : pokemon;
+        const name = typeof pokemon === 'object' ? (pokemon.name || id) : id;
+        const style = type || 'artwork';
+        let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
+
+        const flippedMegas = [
+            "Sceptile", "Blaziken", "Swampert", "Mawile", "Metagross",
+            "Staraptor", "Scolipede", "Scrafty", "Eelektross", "Pyroar",
+            "Malamar", "Barbaracle", "Dragalge", "Falinks", "Raichu"
+        ];
+        if (fileName.startsWith("Mega ")) {
+            const base = fileName.substring(5);
+            const match = flippedMegas.find(m => base.startsWith(m));
+            if (match) {
+                if (base.endsWith(" X") || base.endsWith(" Y")) {
+                    const suffix = base.slice(-2);
+                    const mainName = base.slice(0, -2);
+                    fileName = `${mainName} Mega${suffix}`;
+                } else {
+                    fileName = `${base} Mega`;
+                }
+            }
+        }
+
+        const paths = {
+            'artwork': `data/sprites/pokemon/artwork/${fileName}.png`,
+            'standard': `data/sprites/pokemon/standard/${id}.png`,
+            'animated': `data/sprites/pokemon/animated/${id}.gif`
+        };
+
+        return paths[style] || paths['artwork'];
     }
 
     loadTeams() {
@@ -128,105 +159,7 @@ export class TeamBuildingView {
         return this.teams.find(t => String(t.id) === String(this.activeTeamId)) || this.teams[0];
     }
 
-    initSupabase() {
-        if (window.supabase && this.cloudSettings.url) {
-            // Rimuovi eventuali path aggiuntivi se l'utente ha incollato l'URL con /rest/v1
-            let cleanUrl = this.cloudSettings.url.replace(/\/rest\/v1\/?$/, '');
-            this.supabase = window.supabase.createClient(cleanUrl, this.cloudSettings.key);
-        }
-    }
 
-    async syncToCloud() {
-        if (!this.cloudSettings.url) return alert("Errore Sync: Supabase URL non impostato nelle impostazioni!");
-        if (!this.cloudSettings.key) return alert("Errore Sync: Supabase Anon Key non impostata!");
-        if (!this.cloudSettings.owner) return alert("Errore Sync: Chiave Team (Segreta) non impostata!");
-        
-        if (!this.supabase) this.initSupabase();
-        if (!this.supabase) return alert("Errore Sync: Impossibile inizializzare il database. Verifica l'URL.");
-
-        const loader = document.getElementById('global-loader');
-        if (loader) loader.classList.remove('hidden');
-
-        try {
-            // Prepare teams for upload
-            const toUpload = this.teams.map(t => ({
-                id: t.id,
-                name: t.name,
-                data: { pokemon: t.pokemon, notes: t.notes },
-                owner_key: this.cloudSettings.owner,
-                updated_at: new Date().toISOString()
-            }));
-
-            // Supabase upsert
-            for (const team of toUpload) {
-                const { error } = await this.supabase
-                    .from('pkm_teams')
-                    .upsert(team, { onConflict: 'id' });
-                if (error) {
-                    console.error("Supabase Error detail:", error);
-                    throw new Error(`${error.message} (${error.hint || 'Verifica il nome della tabella o delle colonne'})`);
-                }
-            }
-
-            alert("Sincronizzazione completata con successo!");
-        } catch (e) {
-            console.error("Cloud Sync Error:", e);
-            alert("Errore durante il salvataggio Cloud:\n" + e.message);
-        } finally {
-            if (loader) loader.classList.add('hidden');
-        }
-    }
-
-    async fetchFromCloud() {
-        if (!this.cloudSettings.url || !this.cloudSettings.key || !this.cloudSettings.owner) return;
-        
-        if (!this.supabase) this.initSupabase();
-        if (!this.supabase) return;
-
-        const loader = document.getElementById('global-loader');
-        if (loader) loader.classList.remove('hidden');
-
-        try {
-            const { data, error } = await this.supabase
-                .from('pkm_teams')
-                .select('*')
-                .eq('owner_key', this.cloudSettings.owner);
-
-            if (error) {
-                console.error("Supabase Error detail:", error);
-                throw new Error(`${error.message} (${error.hint || 'Verifica il nome della tabella'})`);
-            }
-
-            if (data && data.length > 0) {
-                // Merge cloud teams with local (cloud wins on same ID)
-                data.forEach(ct => {
-                    const localIdx = this.teams.findIndex(lt => String(lt.id) === String(ct.id));
-                    const mergedTeam = {
-                        id: String(ct.id),
-                        name: ct.name,
-                        pokemon: ct.data.pokemon,
-                        notes: ct.data.notes,
-                        createdAt: ct.created_at || new Date().toISOString()
-                    };
-
-                    if (localIdx > -1) {
-                        this.teams[localIdx] = mergedTeam;
-                    } else {
-                        this.teams.push(mergedTeam);
-                    }
-                });
-
-                this.saveTeams();
-                this.render();
-                alert(`Team sincronizzati! Scaricati ${data.length} team dal Cloud.`);
-            }
-        } catch (e) {
-            console.error("Cloud Fetch Error:", e);
-            alert("Errore nel recupero dati Cloud:\n" + e.message);
-        } finally {
-            if (loader) loader.classList.add('hidden');
-        }
-    }
 
     switchTeam(id) {
         const team = this.teams.find(t => String(t.id) === String(id));
@@ -260,7 +193,7 @@ export class TeamBuildingView {
                         <div class="team-slots-bar">
                             ${this.team.map((p, i) => `
                                 <div class="team-slot ${i === this.currentIndex ? 'active' : ''} ${p ? 'filled' : ''}" data-index="${i}">
-                                    ${p ? `<img src="data/sprites/pokemon/artwork/${p.name}.png" alt="${p.name_it}" onerror="this.src='assets/pokemon/placeholder.png'">` : `<span class="slot-num">${i + 1}</span>`}
+                                    ${p ? `<img src="${this.getSpriteUrl(p, 'artwork')}" alt="${p.name_it}" onerror="this.src='assets/pokemon/placeholder.png'">` : `<span class="slot-num">${i + 1}</span>`}
                                 </div>
                             `).join('')}
                         </div>
@@ -279,11 +212,11 @@ export class TeamBuildingView {
                                 <label>Tipi</label>
                                 <div class="type-selectors">
                                     <select id="type1-select">
-                                        <option value="">Primario</option>
+                                        <option value="">Tutti (1° tipo)</option>
                                         ${this.getTypes().map(t => `<option value="${t}" ${this.filters.type1 === t ? 'selected' : ''}>${t.toUpperCase()}</option>`).join('')}
                                     </select>
                                     <select id="type2-select">
-                                        <option value="">Secondario</option>
+                                        <option value="">Tutti (2° tipo)</option>
                                         ${this.getTypes().map(t => `<option value="${t}" ${this.filters.type2 === t ? 'selected' : ''}>${t.toUpperCase()}</option>`).join('')}
                                     </select>
                                 </div>
@@ -517,10 +450,12 @@ export class TeamBuildingView {
 
         // 3. Types
         if (this.filters.type1) {
-            list = list.filter(p => (p.types || []).includes(this.filters.type1));
+            const t1 = this.filters.type1.toLowerCase();
+            list = list.filter(p => (p.types || []).some(t => t.toLowerCase() === t1));
         }
         if (this.filters.type2) {
-            list = list.filter(p => (p.types || []).includes(this.filters.type2));
+            const t2 = this.filters.type2.toLowerCase();
+            list = list.filter(p => (p.types || []).some(t => t.toLowerCase() === t2));
         }
 
         // 4. Move filter
@@ -602,7 +537,7 @@ export class TeamBuildingView {
         }
 
         grid.innerHTML = this.filteredPokemon.map(p => {
-            const artworkUrl = `data/sprites/pokemon/artwork/${p.name}.png`;
+            const artworkUrl = this.getSpriteUrl(p, 'artwork');
             return `
                 <div class="mini-pkm-card" data-id="${p.name}" title="${p.name_it || p.name}">
                     <img src="${artworkUrl}" 
@@ -675,7 +610,7 @@ export class TeamBuildingView {
         editor.innerHTML = `
             <div class="editor-summary-card">
                 <div class="editor-header-mini">
-                    <img src="data/sprites/pokemon/artwork/${pkm.name}.png" alt="${pkm.name_it}" onerror="this.src='assets/pokemon/placeholder.png'">
+                    <img src="${this.getSpriteUrl(pkm, 'artwork')}" alt="${pkm.name_it}" onerror="this.src='assets/pokemon/placeholder.png'">
                     <div class="info">
                         <h2>${pkm.name_it}</h2>
                         <div class="pkm-types">
@@ -759,15 +694,10 @@ export class TeamBuildingView {
                             }).join('')}
                         </select>
                     </div>
-                    <div class="edit-group" style="margin-top:1rem;">
+                    <div class="interactive-slot ${pkm.item ? 'has-selection' : ''}" id="slot-item" style="margin-top:1rem;">
                         <label>Oggetto Equipaggiato</label>
-                        <input type="text" id="edit-item-sum" list="sum-items" placeholder="Cerca oggetto..." value="${pkm.item || ''}" style="width:100%; padding:0.6rem; background:#2a2d3e; border:1px solid #3f445e; color:white; border-radius:6px;">
-                        <datalist id="sum-items">
-                            ${Object.values(window.itemsData?.items || [])
-                                .filter(it => it.name_it) // Only translated/active items
-                                .map(it => `<option value="${it.name_it}">`)
-                                .join('')}
-                        </datalist>
+                        <div class="value">${pkm.item || 'Seleziona Oggetto...'}</div>
+                        ${pkm.item ? `<div class="desc">${Object.values(window.itemsData?.items || {}).find(it => it.name_it === pkm.item)?.effect_it || 'Strumento equipaggiato'}</div>` : ''}
                     </div>
 
                     <div class="edit-group" style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.05);">
@@ -851,9 +781,7 @@ export class TeamBuildingView {
             this.saveTeams();
         };
 
-        editor.querySelector('#edit-item-sum').oninput = (e) => {
-            pkm.item = e.target.value;
-        };
+        editor.querySelector('#slot-item').onclick = () => this.showItemSelection();
 
         editor.querySelector('#save-team-pkm').onclick = () => {
             this.team[this.currentIndex] = JSON.parse(JSON.stringify(pkm));
@@ -1062,7 +990,7 @@ export class TeamBuildingView {
     clearEditor() {
         this.container.querySelector('#tb-editor').innerHTML = `
             <div class="editor-placeholder">
-                <div class="placeholder-icon">🖱️</div>
+                <div class="placeholder-icon"></div>
                 <p>Seleziona un Pokémon dalla lista per configurarlo nello Slot ${this.currentIndex + 1}</p>
             </div>
         `;
@@ -1136,7 +1064,7 @@ export class TeamBuildingView {
                                     <td class="col-idx">#${i + 1}</td>
                                     <td class="col-pkm">
                                         <div class="pkm-sum-info">
-                                            <img src="data/sprites/pokemon/artwork/${p.name}.png" onerror="this.src='/assets/pokemon/placeholder.png'">
+                                            <img src="${this.getSpriteUrl(p, 'artwork')}" onerror="this.src='/assets/pokemon/placeholder.png'">
                                             <strong>${p.name_it}</strong>
                                         </div>
                                     </td>
@@ -1191,7 +1119,7 @@ export class TeamBuildingView {
                             ${this.team.filter(p => p).map(p => `
                                 <div class="member-note-card">
                                     <div class="m-note-header">
-                                        <img src="data/sprites/pokemon/artwork/${p.name}.png" onerror="this.src='/assets/pokemon/placeholder.png'">
+                                        <img src="${this.getSpriteUrl(p, 'artwork')}" onerror="this.src='/assets/pokemon/placeholder.png'">
                                         <strong>${p.name_it}</strong>
                                     </div>
                                     <div class="m-note-body">
@@ -1219,11 +1147,9 @@ export class TeamBuildingView {
             <div class="sub-modal-content team-hub-content">
                 <button class="sub-modal-close" onclick="this.closest('.sub-modal-backdrop').remove()">×</button>
                 <div class="hub-header">
-                    <h2>Gestione Team Cloud</h2>
+                    <h2>Gestione Team</h2>
                     <div class="hub-actions">
                         <button class="btn-primary" id="hub-new-team">+ Crea Nuovo Team</button>
-                        <button class="btn-secondary cloud-btn" id="hub-cloud-settings" title="Configura le chiavi Supabase">Configura Database Cloud</button>
-                        <button class="btn-primary sync-btn" id="hub-cloud-sync" title="Aggiorna dati con Supabase">Avvia Sincronizzazione</button>
                     </div>
                 </div>
                 <div class="team-list-grid">
@@ -1233,7 +1159,7 @@ export class TeamBuildingView {
                                 <span class="team-name">${t.name}</span>
                                 <span class="team-date">Creato: ${new Date(t.createdAt).toLocaleDateString()}</span>
                                 <div class="team-mini-preview">
-                                    ${t.pokemon.map(p => p ? `<img src="data/sprites/pokemon/artwork/${p.name}.png" onerror="this.src='assets/pokemon/placeholder.png'">` : `<div class="empty"></div>`).join('')}
+                                    ${t.pokemon.map(p => p ? `<img src="${this.getSpriteUrl(p, 'artwork')}" onerror="this.src='assets/pokemon/placeholder.png'">` : `<div class="empty"></div>`).join('')}
                                 </div>
                             </div>
                             <div class="team-item-actions">
@@ -1282,12 +1208,7 @@ export class TeamBuildingView {
             };
         });
 
-        // Cloud Events
-        overlay.querySelector('#hub-cloud-settings').onclick = () => this.showCloudSettings();
-        overlay.querySelector('#hub-cloud-sync').onclick = async () => {
-            await this.fetchFromCloud();
-            await this.syncToCloud();
-        };
+
 
         overlay.querySelector('#hub-new-team').onclick = () => {
             const name = prompt("Nome del nuovo team:", "Nuovo Team");
@@ -1332,47 +1253,62 @@ export class TeamBuildingView {
         };
     }
 
-    showCloudSettings() {
-        const overlay = document.createElement('div');
-        overlay.id = 'cloud-settings-overlay';
-        overlay.className = 'sub-modal-backdrop';
-        overlay.style.zIndex = "3000";
-        overlay.innerHTML = `
-            <div class="sub-modal-content" style="max-width: 500px;">
-                <button class="sub-modal-close" onclick="this.closest('.sub-modal-backdrop').remove()">×</button>
-                <h3>Configurazione Cloud (Supabase)</h3>
-                <p style="font-size: 0.8rem; color: var(--muted); margin-bottom: 1rem;">
-                    Inserisci le tue credenziali Supabase per attivare la sincronizzazione tra dispositivi.
-                </p>
-                <div class="edit-group" style="margin-bottom: 1rem;">
-                    <label>Supabase URL</label>
-                    <input type="text" id="cloud-url" value="${this.cloudSettings.url}" placeholder="https://abc...supabase.co">
+    showItemSelection() {
+        const pkm = this.selectedPokemon;
+        const editor = this.container.querySelector('#tb-editor');
+        
+        const items = Object.values(window.itemsData?.items || {}).filter(it => it.name_it);
+        items.sort((a, b) => a.name_it.localeCompare(b.name_it));
+
+        editor.innerHTML = `
+            <div class="selection-list-view">
+                <div class="selection-list-header">
+                    <button class="btn-back-editor" id="btn-back-sum">← Back</button>
+                    <h3>Seleziona Strumento</h3>
                 </div>
-                <div class="edit-group" style="margin-bottom: 1rem;">
-                    <label>Supabase Anon Key</label>
-                    <input type="text" id="cloud-key" value="${this.cloudSettings.key}" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...">
+                <div class="selection-grid-container">
+                    <input type="text" id="item-search-inner" placeholder="Cerca strumento..." style="width:100%; padding:0.6rem; background:#1a1c23; border:1px solid #3f445e; color:white; border-radius:6px; margin-bottom:1rem;">
+                    <div id="inner-items-grid">
+                        ${this.renderItemItems(items)}
+                    </div>
                 </div>
-                <div class="edit-group" style="margin-bottom: 1.5rem;">
-                    <label>Chiave Team (Segreta)</label>
-                    <input type="text" id="cloud-owner" value="${this.cloudSettings.owner}" placeholder="Es: mario_team_secret">
-                    <small style="color: var(--muted); font-size: 0.7rem;">Usa questa chiave su tutti i tuoi dispositivi per vedere gli stessi team.</small>
-                </div>
-                <button class="btn-confirm" id="save-cloud-config">Salva e Connetti</button>
             </div>
         `;
-        document.body.appendChild(overlay);
 
-        overlay.querySelector('#save-cloud-config').onclick = () => {
-            let rawUrl = overlay.querySelector('#cloud-url').value.trim();
-            // Sanitize URL
-            this.cloudSettings.url = rawUrl.replace(/\/rest\/v1\/?$/, '');
-            this.cloudSettings.key = overlay.querySelector('#cloud-key').value.trim();
-            this.cloudSettings.owner = overlay.querySelector('#cloud-owner').value.trim();
-
-            localStorage.setItem('pkm_champions_cloud_config', JSON.stringify(this.cloudSettings));
-            this.initSupabase();
-            overlay.remove();
-            alert("Configurazione salvata!");
+        const search = editor.querySelector('#item-search-inner');
+        search.oninput = (e) => {
+            const q = e.target.value.toLowerCase();
+            const filtered = items.filter(it => it.name_it.toLowerCase().includes(q) || (it.name_en || "").toLowerCase().includes(q));
+            editor.querySelector('#inner-items-grid').innerHTML = this.renderItemItems(filtered);
+            this.bindItemItems();
         };
+
+        editor.querySelector('#btn-back-sum').onclick = () => this.renderEditorSummary();
+        this.bindItemItems();
+    }
+
+    renderItemItems(items) {
+        return items.map(it => {
+            const name = it.name_it;
+            const desc = it.effect_it || it.effect_en || "Nessun effetto registrato.";
+            return `
+                <div class="selection-item-card" data-iname="${name}">
+                    <h4>${name}</h4>
+                    <div class="desc">${desc}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    bindItemItems() {
+        const editor = this.container.querySelector('#tb-editor');
+        editor.querySelectorAll('.selection-item-card').forEach(card => {
+            card.onclick = () => {
+                const iname = card.dataset.iname;
+                this.selectedPokemon.item = iname;
+                this.saveTeams();
+                this.renderEditorSummary();
+            };
+        });
     }
 }

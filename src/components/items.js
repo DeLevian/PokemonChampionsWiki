@@ -10,14 +10,14 @@ export class ItemsView {
     async render() {
         this.container.innerHTML = `
             <div class="items-header" style="text-align: center; margin-bottom: 2.5rem;">
-                <h2 style="font-family: 'Outfit', sans-serif; font-size: 2.5rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, #fbbf24, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">🎒 Oggetti</h2>
+                <h2 style="font-family: 'Outfit', sans-serif; font-size: 2.5rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, #fbbf24, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"> Oggetti</h2>
                 <p class="muted" style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Sfoglia il database completo degli strumenti, delle bacche e degli equipaggiamenti di Pokémon Champions.</p>
             </div>
             
             <div class="toolbar" style="margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
                 <div style="position: relative; flex: 1;">
                     <input type="text" id="items-search" placeholder="Cerca oggetto per nome..." class="search-box" style="width: 100%; padding-left: 3rem;">
-                    <i class="icon" style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); opacity: 0.5;">🔍</i>
+                    <i class="icon" style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); opacity: 0.5;"></i>
                 </div>
                 <div id="items-count-label" class="total-badge" style="display: flex; align-items: center; justify-content: center; min-width: 140px;">0 Oggetti</div>
             </div>
@@ -46,16 +46,17 @@ export class ItemsView {
             itemsMap = rawData;
         }
 
-        // Convert object to array: show ALL items from database
+        // Convert object to array: only show items that are usable in Regulation M-B (which have Italian translation)
         this.itemsList = Object.entries(itemsMap)
             .map(([id, data]) => ({
                 id: id,
                 ...data
-            }));
+            }))
+            .filter(item => item.name_it);
 
         if (this.itemsList.length === 0) {
             this.grid.innerHTML = `<div class="grouped-section" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem;">
-                <i class="icon" style="font-size: 4rem; display: block; margin-bottom: 1.5rem; opacity: 0.3;">📦</i>
+                <i class="icon" style="font-size: 4rem; display: block; margin-bottom: 1.5rem; opacity: 0.3;"></i>
                 <p class="muted">Nessun oggetto trovato nel database.</p>
             </div>`;
             return;
@@ -108,11 +109,14 @@ export class ItemsView {
                 .replace(/[']/g, '');
             const spriteUrl = `data/sprites/items/${spriteName}.png`;
 
+            const isMegaStone = spriteName.endsWith('ite') || spriteName.includes('ite');
+            const fallbackSprite = isMegaStone ? 'data/sprites/items/venusaurite.png' : 'assets/icons/unknown.png';
+
             return `
                 <div class="item-card" data-item-id="${item.id}">
                     <div class="item-card-inner">
                         <div class="item-image-wrapper">
-                            <img src="${spriteUrl}" alt="${displayName}" loading="lazy" onerror="this.src='assets/icons/unknown.png'; this.onerror=null;">
+                            <img src="${spriteUrl}" alt="${displayName}" loading="lazy" onerror="this.src='${fallbackSprite}'; this.onerror=null;">
                         </div>
                         <div class="item-info">
                             <h4 class="item-name">${displayName}</h4>
@@ -147,6 +151,9 @@ export class ItemsView {
             .replace(/[']/g, '');
         const spriteUrl = `data/sprites/items/${spriteName}.png`;
 
+        const isMegaStone = spriteName.endsWith('ite') || spriteName.includes('ite');
+        const fallbackSprite = isMegaStone ? 'data/sprites/items/venusaurite.png' : 'assets/icons/unknown.png';
+
         const modalsRoot = document.getElementById('modals-root');
         modalsRoot.innerHTML = `
             <div class="modal-backdrop" id="modal-backdrop">
@@ -161,11 +168,11 @@ export class ItemsView {
 
                     <div class="modal-body" style="background: transparent;">
                         <div class="modal-hero" style="background: rgba(255,255,255,0.03); border: 1px solid var(--border); margin-bottom: 2rem; padding: 2rem;">
-                            <img src="${spriteUrl}" alt="${displayName}" style="width: 120px; height: 120px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));" onerror="this.src='assets/icons/unknown.png'">
+                            <img src="${spriteUrl}" alt="${displayName}" style="width: 120px; height: 120px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));" onerror="this.src='${fallbackSprite}'">
                         </div>
 
                         <div class="grouped-section section-moves" style="border-left-color: var(--accent); background: rgba(15, 23, 42, 0.4);">
-                            <h3 style="color: var(--accent);"><i class="icon">✨</i> Effetto</h3>
+                            <h3 style="color: var(--accent);"><i class="icon"></i> Effetto</h3>
                             <p style="font-size: 1.05rem; line-height: 1.7; color: var(--fg); font-style: italic;">
                                 "${effect}"
                             </p>

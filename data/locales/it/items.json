@@ -550,5 +550,129 @@
   "Water-Type Affinity Ticket": {
     "name": "Biglietto affinità di tipo Acqua",
     "description": "Aumenta la probabilità di incontrare Pokémon di tipo Acqua."
+  },
+  "Life Orb": {
+    "name": "Assorbisfera",
+    "description": "Aumenta la potenza delle mosse del portatore del 30%, ma gli fa perdere il 10% dei PS massimi a ogni attacco."
+  },
+  "Wide Lens": {
+    "name": "Grandilente",
+    "description": "Aumenta la precisione delle mosse del portatore del 10%."
+  },
+  "Muscle Band": {
+    "name": "Muscolbanda",
+    "description": "Aumenta la potenza delle mosse fisiche del portatore del 10%."
+  },
+  "Wise Glasses": {
+    "name": "Saggiocchiali",
+    "description": "Aumenta la potenza delle mosse speciali del portatore del 10%."
+  },
+  "Expert Belt": {
+    "name": "Abilcintura",
+    "description": "Aumenta la potenza delle mosse superefficaci del portatore del 20%."
+  },
+  "Light Clay": {
+    "name": "Creta Luce",
+    "description": "Estende la durata di Riflesso e Schermo Luce da 5 a 8 turni se usati dal portatore."
+  },
+  "Zoom Lens": {
+    "name": "Zoomlente",
+    "description": "Aumenta la precisione delle mosse del 20% se il portatore agisce dopo il bersaglio."
+  },
+  "Metronome": {
+    "name": "Metronomo",
+    "description": "Aumenta la potenza delle mosse usate ripetutamente dallo stesso Pokémon fino a un massimo del 100%."
+  },
+  "Iron Ball": {
+    "name": "Ferropalla",
+    "description": "Dimezza la Velocità del portatore e lo rende vulnerabile alle mosse di tipo Terra."
+  },
+  "Damp Rock": {
+    "name": "Rocciapioggia",
+    "description": "Estende la durata della pioggia creata dal portatore da 5 a 8 turni."
+  },
+  "Heat Rock": {
+    "name": "Rocciacalda",
+    "description": "Estende la durata del sole intenso creato dal portatore da 5 a 8 turni."
+  },
+  "Icy Rock": {
+    "name": "Rocciafredda",
+    "description": "Estende la durata della neve creata dal portatore da 5 a 8 turni."
+  },
+  "Smooth Rock": {
+    "name": "Rocciaterrisco",
+    "description": "Estende la durata della tempesta di sabbia creata dal portatore da 5 a 8 turni."
+  },
+  "Shed Shell": {
+    "name": "Guscioduro",
+    "description": "Consente al portatore di essere sostituito in battaglia a prescindere da abilità o mosse di trappola."
+  },
+  "Big Root": {
+    "name": "Granradice",
+    "description": "Aumenta del 30% la quantità di PS recuperati tramite mosse o abilità di assorbimento."
+  },
+  "Barbaracite": {
+    "name": "Barbaracite",
+    "description": "Se tenuta da un Barbaracle, consente la Megaevoluzione durante la lotta."
+  },
+  "Blazikenite": {
+    "name": "Blazikenite",
+    "description": "Se tenuta da un Blaziken, consente la Megaevoluzione durante la lotta."
+  },
+  "Dragalgite": {
+    "name": "Dragalgite",
+    "description": "Se tenuta da un Dragalge, consente la Megaevoluzione durante la lotta."
+  },
+  "Eelektrossite": {
+    "name": "Eelektrossite",
+    "description": "Se tenuta da un Eelektross, consente la Megaevoluzione durante la lotta."
+  },
+  "Falinksite": {
+    "name": "Falinksite",
+    "description": "Se tenuta da un Falinks, consente la Megaevoluzione durante la lotta."
+  },
+  "Malamarite": {
+    "name": "Malamarite",
+    "description": "Se tenuta da un Malamar, consente la Megaevoluzione durante la lotta."
+  },
+  "Mawilite": {
+    "name": "Mawilite",
+    "description": "Se tenuta da un Mawile, consente la Megaevoluzione durante la lotta."
+  },
+  "Metagrossite": {
+    "name": "Metagrossite",
+    "description": "Se tenuta da un Metagross, consente la Megaevoluzione durante la lotta."
+  },
+  "Pyroarite": {
+    "name": "Pyroarite",
+    "description": "Se tenuta da un Pyroar, consente la Megaevoluzione durante la lotta."
+  },
+  "Scraftinite": {
+    "name": "Scraftinite",
+    "description": "Se tenuta da un Scrafty, consente la Megaevoluzione durante la lotta."
+  },
+  "Staraptite": {
+    "name": "Staraptite",
+    "description": "Se tenuta da un Staraptor, consente la Megaevoluzione durante la lotta."
+  },
+  "Swampertite": {
+    "name": "Swampertite",
+    "description": "Se tenuta da un Swampert, consente la Megaevoluzione durante la lotta."
+  },
+  "Raichunite X": {
+    "name": "Raichunite X",
+    "description": "Se tenuta da un Raichu, consente la Megaevoluzione in Mega Raichu X durante la lotta."
+  },
+  "Raichunite Y": {
+    "name": "Raichunite Y",
+    "description": "Se tenuta da un Raichu, consente la Megaevoluzione in Mega Raichu Y durante la lotta."
+  },
+  "Sceptilite": {
+    "name": "Sceptilite",
+    "description": "Se tenuta da un Sceptile, consente la Megaevoluzione durante la lotta."
+  },
+  "Scolipite": {
+    "name": "Scolipite",
+    "description": "Se tenuta da un Scolipede, consente la Megaevoluzione durante la lotta."
   }
 }

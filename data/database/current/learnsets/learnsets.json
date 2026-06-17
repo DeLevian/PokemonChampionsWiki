@@ -51670,5 +51670,1981 @@
       }
     ],
     "moveCount": 51
+  },
+  "Sceptile": {
+    "dexNumber": 254,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Leaf Storm"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Leaf Blade"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "X-Scissor"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Sceptile": {
+    "dexNumber": 254,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Leaf Storm"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Leaf Blade"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "X-Scissor"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Blaziken": {
+    "dexNumber": 257,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Flare Blitz"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "High Jump Kick"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Blaziken": {
+    "dexNumber": 257,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Flare Blitz"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "High Jump Kick"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Swampert": {
+    "dexNumber": 260,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Earth Power"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Avalanche"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Stealth Rock"
+      },
+      {
+        "name": "Yawn"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Swampert": {
+    "dexNumber": 260,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Earth Power"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Avalanche"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Stealth Rock"
+      },
+      {
+        "name": "Yawn"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mawile": {
+    "dexNumber": 303,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Mawile": {
+    "dexNumber": 303,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Metagross": {
+    "dexNumber": 376,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Meteor Mash"
+      },
+      {
+        "name": "Zen Headbutt"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Bullet Punch"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Metagross": {
+    "dexNumber": 376,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Meteor Mash"
+      },
+      {
+        "name": "Zen Headbutt"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Bullet Punch"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Staraptor": {
+    "dexNumber": 398,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Defog"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Staraptor": {
+    "dexNumber": 398,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Defog"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Musharna": {
+    "dexNumber": 518,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Moonblast"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Trick Room"
+      },
+      {
+        "name": "Moonlight"
+      },
+      {
+        "name": "Yawn"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Scolipede": {
+    "dexNumber": 545,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Megahorn"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Aqua Tail"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Scolipede": {
+    "dexNumber": 545,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Megahorn"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Aqua Tail"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Scrafty": {
+    "dexNumber": 560,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Scrafty": {
+    "dexNumber": 560,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Eelektross": {
+    "dexNumber": 604,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Eelektross": {
+    "dexNumber": 604,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Pyroar": {
+    "dexNumber": 668,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Pyroar Female": {
+    "dexNumber": 668,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Pyroar": {
+    "dexNumber": 668,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Malamar": {
+    "dexNumber": 687,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Psycho Cut"
+      },
+      {
+        "name": "Topsy-Turvy"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Malamar": {
+    "dexNumber": 687,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Psycho Cut"
+      },
+      {
+        "name": "Topsy-Turvy"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Barbaracle": {
+    "dexNumber": 689,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Shell Smash"
+      },
+      {
+        "name": "Razor Shell"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Cross Chop"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Barbaracle": {
+    "dexNumber": 689,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Shell Smash"
+      },
+      {
+        "name": "Razor Shell"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Cross Chop"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Dragalge": {
+    "dexNumber": 691,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Dragalge": {
+    "dexNumber": 691,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Grimmsnarl": {
+    "dexNumber": 861,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Spirit Break"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "False Surrender"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Falinks": {
+    "dexNumber": 870,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "No Retreat"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Falinks": {
+    "dexNumber": 870,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "No Retreat"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Overqwil": {
+    "dexNumber": 904,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Barb Barrage"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Aqua Tail"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Greavard": {
+    "dexNumber": 971,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Shadow Sneak"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Yawn"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Houndstone": {
+    "dexNumber": 972,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Last Respects"
+      },
+      {
+        "name": "Shadow Sneak"
+      },
+      {
+        "name": "Phantom Force"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "Sandstorm"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Annihilape": {
+    "dexNumber": 979,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Rage Fist"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Gholdengo": {
+    "dexNumber": 1000,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Make It Rain"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Flash Cannon"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Power Gem"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Recover"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Mega Raichu X": {
+    "dexNumber": 26,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Alluring Voice"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Draining Kiss"
+      },
+      {
+        "name": "Eerie Impulse"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Expanding Force"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Magic Room"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Nuzzle"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Psychic Terrain"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Rising Voltage"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Speed Swap"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Sweet Kiss"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Tickle"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Upper Hand"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "Volt Tackle"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Wish"
+      },
+      {
+        "name": "Zap Cannon"
+      }
+    ]
+  },
+  "Mega Raichu Y": {
+    "dexNumber": 26,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Alluring Voice"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Draining Kiss"
+      },
+      {
+        "name": "Eerie Impulse"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Expanding Force"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Magic Room"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Nuzzle"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Psychic Terrain"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Rising Voltage"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Speed Swap"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Sweet Kiss"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Tickle"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Upper Hand"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "Volt Tackle"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Wish"
+      },
+      {
+        "name": "Zap Cannon"
+      }
+    ]
+  },
+  "Vileplume": {
+    "dexNumber": 45,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Moonblast"
+      },
+      {
+        "name": "Sleep Powder"
+      },
+      {
+        "name": "Strength Sap"
+      },
+      {
+        "name": "Toxic"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
+  },
+  "Qwilfish": {
+    "dexNumber": 211,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "serebii-champions",
+    "moves": [
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Aqua Jet"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Haze"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Substitute"
+      }
+    ]
   }
 }

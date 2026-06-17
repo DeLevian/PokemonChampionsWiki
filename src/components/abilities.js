@@ -20,7 +20,7 @@ export class AbilitiesView {
 
         if (!window.abilitiesDb || (!window.abilitiesDb.abilities && !Array.isArray(window.abilitiesDb))) {
             this.grid.innerHTML = `<div class="muted" style="text-align: center; padding: 2rem;">
-                <i class="icon" style="font-size: 3rem; display: block; margin-bottom: 1rem;">📂</i>
+                <i class="icon" style="font-size: 3rem; display: block; margin-bottom: 1rem;"></i>
                 Dati delle abilità non caricati. Verifica i file locali.
             </div>`;
             return;

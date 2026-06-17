@@ -52,8 +52,13 @@
                     <option value="dragon">Drago</option>
                     <option value="dark">Buio</option>
                     <option value="steel">Acciaio</option>
-                    <option value="fairy">Folletto</option>
                 </select>
+                <select id="view-mode-select" class="game-select" style="min-width: 180px;">
+                    <option value="grid">Griglia Standard</option>
+                    <option value="compact">Griglia Compatta</option>
+                    <option value="list">Tabella Statistiche</option>
+                </select>
+                <button id="init-compare-btn" class="btn-compare-home">Confronta</button>
             </div>
 
             <div class="view-switch-container">
@@ -91,7 +96,6 @@
         <div class="loader-spinner"></div>
     </div>
     <div id="modals-root"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module" src="src/main.js?v=10"></script>
 </body>
 </html>

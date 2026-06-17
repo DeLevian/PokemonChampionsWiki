@@ -180,7 +180,7 @@ class App {
                 // Add National option at the end
                 const natOpt = document.createElement('option');
                 natOpt.value = 'nazionale';
-                natOpt.textContent = '🌍 Pokedex Nazionale';
+                natOpt.textContent = 'Pokedex Nazionale';
                 modeSelect.appendChild(natOpt);
             }
 
