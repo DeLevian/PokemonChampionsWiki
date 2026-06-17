@@ -551,6 +551,7 @@ select option {
   width: 100%;
   max-width: 650px; /* Increased for better size */
   max-height: 85vh;
+  max-height: 85dvh;
   border-radius: 16px;
   position: relative;
   display: flex;
@@ -3676,7 +3677,8 @@ h3 { margin: 0 0 1rem; font-size: 1.1rem; color: var(--fg); font-weight: 700; di
     padding: 0.5rem; /* Margine ridotto per sfruttare lo schermo */
   }
   .modal-content {
-    max-height: 95vh;
+    max-height: 85vh; /* Fallback for older browsers */
+    max-height: 85dvh; /* Dynamic viewport prevents Vivaldi/Safari from hiding the top */
     border-radius: 20px;
   }
   .modal-header {
@@ -3684,8 +3686,8 @@ h3 { margin: 0 0 1rem; font-size: 1.1rem; color: var(--fg); font-weight: 700; di
     position: relative;
   }
   .modal-close {
-    top: 0.75rem !important;
-    right: 0.75rem !important;
+    top: 1rem !important;
+    right: 1rem !important;
     width: 38px !important;
     height: 38px !important;
     font-size: 1.5rem !important;

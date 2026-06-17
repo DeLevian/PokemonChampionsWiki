@@ -67,6 +67,11 @@ export class TeamBuildingView {
         const style = type || 'artwork';
         let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
 
+        // Mappature per sprite con discrepanze di nome
+        if (fileName === "Kommo-o") fileName = "Kommo O";
+        else if (fileName === "Pyroar") fileName = "Pyroar Male";
+
+
         const flippedMegas = [
             "Sceptile", "Blaziken", "Swampert", "Mawile", "Metagross",
             "Staraptor", "Scolipede", "Scrafty", "Eelektross", "Pyroar",

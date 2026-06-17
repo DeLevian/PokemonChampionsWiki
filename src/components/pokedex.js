@@ -64,9 +64,12 @@ export class PokedexView {
         // Priorità assoluta agli 'artwork' come richiesto dall'utente
         const style = type || 'artwork';
 
-        // Costruiamo il nome formattato per il file (es: "Mega Venusaur") 
-        // se pokemon è un oggetto, usiamo direttamente pokemon.name che è già formattato
         let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
+
+        // Mappature per sprite con discrepanze di nome
+        if (fileName === "Kommo-o") fileName = "Kommo O";
+        else if (fileName === "Pyroar") fileName = "Pyroar Male";
+
 
         // Gestione dei nuovi file sprite delle Mega Evoluzioni (es. "Sceptile Mega" invece di "Mega Sceptile")
         const flippedMegas = [
@@ -934,12 +937,16 @@ export class PokedexView {
                 <div class="modal-content">
                     <button class="modal-close" id="modal-close">&times;</button>
                     <div class="modal-header">
-                        <div class="header-titles">
-                            <div style="display:flex; align-items:center; gap:10px; flex-wrap: wrap;">
-                                <h2 style="text-transform: capitalize; margin: 0;">${targetTitle.replace(/-/g, ' ')}</h2>
-                                <div class="pokemon-types" style="margin-top:0; display: flex;">${(data.types || []).map(t => `<span class="type-badge-header ${t}"><i class="type-icon-colored ${t}" style="-webkit-mask-image: url('assets/icons/types/${t}.svg'); mask-image: url('assets/icons/types/${t}.svg');"></i></span>`).join('')}</div>
+                        <div class="header-titles" style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+                            <div style="display:flex; flex-direction:column; gap:6px;">
+                                <h2 style="text-transform: capitalize; margin: 0; line-height: 1.1;">${targetTitle.replace(/-/g, ' ')}</h2>
+                                <div class="pokemon-types" style="margin-top:0; display: flex; gap: 0.5rem;">${(data.types || []).map(t => {
+                                    const typeLower = t.toLowerCase();
+                                    const typeLocal = (typeof TYPE_LABELS !== 'undefined' && TYPE_LABELS[typeLower]) ? TYPE_LABELS[typeLower] : (window.typeTranslations ? window.typeTranslations[typeLower] || t : t);
+                                    return `<span class="type ${typeLower}" title="${typeLocal}">${typeLocal}</span>`;
+                                }).join('')}</div>
                             </div>
-                            <span class="muted dex-num">#${String(data.id).padStart(4, '0')}</span>
+                            <span class="muted dex-num" style="margin-left: auto;">#${String(data.id).padStart(4, '0')}</span>
                         </div>
                         <div class="muted genus">${genusText}</div>
                     </div>
@@ -1054,7 +1061,8 @@ export class PokedexView {
                 // Check if this pokemon is in the roster (case-insensitive)
                 const rosterPk = (window.pokemonList || []).find(p => p.name.toLowerCase() === sp.name.toLowerCase());
                 const existsInRoster = !!rosterPk;
-                const rosterName = rosterPk ? rosterPk.name : sp.name;
+                const fallbackName = sp.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                const rosterName = rosterPk ? rosterPk.name : fallbackName;
 
                 const displayName = sp.name_it || sp.name;
                 const sprite = this.getSpriteUrl(rosterName, 'artwork');
