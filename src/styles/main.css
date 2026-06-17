@@ -519,6 +519,7 @@ select option {
 }
 
 .modal-content {
+  position: relative;
   background: #030712; 
   width: 100%;
   max-width: 850px; /* Increased for better size */
@@ -545,6 +546,7 @@ select option {
 }
 
 .sub-modal-content {
+  position: relative;
   background: #0f172a;
   width: 100%;
   max-width: 650px; /* Increased for better size */

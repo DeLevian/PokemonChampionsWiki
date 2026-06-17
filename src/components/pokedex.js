@@ -1057,13 +1057,13 @@ export class PokedexView {
                 const rosterName = rosterPk ? rosterPk.name : sp.name;
 
                 const displayName = sp.name_it || sp.name;
-                const sprite = this.getSpriteUrl(sp.name, 'artwork');
+                const sprite = this.getSpriteUrl(rosterName, 'artwork');
                 const statusClass = !existsInRoster ? 'not-in-roster' : (isCurrent ? 'current' : '');
                 const tooltipText = !existsInRoster ? `Non presente nel roster` : `Apri scheda ${displayName}`;
 
                 chainHtml += `
                     <div class="evo-stage ${statusClass}" data-pokemon-id="${existsInRoster ? rosterName : ''}" title="${tooltipText}">
-                        <img src="${sprite}" alt="${displayName}" loading="lazy" onerror="window.pokedexView.handleImageError(this, '${sp.name}', 'artwork')">
+                        <img src="${sprite}" alt="${displayName}" loading="lazy" onerror="window.pokedexView.handleImageError(this, '${rosterName}', 'artwork')">
                         <span class="evo-name">${displayName}</span>
                         ${triggerText ? `<span class="evo-trigger">${triggerText}</span>` : ''}
                     </div>
