@@ -1246,7 +1246,7 @@ export class PokedexView {
         // Populate Pokemon List
         const pListContainer = modal.querySelector('#move-pokemon-list');
         if (window.relationsData && window.relationsData.moves) {
-            const pkmnNames = window.relationsData.moves[moveName] || [];
+            const pkmnNames = window.relationsData.moves[moveName.toLowerCase()] || [];
             if (pkmnNames.length > 0) {
                 const matchingPkmn = (window.pokemonList || []).filter(p => pkmnNames.includes(p.name));
                 matchingPkmn.sort((a, b) => (a.dexNumber || 0) - (b.dexNumber || 0));
