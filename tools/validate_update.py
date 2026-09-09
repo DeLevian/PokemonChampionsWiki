@@ -57,6 +57,20 @@ def require_fields(value: Any, fields: set[str], label: str, result: Result) -> 
     return True
 
 
+def find_placeholders(value: Any, prefix: str = "") -> list[str]:
+    found: list[str] = []
+    if isinstance(value, dict):
+        for key, child in value.items():
+            child_prefix = f"{prefix}.{key}" if prefix else key
+            found.extend(find_placeholders(child, child_prefix))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            found.extend(find_placeholders(child, f"{prefix}[{index}]"))
+    elif isinstance(value, str) and "TODO" in value.upper():
+        found.append(prefix)
+    return found
+
+
 def valid_date(value: Any) -> bool:
     if value is None:
         return True
@@ -80,6 +94,12 @@ def validate_package(path: Path, root: Path) -> Result:
     sources_data = load(path.with_name("sources.json"), result)
     if package is None or sources_data is None:
         return result
+
+    placeholders = find_placeholders(package, "update") + find_placeholders(sources_data, "sources")
+    if placeholders:
+        result.error(
+            "Valori placeholder TODO non sostituiti: " + ", ".join(placeholders)
+        )
 
     if not require_fields(package, {"schemaVersion", "release", "sourceRefs", "changes", "review"}, "package", result):
         return result

@@ -735,6 +735,8 @@ python tools/apply_update.py data/imports/<id-aggiornamento>/update.json
 python tools/validate_data.py
 ```
 
+Se `review.required` contiene conflitti già esaminati e approvati dal manutentore, aggiungere `--approve-conflicts` sia all'anteprima sia all'applicazione. Non usare questa opzione senza aver letto `report.md`.
+
 L'applicazione aggiorna anche `data/releases/current.json`, rendendo il pacchetto appena applicato visibile nella scheda **Novità**.
 
 L'applicazione deve essere atomica: se la validazione fallisce, il database corrente non deve essere sostituito.

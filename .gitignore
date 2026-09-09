@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated or temporary local output
+dist/
+.server-test.log
+*.rollback
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
