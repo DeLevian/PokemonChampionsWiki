@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-champions-update.schema.json",
+  "title": "Pokémon Champions Wiki update package",
+  "type": "object",
+  "required": ["schemaVersion", "release", "sourceRefs", "changes", "review"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "release": {
+      "type": "object",
+      "required": ["id", "title", "gameVersion", "announcedAt", "effectiveAt", "researchCompletedAt", "summary"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "gameVersion": { "type": "string", "minLength": 1 },
+        "announcedAt": { "type": ["string", "null"], "format": "date" },
+        "effectiveAt": { "type": ["string", "null"], "format": "date" },
+        "researchCompletedAt": { "type": "string", "format": "date" },
+        "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "changes": {
+      "type": "object",
+      "required": ["pokemon", "moves", "abilities", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "pokemon": { "$ref": "#/$defs/changeList" },
+        "moves": { "$ref": "#/$defs/changeList" },
+        "abilities": { "$ref": "#/$defs/changeList" },
+        "items": { "$ref": "#/$defs/changeList" }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["required", "warnings", "notes"],
+      "properties": {
+        "required": { "type": "array" },
+        "warnings": { "type": "array" },
+        "notes": { "type": "array" }
+      }
+    }
+  },
+  "$defs": {
+    "changeList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["operation", "canonicalName", "sourceRefs", "confidence"],
+        "properties": {
+          "operation": { "enum": ["add", "update", "remove", "verify"] },
+          "canonicalName": { "type": "string", "minLength": 1 },
+          "sourceRefs": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true
+          },
+          "confidence": { "enum": ["verified", "probable", "uncertain"] },
+          "notes": { "type": "array" }
+        }
+      }
+    }
+  }
+}

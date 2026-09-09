@@ -61,7 +61,7 @@ Commit, push e GitHub Pages
 
 ## 4. Struttura obbligatoria di un pacchetto
 
-Ogni aggiornamento deve avere una directory autonoma:
+Ogni aggiornamento deve avere una directory autonoma. Copiare `data/imports/_template/` come punto di partenza e seguire lo schema `schemas/update.schema.json`:
 
 ```text
 data/imports/<id-aggiornamento>/
@@ -123,6 +123,8 @@ Contiene l'elenco strutturato delle fonti.
 ### 4.5 `report.md`
 
 È generato confrontando `update.json` con il database corrente. Deve elencare aggiunte, modifiche, rimozioni, warning e conflitti.
+
+Dopo l'applicazione, `tools/apply_update.py` genera anche `data/releases/current.json`. Questo manifest compatto alimenta automaticamente la scheda **Novità** della webapp: non deve essere compilato manualmente.
 
 ---
 
@@ -619,6 +621,20 @@ Il nome canonico deve essere quello inglese usato dal database del progetto. Pri
 
 Non accorpare forme con statistiche, tipi o abilità differenti. Ogni forma visualizzabile deve avere un identificatore canonico distinto.
 
+### Evoluzioni e forme regionali
+
+Per ogni Pokémon o forma aggiunta verificare la sua ascendenza, non soltanto l'identificatore della specie. Le evoluzioni ramificate sono percorsi alternativi, non sequenze consecutive: per esempio Persian e Perrserker condividono Meowth come specie di origine, ma uno non evolve nell'altro.
+
+Quando una forma regionale richiede un antenato regionale, registrarlo in `data/mappings/entity-aliases.json` sotto `evolutionStageOverrides`. Se cambia anche la condizione evolutiva, usare `evolutionTriggerOverrides`. Esempi: Meowth di Alola → Persian di Alola e Farfetch’d di Galar → Sirfetch’d.
+
+Dopo ogni aggiornamento controllare automaticamente che:
+
+- la specie finale appartenga alla catena dichiarata;
+- ogni `evolves_from` punti a uno stadio della stessa catena;
+- il frontend segua solo il percorso degli antenati della specie selezionata;
+- forme regionali e ramificazioni non mostrino evoluzioni sorelle come stadi successivi;
+- gli artwork dichiarati dagli override esistano.
+
 ### Asset
 
 Non dedurre il nome dello sprite in più componenti JavaScript. Il pacchetto deve indicare il file esatto oppure richiedere l'aggiunta di un alias centralizzato.
@@ -706,17 +722,20 @@ git switch -c data/<id-aggiornamento>
 3. Compilare `README.md`.
 4. Compilare `sources.json`.
 5. Generare `update.json` seguendo questo documento.
-6. Generare e leggere `report.md`.
+6. Validare il pacchetto con `python tools/validate_update.py data/imports/<id-aggiornamento>/update.json`.
+7. Generare e leggere `report.md`.
 
 ### 13.3 Anteprima e applicazione
 
-Quando gli strumenti saranno presenti nel progetto:
+Eseguire:
 
 ```bash
 python tools/apply_update.py data/imports/<id-aggiornamento>/update.json --dry-run
 python tools/apply_update.py data/imports/<id-aggiornamento>/update.json
 python tools/validate_data.py
 ```
+
+L'applicazione aggiorna anche `data/releases/current.json`, rendendo il pacchetto appena applicato visibile nella scheda **Novità**.
 
 L'applicazione deve essere atomica: se la validazione fallisce, il database corrente non deve essere sostituito.
 

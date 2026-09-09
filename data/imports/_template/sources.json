@@ -1,0 +1,15 @@
+{
+  "researchCompletedAt": "2000-01-01",
+  "sources": [
+    {
+      "id": "todo-source",
+      "title": "TODO",
+      "url": "https://example.com/TODO",
+      "type": "official-announcement",
+      "official": true,
+      "accessedAt": "2000-01-01",
+      "appliesTo": ["release"],
+      "notes": "TODO"
+    }
+  ]
+}

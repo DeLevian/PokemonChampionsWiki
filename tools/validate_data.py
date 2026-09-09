@@ -34,6 +34,7 @@ DATA_FILES = {
     "species": "data/database/current/pokemon/species-data.json",
     "evolutions": "data/evolution_chains.json",
     "type_chart": "data/database/current/type-chart/effectiveness.json",
+    "release": "data/releases/current.json",
     "locale_pokemon": "data/locales/it/pokemon.json",
     "locale_moves": "data/locales/it/moves.json",
     "locale_abilities": "data/locales/it/abilities.json",
@@ -93,7 +94,7 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
 
     list_names = ("roster", "stats", "moves", "abilities", "items", "natures")
     dict_names = (
-        "learnsets", "version", "species", "evolutions", "type_chart", "locale_pokemon",
+        "learnsets", "version", "species", "evolutions", "type_chart", "release", "locale_pokemon",
         "locale_moves", "locale_abilities", "locale_items", "locale_natures", "aliases",
     )
     for name in list_names:
@@ -270,6 +271,35 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
             if invalid_values:
                 result.error(f"Type chart {attack_type}: moltiplicatori non validi: {invalid_values}")
 
+    release = data["release"]
+    if release.get("id") != data["version"].get("version"):
+        result.error(
+            f"Release corrente {release.get('id')!r} non coincide con version.json "
+            f"({data['version'].get('version')!r})"
+        )
+    release_entities = release.get("entities", {})
+    entity_sets = {
+        "pokemon": roster_names,
+        "moves": move_names,
+        "abilities": ability_names,
+        "items": {record.get("name") for record in items},
+    }
+    for entity_type, known_names in entity_sets.items():
+        names = release_entities.get(entity_type)
+        if not isinstance(names, list):
+            result.error(f"Release corrente: entities.{entity_type} deve essere una lista")
+            continue
+        missing = set(names) - known_names
+        if missing:
+            result.error(
+                f"Release corrente: {entity_type} inesistenti: {', '.join(sorted(missing))}"
+            )
+        declared_count = release.get("counts", {}).get(entity_type)
+        if declared_count != len(names):
+            result.error(
+                f"Release corrente: counts.{entity_type}={declared_count!r}, atteso {len(names)}"
+            )
+
     version = data["version"]
     counts = version.get("counts", {})
     expected_counts = {
@@ -315,6 +345,64 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
         result.warn(f"Artwork Pokémon non risolto per {len(missing_artwork)} voci: {', '.join(missing_artwork)}")
     if bad_aliases:
         result.error(f"Alias artwork verso file inesistenti: {', '.join(bad_aliases)}")
+
+    evolution_chains = data["evolutions"].get("chains", {})
+    species_to_chain = data["evolutions"].get("species_to_chain", {})
+    used_chain_ids = {
+        str(species_to_chain.get(str(pokemon["dexNumber"])))
+        for pokemon in roster
+        if species_to_chain.get(str(pokemon["dexNumber"])) is not None
+    }
+    for chain_id, chain in evolution_chains.items():
+        if str(chain_id) not in used_chain_ids:
+            continue
+        species_ids = [int(stage["species_id"]) for stage in chain]
+        if len(species_ids) != len(set(species_ids)):
+            result.error(f"Catena evolutiva {chain_id}: species_id duplicati")
+        known_species = set(species_ids)
+        for stage in chain:
+            parent = stage.get("evolves_from")
+            if parent is not None and int(parent) not in known_species:
+                result.error(
+                    f"Catena evolutiva {chain_id}: genitore {parent} di {stage['species_id']} assente"
+                )
+    for pokemon in roster:
+        species_id = str(pokemon["dexNumber"])
+        chain_id = species_to_chain.get(species_id)
+        chain = evolution_chains.get(str(chain_id), []) if chain_id is not None else []
+        if not any(str(stage.get("species_id")) == species_id for stage in chain):
+            result.error(f"{pokemon['name']}: specie {species_id} assente dalle catene evolutive")
+
+    stage_overrides = data["aliases"].get("evolutionStageOverrides", {})
+    trigger_overrides = data["aliases"].get("evolutionTriggerOverrides", {})
+    for pokemon_name, overrides in stage_overrides.items():
+        pokemon = next((record for record in roster if record["name"] == pokemon_name), None)
+        if pokemon is None:
+            result.error(f"Override evolutivo per Pokémon inesistente: {pokemon_name}")
+            continue
+        chain_id = species_to_chain.get(str(pokemon["dexNumber"]))
+        chain_species = {
+            str(stage["species_id"])
+            for stage in evolution_chains.get(str(chain_id), [])
+        }
+        unknown_stages = set(overrides) - chain_species
+        if unknown_stages:
+            result.error(
+                f"Override evolutivo {pokemon_name}: stadi estranei alla catena: "
+                f"{', '.join(sorted(unknown_stages))}"
+            )
+        for stage_id, override in overrides.items():
+            artwork_file = override.get("artworkFile")
+            if artwork_file and not (artwork_dir / artwork_file).is_file():
+                result.error(
+                    f"Override evolutivo {pokemon_name}/{stage_id}: artwork inesistente {artwork_file}"
+                )
+    unknown_trigger_pokemon = set(trigger_overrides) - roster_names
+    if unknown_trigger_pokemon:
+        result.error(
+            "Override condizioni evolutive per Pokémon inesistenti: "
+            + ", ".join(sorted(unknown_trigger_pokemon))
+        )
 
     available_item_names = {record["name"] for record in items if record.get("inChampions") is True}
     item_locale_missing = available_item_names - set(data["locale_items"])

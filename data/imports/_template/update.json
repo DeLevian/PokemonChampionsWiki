@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "release": {
+    "id": "todo-update",
+    "title": "TODO",
+    "gameVersion": "Pokemon Champions",
+    "announcedAt": null,
+    "effectiveAt": null,
+    "researchCompletedAt": "2000-01-01",
+    "summary": "TODO"
+  },
+  "sourceRefs": ["todo-source"],
+  "changes": {
+    "pokemon": [],
+    "moves": [],
+    "abilities": [],
+    "items": []
+  },
+  "review": {
+    "required": [],
+    "warnings": [],
+    "notes": []
+  }
+}

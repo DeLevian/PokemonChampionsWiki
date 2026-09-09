@@ -45,5 +45,41 @@
     "Absolite Z": "absolite.png",
     "Garchompite Z": "garchompite.png",
     "Lucarionite Z": "lucarionite.png"
+  },
+  "evolutionTriggerOverrides": {
+    "Alolan Ninetales": "Usa Pietra Ghiaccio",
+    "Hisuian Arcanine": "Usa Pietra Focaia",
+    "Galarian Slowbro": "Usa Fascia Galarnoce",
+    "Galarian Slowking": "Usa Corona Galarnoce",
+    "Alolan Persian": "Felicità elevata"
+  },
+  "evolutionStageOverrides": {
+    "Alolan Ninetales": {
+      "37": { "name": "Alolan Vulpix", "name_it": "Vulpix di Alola", "artworkFile": "Alolan Vulpix.png" }
+    },
+    "Hisuian Arcanine": {
+      "58": { "name": "Hisuian Growlithe", "name_it": "Growlithe di Hisui", "artworkFile": "Hisuian Growlithe.png" }
+    },
+    "Galarian Slowbro": {
+      "79": { "name": "Galarian Slowpoke", "name_it": "Slowpoke di Galar", "artworkFile": "Galarian Slowpoke.png" }
+    },
+    "Galarian Slowking": {
+      "79": { "name": "Galarian Slowpoke", "name_it": "Slowpoke di Galar", "artworkFile": "Galarian Slowpoke.png" }
+    },
+    "Hisuian Zoroark": {
+      "570": { "name": "Hisuian Zorua", "name_it": "Zorua di Hisui", "artworkFile": "Hisuian Zorua.png" }
+    },
+    "Hisuian Goodra": {
+      "705": { "name": "Hisuian Sliggoo", "name_it": "Sliggoo di Hisui", "artworkFile": "Hisuian Sliggoo.png" }
+    },
+    "Alolan Persian": {
+      "52": { "name": "Alolan Meowth", "name_it": "Meowth di Alola", "artworkFile": "Alolan Meowth.png" }
+    },
+    "Perrserker": {
+      "52": { "name": "Galarian Meowth", "name_it": "Meowth di Galar", "artworkFile": "Galarian Meowth.png" }
+    },
+    "Sirfetch'd": {
+      "83": { "name": "Galarian Farfetchd", "name_it": "Farfetch’d di Galar", "artworkFile": "Galarian Farfetchd.png" }
+    }
   }
 }

@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from generate_release_manifest import build_manifest
 from validate_data import VALID_TYPES, validate
 
 TARGET_FILES = {
@@ -28,6 +29,7 @@ TARGET_FILES = {
     "locale_moves": Path("data/locales/it/moves.json"),
     "locale_abilities": Path("data/locales/it/abilities.json"),
     "locale_items": Path("data/locales/it/items.json"),
+    "release": Path("data/releases/current.json"),
 }
 
 
@@ -128,6 +130,7 @@ def apply_package(root: Path, package: dict[str, Any], sources: dict[str, Any]) 
     verified_pokemon = sum(pokemon.get("championsVerified") is True for pokemon in state["roster"])
     verified_abilities = sum(ability.get("championsVerified") is True for ability in state["abilities"])
     verified_learnsets = sum(ls.get("championsVerified") is True for ls in state["learnsets"].values())
+    state["release"] = build_manifest(package)
     state["version"] = {
         "version": release["id"],
         "lastUpdated": release["researchCompletedAt"],

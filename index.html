@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
     
-    <link rel="stylesheet" href="src/styles/main.css?v=20">
+    <link rel="stylesheet" href="src/styles/main.css?v=21">
+    <link rel="stylesheet" href="src/styles/updates.css?v=2">
     
     <!-- Modern Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +22,7 @@
         <div id="data-version" class="data-version" aria-live="polite">Caricamento versione dati…</div>
         <div class="app-tabs">
             <button class="tab-btn active" data-target="pokedex-view">Pokédex</button>
+            <button class="tab-btn tab-btn-updates" data-target="updates-view">Novità</button>
             <button class="tab-btn" data-target="moves-view">Mosse</button>
             <button class="tab-btn" data-target="abilities-view">Abilità</button>
             <button class="tab-btn" data-target="items-view">Oggetti</button>
@@ -78,6 +80,10 @@
             <div id="pokedex-grid" class="pokemon-grid"></div>
         </section>
 
+        <section id="updates-view" class="view-section">
+            <div id="updates-root"></div>
+        </section>
+
         <section id="moves-view" class="view-section">
             <div id="moves-root"></div>
         </section>
@@ -99,6 +105,6 @@
         <div class="loader-spinner"></div>
     </div>
     <div id="modals-root"></div>
-    <script type="module" src="src/main.js?v=12"></script>
+    <script type="module" src="src/main.js?v=14"></script>
 </body>
 </html>

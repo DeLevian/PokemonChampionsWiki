@@ -1,0 +1,247 @@
+/* Latest release view */
+.tab-btn-updates { color: #fcd34d; }
+.tab-btn-updates::before {
+  content: '';
+  position: absolute;
+  top: 0.55rem;
+  right: -0.1rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #f59e0b;
+  box-shadow: 0 0 8px #f59e0b;
+}
+
+.updates-hero {
+  max-width: 920px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(251, 191, 36, 0.22);
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(251, 191, 36, 0.13), transparent 55%),
+    rgba(15, 23, 42, 0.66);
+}
+
+.updates-kicker {
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.updates-hero h2 {
+  margin: 0.35rem 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+}
+
+.updates-hero p {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+
+.updates-hero time {
+  display: block;
+  margin-top: 0.65rem;
+  color: #94a3b8;
+  font-size: 0.72rem;
+}
+
+.updates-counts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-top: 1.4rem;
+}
+
+.updates-counts a {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+  color: var(--fg);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.updates-counts a:hover { border-color: var(--accent); }
+.updates-counts strong { color: var(--accent); font-size: 1.2rem; }
+.updates-counts span { color: var(--muted); font-size: 0.68rem; }
+
+.updates-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.updates-group { scroll-margin-top: 130px; }
+.updates-group-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.updates-group-heading h3 {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.35rem;
+}
+
+.updates-group-heading > span {
+  min-width: 1.7rem;
+  padding: 0.15rem 0.45rem;
+  text-align: center;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 800;
+  border-radius: 999px;
+  background: rgba(251, 191, 36, 0.12);
+}
+
+.updates-entity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 0.6rem;
+}
+
+.update-entity {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem;
+  color: var(--fg);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(17, 24, 39, 0.72);
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.update-entity:hover,
+.update-entity:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(251, 191, 36, 0.58);
+  background: rgba(30, 41, 59, 0.9);
+  outline: none;
+}
+
+.update-entity-visual {
+  display: grid;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.update-entity-visual img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.update-entity-symbol { color: var(--accent); font-size: 1.15rem; }
+.update-type-dot {
+  width: 20px;
+  height: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  background: var(--type-normal);
+}
+
+.update-type-dot.fire { background: var(--type-fire); }
+.update-type-dot.water { background: var(--type-water); }
+.update-type-dot.grass { background: var(--type-grass); }
+.update-type-dot.electric { background: var(--type-electric); }
+.update-type-dot.ice { background: var(--type-ice); }
+.update-type-dot.fighting { background: var(--type-fighting); }
+.update-type-dot.poison { background: var(--type-poison); }
+.update-type-dot.ground { background: var(--type-ground); }
+.update-type-dot.flying { background: var(--type-flying); }
+.update-type-dot.psychic { background: var(--type-psychic); }
+.update-type-dot.bug { background: var(--type-bug); }
+.update-type-dot.rock { background: var(--type-rock); }
+.update-type-dot.ghost { background: var(--type-ghost); }
+.update-type-dot.dragon { background: var(--type-dragon); }
+.update-type-dot.dark { background: var(--type-dark); }
+.update-type-dot.steel { background: var(--type-steel); }
+.update-type-dot.fairy { background: var(--type-fairy); }
+
+.update-entity-copy {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.update-entity-copy strong,
+.update-entity-copy small,
+.update-entity-copy span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.update-entity-copy strong { font-size: 0.86rem; }
+.update-entity-copy small { color: #94a3b8; font-size: 0.67rem; }
+.update-entity-copy span { margin-top: 0.2rem; color: var(--muted); font-size: 0.65rem; }
+.update-entity-open { flex: 0 0 auto; color: #64748b; font-size: 1.3rem; }
+.updates-empty { padding: 4rem 1rem; color: var(--muted); text-align: center; }
+
+.update-ability-modal {
+  max-width: 600px !important;
+  padding: 2rem !important;
+  border-top: 3px solid var(--accent) !important;
+}
+
+.update-ability-modal h2 {
+  margin: 0.45rem 0 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.update-detail-name-en { color: #94a3b8; font-size: 0.8rem; }
+.update-ability-modal > p { margin: 1.25rem 0 0; line-height: 1.7; }
+.update-detail-associated {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.update-detail-associated > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.update-detail-associated span {
+  padding: 0.25rem 0.55rem;
+  color: #cbd5e1;
+  font-size: 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 640px) {
+  .app-tabs {
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .app-tabs::-webkit-scrollbar { display: none; }
+  .tab-btn { flex: 0 0 auto; }
+  .updates-hero { padding: 1.4rem 1rem; }
+  .updates-counts { grid-template-columns: repeat(2, 1fr); }
+  .updates-entity-grid { grid-template-columns: 1fr; }
+}

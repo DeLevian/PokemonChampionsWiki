@@ -3,6 +3,7 @@ import { ItemsView } from './components/items.js';
 import { MovesView } from './components/moves.js';
 import { AbilitiesView } from './components/abilities.js';
 import { TeamBuildingView } from './components/teambuilding.js';
+import { UpdatesView } from './components/updates.js';
 
 class App {
     constructor() {
@@ -52,7 +53,7 @@ class App {
             // Load official database files + static old files + Locales
             const [
                 rosterData, statsData, learnsetsData, speciesMetaData,
-                evolutionData, aliasesData, typeChartData, versionData,
+                evolutionData, aliasesData, typeChartData, versionData, releaseData,
                 itemsData, abilitiesData, movesData, naturesData, 
                 locAbilities, locMoves, locItems, locPokemon, locNatures
             ] = await Promise.all([
@@ -64,6 +65,7 @@ class App {
                 loadJson('data/mappings/entity-aliases.json', { pokemon: {}, pokemonArtwork: {} }),
                 loadJson('data/database/current/type-chart/effectiveness.json', { chart: {} }),
                 loadJson('data/database/current/meta/version.json', {}),
+                loadJson('data/releases/current.json', null),
                 loadJson('data/database/current/items/items.json', []),
                 loadJson('data/database/current/abilities/abilities.json', []),
                 loadJson('data/database/current/moves/moves.json', []),
@@ -160,6 +162,7 @@ class App {
                     ])
             );
             window.dataVersion = versionData;
+            window.currentRelease = releaseData;
             window.speciesMetaData = speciesMetaData;
             window.learnsetsData = learnsetsData;
 
@@ -250,7 +253,8 @@ class App {
                 { id: 'items-root', class: ItemsView, key: 'itemsView' },
                 { id: 'moves-root', class: MovesView, key: 'movesView' },
                 { id: 'abilities-root', class: AbilitiesView, key: 'abilitiesView' },
-                { id: 'teambuilding-root', class: TeamBuildingView, key: 'teamBuildingView' }
+                { id: 'teambuilding-root', class: TeamBuildingView, key: 'teamBuildingView' },
+                { id: 'updates-root', class: UpdatesView, key: 'updatesView' }
             ];
 
             for (const cfg of viewConfigs) {
@@ -273,24 +277,49 @@ class App {
         }
     }
 
+    activateView(target) {
+        document.querySelectorAll('.tab-btn').forEach(tab => {
+            tab.classList.toggle('active', tab.dataset.target === target);
+        });
+        document.querySelectorAll('.view-section').forEach(section => {
+            section.classList.toggle('active', section.id === target);
+        });
+        this.currentView = target;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    navigateTo(view, options = {}) {
+        const viewMap = {
+            pokedex: 'pokedex-view',
+            updates: 'updates-view',
+            moves: 'moves-view',
+            abilities: 'abilities-view',
+            items: 'items-view',
+            teambuilding: 'teambuilding-view'
+        };
+        const target = viewMap[view] || view;
+        this.activateView(target);
+        if (view === 'pokedex' && options.pokemon) {
+            this.pokedexView?.openDetails(options.pokemon);
+        }
+    }
+
+    openReleaseEntity(type, name) {
+        // Release details are opened as overlays: the active Novità tab never changes.
+        if (type === 'pokemon') {
+            this.pokedexView?.openDetails(name);
+        } else if (type === 'moves') {
+            this.pokedexView?.openMoveDetails(name);
+        } else if (type === 'abilities') {
+            this.updatesView?.showAbilityDetail(name);
+        } else if (type === 'items') {
+            this.itemsView?.showItemDetail(name);
+        }
+    }
+
     initTabbing() {
-        const tabs = document.querySelectorAll('.tab-btn');
-        const sections = document.querySelectorAll('.view-section');
-
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                tabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-
-                const target = tab.dataset.target;
-                sections.forEach(s => {
-                    if (s.id === target) {
-                        s.classList.add('active');
-                    } else {
-                        s.classList.remove('active');
-                    }
-                });
-            });
+        document.querySelectorAll('.tab-btn').forEach(tab => {
+            tab.addEventListener('click', () => this.activateView(tab.dataset.target));
         });
     }
 }

@@ -37,6 +37,8 @@ jobs:
           python-version: "3.12"
       - name: Validate game data
         run: python tools/validate_data.py
+      - name: Validate update packages
+        run: find data/imports -mindepth 2 -maxdepth 2 -name update.json ! -path '*/_template/*' -print0 | xargs -0 python tools/validate_update.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

@@ -969,18 +969,41 @@ export class PokedexView {
         const chainId = evoData.species_to_chain[String(speciesId)];
         if (!chainId) return '';
         
-        const chain = evoData.chains[chainId] || [];
+        const fullChain = evoData.chains[chainId] || [];
+        const targetSpeciesId = Number(data.species_id || data.dexId || data.id);
+        const stagesBySpeciesId = new Map(
+            fullChain.map(stage => [Number(stage.species_id), stage])
+        );
+
+        // A chain can branch. Render only the ancestry path leading to the
+        // selected species instead of incorrectly placing sibling evolutions in sequence.
+        const chain = [];
+        let currentStage = stagesBySpeciesId.get(targetSpeciesId);
+        const visitedSpecies = new Set();
+        while (currentStage && !visitedSpecies.has(Number(currentStage.species_id))) {
+            chain.unshift(currentStage);
+            visitedSpecies.add(Number(currentStage.species_id));
+            currentStage = currentStage.evolves_from == null
+                ? null
+                : stagesBySpeciesId.get(Number(currentStage.evolves_from));
+        }
+
+        const stageOverrides = window.entityAliases?.evolutionStageOverrides?.[data.name] || {};
+        const triggerOverride = window.entityAliases?.evolutionTriggerOverrides?.[data.name] || null;
+        const normalizeSpeciesName = value => String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
         
-        // Build the visual chain for BASE forms
+        // Build the visual chain for the selected evolutionary path.
         let chainHtml = '';
         if (chain.length > 1) {
             for (let i = 0; i < chain.length; i++) {
                 const sp = chain[i];
-                // Use Name comparison for "current" to distinguish between Base and Mega
-                const isCurrent = String(sp.name) === String(data.id);
+                const isTargetSpecies = Number(sp.species_id) === targetSpeciesId;
+                const isCurrent = isTargetSpecies && data.form !== 'Mega';
                 
                 let triggerText = '';
-                if (sp.evolution_details && sp.evolution_details.length > 0) {
+                if (isTargetSpecies && triggerOverride) {
+                    triggerText = triggerOverride;
+                } else if (sp.evolution_details && sp.evolution_details.length > 0) {
                     const det = sp.evolution_details[0];
                     triggerText = det.text_it || '';
                     if (!triggerText) {
@@ -994,14 +1017,26 @@ export class PokedexView {
                 
                 if (i > 0) chainHtml += `<span class="evo-arrow">→</span>`;
                 
-                // Check if this pokemon is in the roster (case-insensitive)
-                const rosterPk = (window.pokemonList || []).find(p => p.name.toLowerCase() === sp.name.toLowerCase());
+                const stageOverride = stageOverrides[String(sp.species_id)] || null;
+                let rosterPk = null;
+                if (isTargetSpecies && data.form !== 'Mega') {
+                    rosterPk = (window.pokemonList || []).find(p => p.name === data.name) || null;
+                } else if (!stageOverride) {
+                    rosterPk = (window.pokemonList || []).find(p =>
+                        normalizeSpeciesName(p.name) === normalizeSpeciesName(sp.name)
+                    ) || null;
+                }
                 const existsInRoster = !!rosterPk;
-                const fallbackName = sp.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                const fallbackName = stageOverride?.name || sp.name
+                    .split('-')
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(' ');
                 const rosterName = rosterPk ? rosterPk.name : fallbackName;
 
-                const displayName = sp.name_it || sp.name;
-                const sprite = this.getSpriteUrl(rosterName, 'artwork');
+                const displayName = stageOverride?.name_it || (isTargetSpecies ? data.name_it : null) || sp.name_it || sp.name;
+                const sprite = stageOverride?.artworkFile
+                    ? `data/sprites/pokemon/artwork/${stageOverride.artworkFile}`
+                    : this.getSpriteUrl(rosterName, 'artwork');
                 const statusClass = !existsInRoster ? 'not-in-roster' : (isCurrent ? 'current' : '');
                 const tooltipText = !existsInRoster ? `Non presente nel roster` : `Apri scheda ${displayName}`;
 
@@ -1018,18 +1053,14 @@ export class PokedexView {
         // Check for alternate forms (Mega, GMax, etc.) of all species in this chain
         const chainSpeciesIds = chain.length > 0 ? chain.map(s => s.species_id) : [speciesId];
         
-        // Get localized names of all species in the chain to match forms
-        const chainSpeciesNames = chain.map(s => (s.name_it || '').toLowerCase()).filter(n => n !== '');
-        
         const alternateForms = (window.pokemonList || []).filter(p => {
-            // Link by species_id OR by localized name matching (more robust for forms)
-            const pNameIt = (p.name_it || '').toLowerCase();
             const pNameFull = (p.name || '').toLowerCase();
-            
-            const isRelated = (p.species_id && chainSpeciesIds.includes(p.species_id)) || 
-                              chainSpeciesNames.some(cn => pNameIt.includes(cn) || pNameFull.includes(cn));
-                              
-            if (!isRelated) return false;
+            const pokemonSpeciesId = Number(p.species_id || p.dexId);
+
+            // Regional forms have independent evolutionary paths and must not
+            // inherit Mega forms belonging to their non-regional counterpart.
+            if (data.form === 'Regional') return false;
+            if (!chainSpeciesIds.map(Number).includes(pokemonSpeciesId)) return false;
             
             // Do NOT show the base form here anymore, user will use the Evolution Chain to go back
             if (p.is_default) return false;
