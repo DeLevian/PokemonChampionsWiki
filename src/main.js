@@ -4,6 +4,7 @@ import { MovesView } from './components/moves.js';
 import { AbilitiesView } from './components/abilities.js';
 import { TeamBuildingView } from './components/teambuilding.js';
 import { UpdatesView } from './components/updates.js';
+import { DamageCalculatorView } from './components/damage-calculator.js';
 
 class App {
     constructor() {
@@ -53,7 +54,7 @@ class App {
             // Load official database files + static old files + Locales
             const [
                 rosterData, statsData, learnsetsData, speciesMetaData,
-                evolutionData, aliasesData, typeChartData, versionData, releaseData,
+                evolutionData, aliasesData, typeChartData, versionData, releaseData, releaseIndexData,
                 itemsData, abilitiesData, movesData, naturesData, 
                 locAbilities, locMoves, locItems, locPokemon, locNatures
             ] = await Promise.all([
@@ -66,6 +67,7 @@ class App {
                 loadJson('data/database/current/type-chart/effectiveness.json', { chart: {} }),
                 loadJson('data/database/current/meta/version.json', {}),
                 loadJson('data/releases/current.json', null),
+                loadJson('data/releases/index.json', { current: null, releases: [] }),
                 loadJson('data/database/current/items/items.json', []),
                 loadJson('data/database/current/abilities/abilities.json', []),
                 loadJson('data/database/current/moves/moves.json', []),
@@ -163,6 +165,17 @@ class App {
             );
             window.dataVersion = versionData;
             window.currentRelease = releaseData;
+            window.releaseIndex = releaseIndexData;
+            const indexedReleases = Array.isArray(releaseIndexData?.releases)
+                ? releaseIndexData.releases
+                : [];
+            window.releaseHistory = (await Promise.all(indexedReleases.map(entry => {
+                if (entry.id === releaseData?.id) return releaseData;
+                return loadJson(`data/releases/${entry.manifest}`, null);
+            }))).filter(Boolean);
+            if (!window.releaseHistory.length && releaseData) {
+                window.releaseHistory = [releaseData];
+            }
             window.speciesMetaData = speciesMetaData;
             window.learnsetsData = learnsetsData;
 
@@ -254,7 +267,8 @@ class App {
                 { id: 'moves-root', class: MovesView, key: 'movesView' },
                 { id: 'abilities-root', class: AbilitiesView, key: 'abilitiesView' },
                 { id: 'teambuilding-root', class: TeamBuildingView, key: 'teamBuildingView' },
-                { id: 'updates-root', class: UpdatesView, key: 'updatesView' }
+                { id: 'updates-root', class: UpdatesView, key: 'updatesView' },
+                { id: 'damage-calculator-root', class: DamageCalculatorView, key: 'damageCalculatorView' }
             ];
 
             for (const cfg of viewConfigs) {
@@ -295,7 +309,8 @@ class App {
             moves: 'moves-view',
             abilities: 'abilities-view',
             items: 'items-view',
-            teambuilding: 'teambuilding-view'
+            teambuilding: 'teambuilding-view',
+            damage: 'damage-calculator-view'
         };
         const target = viewMap[view] || view;
         this.activateView(target);

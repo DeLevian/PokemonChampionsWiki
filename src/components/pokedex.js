@@ -1,4 +1,9 @@
 import { getPokemonSpriteUrl } from '../services/assets.js';
+import {
+    bindReleaseFilterControls,
+    matchesReleaseFilter,
+    renderCurrentReleaseBadge
+} from '../services/releases.js';
 
 const TYPE_NAMES = {
     normal: 'Normale', fire: 'Fuoco', water: 'Acqua', grass: 'Erba', electric: 'Elettro',
@@ -34,6 +39,8 @@ export class PokedexView {
         this.activeSection = 'all'; // 'all' (Pokedex) or 'mega' (Mega only)
         this.compareModeActive = false;
         this.selectedForCompare = [];
+        this.releaseFilter = 'all';
+        this.releaseOperation = 'all';
     }
 
     getSpriteUrl(pokemon, type = null) {
@@ -236,6 +243,10 @@ export class PokedexView {
                 this.renderGrid();
             });
         }
+        bindReleaseFilterControls('pokedex', this, () => {
+            this.visibleCount = 80;
+            this.renderGrid();
+        });
 
         // Infinite scroll
         this._scrollHandler = () => {
@@ -371,6 +382,7 @@ export class PokedexView {
                 if (query && !displayNameLower.includes(query) && !pNameLower.includes(query) && 
                     String(p.species_id || '') !== query && String(p.dexId || '') !== query) return false;
                 if (this.selectedType !== 'all' && !pTypes.includes(this.selectedType.toLowerCase())) return false;
+                if (!matchesReleaseFilter('pokemon', p.name, this.releaseFilter, this.releaseOperation)) return false;
 
                 if (this.selectedForm !== 'all') {
                     if (this.selectedForm === 'base') {
@@ -489,7 +501,7 @@ export class PokedexView {
                     <tr data-name="${p.name}">
                         <td class="col-id">#${String(p.dexId || p.id).padStart(4, '0')}</td>
                         <td><img src="${spriteStr}" class="table-sprite" onerror="window.pokedexView.handleImageError(this, '${p.name}', 'standard')"></td>
-                        <td><strong>${displayName}</strong></td>
+                        <td><span class="entity-name-with-release"><strong>${displayName}</strong>${renderCurrentReleaseBadge('pokemon', p.name)}</span></td>
                         <td><div class="pokemon-types">${typesHTML}</div></td>
                         <td class="col-stat">${hp}</td>
                         <td class="col-stat">${atk}</td>
@@ -549,7 +561,7 @@ export class PokedexView {
                         <img src="${spriteStr}" alt="${displayName}" loading="lazy" onerror="window.pokedexView.handleImageError(this, '${p.name}', 'standard')">
                         <div class="pokemon-meta">
                             <span class="pokemon-id">#${String(p.species_id || p.id).padStart(4, '0')}</span>
-                            <h3 class="pokemon-name">${displayName}</h3>
+                            <div class="pokemon-name-row"><h3 class="pokemon-name">${displayName}</h3>${renderCurrentReleaseBadge('pokemon', p.name)}</div>
                             <div class="pokemon-types">${typesHTML}</div>
                         </div>
                     </div>

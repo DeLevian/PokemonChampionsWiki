@@ -1,15 +1,25 @@
+import {
+    bindReleaseFilterControls,
+    matchesReleaseFilter,
+    renderCurrentReleaseBadge,
+    renderReleaseFilterControls
+} from '../services/releases.js';
+
 export class AbilitiesView {
     constructor(container) {
         this.container = container;
         this.abilityList = [];
         this.visibleCount = 80;
         this.searchQuery = '';
+        this.releaseFilter = 'all';
+        this.releaseOperation = 'all';
     }
 
     async render() {
         this.container.innerHTML = `
             <div class="toolbar">
                 <input type="text" id="abilities-search" placeholder="Cerca Abilità..." class="search-box">
+                ${renderReleaseFilterControls('abilities')}
             </div>
             <div id="abilities-count" class="pokemon-count"></div>
             <div class="abilities-container" id="abilities-grid" style="margin-top: 1rem; max-width: 1000px; margin-left: auto; margin-right: auto;"></div>
@@ -70,6 +80,10 @@ export class AbilitiesView {
             this.visibleCount = 80;
             this.renderGrid();
         });
+        bindReleaseFilterControls('abilities', this, () => {
+            this.visibleCount = 80;
+            this.renderGrid();
+        });
 
         // Infinite scroll for this container
         this._scrollHandler = () => {
@@ -92,6 +106,7 @@ export class AbilitiesView {
         if (!append) {
             this.filteredList = this.abilityList.filter(a => {
                 if (this.searchQuery && !a._itName.toLowerCase().includes(this.searchQuery) && !a._flavor.toLowerCase().includes(this.searchQuery)) return false;
+                if (!matchesReleaseFilter('abilities', a.name, this.releaseFilter, this.releaseOperation)) return false;
                 return true;
             });
 
@@ -108,6 +123,7 @@ export class AbilitiesView {
                     <div class="ability-header">
                         <div class="ability-title-row">
                             <span class="ability-name">${a._itName}</span>
+                            ${renderCurrentReleaseBadge('abilities', a.name)}
                         </div>
                         <i class="icon-chevron" style="opacity:0.5;">▼</i>
                     </div>

@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from generate_release_manifest import build_manifest
+from generate_release_manifest import build_manifest, update_release_index
 from validate_data import VALID_TYPES, validate
 
 TARGET_FILES = {
@@ -30,6 +30,7 @@ TARGET_FILES = {
     "locale_abilities": Path("data/locales/it/abilities.json"),
     "locale_items": Path("data/locales/it/items.json"),
     "release": Path("data/releases/current.json"),
+    "release_index": Path("data/releases/index.json"),
 }
 
 
@@ -131,6 +132,8 @@ def apply_package(root: Path, package: dict[str, Any], sources: dict[str, Any]) 
     verified_abilities = sum(ability.get("championsVerified") is True for ability in state["abilities"])
     verified_learnsets = sum(ls.get("championsVerified") is True for ls in state["learnsets"].values())
     state["release"] = build_manifest(package)
+    state["release_archive"] = copy.deepcopy(state["release"])
+    state["release_index"] = update_release_index(state["release_index"], state["release"])
     state["version"] = {
         "version": release["id"],
         "lastUpdated": release["researchCompletedAt"],
@@ -169,16 +172,26 @@ def apply_package(root: Path, package: dict[str, Any], sources: dict[str, Any]) 
     return state
 
 
-def stage_and_replace(root: Path, state: dict[str, Any]) -> dict[Path, bytes]:
-    backups = {path: (root / path).read_bytes() for path in TARGET_FILES.values()}
+def state_targets(state: dict[str, Any]) -> dict[str, Path]:
+    targets = dict(TARGET_FILES)
+    targets["release_archive"] = Path("data/releases") / f"{state['release']['id']}.json"
+    return targets
+
+
+def stage_and_replace(root: Path, state: dict[str, Any]) -> dict[Path, bytes | None]:
+    targets = state_targets(state)
+    backups = {
+        path: (root / path).read_bytes() if (root / path).is_file() else None
+        for path in targets.values()
+    }
     stage_root = Path(tempfile.mkdtemp(prefix="champions-update-", dir=root))
     try:
-        for name, relative in TARGET_FILES.items():
+        for name, relative in targets.items():
             staged = stage_root / relative
             staged.parent.mkdir(parents=True, exist_ok=True)
             # The upstream moves file historically stores Unicode arrows as escapes.
             staged.write_bytes(encoded(state[name], ensure_ascii=(name == "moves")))
-        for relative in TARGET_FILES.values():
+        for relative in targets.values():
             destination = root / relative
             os.replace(stage_root / relative, destination)
     finally:
@@ -186,9 +199,12 @@ def stage_and_replace(root: Path, state: dict[str, Any]) -> dict[Path, bytes]:
     return backups
 
 
-def restore(root: Path, backups: dict[Path, bytes]) -> None:
+def restore(root: Path, backups: dict[Path, bytes | None]) -> None:
     for relative, content in backups.items():
         destination = root / relative
+        if content is None:
+            destination.unlink(missing_ok=True)
+            continue
         temporary = destination.with_suffix(destination.suffix + ".rollback")
         temporary.write_bytes(content)
         os.replace(temporary, destination)
@@ -223,6 +239,14 @@ def main() -> int:
         state = apply_package(root, package, sources)
     except (KeyError, ValueError, TypeError) as exc:
         print(f"[ERRORE] Patch non applicabile: {exc}")
+        return 1
+
+    archive_path = root / state_targets(state)["release_archive"]
+    if archive_path.is_file() and load_json(archive_path) != state["release_archive"]:
+        print(
+            f"[ERRORE] La release {package['release']['id']} è già archiviata con contenuto diverso. "
+            "Gli ID delle release sono immutabili."
+        )
         return 1
     if args.dry_run:
         print(f"Anteprima valida: {summary(state)}")

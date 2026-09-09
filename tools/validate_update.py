@@ -117,6 +117,11 @@ def validate_package(path: Path, root: Path) -> Result:
         for field in ("title", "gameVersion", "summary"):
             if not isinstance(release[field], str) or not release[field].strip():
                 result.error(f"release.{field}: stringa obbligatoria")
+        label = release.get("label")
+        if label is not None and (
+            not isinstance(label, str) or not label.strip() or len(label.strip()) > 12
+        ):
+            result.error("release.label: usare da 1 a 12 caratteri")
 
     if not require_fields(sources_data, {"researchCompletedAt", "sources"}, "sources.json", result):
         return result
@@ -270,7 +275,12 @@ def main() -> int:
     for value in args.packages:
         path = value if value.is_absolute() else root / value
         result = validate_package(path, root)
-        print(f"Pacchetto: {path.relative_to(root)}")
+        try:
+            display_path = path.relative_to(root)
+        except ValueError:
+            # Windows can expose the same temporary path with short (8.3) and long names.
+            display_path = path
+        print(f"Pacchetto: {display_path}")
         for error in result.errors:
             print(f"[ERRORE] {error}")
         for warning in result.warnings:

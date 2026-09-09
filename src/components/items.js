@@ -1,3 +1,10 @@
+import {
+    bindReleaseFilterControls,
+    matchesReleaseFilter,
+    renderCurrentReleaseBadge,
+    renderReleaseFilterControls
+} from '../services/releases.js';
+
 const CATEGORY_LABELS = {
     all: 'Tutte le categorie',
     mega: 'Megapietre',
@@ -14,6 +21,8 @@ export class ItemsView {
         this.selectedCategory = 'all';
         this.visibleCount = 80;
         this.filteredItems = [];
+        this.releaseFilter = 'all';
+        this.releaseOperation = 'all';
     }
 
     classifyItem(item) {
@@ -58,6 +67,7 @@ export class ItemsView {
                         `<option value="${value}">${label}</option>`
                     ).join('')}
                 </select>
+                ${renderReleaseFilterControls('items')}
                 <div id="items-count-label" class="total-badge">0 oggetti</div>
             </div>
 
@@ -95,6 +105,10 @@ export class ItemsView {
             this.visibleCount = 80;
             this.renderGrid();
         });
+        bindReleaseFilterControls('items', this, () => {
+            this.visibleCount = 80;
+            this.renderGrid();
+        });
         this.loadMoreBtn.addEventListener('click', () => {
             this.visibleCount += 80;
             this.renderGrid();
@@ -106,6 +120,7 @@ export class ItemsView {
     renderGrid() {
         this.filteredItems = this.itemsList.filter(item => {
             if (this.selectedCategory !== 'all' && item._category !== this.selectedCategory) return false;
+            if (!matchesReleaseFilter('items', item.name, this.releaseFilter, this.releaseOperation)) return false;
             if (!this.searchQuery) return true;
             const searchable = [item.name_it, item.name_en, item.name]
                 .filter(Boolean)
@@ -137,7 +152,7 @@ export class ItemsView {
                     <span class="item-image-wrapper">${this.renderIcon(item)}</span>
                     <span class="item-info">
                         <span class="item-card-heading">
-                            <strong class="item-name">${italianName}</strong>
+                            <span class="entity-name-with-release"><strong class="item-name">${italianName}</strong>${renderCurrentReleaseBadge('items', item.name)}</span>
                             <span class="item-category item-category-${item._category}">${CATEGORY_LABELS[item._category]}</span>
                         </span>
                         ${showEnglish ? `<span class="item-name-en">${englishName}</span>` : ''}

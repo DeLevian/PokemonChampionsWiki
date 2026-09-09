@@ -146,7 +146,7 @@ select option {
 }
 
 @media(min-width: 640px) {
-  .toolbar { flex-direction: row; }
+  .toolbar { flex-direction: row; flex-wrap: wrap; }
 }
 
 .search-box, .game-select {
@@ -189,6 +189,16 @@ select option {
     background: #0f172a;
     color: #fff;
     padding: 10px;
+}
+
+.release-filter-select,
+.release-operation-select {
+  border-color: rgba(245, 158, 11, 0.22);
+}
+
+@media(min-width: 640px) {
+  .toolbar .release-filter-select { flex: 1 1 220px; }
+  .toolbar .release-operation-select { flex: 0 1 190px; }
 }
 
 /* Chips Filter */
@@ -333,6 +343,35 @@ select option {
 .pokemon-meta { width: 100%; text-align: center; }
 .pokemon-id { font-size: 0.75rem; color: var(--muted); font-weight: 700; display: block; }
 .pokemon-name { font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.entity-name-with-release,
+.pokemon-name-row {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.38rem;
+}
+
+.pokemon-name-row { justify-content: center; }
+.pokemon-name-row .pokemon-name { min-width: 0; }
+
+.release-badge {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem 0.3rem;
+  color: #fde68a;
+  font-size: 0.52rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  cursor: help;
+  border: 1px solid rgba(245, 158, 11, 0.28);
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.1);
+}
 
 .pokemon-types {
   display: flex;

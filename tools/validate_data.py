@@ -35,6 +35,7 @@ DATA_FILES = {
     "evolutions": "data/evolution_chains.json",
     "type_chart": "data/database/current/type-chart/effectiveness.json",
     "release": "data/releases/current.json",
+    "release_index": "data/releases/index.json",
     "locale_pokemon": "data/locales/it/pokemon.json",
     "locale_moves": "data/locales/it/moves.json",
     "locale_abilities": "data/locales/it/abilities.json",
@@ -94,7 +95,7 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
 
     list_names = ("roster", "stats", "moves", "abilities", "items", "natures")
     dict_names = (
-        "learnsets", "version", "species", "evolutions", "type_chart", "release", "locale_pokemon",
+        "learnsets", "version", "species", "evolutions", "type_chart", "release", "release_index", "locale_pokemon",
         "locale_moves", "locale_abilities", "locale_items", "locale_natures", "aliases",
     )
     for name in list_names:
@@ -272,12 +273,17 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
                 result.error(f"Type chart {attack_type}: moltiplicatori non validi: {invalid_values}")
 
     release = data["release"]
+    if release.get("schemaVersion") != 1:
+        result.error("Release corrente: schemaVersion non supportata")
+    if not isinstance(release.get("label"), str) or not release["label"].strip():
+        result.error("Release corrente: label assente o non valida")
     if release.get("id") != data["version"].get("version"):
         result.error(
             f"Release corrente {release.get('id')!r} non coincide con version.json "
             f"({data['version'].get('version')!r})"
         )
     release_entities = release.get("entities", {})
+    release_operations = release.get("operations", {})
     entity_sets = {
         "pokemon": roster_names,
         "moves": move_names,
@@ -289,7 +295,22 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
         if not isinstance(names, list):
             result.error(f"Release corrente: entities.{entity_type} deve essere una lista")
             continue
-        missing = set(names) - known_names
+        type_operations = release_operations.get(entity_type, {})
+        if type_operations and not isinstance(type_operations, dict):
+            result.error(f"Release corrente: operations.{entity_type} deve essere un oggetto")
+            type_operations = {}
+        operation_names = [
+            name
+            for operation, operation_entities in type_operations.items()
+            if operation in {"add", "update", "remove", "verify"} and isinstance(operation_entities, list)
+            for name in operation_entities
+        ]
+        if type_operations and (len(operation_names) != len(set(operation_names)) or set(operation_names) != set(names)):
+            result.error(
+                f"Release corrente: operations.{entity_type} non coincide con entities.{entity_type}"
+            )
+        removed_names = set(type_operations.get("remove", [])) if isinstance(type_operations, dict) else set()
+        missing = set(names) - removed_names - known_names
         if missing:
             result.error(
                 f"Release corrente: {entity_type} inesistenti: {', '.join(sorted(missing))}"
@@ -299,6 +320,59 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
             result.error(
                 f"Release corrente: counts.{entity_type}={declared_count!r}, atteso {len(names)}"
             )
+
+    release_index = data["release_index"]
+    if release_index.get("schemaVersion") != 1:
+        result.error("Indice release: schemaVersion non supportata")
+    releases = release_index.get("releases")
+    if not isinstance(releases, list):
+        result.error("Indice release: releases deve essere una lista")
+        releases = []
+    release_ids = [entry.get("id") for entry in releases if isinstance(entry, dict)]
+    if len(release_ids) != len(set(release_ids)):
+        result.error("Indice release: ID duplicati")
+    if release_index.get("current") != release.get("id"):
+        result.error(
+            f"Indice release: current={release_index.get('current')!r}, atteso {release.get('id')!r}"
+        )
+    for entry in releases:
+        if not isinstance(entry, dict):
+            result.error("Indice release: ogni voce deve essere un oggetto")
+            continue
+        release_id = entry.get("id")
+        expected_file = f"{release_id}.json"
+        if entry.get("manifest") != expected_file:
+            result.error(
+                f"Indice release {release_id}: manifest={entry.get('manifest')!r}, atteso {expected_file!r}"
+            )
+            continue
+        archived = load_json(root / "data/releases" / expected_file, result)
+        if not isinstance(archived, dict):
+            continue
+        if archived.get("id") != release_id:
+            result.error(f"Archivio release {expected_file}: ID non coerente")
+        if archived.get("counts") != entry.get("counts"):
+            result.error(f"Archivio release {release_id}: conteggi diversi dall'indice")
+        for field in ("title", "label", "date", "summary"):
+            if archived.get(field) != entry.get(field):
+                result.error(f"Archivio release {release_id}: campo {field} diverso dall'indice")
+        archived_entities = archived.get("entities", {})
+        for entity_type in entity_sets:
+            names = archived_entities.get(entity_type)
+            if not isinstance(names, list):
+                result.error(f"Archivio release {release_id}: entities.{entity_type} non valido")
+            elif archived.get("counts", {}).get(entity_type) != len(names):
+                result.error(f"Archivio release {release_id}: conteggio {entity_type} non valido")
+    current_entry = next(
+        (entry for entry in releases if isinstance(entry, dict) and entry.get("id") == release.get("id")),
+        None,
+    )
+    if current_entry is None:
+        result.error("Indice release: la release corrente non è presente nello storico")
+    else:
+        archived_current = load_json(root / "data/releases" / current_entry["manifest"], result)
+        if archived_current != release:
+            result.error("La release corrente è diversa dalla copia archiviata")
 
     version = data["version"]
     counts = version.get("counts", {})

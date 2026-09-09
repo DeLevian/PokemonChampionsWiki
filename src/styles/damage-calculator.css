@@ -1,0 +1,173 @@
+.damage-header {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.damage-header h2 {
+  margin: 0.35rem 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+}
+
+.damage-header p { margin: 0; color: var(--muted); line-height: 1.6; }
+.damage-layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.damage-panel {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.68);
+}
+
+.damage-panel h3 { margin: 0 0 1rem; font-family: 'Outfit', sans-serif; }
+.damage-panel > label,
+.damage-field-row label {
+  display: flex;
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.damage-panel .game-select,
+.damage-panel input[type='number'],
+.damage-panel .damage-pokemon-search {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.72rem 0.8rem;
+  color: var(--fg);
+  font: inherit;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: rgba(2, 6, 23, 0.72);
+}
+
+.damage-pokemon-search {
+  background-image: none;
+  cursor: text;
+}
+
+.damage-pokemon-preview {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.55rem;
+  padding: 0.45rem 0.65rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.damage-pokemon-preview img {
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.38));
+}
+
+.damage-pokemon-preview > span { display: flex; min-width: 0; flex-direction: column; }
+.damage-pokemon-preview strong { color: var(--fg); font-size: 0.78rem; }
+.damage-pokemon-preview small { margin-top: 0.2rem; color: #94a3b8; }
+.damage-help {
+  display: inline-flex;
+  width: fit-content;
+  color: #fcd34d;
+  font-size: 0.58rem;
+  font-weight: 800;
+  cursor: help;
+}
+
+.damage-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+.damage-panel .damage-check {
+  display: flex;
+  align-items: center;
+  margin-top: 0.85rem;
+  color: #cbd5e1;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.damage-check input { accent-color: var(--accent); }
+.damage-inline-info { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.6rem; }
+.damage-inline-info span {
+  padding: 0.2rem 0.45rem;
+  color: #94a3b8;
+  font-size: 0.62rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.damage-result {
+  max-width: 850px;
+  min-height: 150px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  border-radius: 18px;
+  background: radial-gradient(circle at 50% 0%, rgba(251, 191, 36, 0.12), transparent 68%), rgba(15, 23, 42, 0.75);
+}
+
+.damage-result-matchup { display: flex; align-items: center; justify-content: center; gap: 0.65rem; flex-wrap: wrap; }
+.damage-result-matchup span { color: var(--accent); font-size: 0.78rem; font-weight: 800; }
+.damage-result-main { margin-top: 0.8rem; font: 800 clamp(1.8rem, 6vw, 3rem) 'Outfit', sans-serif; }
+.damage-result-percent { color: #cbd5e1; }
+.damage-result-ko { margin-top: 0.5rem; color: var(--accent); font-weight: 800; }
+.damage-result-details { margin-top: 0.55rem; color: var(--muted); font-size: 0.68rem; }
+.damage-applied-modifiers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+}
+.damage-applied-modifiers span {
+  padding: 0.22rem 0.48rem;
+  color: #bae6fd;
+  font-size: 0.62rem;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.1);
+}
+.damage-warning {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  color: #fde68a;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  border-radius: 9px;
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.damage-disclaimer {
+  max-width: 850px;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.55;
+  border-left: 3px solid #64748b;
+  background: rgba(15, 23, 42, 0.45);
+}
+.damage-disclaimer p { margin: 0.3rem 0 0; }
+
+@media (max-width: 900px) {
+  .damage-layout { grid-template-columns: 1fr 1fr; }
+  .damage-conditions { grid-column: 1 / -1; }
+}
+
+@media (max-width: 620px) {
+  .damage-layout { grid-template-columns: 1fr; }
+  .damage-conditions { grid-column: auto; }
+  .damage-field-row { grid-template-columns: 1fr 1fr; }
+}

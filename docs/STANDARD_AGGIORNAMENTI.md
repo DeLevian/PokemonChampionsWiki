@@ -124,7 +124,7 @@ Contiene l'elenco strutturato delle fonti.
 
 È generato confrontando `update.json` con il database corrente. Deve elencare aggiunte, modifiche, rimozioni, warning e conflitti.
 
-Dopo l'applicazione, `tools/apply_update.py` genera anche `data/releases/current.json`. Questo manifest compatto alimenta automaticamente la scheda **Novità** della webapp: non deve essere compilato manualmente.
+Dopo l'applicazione, `tools/apply_update.py` genera `data/releases/current.json`, conserva una copia immutabile in `data/releases/<id-release>.json` e aggiorna `data/releases/index.json`. Il manifest corrente alimenta automaticamente la scheda **Novità**; indice e copie archiviate costituiscono lo storico dei regolamenti e non devono essere compilati manualmente. Ogni ID release può identificare un solo contenuto: per correggere un archivio già pubblicato occorre una nuova release o una migrazione esplicita.
 
 ---
 
@@ -366,6 +366,8 @@ Campi obbligatori:
 - le quattro collezioni di `changes`;
 - le tre collezioni di `review`.
 
+Il campo facoltativo `release.label` può definire l'etichetta breve del badge (da 1 a 12 caratteri, per esempio `M-C`). Se viene omesso per un titolo nel formato `Regolamento M-C`, l'etichetta `M-C` viene ricavata automaticamente.
+
 ## 7.2 Operazioni ammesse
 
 Ogni entità deve indicare una delle operazioni:
@@ -376,6 +378,21 @@ Ogni entità deve indicare una delle operazioni:
 - `verify`: nessun cambiamento previsto, ma dati nuovamente verificati.
 
 Una rimozione fisica deve essere usata con cautela. Per mosse e strumenti generali è normalmente preferibile impostare `inChampions: false`.
+
+### Storico e badge della release corrente
+
+Le operazioni dichiarate nel pacchetto alimentano automaticamente anche lo storico e i badge mostrati dal frontend:
+
+- `add` produce la classificazione **Aggiunto**;
+- `update` produce **Modificato**;
+- `verify` produce **Confermato**;
+- `remove` produce **Rimosso**.
+
+Pokémon, mosse, abilità e strumenti elencati nel manifest corrente ricevono nelle rispettive sezioni un badge discreto con l'etichetta del regolamento, per esempio `M-C`. Quando viene applicata una release successiva, i vecchi badge scompaiono automaticamente dalle sezioni principali ma rimangono consultabili selezionando il vecchio manifest nella pagina **Novità**.
+
+Non aggiungere badge, campi `addedIn` o liste cronologiche manualmente nei record del database. `tools/apply_update.py` ricava etichetta, entità e classificazioni da `release` e `changes`, quindi aggiorna `current.json`, il manifest archiviato e `index.json`.
+
+Le sezioni Pokédex, Mosse, Abilità e Oggetti offrono due filtri automatici: release e tipo di operazione. Se si seleziona una release, vengono mostrate soltanto le entità coinvolte in quel pacchetto; il secondo filtro permette di restringere ulteriormente ad aggiunte, modifiche, conferme o rimozioni. La cronologia attendibile inizia dal primo manifest archiviato (`regulation-m-c`): i contenuti precedenti restano visibili con “Tutti gli aggiornamenti”, ma non vengono attribuiti retroattivamente a un regolamento senza una fonte.
 
 ## 7.3 Pokémon
 
@@ -694,6 +711,8 @@ Il report deve essere generato nuovamente dopo ogni modifica a `update.json`.
 - file asset dichiarato ma inesistente;
 - conteggi di versione incoerenti.
 
+Se l'aggiornamento introduce o modifica una mossa, abilità, strumento o campo che altera il danno, verificare anche `docs/CALCOLO_DANNI.md`. La nuova meccanica deve essere implementata e testata oppure inserita tra i casi esplicitamente non supportati/segnalati: non deve essere applicata implicitamente con una formula generica errata.
+
 ### Warning non bloccanti
 
 - traduzione italiana assente;
@@ -733,11 +752,12 @@ Eseguire:
 python tools/apply_update.py data/imports/<id-aggiornamento>/update.json --dry-run
 python tools/apply_update.py data/imports/<id-aggiornamento>/update.json
 python tools/validate_data.py
+node --test tests/damage-calculator.test.mjs
 ```
 
 Se `review.required` contiene conflitti già esaminati e approvati dal manutentore, aggiungere `--approve-conflicts` sia all'anteprima sia all'applicazione. Non usare questa opzione senza aver letto `report.md`.
 
-L'applicazione aggiorna anche `data/releases/current.json`, rendendo il pacchetto appena applicato visibile nella scheda **Novità**.
+L'applicazione aggiorna anche `data/releases/current.json`, archivia il manifest in `data/releases/<id-release>.json` e aggiunge la release a `data/releases/index.json`. Il pacchetto appena applicato diventa visibile nella scheda **Novità**, mentre quelli precedenti restano disponibili nello storico.
 
 L'applicazione deve essere atomica: se la validazione fallisce, il database corrente non deve essere sostituito.
 
@@ -756,6 +776,7 @@ Controllare:
 - dettagli di Pokémon e Mega;
 - mosse e abilità;
 - strumenti;
+- calcolatore del danno con almeno una mossa fisica, una speciale e una combinazione immune;
 - team builder;
 - immagini;
 - fallback inglese;
@@ -820,7 +841,8 @@ Effettua una ricerca aggiornata alla data odierna e registra URL e data di acces
 - [ ] `sources.json` contiene tutte le fonti.
 - [ ] Ogni `sourceRef` è valido.
 - [ ] `update.json` usa `schemaVersion: 1`.
-- [ ] Ogni entità ha un'operazione.
+- [ ] Ogni entità ha un'operazione coerente (`add`, `update`, `verify` o `remove`).
+- [ ] Il manifest archiviato, l'indice storico, i filtri temporali e i badge sono stati generati da `apply_update.py`, non modificati manualmente.
 - [ ] I nomi inglesi sono canonici.
 - [ ] Tipi, categorie, forme e target sono validi.
 - [ ] Le statistiche totali sono corrette.
@@ -828,6 +850,8 @@ Effettua una ricerca aggiornata alla data odierna e registra URL e data di acces
 - [ ] Le traduzioni ufficiali sono preferite.
 - [ ] I fallback inglesi sono accettati e segnalati.
 - [ ] Gli asset sono presenti o mappati.
+- [ ] Le nuove meccaniche che alterano il danno sono supportate dal calcolatore oppure segnalate come eccezioni.
+- [ ] `node --test tests/damage-calculator.test.mjs` termina senza errori.
 - [ ] I conflitti sono riportati.
 - [ ] Non esistono elementi `uncertain` non approvati.
 - [ ] `report.md` corrisponde all'ultima versione della patch.

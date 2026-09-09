@@ -10,8 +10,11 @@ Il progetto raccoglie informazioni specifiche del gioco e del regolamento corren
 - strumenti;
 - catene evolutive e forme regionali;
 - confronto Pokémon;
+- calcolatore del danno di base per Pokémon Champions;
 - Team Builder salvato localmente nel browser;
-- pagina **Novità** generata dall'ultimo pacchetto dati applicato.
+- pagina **Novità** con storico dei regolamenti e classificazione delle modifiche;
+- badge automatici della release corrente nelle sezioni principali;
+- filtri per regolamento e tipo di modifica.
 
 > Questo è un progetto fan-made, non ufficiale e non affiliato a Nintendo, The Pokémon Company o Game Freak. Pokémon e i relativi nomi e marchi appartengono ai rispettivi titolari.
 
@@ -54,12 +57,15 @@ src/styles/                        Fogli di stile
 data/database/current/             Database pubblicato
 data/locales/it/                   Localizzazioni italiane
 data/sprites/                      Sprite e artwork
-data/releases/current.json         Contenuto della scheda Novità
+data/releases/current.json         Ultimo aggiornamento mostrato in Novità
+data/releases/index.json           Indice cronologico dei regolamenti
+data/releases/<id>.json            Manifest storico immutabile di una release
 data/imports/                      Pacchetti degli aggiornamenti
 data/imports/_template/            Modello per un nuovo aggiornamento
 data/mappings/entity-aliases.json  Alias di nomi, asset ed evoluzioni
 tools/                             Validazione e applicazione aggiornamenti
 docs/STANDARD_AGGIORNAMENTI.md     Procedura completa di manutenzione
+docs/CALCOLO_DANNI.md              Formula, fonti, limiti e test del calcolatore
 ```
 
 ## Validazione
@@ -77,6 +83,14 @@ python tools/validate_update.py data/imports/<id-aggiornamento>/update.json
 ```
 
 Entrambi i comandi devono terminare con codice `0` e senza errori bloccanti.
+
+Validare il motore del calcolatore del danno:
+
+```bash
+node --test tests/damage-calculator.test.mjs
+```
+
+Formula, fonti tecniche e limiti sono documentati in [`docs/CALCOLO_DANNI.md`](docs/CALCOLO_DANNI.md).
 
 ## Procedura per un nuovo aggiornamento
 
@@ -108,7 +122,7 @@ python tools/validate_data.py
 
 Se il pacchetto contiene conflitti approvati, `apply_update.py` richiede esplicitamente `--approve-conflicts`.
 
-L'applicazione aggiorna automaticamente `data/releases/current.json`; la pagina **Novità** mostrerà quindi il pacchetto appena pubblicato.
+L'applicazione aggiorna automaticamente `data/releases/current.json`, archivia il manifest come `data/releases/<id>.json` e registra la release in `data/releases/index.json`. La pagina **Novità** mostra il pacchetto corrente e permette di selezionare quelli precedenti. Nelle sezioni Pokémon, Mosse, Abilità e Oggetti viene mostrato automaticamente un badge con l'etichetta della release corrente; al prossimo aggiornamento il badge passerà alle nuove entità senza modifiche manuali alle schede. Le stesse sezioni possono essere filtrate per regolamento e per operazione (`add`, `update`, `verify`, `remove`). Lo storico verificato parte da M-C: i dati precedenti non vengono associati a release inventate.
 
 ## Aggiornamento tramite AI
 

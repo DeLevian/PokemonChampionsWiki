@@ -1,3 +1,10 @@
+import {
+    bindReleaseFilterControls,
+    matchesReleaseFilter,
+    renderCurrentReleaseBadge,
+    renderReleaseFilterControls
+} from '../services/releases.js';
+
 const CATEGORY_LABELS = { physical: 'Fisico', special: 'Speciale', status: 'Stato' };
 const TYPE_LABELS = {
     normal: 'Normale', fire: 'Fuoco', water: 'Acqua', grass: 'Erba', electric: 'Elettro',
@@ -14,6 +21,8 @@ export class MovesView {
         this.selectedType = 'all';
         this.selectedCategory = 'all';
         this.searchQuery = '';
+        this.releaseFilter = 'all';
+        this.releaseOperation = 'all';
     }
 
     async render() {
@@ -47,6 +56,7 @@ export class MovesView {
                     <option value="special">Speciale</option>
                     <option value="status">Stato</option>
                 </select>
+                ${renderReleaseFilterControls('moves')}
             </div>
             <div id="moves-count" class="pokemon-count"></div>
             <div class="move-method-grid" id="moves-grid" style="margin-top: 1rem;"></div>
@@ -100,6 +110,10 @@ export class MovesView {
             this.visibleCount = 80;
             this.renderGrid();
         });
+        bindReleaseFilterControls('moves', this, () => {
+            this.visibleCount = 80;
+            this.renderGrid();
+        });
 
         this._scrollHandler = () => {
             const view = document.getElementById('moves-view');
@@ -127,6 +141,7 @@ export class MovesView {
                 }
                 if (this.selectedType !== 'all' && m._typeIt !== this.selectedType) return false;
                 if (this.selectedCategory !== 'all' && m._dmgClass !== this.selectedCategory) return false;
+                if (!matchesReleaseFilter('moves', m.name, this.releaseFilter, this.releaseOperation)) return false;
                 return true;
             });
 
@@ -157,7 +172,7 @@ export class MovesView {
                      style="--move-color: var(--type-${m._typeIt});">
                     <div class="move-card-top">
                         <div class="move-title-area">
-                            <span class="move-name-main">${m._nameIt}</span>
+                            <span class="entity-name-with-release"><span class="move-name-main">${m._nameIt}</span>${renderCurrentReleaseBadge('moves', m.name)}</span>
                             <div class="move-types-wrap">
                                 <span class="type-mini ${m._typeIt}">${typeLabel}</span>
                                 <div class="move-dmg-cat">${dmgHtml}</div>

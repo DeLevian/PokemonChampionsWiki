@@ -13,6 +13,7 @@
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
         "title": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1, "maxLength": 12 },
         "gameVersion": { "type": "string", "minLength": 1 },
         "announcedAt": { "type": ["string", "null"], "format": "date" },
         "effectiveAt": { "type": ["string", "null"], "format": "date" },
