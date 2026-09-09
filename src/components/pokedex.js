@@ -1,3 +1,5 @@
+import { getPokemonSpriteUrl } from '../services/assets.js';
+
 const TYPE_CHART = {
     normal: { rock: 0.5, ghost: 0, steel: 0.5 },
     fire: { fire: 0.5, water: 0.5, grass: 2, ice: 2, bug: 2, rock: 0.5, dragon: 0.5, steel: 2 },
@@ -56,48 +58,7 @@ export class PokedexView {
     }
 
     getSpriteUrl(pokemon, type = null) {
-        if (!pokemon) return 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2UyZThlZiIvPjx0ZXh0IHg9IjUwIiB5PSI2NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ1IiBmaWxsPSIjOTQzMzIyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4/PC90ZXh0Pjwvc3ZnPg==';
-        
-        const id = typeof pokemon === 'object' ? pokemon.id : pokemon;
-        const name = typeof pokemon === 'object' ? (pokemon.name || id) : id;
-
-        // Priorità assoluta agli 'artwork' come richiesto dall'utente
-        const style = type || 'artwork';
-
-        let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
-
-        // Mappature per sprite con discrepanze di nome
-        if (fileName === "Kommo-o") fileName = "Kommo O";
-        else if (fileName === "Pyroar") fileName = "Pyroar Male";
-
-
-        // Gestione dei nuovi file sprite delle Mega Evoluzioni (es. "Sceptile Mega" invece di "Mega Sceptile")
-        const flippedMegas = [
-            "Sceptile", "Blaziken", "Swampert", "Mawile", "Metagross",
-            "Staraptor", "Scolipede", "Scrafty", "Eelektross", "Pyroar",
-            "Malamar", "Barbaracle", "Dragalge", "Falinks", "Raichu"
-        ];
-        if (fileName.startsWith("Mega ")) {
-            const base = fileName.substring(5); // e.g. "Sceptile" o "Raichu X"
-            const match = flippedMegas.find(m => base.startsWith(m));
-            if (match) {
-                if (base.endsWith(" X") || base.endsWith(" Y")) {
-                    const suffix = base.slice(-2); // " X" or " Y"
-                    const mainName = base.slice(0, -2);
-                    fileName = `${mainName} Mega${suffix}`; // "Raichu Mega X"
-                } else {
-                    fileName = `${base} Mega`; // "Sceptile Mega"
-                }
-            }
-        }
-
-        const paths = {
-            'artwork': `data/sprites/pokemon/artwork/${fileName}.png`,
-            'standard': `data/sprites/pokemon/standard/${id}.png`,
-            'animated': `data/sprites/pokemon/animated/${id}.gif`
-        };
-
-        return paths[style] || paths['artwork'];
+        return getPokemonSpriteUrl(pokemon, type || 'artwork');
     }
 
     handleImageError(img, id, type) {

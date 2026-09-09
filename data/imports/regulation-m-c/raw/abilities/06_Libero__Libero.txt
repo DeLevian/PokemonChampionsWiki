@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Libero
+Nome inglese: Libero
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Prima di usare una mossa, il Pokémon cambia il proprio tipo nel tipo di quella mossa. In Champions l’effetto può attivarsi una sola volta per ogni permanenza in campo; tornando in campo può nuovamente attivarsi.
+
+POKÉMON M-C ASSOCIATI
+- Cinderace
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

@@ -802,5 +802,65 @@
   "Effect Spore": {
     "name": "Spargispora",
     "description": "Chi colpisce il Pokémon con una mossa di contatto ha il 30% di probabilità di venire avvelenato, paralizzato o addormentato."
+  },
+  "Aura Guard": {
+    "name": "Aura Guard",
+    "description": "Dimezza il danno subito dalle mosse che effettuano contatto. L’effetto è passivo e si applica automaticamente quando la mossa avversaria possiede la proprietà “contatto”."
+  },
+  "Emergency Exit": {
+    "name": "Passoindietro",
+    "description": "Quando i PS del Pokémon scendono a metà dei PS massimi o meno in seguito al danno, il Pokémon viene sostituito. L’attivazione dipende dalle normali condizioni della meccanica di Passoindietro."
+  },
+  "Grass Pelt": {
+    "name": "Peloderba",
+    "description": "Finché è attivo il Campo Erboso, la Difesa del Pokémon aumenta del 50%. L’effetto termina quando il terreno non è più Campo Erboso."
+  },
+  "Grassy Surge": {
+    "name": "Erbogenesi",
+    "description": "Quando il Pokémon entra in campo crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+  },
+  "Guard Dog": {
+    "name": "Cane da Guardia",
+    "description": "Prepotenza/Intimidate non riduce l’Attacco: invece aumenta l’Attacco del possessore di 1 grado. Inoltre il Pokémon non viene forzato a cambiare da mosse o strumenti avversari che provocano uno switch forzato."
+  },
+  "Libero": {
+    "name": "Libero",
+    "description": "Prima di usare una mossa, il Pokémon cambia il proprio tipo nel tipo di quella mossa. In Champions l’effetto può attivarsi una sola volta per ogni permanenza in campo; tornando in campo può nuovamente attivarsi."
+  },
+  "Liquid Ooze": {
+    "name": "Melma",
+    "description": "Quando un avversario prova a recuperare PS sottraendoli a questo Pokémon con una mossa drenante, invece di curarsi perde una quantità di PS equivalente a quella che avrebbe recuperato."
+  },
+  "Psychic Surge": {
+    "name": "Psicogenesi",
+    "description": "Quando il Pokémon entra in campo crea Campo Psichico per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+  },
+  "Punk Rock": {
+    "name": "Punk Rock",
+    "description": "Aumenta del 30% la potenza delle mosse basate sul suono usate dal Pokémon e dimezza il danno che il Pokémon riceve dalle mosse sonore."
+  },
+  "Rattled": {
+    "name": "Paura",
+    "description": "Aumenta di 1 grado la Velocità quando il Pokémon subisce una mossa di tipo Buio, Spettro o Coleottero; si attiva anche quando viene colpito dall’effetto di Prepotenza/Intimidate."
+  },
+  "Run Away": {
+    "name": "Fugafacile",
+    "description": "In Champions consente al possessore di ignorare gli effetti che normalmente gli impedirebbero di cambiare Pokémon. Non è soltanto un’abilità per fuggire dalle lotte selvatiche."
+  },
+  "Seed Sower": {
+    "name": "Spargisemi",
+    "description": "Quando il Pokémon subisce danno da una mossa, crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+  },
+  "Stakeout": {
+    "name": "Sorveglianza",
+    "description": "Raddoppia la potenza delle mosse usate contro un bersaglio che è appena entrato in campo tramite sostituzione. È particolarmente efficace nel punire gli switch."
+  },
+  "Steely Spirit": {
+    "name": "Spiritoferreo",
+    "description": "Aumenta del 50% la potenza delle mosse di tipo Acciaio usate dal possessore e dai suoi alleati."
+  },
+  "Thermal Exchange": {
+    "name": "Termoscambio",
+    "description": "Quando il Pokémon subisce una mossa di tipo Fuoco, il suo Attacco aumenta di 1 grado. Inoltre non può essere scottato."
   }
 }

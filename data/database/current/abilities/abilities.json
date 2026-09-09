@@ -1004,5 +1004,80 @@
     "name": "Effect Spore",
     "description": "30% chance a Pokemon making contact with this Pokemon will be poisoned, paralyzed, or put to sleep.",
     "championsVerified": true
+  },
+  {
+    "name": "Aura Guard",
+    "description": "Halves damage taken from moves that make contact.",
+    "championsVerified": true
+  },
+  {
+    "name": "Emergency Exit",
+    "description": "The Pokemon switches out when its HP falls to half or less after taking damage.",
+    "championsVerified": true
+  },
+  {
+    "name": "Grass Pelt",
+    "description": "Boosts the Pokemon's Defense by 50% while Grassy Terrain is active.",
+    "championsVerified": true
+  },
+  {
+    "name": "Grassy Surge",
+    "description": "Creates Grassy Terrain for 5 turns when the Pokemon enters battle.",
+    "championsVerified": true
+  },
+  {
+    "name": "Guard Dog",
+    "description": "Prevents forced switching and raises Attack instead of having it lowered by Intimidate.",
+    "championsVerified": true
+  },
+  {
+    "name": "Libero",
+    "description": "Before using a move, the Pokemon changes to that move's type. In Champions, this activates once per switch-in.",
+    "championsVerified": true
+  },
+  {
+    "name": "Liquid Ooze",
+    "description": "Damages opponents that attempt to drain HP from this Pokemon instead of healing them.",
+    "championsVerified": true
+  },
+  {
+    "name": "Psychic Surge",
+    "description": "Creates Psychic Terrain for 5 turns when the Pokemon enters battle.",
+    "championsVerified": true
+  },
+  {
+    "name": "Punk Rock",
+    "description": "Boosts the power of sound-based moves by 30% and halves damage taken from sound-based moves.",
+    "championsVerified": true
+  },
+  {
+    "name": "Rattled",
+    "description": "Raises Speed by 1 stage when hit by a Bug-, Dark-, or Ghost-type move or affected by Intimidate.",
+    "championsVerified": true
+  },
+  {
+    "name": "Run Away",
+    "description": "In Champions, allows the Pokemon to ignore effects that would prevent it from switching out.",
+    "championsVerified": true
+  },
+  {
+    "name": "Seed Sower",
+    "description": "Creates Grassy Terrain for 5 turns when the Pokemon takes damage from a move.",
+    "championsVerified": true
+  },
+  {
+    "name": "Stakeout",
+    "description": "Doubles the power of moves used against a target that has just switched in.",
+    "championsVerified": true
+  },
+  {
+    "name": "Steely Spirit",
+    "description": "Boosts the power of Steel-type moves used by the Pokemon and its allies by 50%.",
+    "championsVerified": true
+  },
+  {
+    "name": "Thermal Exchange",
+    "description": "Raises Attack by 1 stage when hit by a Fire-type move and prevents burns.",
+    "championsVerified": true
   }
 ]

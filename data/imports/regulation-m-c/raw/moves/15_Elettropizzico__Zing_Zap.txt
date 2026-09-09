@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Elettropizzico
+Nome inglese: Zing Zap
+
+DATI TECNICI
+Tipo: Elettro / Electric
+Categoria: Fisica
+Potenza / Base Power: 80
+Precisione / Accuracy: 100%
+PP: 12
+Priorità: 0
+Contatto: Sì
+Mossa sonora: No
+Bersaglio: Un bersaglio
+
+DESCRIZIONE
+Infligge danno e ha il 30% di probabilità di far tentennare il bersaglio, se il bersaglio non ha già agito e non è protetto da effetti che impediscono il tentennamento.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

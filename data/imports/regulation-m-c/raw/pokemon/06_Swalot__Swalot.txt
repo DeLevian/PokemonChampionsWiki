@@ -1,0 +1,91 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Swalot
+Nome inglese: Swalot
+
+TIPO
+Veleno (Poison)
+
+STATISTICHE BASE
+PS / HP: 100
+Attacco / Attack: 73
+Difesa / Defense: 83
+Attacco Speciale / Special Attack: 73
+Difesa Speciale / Special Defense: 83
+Velocità / Speed: 55
+Totale / BST: 467
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Melma / Liquid Ooze [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando un avversario prova a recuperare PS sottraendoli a questo Pokémon con una mossa drenante, invece di curarsi perde una quantità di PS equivalente a quella che avrebbe recuperato.
+- Antifurto / Sticky Hold
+- Voracità / Gluttony
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Scudo Acido / Acid Armor
+- Acidobomba / Acid Spray
+- Amnesia / Amnesia
+- Rutto / Belch
+- Schiacciacorpo / Body Press
+- Corposcontro / Body Slam
+- Breccia / Brick Break
+- Battiterra / Bulldoze
+- Semitraglia / Bullet Seed
+- Pulifumo / Clear Smog
+- Gas Corrosivo / Corrosive Gas
+- Maledizione / Curse
+- Destinobbligato / Destiny Bond
+- Sdoppiatore / Double-Edge
+- Terremoto / Earthquake
+- Ripeti / Encore
+- Resistenza / Endure
+- Facciata / Facade
+- Fuocopugno / Fire Punch
+- Lancio / Fling
+- Gastroacido / Gastro Acid
+- Gigassorbimento / Giga Drain
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Geloraggio / Ice Beam
+- Gelopugno / Ice Punch
+- Privazione / Knock Off
+- Colpodifango / Mud Shot
+- Fangosberla / Mud-Slap
+- Malcomune / Pain Split
+- Velenpuntura / Poison Jab
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Coro / Round
+- Semebomba / Seed Bomb
+- Autodistruzione / Self-Destruct
+- Palla Ombra / Shadow Ball
+- Strisciacolpo / Skitter Smack
+- Sonnolalia / Sleep Talk
+- Fangobomba / Sludge Bomb
+- Fangonda / Sludge Wave
+- Russare / Snore
+- Solarraggio / Solar Beam
+- Sfoghenergia / Spit Up
+- Accumulo / Stockpile
+- Riempiguance / Stuff Cheeks
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Introenergia / Swallow
+- Danzaspada / Swords Dance
+- Furto / Thief
+- Tuonopugno / Thunder Punch
+- Tuononda / Thunder Wave
+- Tossina / Toxic
+- Fielepunte / Toxic Spikes
+- Velenoshock / Venoshock
+- Idropulsar / Water Pulse
+- Sbadiglio / Yawn
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 62
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

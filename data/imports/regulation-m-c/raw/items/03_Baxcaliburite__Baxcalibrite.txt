@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Baxcaliburite
+Nome inglese: Baxcalibrite
+
+DATI
+Categoria: Megapietra
+Monouso/consumato: No
+
+DESCRIZIONE
+Permette a Baxcalibur di megaevolversi in MegaBaxcalibur durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

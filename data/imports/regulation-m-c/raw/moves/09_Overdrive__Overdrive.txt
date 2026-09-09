@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Overdrive
+Nome inglese: Overdrive
+
+DATI TECNICI
+Tipo: Elettro / Electric
+Categoria: Speciale
+Potenza / Base Power: 80
+Precisione / Accuracy: 100%
+PP: 12
+Priorità: 0
+Contatto: No
+Mossa sonora: Sì
+Bersaglio: Avversari nell’area della mossa
+
+DESCRIZIONE
+Infligge danno di tipo Elettro ed è una mossa basata sul suono. Per questo interagisce con abilità ed effetti che potenziano o bloccano le mosse sonore, come Punk Rock e Antisuono.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

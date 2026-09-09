@@ -2544,7 +2544,7 @@
     "name": "Toxel"
   },
   "Toxtricity Amped": {
-    "name": "Toxtricity"
+    "name": "Toxtricity (Forma Melodia)"
   },
   "Sizzlipede": {
     "name": "Sizzlipede"
@@ -2625,7 +2625,7 @@
     "name": "Eiscue"
   },
   "Indeedee Male": {
-    "name": "Indeedee"
+    "name": "Indeedee (Maschio)"
   },
   "Morpeko": {
     "name": "Morpeko"
@@ -2787,7 +2787,7 @@
     "name": "Arboliva"
   },
   "Squawkabilly Green Plumage": {
-    "name": "Squawkabilly"
+    "name": "Squawkabilly (Piume Verdi)"
   },
   "Nacli": {
     "name": "Nacli"
@@ -3621,13 +3621,13 @@
     "name": "Cramorant"
   },
   "Toxtricity Low Key": {
-    "name": "Toxtricity"
+    "name": "Toxtricity (Forma Basso)"
   },
   "Eiscue Noice": {
     "name": "Eiscue"
   },
   "Indeedee Female": {
-    "name": "Indeedee"
+    "name": "Indeedee (Femmina)"
   },
   "Morpeko Hangry": {
     "name": "Morpeko"
@@ -3849,13 +3849,13 @@
     "name": "Tatsugiri"
   },
   "Squawkabilly Blue Plumage": {
-    "name": "Squawkabilly"
+    "name": "Squawkabilly (Piume Azzurre)"
   },
   "Squawkabilly Yellow Plumage": {
-    "name": "Squawkabilly"
+    "name": "Squawkabilly (Piume Gialle)"
   },
   "Squawkabilly White Plumage": {
-    "name": "Squawkabilly"
+    "name": "Squawkabilly (Piume Bianche)"
   },
   "Gimmighoul Roaming": {
     "name": "Gimmighoul"
@@ -4045,5 +4045,35 @@
   },
   "Baxcalibur Mega": {
     "name": "Baxcalibur"
+  },
+  "Alolan Persian": {
+    "name": "Persian di Alola"
+  },
+  "Farfetch'd": {
+    "name": "Farfetch’d"
+  },
+  "Mr. Mime": {
+    "name": "Mr. Mime"
+  },
+  "Mega Absol Z": {
+    "name": "MegaAbsol Z"
+  },
+  "Mega Salamence": {
+    "name": "MegaSalamence"
+  },
+  "Mega Garchomp Z": {
+    "name": "MegaGarchomp Z"
+  },
+  "Mega Lucario Z": {
+    "name": "MegaLucario Z"
+  },
+  "Mega Golisopod": {
+    "name": "MegaGolisopod"
+  },
+  "Sirfetch'd": {
+    "name": "Sirfetch’d"
+  },
+  "Mega Baxcalibur": {
+    "name": "MegaBaxcalibur"
   }
 }

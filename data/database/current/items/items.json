@@ -13,7 +13,8 @@
   },
   {
     "name": "Absolite Z",
-    "description": ""
+    "description": "Permette ad Absol di megaevolversi in MegaAbsol Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+    "inChampions": true
   },
   {
     "name": "Absorb Bulb",
@@ -45,7 +46,8 @@
   },
   {
     "name": "Air Balloon",
-    "description": "Holder is immune to Ground-type attacks. Pops when holder is hit."
+    "description": "Holder is immune to Ground-type attacks. Pops when holder is hit.",
+    "inChampions": true
   },
   {
     "name": "Alakazite",
@@ -101,7 +103,8 @@
   },
   {
     "name": "Baxcalibrite",
-    "description": ""
+    "description": "Permette a Baxcalibur di megaevolversi in MegaBaxcalibur durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+    "inChampions": true
   },
   {
     "name": "Beast Ball",
@@ -141,7 +144,8 @@
   },
   {
     "name": "Binding Band",
-    "description": "Holder's partial-trapping moves deal 1/6 max HP per turn instead of 1/8."
+    "description": "Holder's partial-trapping moves deal 1/6 max HP per turn instead of 1/8.",
+    "inChampions": true
   },
   {
     "name": "Bitter Berry",
@@ -477,7 +481,8 @@
   },
   {
     "name": "Eject Button",
-    "description": "If holder survives a hit, it immediately switches out to a chosen ally. Single use."
+    "description": "If holder survives a hit, it immediately switches out to a chosen ally. Single use.",
+    "inChampions": true
   },
   {
     "name": "Eject Pack",
@@ -497,7 +502,8 @@
   },
   {
     "name": "Electric Seed",
-    "description": "If the terrain is Electric Terrain, raises holder's Defense by 1 stage. Single use."
+    "description": "If the terrain is Electric Terrain, raises holder's Defense by 1 stage. Single use.",
+    "inChampions": true
   },
   {
     "name": "Electrium Z",
@@ -677,7 +683,8 @@
   },
   {
     "name": "Garchompite Z",
-    "description": ""
+    "description": "Permette a Garchomp di megaevolversi in MegaGarchomp Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+    "inChampions": true
   },
   {
     "name": "Gardevoirite",
@@ -717,7 +724,8 @@
   },
   {
     "name": "Golisopite",
-    "description": ""
+    "description": "Permette a Golisopod di megaevolversi in MegaGolisopod durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+    "inChampions": true
   },
   {
     "name": "Golurkite",
@@ -737,7 +745,8 @@
   },
   {
     "name": "Grassy Seed",
-    "description": "If the terrain is Grassy Terrain, raises holder's Defense by 1 stage. Single use."
+    "description": "If the terrain is Grassy Terrain, raises holder's Defense by 1 stage. Single use.",
+    "inChampions": true
   },
   {
     "name": "Great Ball",
@@ -941,7 +950,8 @@
   },
   {
     "name": "Leek",
-    "description": "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages."
+    "description": "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages.",
+    "inChampions": true
   },
   {
     "name": "Leftovers",
@@ -993,7 +1003,8 @@
   },
   {
     "name": "Lucarionite Z",
-    "description": ""
+    "description": "Permette a Lucario di megaevolversi in MegaLucario Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+    "inChampions": true
   },
   {
     "name": "Lucky Punch",
@@ -1173,7 +1184,8 @@
   },
   {
     "name": "Misty Seed",
-    "description": "If the terrain is Misty Terrain, raises holder's Sp. Def by 1 stage. Single use."
+    "description": "If the terrain is Misty Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+    "inChampions": true
   },
   {
     "name": "Moon Ball",
@@ -1217,7 +1229,8 @@
   },
   {
     "name": "Normal Gem",
-    "description": "Holder's first successful Normal-type attack will have 1.3x power. Single use."
+    "description": "Holder's first successful Normal-type attack will have 1.3x power. Single use.",
+    "inChampions": true
   },
   {
     "name": "Normalium Z",
@@ -1401,7 +1414,8 @@
   },
   {
     "name": "Psychic Seed",
-    "description": "If the terrain is Psychic Terrain, raises holder's Sp. Def by 1 stage. Single use."
+    "description": "If the terrain is Psychic Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+    "inChampions": true
   },
   {
     "name": "Psychium Z",
@@ -1469,7 +1483,8 @@
   },
   {
     "name": "Red Card",
-    "description": "If holder survives a hit, attacker is forced to switch to a random ally. Single use."
+    "description": "If holder survives a hit, attacker is forced to switch to a random ally. Single use.",
+    "inChampions": true
   },
   {
     "name": "Red Orb",
@@ -1509,7 +1524,8 @@
   },
   {
     "name": "Rocky Helmet",
-    "description": "If holder is hit by a contact move, the attacker loses 1/6 of its max HP."
+    "description": "If holder is hit by a contact move, the attacker loses 1/6 of its max HP.",
+    "inChampions": true
   },
   {
     "name": "Room Service",
@@ -1565,7 +1581,8 @@
   },
   {
     "name": "Salamencite",
-    "description": "If held by a Salamence, this item allows it to Mega Evolve in battle."
+    "description": "If held by a Salamence, this item allows it to Mega Evolve in battle.",
+    "inChampions": true
   },
   {
     "name": "Sceptilite",
@@ -2185,7 +2202,8 @@
   },
   {
     "name": "Terrain Extender",
-    "description": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5."
+    "description": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",
+    "inChampions": true
   },
   {
     "name": "Thick Club",

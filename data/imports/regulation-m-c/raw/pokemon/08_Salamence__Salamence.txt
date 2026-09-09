@@ -1,0 +1,89 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Salamence
+Nome inglese: Salamence
+
+TIPO
+Drago (Dragon) / Volante (Flying)
+
+STATISTICHE BASE
+PS / HP: 95
+Attacco / Attack: 135
+Difesa / Defense: 80
+Attacco Speciale / Special Attack: 110
+Difesa Speciale / Special Defense: 80
+Velocità / Speed: 100
+Totale / BST: 600
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Prepotenza / Intimidate
+- Arroganza / Moxie
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Eterelama / Air Slash
+- Morso / Bite
+- Corposcontro / Body Slam
+- Vastoimpatto / Breaking Swipe
+- Breccia / Brick Break
+- Vorticolpo / Brutal Swing
+- Battiterra / Bulldoze
+- Sgranocchio / Crunch
+- Sdoppiatore / Double-Edge
+- Dragobolide / Draco Meteor
+- Grido del Drago / Dragon Cheer
+- Dragartigli / Dragon Claw
+- Dragodanza / Dragon Dance
+- Dragopulsar / Dragon Pulse
+- Dragofuria / Dragon Rush
+- Codadrago / Dragon Tail
+- Doppia Ala / Dual Wingbeat
+- Terremoto / Earthquake
+- Resistenza / Endure
+- Facciata / Facade
+- Fuocobomba / Fire Blast
+- Rogodenti / Fire Fang
+- Turbofuoco / Fire Spin
+- Lanciafiamme / Flamethrower
+- Volo / Fly
+- Focalenergia / Focus Energy
+- Gigaimpatto / Giga Impact
+- Ondacalda / Heat Wave
+- Altruismo / Helping Hand
+- Tifone / Hurricane
+- Idropompa / Hydro Pump
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Ferroscudo / Iron Defense
+- Metaltestata / Iron Head
+- Codacciaio / Iron Tail
+- Fangosberla / Mud-Slap
+- Oltraggio / Outrage
+- Protezione / Protect
+- Psicozanna / Psychic Fangs
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Boato / Roar
+- Frana / Rock Slide
+- Rocciotomba / Rock Tomb
+- Trespolo / Roost
+- Coro / Round
+- Visotruce / Scary Face
+- Ombrartigli / Shadow Claw
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Alacciaio / Steel Wing
+- Pietrataglio / Stone Edge
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Ventoincoda / Tailwind
+- Rabbia Bruciante / Temper Flare
+- Colpo / Thrash
+- Fulmindenti / Thunder Fang
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 62
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

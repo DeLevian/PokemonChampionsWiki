@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Buonlatte
+Nome inglese: Milk Drink
+
+DATI TECNICI
+Tipo: Normale / Normal
+Categoria: Stato
+Potenza / Base Power: —
+Precisione / Accuracy: Sempre / non applicabile
+PP: 8
+Priorità: 0
+Contatto: No
+Mossa sonora: No
+Bersaglio: Utilizzatore o alleato
+
+DESCRIZIONE
+Ripristina il 50% dei PS massimi dell’utilizzatore oppure di un alleato selezionato. In Champions può quindi essere usata anche come cura di supporto sul compagno.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

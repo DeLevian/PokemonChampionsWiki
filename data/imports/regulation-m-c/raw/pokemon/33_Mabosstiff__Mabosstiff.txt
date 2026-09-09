@@ -1,0 +1,74 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Mabosstiff
+Nome inglese: Mabosstiff
+
+TIPO
+Buio (Dark)
+
+STATISTICHE BASE
+PS / HP: 80
+Attacco / Attack: 120
+Difesa / Defense: 90
+Attacco Speciale / Special Attack: 60
+Difesa Speciale / Special Defense: 70
+Velocità / Speed: 85
+Totale / BST: 505
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Prepotenza / Intimidate
+- Cane da Guardia / Guard Dog [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Prepotenza/Intimidate non riduce l’Attacco: invece aumenta l’Attacco del possessore di 1 grado. Inoltre il Pokémon non viene forzato a cambiare da mosse o strumenti avversari che provocano uno switch forzato.
+- Sorveglianza / Stakeout [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Raddoppia la potenza delle mosse usate contro un bersaglio che è appena entrato in campo tramite sostituzione. È particolarmente efficace nel punire gli switch.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Morso / Bite
+- Corposcontro / Body Slam
+- Ritorsione / Comeuppance
+- Sgranocchio / Crunch
+- Maledizione / Curse
+- Neropulsar / Dark Pulse
+- Destinobbligato / Destiny Bond
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Facciata / Facade
+- Falselacrime / Fake Tears
+- Rogodenti / Fire Fang
+- Focalenergia / Focus Energy
+- Gigaimpatto / Giga Impact
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Gelodenti / Ice Fang
+- Morsostretto / Jaw Lock
+- Sfogarabbia / Lash Out
+- Oltraggio / Outrage
+- Malcomune / Pain Split
+- Rivincita / Payback
+- Carineria / Play Rough
+- Protezione / Protect
+- Psicozanna / Psychic Fangs
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Contropiede / Reversal
+- Boato / Roar
+- Visotruce / Scary Face
+- Sonnolalia / Sleep Talk
+- Urlorabbia / Snarl
+- Dispetto / Spite
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Bullo / Swagger
+- Provocazione / Taunt
+- Furto / Thief
+- Fulmindenti / Thunder Fang
+- Apripista / Trailblaze
+- Sprizzalampo / Wild Charge
+
+Numero mosse elencate: 44
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

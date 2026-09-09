@@ -1,0 +1,110 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: MegaLucario Z
+Nome inglese: Mega Lucario Z
+
+TIPO
+Lotta (Fighting) / Acciaio (Steel)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 100
+Difesa / Defense: 70
+Attacco Speciale / Special Attack: 164
+Difesa Speciale / Special Defense: 70
+Velocità / Speed: 151
+Totale / BST: 625
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Aura Guard / Aura Guard [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Dimezza il danno subito dalle mosse che effettuano contatto. L’effetto è passivo e si applica automaticamente quando la mossa avversaria possiede la proprietà “contatto”.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Agilità / Agility
+- Forzasfera / Aura Sphere
+- Morso / Bite
+- Calciardente / Blaze Kick
+- Corposcontro / Body Slam
+- Ossoraffica / Bone Rush
+- Breccia / Brick Break
+- Granfisico / Bulk Up
+- Battiterra / Bulldoze
+- Pugnoscarica / Bullet Punch
+- Calmamente / Calm Mind
+- Ribaltiro / Circle Throw
+- Zuffa / Close Combat
+- Coaching / Coaching
+- Copione / Copycat
+- Contrattacco / Counter
+- Incrocolpo / Cross Chop
+- Sgranocchio / Crunch
+- Neropulsar / Dark Pulse
+- Individua / Detect
+- Fossa / Dig
+- Dragopulsar / Dragon Pulse
+- Assorbipugno / Drain Punch
+- Terremoto / Earthquake
+- Resistenza / Endure
+- Extrarapido / Extreme Speed
+- Facciata / Facade
+- Fintoattacco / Feint
+- Azzardo / Final Gambit
+- Cannonflash / Flash Cannon
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Focalenergia / Focus Energy
+- Centripugno / Focus Punch
+- Gigaimpatto / Giga Impact
+- Ondasana / Heal Pulse
+- Altruismo / Helping Hand
+- Calcinvolo / High Jump Kick
+- Gridodilotta / Howl
+- Iper Raggio / Hyper Beam
+- Gelopugno / Ice Punch
+- Ferroscudo / Iron Defense
+- Codacciaio / Iron Tail
+- Goccia Vitale / Life Dew
+- Colpo Basso / Low Kick
+- Calciobasso / Low Sweep
+- Megacalcio / Mega Kick
+- Ferrostrido / Metal Sound
+- Meteorpugno / Meteor Mash
+- Congiura / Nasty Plot
+- Rivincita / Payback
+- Velenpuntura / Poison Jab
+- Protezione / Protect
+- Psichico / Psychic
+- Psicamisù / Psych Up
+- Attacco Rapido / Quick Attack
+- Anticipo / Quick Guard
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Contropiede / Reversal
+- Boato / Roar
+- Frana / Rock Slide
+- Rocciotomba / Rock Tomb
+- Coro / Round
+- Visotruce / Scary Face
+- Stridio / Screech
+- Palla Ombra / Shadow Ball
+- Ombrartigli / Shadow Claw
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Raggio d’Acciaio / Steel Beam
+- Pietrataglio / Stone Edge
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Danzaspada / Swords Dance
+- Campopulsar / Terrain Pulse
+- Tuonopugno / Thunder Punch
+- Apripista / Trailblaze
+- Colpo di Mano / Upper Hand
+- Vuotonda / Vacuum Wave
+- Idropulsar / Water Pulse
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 83
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

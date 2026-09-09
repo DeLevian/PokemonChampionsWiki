@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Morsostretto
+Nome inglese: Jaw Lock
+
+DATI TECNICI
+Tipo: Buio / Dark
+Categoria: Fisica
+Potenza / Base Power: 80
+Precisione / Accuracy: 100%
+PP: 12
+Priorità: 0
+Contatto: Sì
+Mossa sonora: No
+Bersaglio: Un bersaglio
+
+DESCRIZIONE
+Infligge danno e intrappola sia l’utilizzatore sia il bersaglio con l’effetto Jaw Locked, impedendo normalmente a entrambi di cambiare Pokémon finché l’effetto resta attivo.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

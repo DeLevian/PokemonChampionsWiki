@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Legafascia
+Nome inglese: Binding Band
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: No
+
+DESCRIZIONE
+Aumenta il danno residuo degli effetti di intrappolamento: in Champions il danno periodico passa da 1/8 a 1/6 dei PS massimi del bersaglio.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

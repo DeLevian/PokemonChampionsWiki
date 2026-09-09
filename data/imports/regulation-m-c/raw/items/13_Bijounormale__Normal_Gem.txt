@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Bijounormale
+Nome inglese: Normal Gem
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: Sì
+
+DESCRIZIONE
+La prima volta che il possessore usa una mossa di tipo Normale, lo strumento viene consumato e aumenta del 30% la potenza di quella mossa.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

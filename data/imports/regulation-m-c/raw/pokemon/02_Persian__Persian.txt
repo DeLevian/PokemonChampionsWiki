@@ -1,0 +1,94 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Persian
+Nome inglese: Persian
+
+TIPO
+Normale (Normal)
+
+STATISTICHE BASE
+PS / HP: 65
+Attacco / Attack: 70
+Difesa / Defense: 60
+Attacco Speciale / Special Attack: 65
+Difesa Speciale / Special Defense: 65
+Velocità / Speed: 115
+Totale / BST: 440
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Scioltezza / Limber
+- Tecnico / Technician
+- Agitazione / Unnerve
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Agilità / Agility
+- Amnesia / Amnesia
+- Garanzia / Assurance
+- Morso / Bite
+- Corposcontro / Body Slam
+- Fascino / Charm
+- Doccia Fredda / Chilling Water
+- Supplica / Covet
+- Neropulsar / Dark Pulse
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Doppioteam / Double Team
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Falselacrime / Fake Tears
+- Fintoattacco / Feint
+- Flagello / Flail
+- Ripicca / Foul Play
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Ipnosi / Hypnosis
+- Ventogelato / Icy Wind
+- Codacciaio / Iron Tail
+- Privazione / Knock Off
+- Sfogarabbia / Lash Out
+- Ultimascelta / Last Resort
+- Congiura / Nasty Plot
+- Malcomune / Pain Split
+- Rivincita / Payback
+- Carineria / Play Rough
+- Gemmoforza / Power Gem
+- Protezione / Protect
+- Psicamisù / Psych Up
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Boato / Roar
+- Coro / Round
+- Stridio / Screech
+- Semebomba / Seed Bomb
+- Palla Ombra / Shadow Ball
+- Ombrartigli / Shadow Claw
+- Strisciacolpo / Skitter Smack
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Urlorabbia / Snarl
+- Russare / Snore
+- Dispetto / Spite
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Rapidscambio / Switcheroo
+- Provocazione / Taunt
+- Furto / Thief
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuononda / Thunder Wave
+- Apripista / Trailblaze
+- Baraonda / Uproar
+- Retromarcia / U-turn
+- Idropulsar / Water Pulse
+
+Numero mosse elencate: 66
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

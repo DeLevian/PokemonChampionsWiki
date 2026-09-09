@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Palloncino
+Nome inglese: Air Balloon
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: Si perde dopo l’attivazione
+
+DESCRIZIONE
+Finché è intatto mantiene il possessore sollevato da terra: lo rende immune alle mosse di tipo Terra e agli effetti a terra come Punte, Fielepunte e Rete Vischiosa. Se il possessore subisce danno da una mossa, il Palloncino scoppia e il suo effetto termina per il resto della lotta.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

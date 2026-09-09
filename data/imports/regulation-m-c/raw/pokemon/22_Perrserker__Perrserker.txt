@@ -1,0 +1,103 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Perrserker
+Nome inglese: Perrserker
+
+TIPO
+Acciaio (Steel)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 110
+Difesa / Defense: 100
+Attacco Speciale / Special Attack: 50
+Difesa Speciale / Special Defense: 60
+Velocità / Speed: 50
+Totale / BST: 440
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Lottascudo / Battle Armor
+- Unghiedure / Tough Claws
+- Spiritoferreo / Steely Spirit [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Aumenta del 50% la potenza delle mosse di tipo Acciaio usate dal possessore e dai suoi alleati.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Amnesia / Amnesia
+- Garanzia / Assurance
+- Staffetta / Baton Pass
+- Morso / Bite
+- Corposcontro / Body Slam
+- Breccia / Brick Break
+- Granfisico / Bulk Up
+- Fascino / Charm
+- Doccia Fredda / Chilling Water
+- Zuffa / Close Combat
+- Supplica / Covet
+- Sgranocchio / Crunch
+- Maledizione / Curse
+- Neropulsar / Dark Pulse
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Falselacrime / Fake Tears
+- Flagello / Flail
+- Cannonflash / Flash Cannon
+- Lancio / Fling
+- Ripicca / Foul Play
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Vortexpalla / Gyro Ball
+- Pesobomba / Heavy Slam
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Ferroscudo / Iron Defense
+- Metaltestata / Iron Head
+- Codacciaio / Iron Tail
+- Privazione / Knock Off
+- Sfogarabbia / Lash Out
+- Metalscoppio / Metal Burst
+- Ferrostrido / Metal Sound
+- Congiura / Nasty Plot
+- Nottesferza / Night Slash
+- Rivincita / Payback
+- Carineria / Play Rough
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Coro / Round
+- Stridio / Screech
+- Semebomba / Seed Bomb
+- Palla Ombra / Shadow Ball
+- Ombrartigli / Shadow Claw
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Punte / Spikes
+- Dispetto / Spite
+- Levitoroccia / Stealth Rock
+- Raggio d’Acciaio / Steel Beam
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Bullo / Swagger
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Furto / Thief
+- Colpo / Thrash
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuononda / Thunder Wave
+- Apripista / Trailblaze
+- Baraonda / Uproar
+- Retromarcia / U-turn
+- Forbice X / X-Scissor
+
+Numero mosse elencate: 74
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

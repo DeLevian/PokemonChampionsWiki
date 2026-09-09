@@ -59463,5 +59463,6527 @@
         "name": "Whirlpool"
       }
     ]
+  },
+  "Wigglytuff": {
+    "dexNumber": 40,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Alluring Voice"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Bounce"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Disable"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draining Kiss"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Expanding Force"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Gravity"
+      },
+      {
+        "name": "Gyro Ball"
+      },
+      {
+        "name": "Heal Pulse"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Ice Spinner"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Last Resort"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Magic Room"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Misty Explosion"
+      },
+      {
+        "name": "Misty Terrain"
+      },
+      {
+        "name": "Moonblast"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Perish Song"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Safeguard"
+      },
+      {
+        "name": "Sandstorm"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Self-Destruct"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Sing"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Spit Up"
+      },
+      {
+        "name": "Stealth Rock"
+      },
+      {
+        "name": "Steel Roller"
+      },
+      {
+        "name": "Stockpile"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swallow"
+      },
+      {
+        "name": "Sweet Kiss"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Tri Attack"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "Water Pulse"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Wish"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 98
+  },
+  "Persian": {
+    "dexNumber": 53,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Hypnosis"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Last Resort"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Power Gem"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Switcheroo"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Water Pulse"
+      }
+    ],
+    "moveCount": 66
+  },
+  "Alolan Persian": {
+    "dexNumber": 53,
+    "form": "Regional",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Beat Up"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Burning Jealousy"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Confuse Ray"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Flatter"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Hypnosis"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Power Gem"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Quash"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Smack Down"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Switcheroo"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Water Pulse"
+      }
+    ],
+    "moveCount": 73
+  },
+  "Farfetch'd": {
+    "dexNumber": 83,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "First Impression"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Leaf Blade"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Simple Beam"
+      },
+      {
+        "name": "Sky Attack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Blade"
+      },
+      {
+        "name": "Steel Wing"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 50
+  },
+  "Mr. Mime": {
+    "dexNumber": 122,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Ally Switch"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Confuse Ray"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Expanding Force"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Future Sight"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Guard Swap"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hypnosis"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Magic Room"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Misty Terrain"
+      },
+      {
+        "name": "Mystical Fire"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Power Split"
+      },
+      {
+        "name": "Power Swap"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psychic Terrain"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Quick Guard"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Recycle"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Role Play"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Safeguard"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Teeter Dance"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Tickle"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Trick Room"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "Wide Guard"
+      },
+      {
+        "name": "Wonder Room"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 77
+  },
+  "Swalot": {
+    "dexNumber": 317,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acid Armor"
+      },
+      {
+        "name": "Acid Spray"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Belch"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Bullet Seed"
+      },
+      {
+        "name": "Clear Smog"
+      },
+      {
+        "name": "Corrosive Gas"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Destiny Bond"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Gastro Acid"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Mud-Slap"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Self-Destruct"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Spit Up"
+      },
+      {
+        "name": "Stockpile"
+      },
+      {
+        "name": "Stuff Cheeks"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swallow"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Toxic"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Water Pulse"
+      },
+      {
+        "name": "Yawn"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 62
+  },
+  "Mega Absol Z": {
+    "dexNumber": 359,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Bounce"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Confuse Ray"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Detect"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Future Sight"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Hex"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Mean Look"
+      },
+      {
+        "name": "Megahorn"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Perish Song"
+      },
+      {
+        "name": "Phantom Force"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psycho Cut"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Sandstorm"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Shadow Sneak"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "X-Scissor"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 72
+  },
+  "Salamence": {
+    "dexNumber": 373,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Cheer"
+      },
+      {
+        "name": "Dragon Claw"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Dragon Rush"
+      },
+      {
+        "name": "Dragon Tail"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Fire Spin"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Mud-Slap"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Fangs"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Steel Wing"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Temper Flare"
+      },
+      {
+        "name": "Thrash"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 62
+  },
+  "Mega Salamence": {
+    "dexNumber": 373,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Cheer"
+      },
+      {
+        "name": "Dragon Claw"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Dragon Rush"
+      },
+      {
+        "name": "Dragon Tail"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Fire Spin"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Mud-Slap"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Fangs"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Steel Wing"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Temper Flare"
+      },
+      {
+        "name": "Thrash"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 62
+  },
+  "Mega Garchomp Z": {
+    "dexNumber": 445,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Cheer"
+      },
+      {
+        "name": "Dragon Claw"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Dragon Rush"
+      },
+      {
+        "name": "Dragon Tail"
+      },
+      {
+        "name": "Earth Power"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Power Gem"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Sandstorm"
+      },
+      {
+        "name": "Sand Tomb"
+      },
+      {
+        "name": "Scale Shot"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Scorching Sands"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Stealth Rock"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Thrash"
+      },
+      {
+        "name": "Thunder Fang"
+      }
+    ],
+    "moveCount": 59
+  },
+  "Mega Lucario Z": {
+    "dexNumber": 448,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Aura Sphere"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Blaze Kick"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Bone Rush"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Bullet Punch"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Circle Throw"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Coaching"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Counter"
+      },
+      {
+        "name": "Cross Chop"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Detect"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Extreme Speed"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "Flash Cannon"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heal Pulse"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "High Jump Kick"
+      },
+      {
+        "name": "Howl"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Life Dew"
+      },
+      {
+        "name": "Low Kick"
+      },
+      {
+        "name": "Low Sweep"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Metal Sound"
+      },
+      {
+        "name": "Meteor Mash"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Quick Guard"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Steel Beam"
+      },
+      {
+        "name": "Stone Edge"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Terrain Pulse"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Upper Hand"
+      },
+      {
+        "name": "Vacuum Wave"
+      },
+      {
+        "name": "Water Pulse"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 83
+  },
+  "Gogoat": {
+    "dexNumber": 673,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Bullet Seed"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Grassy Glide"
+      },
+      {
+        "name": "Grassy Terrain"
+      },
+      {
+        "name": "Growth"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "High Horsepower"
+      },
+      {
+        "name": "Horn Leech"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Leaf Blade"
+      },
+      {
+        "name": "Leaf Storm"
+      },
+      {
+        "name": "Leech Seed"
+      },
+      {
+        "name": "Megahorn"
+      },
+      {
+        "name": "Milk Drink"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Mud-Slap"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Synthesis"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Worry Seed"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 54
+  },
+  "Golisopod": {
+    "dexNumber": 768,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Aqua Jet"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bug Bite"
+      },
+      {
+        "name": "Bug Buzz"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dive"
+      },
+      {
+        "name": "Double Hit"
+      },
+      {
+        "name": "Drill Run"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "First Impression"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Leech Life"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Muddy Water"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Pin Missile"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Razor Shell"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scald"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Struggle Bug"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Wide Guard"
+      },
+      {
+        "name": "X-Scissor"
+      }
+    ],
+    "moveCount": 67
+  },
+  "Mega Golisopod": {
+    "dexNumber": 768,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Aqua Jet"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bug Bite"
+      },
+      {
+        "name": "Bug Buzz"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dive"
+      },
+      {
+        "name": "Double Hit"
+      },
+      {
+        "name": "Drill Run"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "First Impression"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Leech Life"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Muddy Water"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Pin Missile"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Razor Shell"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rock Slide"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scald"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Struggle Bug"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Wide Guard"
+      },
+      {
+        "name": "X-Scissor"
+      }
+    ],
+    "moveCount": 67
+  },
+  "Rillaboom": {
+    "dexNumber": 812,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Boomburst"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Bullet Seed"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Double Hit"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Drum Beating"
+      },
+      {
+        "name": "Earth Power"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Frenzy Plant"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Grassy Glide"
+      },
+      {
+        "name": "Grassy Terrain"
+      },
+      {
+        "name": "Growth"
+      },
+      {
+        "name": "Hammer Arm"
+      },
+      {
+        "name": "High Horsepower"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Leaf Storm"
+      },
+      {
+        "name": "Leech Seed"
+      },
+      {
+        "name": "Low Kick"
+      },
+      {
+        "name": "Low Sweep"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Solar Blade"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Wood Hammer"
+      },
+      {
+        "name": "Worry Seed"
+      }
+    ],
+    "moveCount": 67
+  },
+  "Cinderace": {
+    "dexNumber": 815,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Blast Burn"
+      },
+      {
+        "name": "Blaze Kick"
+      },
+      {
+        "name": "Bounce"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Burning Jealousy"
+      },
+      {
+        "name": "Coaching"
+      },
+      {
+        "name": "Counter"
+      },
+      {
+        "name": "Court Change"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Fire Blast"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Fire Spin"
+      },
+      {
+        "name": "Flame Charge"
+      },
+      {
+        "name": "Flamethrower"
+      },
+      {
+        "name": "Flare Blitz"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "High Jump Kick"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Low Kick"
+      },
+      {
+        "name": "Low Sweep"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Mud-Slap"
+      },
+      {
+        "name": "Overheat"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Pyro Ball"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scorching Sands"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Smack Down"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Super Fang"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Temper Flare"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Weather Ball"
+      },
+      {
+        "name": "Will-O-Wisp"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 64
+  },
+  "Inteleon": {
+    "dexNumber": 818,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Aqua Jet"
+      },
+      {
+        "name": "Aqua Ring"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Bind"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Bounce"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dive"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fell Stinger"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Flip Turn"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Haze"
+      },
+      {
+        "name": "Hydro Cannon"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Ice Shard"
+      },
+      {
+        "name": "Icicle Spear"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Muddy Water"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scald"
+      },
+      {
+        "name": "Scale Shot"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Smack Down"
+      },
+      {
+        "name": "Snipe Shot"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Snowscape"
+      },
+      {
+        "name": "Soak"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Tearful Look"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "Vacuum Wave"
+      },
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Water Pulse"
+      },
+      {
+        "name": "Weather Ball"
+      },
+      {
+        "name": "Whirlpool"
+      }
+    ],
+    "moveCount": 62
+  },
+  "Thievul": {
+    "dexNumber": 828,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Beat Up"
+      },
+      {
+        "name": "Burning Jealousy"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double Team"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "First Impression"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Howl"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Quick Guard"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Tail Slap"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 51
+  },
+  "Toxtricity Amped": {
+    "dexNumber": 849,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acid Spray"
+      },
+      {
+        "name": "Belch"
+      },
+      {
+        "name": "Boomburst"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Eerie Impulse"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hex"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Metal Sound"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Nuzzle"
+      },
+      {
+        "name": "Overdrive"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rising Voltage"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Shift Gear"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Tearful Look"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Toxic"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Zap Cannon"
+      }
+    ],
+    "moveCount": 68
+  },
+  "Toxtricity Low Key": {
+    "dexNumber": 849,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acid Spray"
+      },
+      {
+        "name": "Belch"
+      },
+      {
+        "name": "Boomburst"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Eerie Impulse"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hex"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Magnetic Flux"
+      },
+      {
+        "name": "Mega Kick"
+      },
+      {
+        "name": "Metal Sound"
+      },
+      {
+        "name": "Noble Roar"
+      },
+      {
+        "name": "Nuzzle"
+      },
+      {
+        "name": "Overdrive"
+      },
+      {
+        "name": "Parabolic Charge"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Rising Voltage"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Sludge Bomb"
+      },
+      {
+        "name": "Sludge Wave"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Tearful Look"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Toxic"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "Wild Charge"
+      }
+    ],
+    "moveCount": 68
+  },
+  "Grapploct": {
+    "dexNumber": 853,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Bind"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Circle Throw"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Coaching"
+      },
+      {
+        "name": "Detect"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Dive"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Mach Punch"
+      },
+      {
+        "name": "Muddy Water"
+      },
+      {
+        "name": "Mud Shot"
+      },
+      {
+        "name": "Octolock"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Seismic Toss"
+      },
+      {
+        "name": "Skitter Smack"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Soak"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Storm Throw"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Topsy-Turvy"
+      },
+      {
+        "name": "Waterfall"
+      },
+      {
+        "name": "Whirlpool"
+      }
+    ],
+    "moveCount": 49
+  },
+  "Perrserker": {
+    "dexNumber": 863,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Amnesia"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Flash Cannon"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Gunk Shot"
+      },
+      {
+        "name": "Gyro Ball"
+      },
+      {
+        "name": "Heavy Slam"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Iron Tail"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Metal Burst"
+      },
+      {
+        "name": "Metal Sound"
+      },
+      {
+        "name": "Nasty Plot"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Screech"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Shadow Claw"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Stealth Rock"
+      },
+      {
+        "name": "Steel Beam"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thrash"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      },
+      {
+        "name": "X-Scissor"
+      }
+    ],
+    "moveCount": 74
+  },
+  "Sirfetch'd": {
+    "dexNumber": 865,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Attract"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Brutal Swing"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Coaching"
+      },
+      {
+        "name": "Counter"
+      },
+      {
+        "name": "Covet"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Defog"
+      },
+      {
+        "name": "Detect"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Feint"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "First Impression"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Grassy Glide"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Iron Defense"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Leaf Blade"
+      },
+      {
+        "name": "Meteor Assault"
+      },
+      {
+        "name": "Night Slash"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Quick Guard"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Simple Beam"
+      },
+      {
+        "name": "Sky Attack"
+      },
+      {
+        "name": "Slash"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Solar Blade"
+      },
+      {
+        "name": "Steel Wing"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Superpower"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Throat Chop"
+      }
+    ],
+    "moveCount": 49
+  },
+  "Pincurchin": {
+    "dexNumber": 871,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Acupressure"
+      },
+      {
+        "name": "Assurance"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Chilling Water"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Hex"
+      },
+      {
+        "name": "Hydro Pump"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Liquidation"
+      },
+      {
+        "name": "Memento"
+      },
+      {
+        "name": "Muddy Water"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Pin Missile"
+      },
+      {
+        "name": "Poison Jab"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Recover"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Rising Voltage"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Scald"
+      },
+      {
+        "name": "Self-Destruct"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Spikes"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sucker Punch"
+      },
+      {
+        "name": "Supercell Slam"
+      },
+      {
+        "name": "Surf"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Toxic Spikes"
+      },
+      {
+        "name": "Venoshock"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Zing Zap"
+      }
+    ],
+    "moveCount": 48
+  },
+  "Indeedee Male": {
+    "dexNumber": 876,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "After You"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Draining Kiss"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Expanding Force"
+      },
+      {
+        "name": "Extrasensory"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Future Sight"
+      },
+      {
+        "name": "Gravity"
+      },
+      {
+        "name": "Healing Wish"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Imprison"
+      },
+      {
+        "name": "Last Resort"
+      },
+      {
+        "name": "Magic Room"
+      },
+      {
+        "name": "Mystical Fire"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Power Split"
+      },
+      {
+        "name": "Power Swap"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psychic Noise"
+      },
+      {
+        "name": "Psychic Terrain"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Terrain Pulse"
+      },
+      {
+        "name": "Tri Attack"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Trick Room"
+      },
+      {
+        "name": "Wish"
+      },
+      {
+        "name": "Wonder Room"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 46
+  },
+  "Indeedee Female": {
+    "dexNumber": 876,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Alluring Voice"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Calm Mind"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Draining Kiss"
+      },
+      {
+        "name": "Drain Punch"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Follow Me"
+      },
+      {
+        "name": "Future Sight"
+      },
+      {
+        "name": "Guard Split"
+      },
+      {
+        "name": "Guard Swap"
+      },
+      {
+        "name": "Healing Wish"
+      },
+      {
+        "name": "Heal Pulse"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Imprison"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Mystical Fire"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic"
+      },
+      {
+        "name": "Psychic Terrain"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Psyshock"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Round"
+      },
+      {
+        "name": "Safeguard"
+      },
+      {
+        "name": "Shadow Ball"
+      },
+      {
+        "name": "Sing"
+      },
+      {
+        "name": "Skill Swap"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snore"
+      },
+      {
+        "name": "Stored Power"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Terrain Pulse"
+      },
+      {
+        "name": "Trick"
+      },
+      {
+        "name": "Trick Room"
+      },
+      {
+        "name": "Wish"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 45
+  },
+  "Pawmot": {
+    "dexNumber": 923,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Baton Pass"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulk Up"
+      },
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Charge Beam"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Close Combat"
+      },
+      {
+        "name": "Coaching"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Discharge"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Double Shock"
+      },
+      {
+        "name": "Eerie Impulse"
+      },
+      {
+        "name": "Electric Terrain"
+      },
+      {
+        "name": "Electro Ball"
+      },
+      {
+        "name": "Electroweb"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Entrainment"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Out"
+      },
+      {
+        "name": "Fire Punch"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Focus Blast"
+      },
+      {
+        "name": "Focus Punch"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Punch"
+      },
+      {
+        "name": "Knock Off"
+      },
+      {
+        "name": "Low Kick"
+      },
+      {
+        "name": "Low Sweep"
+      },
+      {
+        "name": "Mach Punch"
+      },
+      {
+        "name": "Nuzzle"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Revival Blessing"
+      },
+      {
+        "name": "Rock Tomb"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Supercell Slam"
+      },
+      {
+        "name": "Super Fang"
+      },
+      {
+        "name": "Sweet Kiss"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Throat Chop"
+      },
+      {
+        "name": "Thunder"
+      },
+      {
+        "name": "Thunderbolt"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Thunder Punch"
+      },
+      {
+        "name": "Thunder Wave"
+      },
+      {
+        "name": "Upper Hand"
+      },
+      {
+        "name": "Volt Switch"
+      },
+      {
+        "name": "Wild Charge"
+      },
+      {
+        "name": "Wish"
+      }
+    ],
+    "moveCount": 64
+  },
+  "Arboliva": {
+    "dexNumber": 930,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Alluring Voice"
+      },
+      {
+        "name": "Bullet Seed"
+      },
+      {
+        "name": "Charm"
+      },
+      {
+        "name": "Dazzling Gleam"
+      },
+      {
+        "name": "Earth Power"
+      },
+      {
+        "name": "Encore"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Energy Ball"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Flail"
+      },
+      {
+        "name": "Fling"
+      },
+      {
+        "name": "Giga Drain"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Grass Knot"
+      },
+      {
+        "name": "Grassy Terrain"
+      },
+      {
+        "name": "Growth"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Leaf Storm"
+      },
+      {
+        "name": "Leech Seed"
+      },
+      {
+        "name": "Light Screen"
+      },
+      {
+        "name": "Memento"
+      },
+      {
+        "name": "Mirror Coat"
+      },
+      {
+        "name": "Petal Blizzard"
+      },
+      {
+        "name": "Petal Dance"
+      },
+      {
+        "name": "Pollen Puff"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psych Up"
+      },
+      {
+        "name": "Reflect"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Safeguard"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Solar Beam"
+      },
+      {
+        "name": "Solar Blade"
+      },
+      {
+        "name": "Strength Sap"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Sweet Scent"
+      },
+      {
+        "name": "Synthesis"
+      },
+      {
+        "name": "Terrain Pulse"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Weather Ball"
+      }
+    ],
+    "moveCount": 44
+  },
+  "Squawkabilly Green Plumage": {
+    "dexNumber": 931,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "Flatter"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Lunge"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 43
+  },
+  "Squawkabilly Blue Plumage": {
+    "dexNumber": 931,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "Flatter"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Lunge"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 43
+  },
+  "Squawkabilly White Plumage": {
+    "dexNumber": 931,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "Flatter"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Lunge"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 43
+  },
+  "Squawkabilly Yellow Plumage": {
+    "dexNumber": 931,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Air Cutter"
+      },
+      {
+        "name": "Air Slash"
+      },
+      {
+        "name": "Brave Bird"
+      },
+      {
+        "name": "Copycat"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Dual Wingbeat"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Feather Dance"
+      },
+      {
+        "name": "Final Gambit"
+      },
+      {
+        "name": "Flatter"
+      },
+      {
+        "name": "Fly"
+      },
+      {
+        "name": "Foul Play"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Heat Wave"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hurricane"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Lunge"
+      },
+      {
+        "name": "Parting Shot"
+      },
+      {
+        "name": "Pounce"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Quick Attack"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roost"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Seed Bomb"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Tailwind"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Torment"
+      },
+      {
+        "name": "Uproar"
+      },
+      {
+        "name": "U-turn"
+      }
+    ],
+    "moveCount": 43
+  },
+  "Mabosstiff": {
+    "dexNumber": 943,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Comeuppance"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Curse"
+      },
+      {
+        "name": "Dark Pulse"
+      },
+      {
+        "name": "Destiny Bond"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Endeavor"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Fake Tears"
+      },
+      {
+        "name": "Fire Fang"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Hyper Voice"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Jaw Lock"
+      },
+      {
+        "name": "Lash Out"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Pain Split"
+      },
+      {
+        "name": "Payback"
+      },
+      {
+        "name": "Play Rough"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Psychic Fangs"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Reversal"
+      },
+      {
+        "name": "Roar"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snarl"
+      },
+      {
+        "name": "Spite"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Sunny Day"
+      },
+      {
+        "name": "Swagger"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Thief"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Trailblaze"
+      },
+      {
+        "name": "Wild Charge"
+      }
+    ],
+    "moveCount": 44
+  },
+  "Baxcalibur": {
+    "dexNumber": 998,
+    "form": "Base",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Aqua Tail"
+      },
+      {
+        "name": "Avalanche"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Cheer"
+      },
+      {
+        "name": "Dragon Claw"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Dragon Rush"
+      },
+      {
+        "name": "Dragon Tail"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Freeze-Dry"
+      },
+      {
+        "name": "Frost Breath"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Glaive Rush"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "High Horsepower"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Ice Shard"
+      },
+      {
+        "name": "Icicle Crash"
+      },
+      {
+        "name": "Icicle Spear"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Scale Shot"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snowscape"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 51
+  },
+  "Mega Baxcalibur": {
+    "dexNumber": 998,
+    "form": "Mega",
+    "championsVerified": true,
+    "source": "showdown-champions-data",
+    "moves": [
+      {
+        "name": "Aerial Ace"
+      },
+      {
+        "name": "Aqua Tail"
+      },
+      {
+        "name": "Avalanche"
+      },
+      {
+        "name": "Bite"
+      },
+      {
+        "name": "Blizzard"
+      },
+      {
+        "name": "Body Press"
+      },
+      {
+        "name": "Body Slam"
+      },
+      {
+        "name": "Breaking Swipe"
+      },
+      {
+        "name": "Brick Break"
+      },
+      {
+        "name": "Bulldoze"
+      },
+      {
+        "name": "Crunch"
+      },
+      {
+        "name": "Dig"
+      },
+      {
+        "name": "Double-Edge"
+      },
+      {
+        "name": "Draco Meteor"
+      },
+      {
+        "name": "Dragon Cheer"
+      },
+      {
+        "name": "Dragon Claw"
+      },
+      {
+        "name": "Dragon Dance"
+      },
+      {
+        "name": "Dragon Pulse"
+      },
+      {
+        "name": "Dragon Rush"
+      },
+      {
+        "name": "Dragon Tail"
+      },
+      {
+        "name": "Earthquake"
+      },
+      {
+        "name": "Endure"
+      },
+      {
+        "name": "Facade"
+      },
+      {
+        "name": "Focus Energy"
+      },
+      {
+        "name": "Freeze-Dry"
+      },
+      {
+        "name": "Frost Breath"
+      },
+      {
+        "name": "Giga Impact"
+      },
+      {
+        "name": "Glaive Rush"
+      },
+      {
+        "name": "Helping Hand"
+      },
+      {
+        "name": "High Horsepower"
+      },
+      {
+        "name": "Hyper Beam"
+      },
+      {
+        "name": "Ice Beam"
+      },
+      {
+        "name": "Ice Fang"
+      },
+      {
+        "name": "Ice Shard"
+      },
+      {
+        "name": "Icicle Crash"
+      },
+      {
+        "name": "Icicle Spear"
+      },
+      {
+        "name": "Icy Wind"
+      },
+      {
+        "name": "Iron Head"
+      },
+      {
+        "name": "Outrage"
+      },
+      {
+        "name": "Protect"
+      },
+      {
+        "name": "Rain Dance"
+      },
+      {
+        "name": "Rest"
+      },
+      {
+        "name": "Scale Shot"
+      },
+      {
+        "name": "Scary Face"
+      },
+      {
+        "name": "Sleep Talk"
+      },
+      {
+        "name": "Snowscape"
+      },
+      {
+        "name": "Stomping Tantrum"
+      },
+      {
+        "name": "Substitute"
+      },
+      {
+        "name": "Swords Dance"
+      },
+      {
+        "name": "Thunder Fang"
+      },
+      {
+        "name": "Zen Headbutt"
+      }
+    ],
+    "moveCount": 51
   }
 }

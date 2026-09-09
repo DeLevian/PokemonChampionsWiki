@@ -1,0 +1,98 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: MegaAbsol Z
+Nome inglese: Mega Absol Z
+
+TIPO
+Buio (Dark) / Spettro (Ghost)
+
+STATISTICHE BASE
+PS / HP: 65
+Attacco / Attack: 154
+Difesa / Defense: 60
+Attacco Speciale / Special Attack: 75
+Difesa Speciale / Special Defense: 60
+Velocità / Speed: 151
+Totale / BST: 565
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Affilama / Sharpness
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Eterelama / Air Slash
+- Garanzia / Assurance
+- Attrazione / Attract
+- Staffetta / Baton Pass
+- Morso / Bite
+- Bora / Blizzard
+- Corposcontro / Body Slam
+- Rimbalzo / Bounce
+- Vorticolpo / Brutal Swing
+- Calmamente / Calm Mind
+- Zuffa / Close Combat
+- Stordiraggio / Confuse Ray
+- Maledizione / Curse
+- Neropulsar / Dark Pulse
+- Individua / Detect
+- Sdoppiatore / Double-Edge
+- Doppioteam / Double Team
+- Resistenza / Endure
+- Facciata / Facade
+- Fintoattacco / Feint
+- Fuocobomba / Fire Blast
+- Lanciafiamme / Flamethrower
+- Focalenergia / Focus Energy
+- Ripicca / Foul Play
+- Divinazione / Future Sight
+- Gigaimpatto / Giga Impact
+- Sciagura / Hex
+- Iper Raggio / Hyper Beam
+- Geloraggio / Ice Beam
+- Ventogelato / Icy Wind
+- Codacciaio / Iron Tail
+- Privazione / Knock Off
+- Malosguardo / Mean Look
+- Megacorno / Megahorn
+- Nottesferza / Night Slash
+- Rivincita / Payback
+- Ultimocanto / Perish Song
+- Spettrotuffo / Phantom Force
+- Carineria / Play Rough
+- Protezione / Protect
+- Psicotaglio / Psycho Cut
+- Attacco Rapido / Quick Attack
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Frana / Rock Slide
+- Rocciotomba / Rock Tomb
+- Coro / Round
+- Terrempesta / Sandstorm
+- Palla Ombra / Shadow Ball
+- Ombrartigli / Shadow Claw
+- Furtivombra / Shadow Sneak
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Urlorabbia / Snarl
+- Russare / Snore
+- Pietrataglio / Stone Edge
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Giornodisole / Sunny Day
+- Troppoforte / Superpower
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Furto / Thief
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuononda / Thunder Wave
+- Apripista / Trailblaze
+- Fuocofatuo / Will-O-Wisp
+- Forbice X / X-Scissor
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 72
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

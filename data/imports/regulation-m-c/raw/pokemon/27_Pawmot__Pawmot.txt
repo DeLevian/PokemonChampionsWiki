@@ -1,0 +1,92 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Pawmot
+Nome inglese: Pawmot
+
+TIPO
+Elettro (Electric) / Lotta (Fighting)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 115
+Difesa / Defense: 70
+Attacco Speciale / Special Attack: 70
+Difesa Speciale / Special Defense: 60
+Velocità / Speed: 105
+Totale / BST: 490
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Assorbivolt / Volt Absorb
+- Alternacura / Natural Cure
+- Ferropugno / Iron Fist
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Agilità / Agility
+- Staffetta / Baton Pass
+- Morso / Bite
+- Schiacciacorpo / Body Press
+- Breccia / Brick Break
+- Granfisico / Bulk Up
+- Sottocarica / Charge
+- Raggioscossa / Charge Beam
+- Fascino / Charm
+- Zuffa / Close Combat
+- Coaching / Coaching
+- Sgranocchio / Crunch
+- Fossa / Dig
+- Scarica / Discharge
+- Sdoppiatore / Double-Edge
+- Doppiolampo / Double Shock
+- Elettromistero / Eerie Impulse
+- Campo Elettrico / Electric Terrain
+- Energisfera / Electro Ball
+- Elettrotela / Electroweb
+- Ripeti / Encore
+- Resistenza / Endure
+- Saltamicizia / Entrainment
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Fuocopugno / Fire Punch
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Centripugno / Focus Punch
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Gelopugno / Ice Punch
+- Privazione / Knock Off
+- Colpo Basso / Low Kick
+- Calciobasso / Low Sweep
+- Pugnorapido / Mach Punch
+- Elettrococcola / Nuzzle
+- Carineria / Play Rough
+- Protezione / Protect
+- Attacco Rapido / Quick Attack
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Preghiera Vitale / Revival Blessing
+- Rocciotomba / Rock Tomb
+- Semebomba / Seed Bomb
+- Sonnolalia / Sleep Talk
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Elettrotuffo / Supercell Slam
+- Superzanna / Super Fang
+- Dolcebacio / Sweet Kiss
+- Furto / Thief
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Fulmindenti / Thunder Fang
+- Tuonopugno / Thunder Punch
+- Tuononda / Thunder Wave
+- Colpo di Mano / Upper Hand
+- Invertivolt / Volt Switch
+- Sprizzalampo / Wild Charge
+- Desiderio / Wish
+
+Numero mosse elencate: 64
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

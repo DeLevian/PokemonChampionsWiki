@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Fugafacile
+Nome inglese: Run Away
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+In Champions consente al possessore di ignorare gli effetti che normalmente gli impedirebbero di cambiare Pokémon. Non è soltanto un’abilità per fuggire dalle lotte selvatiche.
+
+POKÉMON M-C ASSOCIATI
+- Thievul
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

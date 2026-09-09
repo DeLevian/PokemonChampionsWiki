@@ -1,0 +1,76 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Grapploct
+Nome inglese: Grapploct
+
+TIPO
+Lotta (Fighting)
+
+STATISTICHE BASE
+PS / HP: 80
+Attacco / Attack: 118
+Difesa / Defense: 90
+Attacco Speciale / Special Attack: 70
+Difesa Speciale / Special Defense: 80
+Velocità / Speed: 42
+Totale / BST: 480
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Scioltezza / Limber
+- Tecnico / Technician
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Attrazione / Attract
+- Legatutto / Bind
+- Corposcontro / Body Slam
+- Breccia / Brick Break
+- Vorticolpo / Brutal Swing
+- Granfisico / Bulk Up
+- Doccia Fredda / Chilling Water
+- Ribaltiro / Circle Throw
+- Zuffa / Close Combat
+- Coaching / Coaching
+- Individua / Detect
+- Fossa / Dig
+- Sub / Dive
+- Assorbipugno / Drain Punch
+- Resistenza / Endure
+- Facciata / Facade
+- Fintoattacco / Feint
+- Focalcolpo / Focus Blast
+- Gigaimpatto / Giga Impact
+- Idropompa / Hydro Pump
+- Iper Raggio / Hyper Beam
+- Gelopugno / Ice Punch
+- Idrobreccia / Liquidation
+- Pugnorapido / Mach Punch
+- Fanghiglia / Muddy Water
+- Colpodifango / Mud Shot
+- Tentacolock / Octolock
+- Malcomune / Pain Split
+- Rivincita / Payback
+- Protezione / Protect
+- Riposo / Rest
+- Contropiede / Reversal
+- Coro / Round
+- Visotruce / Scary Face
+- Movim. Sismico / Seismic Toss
+- Strisciacolpo / Skitter Smack
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Inondazione / Soak
+- Battipiedi / Stomping Tantrum
+- Tempestretta / Storm Throw
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Troppoforte / Superpower
+- Surf / Surf
+- Provocazione / Taunt
+- Sottosopra / Topsy-Turvy
+- Cascata / Waterfall
+- Mulinello / Whirlpool
+
+Numero mosse elencate: 49
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

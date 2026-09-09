@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Sfolgorassalto
+Nome inglese: Meteor Assault
+
+DATI TECNICI
+Tipo: Lotta / Fighting
+Categoria: Fisica
+Potenza / Base Power: 170
+Precisione / Accuracy: 100%
+PP: 8
+Priorità: 0
+Contatto: No
+Mossa sonora: No
+Bersaglio: Un bersaglio
+
+DESCRIZIONE
+Attacco molto potente. Dopo l’uso l’utilizzatore entra nello stato di ricarica e deve spendere la sua azione successiva per ricaricarsi.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

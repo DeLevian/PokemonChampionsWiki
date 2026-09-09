@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Cambiocampo
+Nome inglese: Court Change
+
+DATI TECNICI
+Tipo: Normale / Normal
+Categoria: Stato
+Potenza / Base Power: —
+Precisione / Accuracy: 100%
+PP: 12
+Priorità: 0
+Contatto: No
+Mossa sonora: No
+Bersaglio: Campo
+
+DESCRIZIONE
+Scambia fra i due lati del campo gli effetti che appartengono a una squadra, come barriere e pericoli. Non infligge danno diretto.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

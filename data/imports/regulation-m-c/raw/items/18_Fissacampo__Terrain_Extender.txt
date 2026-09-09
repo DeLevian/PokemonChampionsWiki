@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Fissacampo
+Nome inglese: Terrain Extender
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: No
+
+DESCRIZIONE
+Se il possessore crea un terreno tramite una mossa o un’abilità, ne estende la durata di 3 turni: normalmente il terreno dura quindi 8 turni invece di 5.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

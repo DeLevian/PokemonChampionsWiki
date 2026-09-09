@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Sorveglianza
+Nome inglese: Stakeout
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Raddoppia la potenza delle mosse usate contro un bersaglio che è appena entrato in campo tramite sostituzione. È particolarmente efficace nel punire gli switch.
+
+POKÉMON M-C ASSOCIATI
+- Thievul
+- Mabosstiff
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

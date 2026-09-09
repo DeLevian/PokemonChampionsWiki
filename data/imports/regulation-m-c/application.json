@@ -1,0 +1,18 @@
+{
+  "package": "regulation-m-c",
+  "appliedAtUtc": "2026-09-09T08:50:34.362360+00:00",
+  "conflictsApproved": true,
+  "counts": {
+    "pokemon": 333,
+    "movesInChampions": 508,
+    "movesTotal": 900,
+    "abilities": 216,
+    "items": 583,
+    "natures": 25,
+    "types": 18
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 18
+  }
+}

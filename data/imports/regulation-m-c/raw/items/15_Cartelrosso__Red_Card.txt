@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Cartelrosso
+Nome inglese: Red Card
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: Sì
+
+DESCRIZIONE
+Quando il possessore subisce danno da una mossa, costringe l’attaccante a essere sostituito, se l’effetto può applicarsi. È monouso.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Absolite Z
+Nome inglese: Absolite Z
+
+DATI
+Categoria: Megapietra
+Monouso/consumato: No
+
+DESCRIZIONE
+Permette ad Absol di megaevolversi in MegaAbsol Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

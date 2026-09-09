@@ -1,0 +1,74 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Indeedee (Femmina)
+Nome inglese: Indeedee (Female)
+
+TIPO
+Psico (Psychic) / Normale (Normal)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 55
+Difesa / Defense: 65
+Attacco Speciale / Special Attack: 95
+Difesa Speciale / Special Defense: 105
+Velocità / Speed: 85
+Totale / BST: 475
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Mente Locale / Own Tempo
+- Sincronismo / Synchronize
+- Psicogenesi / Psychic Surge [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando il Pokémon entra in campo crea Campo Psichico per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Ammaliavoce / Alluring Voice
+- Staffetta / Baton Pass
+- Corposcontro / Body Slam
+- Calmamente / Calm Mind
+- Fascino / Charm
+- Magibrillio / Dazzling Gleam
+- Assorbibacio / Draining Kiss
+- Assorbipugno / Drain Punch
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Sonoqui / Follow Me
+- Divinazione / Future Sight
+- Paridifesa / Guard Split
+- Barattoscudo / Guard Swap
+- Curardore / Healing Wish
+- Ondasana / Heal Pulse
+- Altruismo / Helping Hand
+- Granvoce / Hyper Voice
+- Esclusiva / Imprison
+- Schermoluce / Light Screen
+- Magifiamma / Mystical Fire
+- Carineria / Play Rough
+- Protezione / Protect
+- Psichico / Psychic
+- Campo Psichico / Psychic Terrain
+- Psicamisù / Psych Up
+- Psicoshock / Psyshock
+- Riflesso / Reflect
+- Riposo / Rest
+- Coro / Round
+- Salvaguardia / Safeguard
+- Palla Ombra / Shadow Ball
+- Canto / Sing
+- Baratto / Skill Swap
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Veicolaforza / Stored Power
+- Sostituto / Substitute
+- Campopulsar / Terrain Pulse
+- Raggiro / Trick
+- Distortozona / Trick Room
+- Desiderio / Wish
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 45
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

@@ -1,0 +1,75 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Pincurchin
+Nome inglese: Pincurchin
+
+TIPO
+Elettro (Electric)
+
+STATISTICHE BASE
+PS / HP: 48
+Attacco / Attack: 101
+Difesa / Defense: 95
+Attacco Speciale / Special Attack: 91
+Difesa Speciale / Special Defense: 85
+Velocità / Speed: 15
+Totale / BST: 435
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Parafulmine / Lightning Rod
+- Elettrogenesi / Electric Surge
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acupressione / Acupressure
+- Garanzia / Assurance
+- Corposcontro / Body Slam
+- Sottocarica / Charge
+- Raggioscossa / Charge Beam
+- Doccia Fredda / Chilling Water
+- Maledizione / Curse
+- Scarica / Discharge
+- Campo Elettrico / Electric Terrain
+- Energisfera / Electro Ball
+- Elettrotela / Electroweb
+- Resistenza / Endure
+- Facciata / Facade
+- Gigaimpatto / Giga Impact
+- Sciagura / Hex
+- Idropompa / Hydro Pump
+- Iper Raggio / Hyper Beam
+- Idrobreccia / Liquidation
+- Memento / Memento
+- Fanghiglia / Muddy Water
+- Malcomune / Pain Split
+- Rivincita / Payback
+- Missilspillo / Pin Missile
+- Velenpuntura / Poison Jab
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Ripresa / Recover
+- Riposo / Rest
+- Contropiede / Reversal
+- Elettroimpennata / Rising Voltage
+- Coro / Round
+- Idrovampata / Scald
+- Autodistruzione / Self-Destruct
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Punte / Spikes
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Elettrotuffo / Supercell Slam
+- Surf / Surf
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuononda / Thunder Wave
+- Fielepunte / Toxic Spikes
+- Velenoshock / Venoshock
+- Sprizzalampo / Wild Charge
+- Elettropizzico / Zing Zap
+
+Numero mosse elencate: 48
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

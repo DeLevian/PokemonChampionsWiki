@@ -1,0 +1,95 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Rillaboom
+Nome inglese: Rillaboom
+
+TIPO
+Erba (Grass)
+
+STATISTICHE BASE
+PS / HP: 100
+Attacco / Attack: 125
+Difesa / Defense: 90
+Attacco Speciale / Special Attack: 60
+Difesa Speciale / Special Defense: 70
+Velocità / Speed: 85
+Totale / BST: 530
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Erbaiuto / Overgrow
+- Erbogenesi / Grassy Surge [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando il Pokémon entra in campo crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acrobazia / Acrobatics
+- Garanzia / Assurance
+- Schiacciacorpo / Body Press
+- Corposcontro / Body Slam
+- Ondaboato / Boomburst
+- Breccia / Brick Break
+- Vorticolpo / Brutal Swing
+- Granfisico / Bulk Up
+- Battiterra / Bulldoze
+- Semitraglia / Bullet Seed
+- Sdoppiatore / Double-Edge
+- Doppiosmash / Double Hit
+- Assorbipugno / Drain Punch
+- Tamburattacco / Drum Beating
+- Geoforza / Earth Power
+- Terremoto / Earthquake
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Focalenergia / Focus Energy
+- Centripugno / Focus Punch
+- Radicalbero / Frenzy Plant
+- Gigassorbimento / Giga Drain
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Erboscivolata / Grassy Glide
+- Campo Erboso / Grassy Terrain
+- Crescita / Growth
+- Martelpugno / Hammer Arm
+- Forza Equina / High Horsepower
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Privazione / Knock Off
+- Verdebufera / Leaf Storm
+- Parassiseme / Leech Seed
+- Colpo Basso / Low Kick
+- Calciobasso / Low Sweep
+- Megacalcio / Mega Kick
+- Colpodifango / Mud Shot
+- Urlo / Noble Roar
+- Protezione / Protect
+- Riposo / Rest
+- Coro / Round
+- Visotruce / Scary Face
+- Stridio / Screech
+- Semebomba / Seed Bomb
+- Sonnolalia / Sleep Talk
+- Urlorabbia / Snarl
+- Russare / Snore
+- Solarraggio / Solar Beam
+- Lama Solare / Solar Blade
+- Battipiedi / Stomping Tantrum
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Troppoforte / Superpower
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Furto / Thief
+- Apripista / Trailblaze
+- Baraonda / Uproar
+- Retromarcia / U-turn
+- Mazzuolegno / Wood Hammer
+- Affannoseme / Worry Seed
+
+Numero mosse elencate: 67
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Termoscambio
+Nome inglese: Thermal Exchange
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Quando il Pokémon subisce una mossa di tipo Fuoco, il suo Attacco aumenta di 1 grado. Inoltre non può essere scottato.
+
+POKÉMON M-C ASSOCIATI
+- Baxcalibur
+- MegaBaxcalibur
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

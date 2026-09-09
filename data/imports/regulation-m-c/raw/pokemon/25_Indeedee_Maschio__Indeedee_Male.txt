@@ -1,0 +1,75 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Indeedee (Maschio)
+Nome inglese: Indeedee (Male)
+
+TIPO
+Psico (Psychic) / Normale (Normal)
+
+STATISTICHE BASE
+PS / HP: 60
+Attacco / Attack: 65
+Difesa / Defense: 55
+Attacco Speciale / Special Attack: 105
+Difesa Speciale / Special Defense: 95
+Velocità / Speed: 95
+Totale / BST: 475
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Forza Interiore / Inner Focus
+- Sincronismo / Synchronize
+- Psicogenesi / Psychic Surge [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando il Pokémon entra in campo crea Campo Psichico per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Cortesia / After You
+- Corposcontro / Body Slam
+- Calmamente / Calm Mind
+- Magibrillio / Dazzling Gleam
+- Assorbibacio / Draining Kiss
+- Assorbipugno / Drain Punch
+- Ripeti / Encore
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Vastenergia / Expanding Force
+- Extrasenso / Extrasensory
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Divinazione / Future Sight
+- Gravità / Gravity
+- Curardore / Healing Wish
+- Altruismo / Helping Hand
+- Granvoce / Hyper Voice
+- Esclusiva / Imprison
+- Ultimascelta / Last Resort
+- Magicozona / Magic Room
+- Magifiamma / Mystical Fire
+- Carineria / Play Rough
+- Pariattacco / Power Split
+- Barattoforza / Power Swap
+- Protezione / Protect
+- Psichico / Psychic
+- Psicorumore / Psychic Noise
+- Campo Psichico / Psychic Terrain
+- Psicamisù / Psych Up
+- Psicoshock / Psyshock
+- Riposo / Rest
+- Coro / Round
+- Palla Ombra / Shadow Ball
+- Baratto / Skill Swap
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Veicolaforza / Stored Power
+- Sostituto / Substitute
+- Campopulsar / Terrain Pulse
+- Tripletta / Tri Attack
+- Raggiro / Trick
+- Distortozona / Trick Room
+- Desiderio / Wish
+- Mirabilzona / Wonder Room
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 46
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

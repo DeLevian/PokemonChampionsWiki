@@ -1,0 +1,76 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Sirfetch’d
+Nome inglese: Sirfetch’d
+
+TIPO
+Lotta (Fighting)
+
+STATISTICHE BASE
+PS / HP: 62
+Attacco / Attack: 135
+Difesa / Defense: 95
+Attacco Speciale / Special Attack: 68
+Difesa Speciale / Special Defense: 82
+Velocità / Speed: 65
+Totale / BST: 507
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Cuordeciso / Steadfast
+- Nervisaldi / Scrappy
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Garanzia / Assurance
+- Attrazione / Attract
+- Corposcontro / Body Slam
+- Baldeali / Brave Bird
+- Breccia / Brick Break
+- Vorticolpo / Brutal Swing
+- Zuffa / Close Combat
+- Coaching / Coaching
+- Contrattacco / Counter
+- Supplica / Covet
+- Maledizione / Curse
+- Scacciabruma / Defog
+- Individua / Detect
+- Sdoppiatore / Double-Edge
+- Doppia Ala / Dual Wingbeat
+- Resistenza / Endure
+- Facciata / Facade
+- Danzadipiume / Feather Dance
+- Fintoattacco / Feint
+- Azzardo / Final Gambit
+- Schermaglia / First Impression
+- Flagello / Flail
+- Focalenergia / Focus Energy
+- Erboscivolata / Grassy Glide
+- Altruismo / Helping Hand
+- Ferroscudo / Iron Defense
+- Privazione / Knock Off
+- Fendifoglia / Leaf Blade
+- Sfolgorassalto / Meteor Assault
+- Nottesferza / Night Slash
+- Velenpuntura / Poison Jab
+- Protezione / Protect
+- Attacco Rapido / Quick Attack
+- Anticipo / Quick Guard
+- Riposo / Rest
+- Coro / Round
+- Ondisinvolta / Simple Beam
+- Aeroattacco / Sky Attack
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Lama Solare / Solar Blade
+- Alacciaio / Steel Wing
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Troppoforte / Superpower
+- Danzaspada / Swords Dance
+- Colpo Infernale / Throat Chop
+
+Numero mosse elencate: 49
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

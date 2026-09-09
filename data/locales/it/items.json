@@ -674,5 +674,77 @@
   "Scolipite": {
     "name": "Scolipite",
     "description": "Se tenuta da un Scolipede, consente la Megaevoluzione durante la lotta."
+  },
+  "Absolite Z": {
+    "name": "Absolite Z",
+    "description": "Permette ad Absol di megaevolversi in MegaAbsol Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Air Balloon": {
+    "name": "Palloncino",
+    "description": "Finché è intatto mantiene il possessore sollevato da terra: lo rende immune alle mosse di tipo Terra e agli effetti a terra come Punte, Fielepunte e Rete Vischiosa. Se il possessore subisce danno da una mossa, il Palloncino scoppia e il suo effetto termina per il resto della lotta."
+  },
+  "Baxcalibrite": {
+    "name": "Baxcaliburite",
+    "description": "Permette a Baxcalibur di megaevolversi in MegaBaxcalibur durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Binding Band": {
+    "name": "Legafascia",
+    "description": "Aumenta il danno residuo degli effetti di intrappolamento: in Champions il danno periodico passa da 1/8 a 1/6 dei PS massimi del bersaglio."
+  },
+  "Eject Button": {
+    "name": "Pulsantefuga",
+    "description": "Quando il possessore subisce danno da una mossa, viene fatto uscire dal campo e il giocatore sceglie un sostituto, se possibile. È monouso."
+  },
+  "Electric Seed": {
+    "name": "Elettroseme",
+    "description": "Se il possessore si trova su Campo Elettrico, lo strumento viene consumato e aumenta la Difesa di 1 grado."
+  },
+  "Garchompite Z": {
+    "name": "Garchompite Z",
+    "description": "Permette a Garchomp di megaevolversi in MegaGarchomp Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Golisopite": {
+    "name": "Golisopodite",
+    "description": "Permette a Golisopod di megaevolversi in MegaGolisopod durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Grassy Seed": {
+    "name": "Erbaseme",
+    "description": "Se il possessore si trova su Campo Erboso, lo strumento viene consumato e aumenta la Difesa di 1 grado."
+  },
+  "Leek": {
+    "name": "Gambo",
+    "description": "Se tenuto da Farfetch’d o Sirfetch’d, aumenta di 2 livelli il rapporto di brutto colpo delle loro mosse, rendendo molto più probabili i colpi critici."
+  },
+  "Lucarionite Z": {
+    "name": "Lucarite Z",
+    "description": "Permette a Lucario di megaevolversi in MegaLucario Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Misty Seed": {
+    "name": "Nebbiaseme",
+    "description": "Se il possessore si trova su Campo Nebbioso, lo strumento viene consumato e aumenta la Difesa Speciale di 1 grado."
+  },
+  "Normal Gem": {
+    "name": "Bijounormale",
+    "description": "La prima volta che il possessore usa una mossa di tipo Normale, lo strumento viene consumato e aumenta del 30% la potenza di quella mossa."
+  },
+  "Psychic Seed": {
+    "name": "Psicoseme",
+    "description": "Se il possessore si trova su Campo Psichico, lo strumento viene consumato e aumenta la Difesa Speciale di 1 grado."
+  },
+  "Red Card": {
+    "name": "Cartelrosso",
+    "description": "Quando il possessore subisce danno da una mossa, costringe l’attaccante a essere sostituito, se l’effetto può applicarsi. È monouso."
+  },
+  "Rocky Helmet": {
+    "name": "Bitorzolelmo",
+    "description": "Quando un avversario colpisce il possessore con una mossa a contatto, l’attaccante perde 1/6 dei propri PS massimi."
+  },
+  "Salamencite": {
+    "name": "Salamencite",
+    "description": "Permette a Salamence di megaevolversi in MegaSalamence durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+  },
+  "Terrain Extender": {
+    "name": "Fissacampo",
+    "description": "Se il possessore crea un terreno tramite una mossa o un’abilità, ne estende la durata di 3 turni: normalmente il terreno dura quindi 8 turni invece di 5."
   }
 }

@@ -1,0 +1,105 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Mr. Mime
+Nome inglese: Mr. Mime
+
+TIPO
+Psico (Psychic) / Folletto (Fairy)
+
+STATISTICHE BASE
+PS / HP: 40
+Attacco / Attack: 45
+Difesa / Defense: 65
+Attacco Speciale / Special Attack: 100
+Difesa Speciale / Special Defense: 120
+Velocità / Speed: 90
+Totale / BST: 460
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Antisuono / Soundproof
+- Filtro / Filter
+- Tecnico / Technician
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Cambiaposto / Ally Switch
+- Attrazione / Attract
+- Staffetta / Baton Pass
+- Corposcontro / Body Slam
+- Breccia / Brick Break
+- Calmamente / Calm Mind
+- Raggioscossa / Charge Beam
+- Fascino / Charm
+- Stordiraggio / Confuse Ray
+- Copione / Copycat
+- Magibrillio / Dazzling Gleam
+- Assorbipugno / Drain Punch
+- Ripeti / Encore
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Vastenergia / Expanding Force
+- Facciata / Facade
+- Bruciapelo / Fake Out
+- Fuocopugno / Fire Punch
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Ripicca / Foul Play
+- Divinazione / Future Sight
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Barattoscudo / Guard Swap
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Ipnosi / Hypnosis
+- Gelopugno / Ice Punch
+- Ventogelato / Icy Wind
+- Ferroscudo / Iron Defense
+- Schermoluce / Light Screen
+- Magicozona / Magic Room
+- Megacalcio / Mega Kick
+- Campo Nebbioso / Misty Terrain
+- Magifiamma / Mystical Fire
+- Congiura / Nasty Plot
+- Rivincita / Payback
+- Pariattacco / Power Split
+- Barattoforza / Power Swap
+- Protezione / Protect
+- Psichico / Psychic
+- Campo Psichico / Psychic Terrain
+- Psicoshock / Psyshock
+- Anticipo / Quick Guard
+- Pioggiadanza / Rain Dance
+- Riciclo / Recycle
+- Riflesso / Reflect
+- Riposo / Rest
+- Giocodiruolo / Role Play
+- Coro / Round
+- Salvaguardia / Safeguard
+- Palla Ombra / Shadow Ball
+- Baratto / Skill Swap
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Solarraggio / Solar Beam
+- Veicolaforza / Stored Power
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Giornodisole / Sunny Day
+- Provocazione / Taunt
+- Strampadanza / Teeter Dance
+- Furto / Thief
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuonopugno / Thunder Punch
+- Tuononda / Thunder Wave
+- Solletico / Tickle
+- Attaccalite / Torment
+- Raggiro / Trick
+- Distortozona / Trick Room
+- Baraonda / Uproar
+- Bodyguard / Wide Guard
+- Mirabilzona / Wonder Room
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 77
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

@@ -50,7 +50,7 @@ class App {
             // Load official database files + static old files + Locales
             const [
                 rosterData, statsData, learnsetsData, speciesMetaData,
-                evolutionData,
+                evolutionData, aliasesData,
                 itemsData, abilitiesData, movesData, naturesData, 
                 locAbilities, locMoves, locItems, locPokemon, locNatures
             ] = await Promise.all([
@@ -59,6 +59,7 @@ class App {
                 loadJson('data/database/current/learnsets/learnsets.json', {}),
                 loadJson('data/database/current/pokemon/species-data.json', {}),
                 loadJson('data/evolution_chains.json', { chains: {}, species_to_chain: {} }),
+                loadJson('data/mappings/entity-aliases.json', { pokemon: {}, pokemonArtwork: {} }),
                 loadJson('data/database/current/items/items.json', []),
                 loadJson('data/database/current/abilities/abilities.json', []),
                 loadJson('data/database/current/moves/moves.json', []),
@@ -135,6 +136,7 @@ class App {
                 regolamenti: [] // Legacy, keep empty to fallback to nazionale
             };
             window.evolutionData = evolutionData;
+            window.entityAliases = aliasesData;
             window.speciesMetaData = speciesMetaData;
             window.learnsetsData = learnsetsData;
 

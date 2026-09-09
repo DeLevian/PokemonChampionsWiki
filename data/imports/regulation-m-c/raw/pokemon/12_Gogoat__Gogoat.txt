@@ -1,0 +1,82 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Gogoat
+Nome inglese: Gogoat
+
+TIPO
+Erba (Grass)
+
+STATISTICHE BASE
+PS / HP: 123
+Attacco / Attack: 100
+Difesa / Defense: 62
+Attacco Speciale / Special Attack: 97
+Difesa Speciale / Special Defense: 81
+Velocità / Speed: 68
+Totale / BST: 531
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Mangiaerba / Sap Sipper
+- Peloderba / Grass Pelt [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Finché è attivo il Campo Erboso, la Difesa del Pokémon aumenta del 50%. L’effetto termina quando il terreno non è più Campo Erboso.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Corposcontro / Body Slam
+- Breccia / Brick Break
+- Granfisico / Bulk Up
+- Battiterra / Bulldoze
+- Semitraglia / Bullet Seed
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Terremoto / Earthquake
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Facciata / Facade
+- Gigassorbimento / Giga Drain
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Erboscivolata / Grassy Glide
+- Campo Erboso / Grassy Terrain
+- Crescita / Growth
+- Altruismo / Helping Hand
+- Forza Equina / High Horsepower
+- Legnicorno / Horn Leech
+- Iper Raggio / Hyper Beam
+- Codacciaio / Iron Tail
+- Fendifoglia / Leaf Blade
+- Verdebufera / Leaf Storm
+- Parassiseme / Leech Seed
+- Megacorno / Megahorn
+- Buonlatte / Milk Drink
+- Colpodifango / Mud Shot
+- Fangosberla / Mud-Slap
+- Rivincita / Payback
+- Carineria / Play Rough
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Boato / Roar
+- Frana / Rock Slide
+- Coro / Round
+- Semebomba / Seed Bomb
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Solarraggio / Solar Beam
+- Battipiedi / Stomping Tantrum
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Troppoforte / Superpower
+- Surf / Surf
+- Sintesi / Synthesis
+- Colpo Infernale / Throat Chop
+- Apripista / Trailblaze
+- Sprizzalampo / Wild Charge
+- Affannoseme / Worry Seed
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 54
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

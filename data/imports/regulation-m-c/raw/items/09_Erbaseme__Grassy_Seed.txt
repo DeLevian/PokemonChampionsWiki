@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Erbaseme
+Nome inglese: Grassy Seed
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: Sì
+
+DESCRIZIONE
+Se il possessore si trova su Campo Erboso, lo strumento viene consumato e aumenta la Difesa di 1 grado.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

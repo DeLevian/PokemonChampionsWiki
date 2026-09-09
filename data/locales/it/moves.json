@@ -433,7 +433,7 @@
   },
   "Milk Drink": {
     "name": "Buonlatte",
-    "description": "Il Pokémon recupera metà dei suoi PS massimi."
+    "description": "Ripristina il 50% dei PS massimi dell’utilizzatore oppure di un alleato selezionato. In Champions può quindi essere usata anche come cura di supporto sul compagno."
   },
   "Steel Wing": {
     "name": "Alacciaio",
@@ -1928,8 +1928,8 @@
     "description": "Il Pokémon rimuove lo stato Campo attivo."
   },
   "Glaive Rush": {
-    "name": "Glaive Rush",
-    "description": "Dopo l’uso, fino al turno successivo dell’utilizzatore, gli attacchi diretti contro di lui non possono mancare e infliggono danni doppi."
+    "name": "Spadoncarica",
+    "description": "Infligge danno. Dopo averla usata, l’utilizzatore rimane nello stato “Wide Open” fino alla sua prossima azione: in quel periodo è particolarmente vulnerabile agli attacchi avversari secondo le regole di Champions."
   },
   "Salt Cure": {
     "name": "Sotto Sale",
@@ -2098,5 +2098,57 @@
   "Upper Hand": {
     "name": "Colpo di Mano",
     "description": "Il Pokémon fa tentennare il bersaglio. Se quest’ultimo non ha scelto di usare una mossa ad alta priorità, questa mossa fallisce."
+  },
+  "Court Change": {
+    "name": "Cambiocampo",
+    "description": "Scambia fra i due lati del campo gli effetti che appartengono a una squadra, come barriere e pericoli. Non infligge danno diretto."
+  },
+  "Double Shock": {
+    "name": "Doppiolampo",
+    "description": "Infligge danno e, dopo l’uso riuscito, l’utilizzatore perde il tipo Elettro. Fallisce se l’utilizzatore non possiede il tipo Elettro in quel momento."
+  },
+  "Drum Beating": {
+    "name": "Tamburattacco",
+    "description": "Infligge danno e riduce di 1 grado la Velocità del bersaglio."
+  },
+  "Jaw Lock": {
+    "name": "Morsostretto",
+    "description": "Infligge danno e intrappola sia l’utilizzatore sia il bersaglio con l’effetto Jaw Locked, impedendo normalmente a entrambi di cambiare Pokémon finché l’effetto resta attivo."
+  },
+  "Meteor Assault": {
+    "name": "Sfolgorassalto",
+    "description": "Attacco molto potente. Dopo l’uso l’utilizzatore entra nello stato di ricarica e deve spendere la sua azione successiva per ricaricarsi."
+  },
+  "Octolock": {
+    "name": "Tentacolock",
+    "description": "Applica al bersaglio gli effetti Octolocked e “non può fuggire/cambiare”. Finché l’effetto resta attivo, Difesa e Difesa Speciale del bersaglio diminuiscono progressivamente alla fine dei turni secondo la meccanica della mossa."
+  },
+  "Overdrive": {
+    "name": "Overdrive",
+    "description": "Infligge danno di tipo Elettro ed è una mossa basata sul suono. Per questo interagisce con abilità ed effetti che potenziano o bloccano le mosse sonore, come Punk Rock e Antisuono."
+  },
+  "Pyro Ball": {
+    "name": "Palla Infuocata",
+    "description": "Infligge danno e ha il 10% di probabilità di scottare il bersaglio. Se l’utilizzatore è congelato, l’uso della mossa può liberarlo dal congelamento."
+  },
+  "Revival Blessing": {
+    "name": "Preghiera Vitale",
+    "description": "Rianima un Pokémon della propria squadra che è KO e lo riporta al 50% dei suoi PS massimi. Ha soltanto 1 PP di base."
+  },
+  "Shift Gear": {
+    "name": "Cambiomarcia",
+    "description": "Aumenta di 1 grado l’Attacco e di 2 gradi la Velocità dell’utilizzatore."
+  },
+  "Slash": {
+    "name": "Lacerazione",
+    "description": "Infligge danno e ha un rapporto di brutto colpo aumentato di 1 livello. È anche classificata come mossa da taglio, quindi interagisce con Affilama/Sharpness."
+  },
+  "Snipe Shot": {
+    "name": "Tiromirato",
+    "description": "Infligge danno, ha un rapporto di brutto colpo aumentato di 1 livello e ignora gli effetti di reindirizzamento di mosse e abilità: il colpo resta diretto verso il bersaglio scelto."
+  },
+  "Zing Zap": {
+    "name": "Elettropizzico",
+    "description": "Infligge danno e ha il 30% di probabilità di far tentennare il bersaglio, se il bersaglio non ha già agito e non è protetto da effetti che impediscono il tentennamento."
   }
 }

@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Paura
+Nome inglese: Rattled
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Aumenta di 1 grado la Velocità quando il Pokémon subisce una mossa di tipo Buio, Spettro o Coleottero; si attiva anche quando viene colpito dall’effetto di Prepotenza/Intimidate.
+
+POKÉMON M-C ASSOCIATI
+- Persian di Alola
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

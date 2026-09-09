@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Lucarite Z
+Nome inglese: Lucarionite Z
+
+DATI
+Categoria: Megapietra
+Monouso/consumato: No
+
+DESCRIZIONE
+Permette a Lucario di megaevolversi in MegaLucario Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

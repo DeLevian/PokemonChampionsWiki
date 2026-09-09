@@ -1,0 +1,85 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: MegaGarchomp Z
+Nome inglese: Mega Garchomp Z
+
+TIPO
+Drago (Dragon)
+
+STATISTICHE BASE
+PS / HP: 108
+Attacco / Attack: 130
+Difesa / Defense: 85
+Attacco Speciale / Special Attack: 141
+Difesa Speciale / Special Defense: 85
+Velocità / Speed: 151
+Totale / BST: 700
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Levitazione / Levitate
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Morso / Bite
+- Corposcontro / Body Slam
+- Vastoimpatto / Breaking Swipe
+- Breccia / Brick Break
+- Vorticolpo / Brutal Swing
+- Battiterra / Bulldoze
+- Sgranocchio / Crunch
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Dragobolide / Draco Meteor
+- Grido del Drago / Dragon Cheer
+- Dragartigli / Dragon Claw
+- Dragopulsar / Dragon Pulse
+- Dragofuria / Dragon Rush
+- Codadrago / Dragon Tail
+- Geoforza / Earth Power
+- Terremoto / Earthquake
+- Resistenza / Endure
+- Facciata / Facade
+- Fuocobomba / Fire Blast
+- Rogodenti / Fire Fang
+- Lanciafiamme / Flamethrower
+- Lancio / Fling
+- Gigaimpatto / Giga Impact
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Metaltestata / Iron Head
+- Codacciaio / Iron Tail
+- Idrobreccia / Liquidation
+- Colpodifango / Mud Shot
+- Oltraggio / Outrage
+- Velenpuntura / Poison Jab
+- Gemmoforza / Power Gem
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Frana / Rock Slide
+- Rocciotomba / Rock Tomb
+- Coro / Round
+- Terrempesta / Sandstorm
+- Sabbiotomba / Sand Tomb
+- Squamacolpo / Scale Shot
+- Visotruce / Scary Face
+- Sabbiardente / Scorching Sands
+- Ombrartigli / Shadow Claw
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Punte / Spikes
+- Levitoroccia / Stealth Rock
+- Battipiedi / Stomping Tantrum
+- Pietrataglio / Stone Edge
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Surf / Surf
+- Danzaspada / Swords Dance
+- Colpo / Thrash
+- Fulmindenti / Thunder Fang
+
+Numero mosse elencate: 59
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

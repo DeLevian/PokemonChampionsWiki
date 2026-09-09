@@ -1,0 +1,71 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Squawkabilly (Piume Bianche)
+Nome inglese: Squawkabilly (White Plumage)
+
+TIPO
+Normale (Normal) / Volante (Flying)
+
+STATISTICHE BASE
+PS / HP: 82
+Attacco / Attack: 96
+Difesa / Defense: 51
+Attacco Speciale / Special Attack: 45
+Difesa Speciale / Special Defense: 51
+Velocità / Speed: 92
+Totale / BST: 417
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Prepotenza / Intimidate
+- Tuttafretta / Hustle
+- Forzabruta / Sheer Force
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Aerasoio / Air Cutter
+- Eterelama / Air Slash
+- Baldeali / Brave Bird
+- Copione / Copycat
+- Sdoppiatore / Double-Edge
+- Doppia Ala / Dual Wingbeat
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Facciata / Facade
+- Falselacrime / Fake Tears
+- Danzadipiume / Feather Dance
+- Azzardo / Final Gambit
+- Adulazione / Flatter
+- Volo / Fly
+- Ripicca / Foul Play
+- Gigaimpatto / Giga Impact
+- Ondacalda / Heat Wave
+- Altruismo / Helping Hand
+- Tifone / Hurricane
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Sfogarabbia / Lash Out
+- Assalto / Lunge
+- Monito / Parting Shot
+- Balzo / Pounce
+- Protezione / Protect
+- Attacco Rapido / Quick Attack
+- Riposo / Rest
+- Contropiede / Reversal
+- Trespolo / Roost
+- Visotruce / Scary Face
+- Semebomba / Seed Bomb
+- Sonnolalia / Sleep Talk
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Bullo / Swagger
+- Ventoincoda / Tailwind
+- Provocazione / Taunt
+- Furto / Thief
+- Attaccalite / Torment
+- Baraonda / Uproar
+- Retromarcia / U-turn
+
+Numero mosse elencate: 43
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

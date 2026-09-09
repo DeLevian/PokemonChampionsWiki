@@ -1,0 +1,92 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Cinderace
+Nome inglese: Cinderace
+
+TIPO
+Fuoco (Fire)
+
+STATISTICHE BASE
+PS / HP: 80
+Attacco / Attack: 116
+Difesa / Defense: 75
+Attacco Speciale / Special Attack: 65
+Difesa Speciale / Special Defense: 75
+Velocità / Speed: 119
+Totale / BST: 530
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Aiutofuoco / Blaze
+- Libero / Libero [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Prima di usare una mossa, il Pokémon cambia il proprio tipo nel tipo di quella mossa. In Champions l’effetto può attivarsi una sola volta per ogni permanenza in campo; tornando in campo può nuovamente attivarsi.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acrobazia / Acrobatics
+- Agilità / Agility
+- Garanzia / Assurance
+- Staffetta / Baton Pass
+- Incendio / Blast Burn
+- Calciardente / Blaze Kick
+- Rimbalzo / Bounce
+- Granfisico / Bulk Up
+- Fiamminvidia / Burning Jealousy
+- Coaching / Coaching
+- Contrattacco / Counter
+- Cambiocampo / Court Change
+- Sdoppiatore / Double-Edge
+- Energisfera / Electro Ball
+- Resistenza / Endure
+- Facciata / Facade
+- Fintoattacco / Feint
+- Fuocobomba / Fire Blast
+- Rogodenti / Fire Fang
+- Fuocopugno / Fire Punch
+- Turbofuoco / Fire Spin
+- Nitrocarica / Flame Charge
+- Lanciafiamme / Flamethrower
+- Fuococarica / Flare Blitz
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Focalenergia / Focus Energy
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Ondacalda / Heat Wave
+- Altruismo / Helping Hand
+- Calcinvolo / High Jump Kick
+- Iper Raggio / Hyper Beam
+- Metaltestata / Iron Head
+- Colpo Basso / Low Kick
+- Calciobasso / Low Sweep
+- Megacalcio / Mega Kick
+- Colpodifango / Mud Shot
+- Fangosberla / Mud-Slap
+- Vampata / Overheat
+- Protezione / Protect
+- Palla Infuocata / Pyro Ball
+- Attacco Rapido / Quick Attack
+- Riposo / Rest
+- Contropiede / Reversal
+- Coro / Round
+- Sabbiardente / Scorching Sands
+- Palla Ombra / Shadow Ball
+- Sonnolalia / Sleep Talk
+- Abbattimento / Smack Down
+- Urlorabbia / Snarl
+- Russare / Snore
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Giornodisole / Sunny Day
+- Superzanna / Super Fang
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Rabbia Bruciante / Temper Flare
+- Apripista / Trailblaze
+- Retromarcia / U-turn
+- Palla Clima / Weather Ball
+- Fuocofatuo / Will-O-Wisp
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 64
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

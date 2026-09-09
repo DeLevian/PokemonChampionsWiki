@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Gambo
+Nome inglese: Leek
+
+DATI
+Categoria: Strumento tenuto specifico
+Monouso/consumato: No
+
+DESCRIZIONE
+Se tenuto da Farfetch’d o Sirfetch’d, aumenta di 2 livelli il rapporto di brutto colpo delle loro mosse, rendendo molto più probabili i colpi critici.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

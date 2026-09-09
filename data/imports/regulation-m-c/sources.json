@@ -1,0 +1,45 @@
+{
+  "researchCompletedAt": "2026-09-09",
+  "sources": [
+    {
+      "id": "official-regulation-m-c",
+      "title": "È in arrivo il Regolamento M-C in Pokémon Champions",
+      "url": "https://www.pokemon.com/it/novita/e-in-arrivo-il-regolamento-m-c-in-pokemon-champions",
+      "type": "official-announcement",
+      "official": true,
+      "accessedAt": "2026-09-09",
+      "appliesTo": ["release", "availability", "pokemon", "moves", "abilities", "items"],
+      "notes": "Fonte ufficiale indicata nel pacchetto grezzo; conferma il contenuto del regolamento."
+    },
+    {
+      "id": "pokemon-zone-regulation-m-c",
+      "title": "Pokémon Champions Regulation M-C",
+      "url": "https://www.pokemon-zone.com/champions/regulations/m-c/",
+      "type": "community-database",
+      "official": false,
+      "accessedAt": "2026-09-09",
+      "appliesTo": ["pokemon", "moves", "abilities", "items", "mechanics"],
+      "notes": "Fonte tecnica secondaria indicata nel pacchetto grezzo."
+    },
+    {
+      "id": "showdown-champions-data",
+      "title": "Pokémon Showdown — Champions mod",
+      "url": "https://github.com/smogon/pokemon-showdown/tree/master/data/mods/champions",
+      "type": "technical-dataset",
+      "official": false,
+      "accessedAt": "2026-09-09",
+      "appliesTo": ["pokemon", "stats", "abilities", "learnsets", "moves"],
+      "notes": "Fonte tecnica primaria indicata nel pacchetto grezzo."
+    },
+    {
+      "id": "pokeapi-localizations",
+      "title": "PokéAPI data repository",
+      "url": "https://github.com/PokeAPI/pokeapi",
+      "type": "localization-dataset",
+      "official": false,
+      "accessedAt": "2026-09-09",
+      "appliesTo": ["localization", "dexNumber"],
+      "notes": "Usata per nomi italiani standard e numeri Pokédex."
+    }
+  ]
+}

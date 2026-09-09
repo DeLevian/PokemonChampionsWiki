@@ -1,0 +1,92 @@
+INDICE FILE — POKÉMON CHAMPIONS M-C
+
+01_Pokemon
+  - 01_Wigglytuff__Wigglytuff.txt
+  - 02_Persian__Persian.txt
+  - 03_Persian_di_Alola__Alolan_Persian.txt
+  - 04_Farfetchd__Farfetchd.txt
+  - 05_Mr._Mime__Mr._Mime.txt
+  - 06_Swalot__Swalot.txt
+  - 07_MegaAbsol_Z__Mega_Absol_Z.txt
+  - 08_Salamence__Salamence.txt
+  - 09_MegaSalamence__Mega_Salamence.txt
+  - 10_MegaGarchomp_Z__Mega_Garchomp_Z.txt
+  - 11_MegaLucario_Z__Mega_Lucario_Z.txt
+  - 12_Gogoat__Gogoat.txt
+  - 13_Golisopod__Golisopod.txt
+  - 14_MegaGolisopod__Mega_Golisopod.txt
+  - 15_Rillaboom__Rillaboom.txt
+  - 16_Cinderace__Cinderace.txt
+  - 17_Inteleon__Inteleon.txt
+  - 18_Thievul__Thievul.txt
+  - 19_Toxtricity_Forma_Melodia__Toxtricity_Amped_Form.txt
+  - 20_Toxtricity_Forma_Basso__Toxtricity_Low_Key_Form.txt
+  - 21_Grapploct__Grapploct.txt
+  - 22_Perrserker__Perrserker.txt
+  - 23_Sirfetchd__Sirfetchd.txt
+  - 24_Pincurchin__Pincurchin.txt
+  - 25_Indeedee_Maschio__Indeedee_Male.txt
+  - 26_Indeedee_Femmina__Indeedee_Female.txt
+  - 27_Pawmot__Pawmot.txt
+  - 28_Arboliva__Arboliva.txt
+  - 29_Squawkabilly_Piume_Verdi__Squawkabilly_Green_Plumage.txt
+  - 30_Squawkabilly_Piume_Azzurre__Squawkabilly_Blue_Plumage.txt
+  - 31_Squawkabilly_Piume_Bianche__Squawkabilly_White_Plumage.txt
+  - 32_Squawkabilly_Piume_Gialle__Squawkabilly_Yellow_Plumage.txt
+  - 33_Mabosstiff__Mabosstiff.txt
+  - 34_Baxcalibur__Baxcalibur.txt
+  - 35_MegaBaxcalibur__Mega_Baxcalibur.txt
+
+02_Mosse_nuove
+  - 01_Cambiocampo__Court_Change.txt
+  - 02_Doppiolampo__Double_Shock.txt
+  - 03_Tamburattacco__Drum_Beating.txt
+  - 04_Spadoncarica__Glaive_Rush.txt
+  - 05_Morsostretto__Jaw_Lock.txt
+  - 06_Sfolgorassalto__Meteor_Assault.txt
+  - 07_Buonlatte__Milk_Drink.txt
+  - 08_Tentacolock__Octolock.txt
+  - 09_Overdrive__Overdrive.txt
+  - 10_Palla_Infuocata__Pyro_Ball.txt
+  - 11_Preghiera_Vitale__Revival_Blessing.txt
+  - 12_Cambiomarcia__Shift_Gear.txt
+  - 13_Lacerazione__Slash.txt
+  - 14_Tiromirato__Snipe_Shot.txt
+  - 15_Elettropizzico__Zing_Zap.txt
+
+03_Abilita_nuove
+  - 01_Aura_Guard__Aura_Guard.txt
+  - 02_Passoindietro__Emergency_Exit.txt
+  - 03_Peloderba__Grass_Pelt.txt
+  - 04_Erbogenesi__Grassy_Surge.txt
+  - 05_Cane_da_Guardia__Guard_Dog.txt
+  - 06_Libero__Libero.txt
+  - 07_Melma__Liquid_Ooze.txt
+  - 08_Psicogenesi__Psychic_Surge.txt
+  - 09_Punk_Rock__Punk_Rock.txt
+  - 10_Paura__Rattled.txt
+  - 11_Fugafacile__Run_Away.txt
+  - 12_Spargisemi__Seed_Sower.txt
+  - 13_Sorveglianza__Stakeout.txt
+  - 14_Spiritoferreo__Steely_Spirit.txt
+  - 15_Termoscambio__Thermal_Exchange.txt
+
+04_Strumenti_nuovi
+  - 01_Absolite_Z__Absolite_Z.txt
+  - 02_Palloncino__Air_Balloon.txt
+  - 03_Baxcaliburite__Baxcalibrite.txt
+  - 04_Legafascia__Binding_Band.txt
+  - 05_Pulsantefuga__Eject_Button.txt
+  - 06_Elettroseme__Electric_Seed.txt
+  - 07_Garchompite_Z__Garchompite_Z.txt
+  - 08_Golisopodite__Golisopite.txt
+  - 09_Erbaseme__Grassy_Seed.txt
+  - 10_Gambo__Leek.txt
+  - 11_Lucarite_Z__Lucarionite_Z.txt
+  - 12_Nebbiaseme__Misty_Seed.txt
+  - 13_Bijounormale__Normal_Gem.txt
+  - 14_Psicoseme__Psychic_Seed.txt
+  - 15_Cartelrosso__Red_Card.txt
+  - 16_Bitorzolelmo__Rocky_Helmet.txt
+  - 17_Salamencite__Salamencite.txt
+  - 18_Fissacampo__Terrain_Extender.txt

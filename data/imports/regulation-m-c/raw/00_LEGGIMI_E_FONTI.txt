@@ -1,0 +1,31 @@
+POKÉMON CHAMPIONS — PACCHETTO NOVITÀ REGOLAMENTO M-C
+Aggiornato al 9 settembre 2026
+
+CONTENUTO
+- 01_Pokemon: 35 file, uno per ogni Pokémon/forma elencata come nuova voce nel regolamento M-C.
+- 02_Mosse_nuove: 15 file con dati tecnici e descrizione delle mosse introdotte/rese disponibili.
+- 03_Abilita_nuove: 15 file con descrizione delle abilità/passive introdotte/rese disponibili.
+- 04_Strumenti_nuovi: 18 file con i nuovi strumenti e il loro effetto.
+
+NOMI
+Ogni elemento riporta nome italiano e inglese. Anche il movepool dei Pokémon è bilingue.
+
+PRECISAZIONE SUL TERMINE “NUOVO”
+Il regolamento M-C aggiunge nuovi elementi al pool di Pokémon Champions. Alcune mosse, abilità e strumenti esistevano già in altri giochi Pokémon: qui “nuovo” significa nuovo o nuovamente disponibile in Champions/M-C.
+
+FONTI DI VERIFICA UTILIZZATE
+- Sito ufficiale Pokémon: annuncio Regolamento M-C (2 settembre 2026)
+  https://www.pokemon.com/it/novita/e-in-arrivo-il-regolamento-m-c-in-pokemon-champions
+- Pokémon Zone: pagina Regulation M-C e pagine tecniche collegate
+  https://www.pokemon-zone.com/champions/regulations/m-c/
+- Pokémon Showdown: dati del mod Pokémon Champions (learnset) e dati specie
+  https://github.com/smogon/pokemon-showdown/tree/master/data/mods/champions
+- PokéAPI: localizzazioni ufficiali/standard dei nomi di mosse, abilità e strumenti
+  https://github.com/PokeAPI/pokeapi
+
+NOTE SUI DATI
+- Le statistiche sono statistiche base (base stats), non valori finali a livello 50/100.
+- I movepool sono quelli del dataset Pokémon Champions disponibile alla data indicata.
+- Le Mega usano il movepool della specie base; il file della Mega lo ripete integralmente per comodità.
+- Per MegaBaxcalibur è indicata Termoscambio/Thermal Exchange come abilità della forma Mega, coerentemente con i dati M-C della nuova Mega.
+- Per le mosse di stato che non effettuano un normale tiro di precisione viene indicato “Sempre / non applicabile” invece del valore sentinella interno usato da alcuni database.

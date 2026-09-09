@@ -1,0 +1,5791 @@
+{
+  "schemaVersion": 1,
+  "release": {
+    "id": "regulation-m-c",
+    "title": "Regolamento M-C",
+    "gameVersion": "Pokemon Champions",
+    "announcedAt": "2026-09-02",
+    "effectiveAt": null,
+    "researchCompletedAt": "2026-09-09",
+    "summary": "35 Pokémon o forme, 15 mosse, 15 abilità e 18 strumenti del Regolamento M-C."
+  },
+  "sourceRefs": [
+    "official-regulation-m-c",
+    "pokemon-zone-regulation-m-c",
+    "showdown-champions-data",
+    "pokeapi-localizations"
+  ],
+  "changes": {
+    "pokemon": [
+      {
+        "operation": "add",
+        "canonicalName": "Wigglytuff",
+        "aliases": [],
+        "roster": {
+          "name": "Wigglytuff",
+          "dexNumber": 40,
+          "types": [
+            "Normal",
+            "Fairy"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Cute Charm",
+            "1": "Competitive",
+            "H": "Frisk"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Wigglytuff",
+          "dexNumber": 40,
+          "form": "Base",
+          "hp": 140,
+          "atk": 70,
+          "def": 45,
+          "spa": 85,
+          "spd": 50,
+          "spe": 45,
+          "total": 435,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Alluring Voice",
+            "Amnesia",
+            "Baton Pass",
+            "Blizzard",
+            "Body Press",
+            "Body Slam",
+            "Bounce",
+            "Brick Break",
+            "Calm Mind",
+            "Charm",
+            "Chilling Water",
+            "Copycat",
+            "Covet",
+            "Dark Pulse",
+            "Dazzling Gleam",
+            "Dig",
+            "Disable",
+            "Double-Edge",
+            "Draining Kiss",
+            "Drain Punch",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Expanding Force",
+            "Facade",
+            "Fake Tears",
+            "Fire Blast",
+            "Fire Punch",
+            "Flamethrower",
+            "Fling",
+            "Focus Blast",
+            "Focus Punch",
+            "Giga Impact",
+            "Grass Knot",
+            "Gravity",
+            "Gyro Ball",
+            "Heal Pulse",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Ice Beam",
+            "Ice Punch",
+            "Ice Spinner",
+            "Icy Wind",
+            "Knock Off",
+            "Last Resort",
+            "Light Screen",
+            "Magic Room",
+            "Mega Kick",
+            "Misty Explosion",
+            "Misty Terrain",
+            "Moonblast",
+            "Nasty Plot",
+            "Pain Split",
+            "Perish Song",
+            "Play Rough",
+            "Protect",
+            "Psychic",
+            "Psychic Noise",
+            "Psych Up",
+            "Psyshock",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Sandstorm",
+            "Screech",
+            "Self-Destruct",
+            "Shadow Ball",
+            "Sing",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Spit Up",
+            "Stealth Rock",
+            "Steel Roller",
+            "Stockpile",
+            "Stored Power",
+            "Substitute",
+            "Sunny Day",
+            "Swallow",
+            "Sweet Kiss",
+            "Taunt",
+            "Thief",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Trailblaze",
+            "Tri Attack",
+            "Uproar",
+            "Water Pulse",
+            "Wild Charge",
+            "Wish",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Wigglytuff"
+          }
+        },
+        "assets": {
+          "artworkFile": "Wigglytuff.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Persian",
+        "aliases": [],
+        "roster": {
+          "name": "Persian",
+          "dexNumber": 53,
+          "types": [
+            "Normal"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Limber",
+            "1": "Technician",
+            "H": "Unnerve"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Persian",
+          "dexNumber": 53,
+          "form": "Base",
+          "hp": 65,
+          "atk": 70,
+          "def": 60,
+          "spa": 65,
+          "spd": 65,
+          "spe": 115,
+          "total": 440,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Agility",
+            "Amnesia",
+            "Assurance",
+            "Bite",
+            "Body Slam",
+            "Charm",
+            "Chilling Water",
+            "Covet",
+            "Dark Pulse",
+            "Dig",
+            "Double-Edge",
+            "Double Team",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Out",
+            "Fake Tears",
+            "Feint",
+            "Flail",
+            "Foul Play",
+            "Giga Impact",
+            "Gunk Shot",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Hypnosis",
+            "Icy Wind",
+            "Iron Tail",
+            "Knock Off",
+            "Lash Out",
+            "Last Resort",
+            "Nasty Plot",
+            "Pain Split",
+            "Payback",
+            "Play Rough",
+            "Power Gem",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Round",
+            "Screech",
+            "Seed Bomb",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Slash",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Spite",
+            "Substitute",
+            "Sunny Day",
+            "Switcheroo",
+            "Taunt",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Trailblaze",
+            "Uproar",
+            "U-turn",
+            "Water Pulse"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Persian"
+          }
+        },
+        "assets": {
+          "artworkFile": "Persian.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Alolan Persian",
+        "aliases": [],
+        "roster": {
+          "name": "Alolan Persian",
+          "dexNumber": 53,
+          "types": [
+            "Dark"
+          ],
+          "form": "Regional",
+          "abilities": {
+            "0": "Fur Coat",
+            "1": "Technician",
+            "H": "Rattled"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Alolan Persian",
+          "dexNumber": 53,
+          "form": "Regional",
+          "hp": 65,
+          "atk": 60,
+          "def": 60,
+          "spa": 75,
+          "spd": 65,
+          "spe": 115,
+          "total": 440,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Agility",
+            "Amnesia",
+            "Assurance",
+            "Beat Up",
+            "Bite",
+            "Body Slam",
+            "Burning Jealousy",
+            "Charm",
+            "Chilling Water",
+            "Confuse Ray",
+            "Covet",
+            "Curse",
+            "Dark Pulse",
+            "Dig",
+            "Double-Edge",
+            "Double Team",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Out",
+            "Fake Tears",
+            "Feint",
+            "Flail",
+            "Flatter",
+            "Foul Play",
+            "Giga Impact",
+            "Gunk Shot",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Hypnosis",
+            "Icy Wind",
+            "Iron Tail",
+            "Knock Off",
+            "Lash Out",
+            "Nasty Plot",
+            "Night Slash",
+            "Parting Shot",
+            "Payback",
+            "Play Rough",
+            "Power Gem",
+            "Protect",
+            "Psych Up",
+            "Quash",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Round",
+            "Screech",
+            "Seed Bomb",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Slash",
+            "Sleep Talk",
+            "Smack Down",
+            "Snarl",
+            "Snore",
+            "Spite",
+            "Substitute",
+            "Sunny Day",
+            "Switcheroo",
+            "Taunt",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Trailblaze",
+            "Uproar",
+            "U-turn",
+            "Water Pulse"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Persian di Alola"
+          }
+        },
+        "assets": {
+          "artworkFile": "Alolan Persian.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Farfetch'd",
+        "aliases": [
+          "Farfetch’d"
+        ],
+        "roster": {
+          "name": "Farfetch'd",
+          "dexNumber": 83,
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Keen Eye",
+            "1": "Inner Focus",
+            "H": "Defiant"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Farfetch'd",
+          "dexNumber": 83,
+          "form": "Base",
+          "hp": 52,
+          "atk": 90,
+          "def": 55,
+          "spa": 58,
+          "spd": 62,
+          "spe": 60,
+          "total": 377,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acrobatics",
+            "Aerial Ace",
+            "Agility",
+            "Air Cutter",
+            "Air Slash",
+            "Attract",
+            "Baton Pass",
+            "Body Slam",
+            "Brave Bird",
+            "Brutal Swing",
+            "Close Combat",
+            "Covet",
+            "Curse",
+            "Dual Wingbeat",
+            "Endure",
+            "Facade",
+            "Feather Dance",
+            "Feint",
+            "Final Gambit",
+            "First Impression",
+            "Flail",
+            "Fly",
+            "Focus Energy",
+            "Heat Wave",
+            "Helping Hand",
+            "Iron Tail",
+            "Knock Off",
+            "Leaf Blade",
+            "Night Slash",
+            "Poison Jab",
+            "Protect",
+            "Quick Attack",
+            "Rest",
+            "Roost",
+            "Round",
+            "Simple Beam",
+            "Sky Attack",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Solar Blade",
+            "Steel Wing",
+            "Substitute",
+            "Sunny Day",
+            "Swords Dance",
+            "Thief",
+            "Throat Chop",
+            "Trailblaze",
+            "Uproar",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Farfetch’d"
+          }
+        },
+        "assets": {
+          "artworkFile": "Farfetchd.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mr. Mime",
+        "aliases": [],
+        "roster": {
+          "name": "Mr. Mime",
+          "dexNumber": 122,
+          "types": [
+            "Psychic",
+            "Fairy"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Soundproof",
+            "1": "Filter",
+            "H": "Technician"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mr. Mime",
+          "dexNumber": 122,
+          "form": "Base",
+          "hp": 40,
+          "atk": 45,
+          "def": 65,
+          "spa": 100,
+          "spd": 120,
+          "spe": 90,
+          "total": 460,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Ally Switch",
+            "Attract",
+            "Baton Pass",
+            "Body Slam",
+            "Brick Break",
+            "Calm Mind",
+            "Charge Beam",
+            "Charm",
+            "Confuse Ray",
+            "Copycat",
+            "Dazzling Gleam",
+            "Drain Punch",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Expanding Force",
+            "Facade",
+            "Fake Out",
+            "Fire Punch",
+            "Fling",
+            "Focus Blast",
+            "Foul Play",
+            "Future Sight",
+            "Giga Impact",
+            "Grass Knot",
+            "Guard Swap",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hypnosis",
+            "Ice Punch",
+            "Icy Wind",
+            "Iron Defense",
+            "Light Screen",
+            "Magic Room",
+            "Mega Kick",
+            "Misty Terrain",
+            "Mystical Fire",
+            "Nasty Plot",
+            "Payback",
+            "Power Split",
+            "Power Swap",
+            "Protect",
+            "Psychic",
+            "Psychic Terrain",
+            "Psyshock",
+            "Quick Guard",
+            "Rain Dance",
+            "Recycle",
+            "Reflect",
+            "Rest",
+            "Role Play",
+            "Round",
+            "Safeguard",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stored Power",
+            "Substitute",
+            "Sucker Punch",
+            "Sunny Day",
+            "Taunt",
+            "Teeter Dance",
+            "Thief",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Tickle",
+            "Torment",
+            "Trick",
+            "Trick Room",
+            "Uproar",
+            "Wide Guard",
+            "Wonder Room",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Mr. Mime"
+          }
+        },
+        "assets": {
+          "artworkFile": "Mr Mime.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Swalot",
+        "aliases": [],
+        "roster": {
+          "name": "Swalot",
+          "dexNumber": 317,
+          "types": [
+            "Poison"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Liquid Ooze",
+            "1": "Sticky Hold",
+            "H": "Gluttony"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Swalot",
+          "dexNumber": 317,
+          "form": "Base",
+          "hp": 100,
+          "atk": 73,
+          "def": 83,
+          "spa": 73,
+          "spd": 83,
+          "spe": 55,
+          "total": 467,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acid Armor",
+            "Acid Spray",
+            "Amnesia",
+            "Belch",
+            "Body Press",
+            "Body Slam",
+            "Brick Break",
+            "Bulldoze",
+            "Bullet Seed",
+            "Clear Smog",
+            "Corrosive Gas",
+            "Curse",
+            "Destiny Bond",
+            "Double-Edge",
+            "Earthquake",
+            "Encore",
+            "Endure",
+            "Facade",
+            "Fire Punch",
+            "Fling",
+            "Gastro Acid",
+            "Giga Drain",
+            "Giga Impact",
+            "Gunk Shot",
+            "Helping Hand",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Punch",
+            "Knock Off",
+            "Mud Shot",
+            "Mud-Slap",
+            "Pain Split",
+            "Poison Jab",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Round",
+            "Seed Bomb",
+            "Self-Destruct",
+            "Shadow Ball",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snore",
+            "Solar Beam",
+            "Spit Up",
+            "Stockpile",
+            "Stuff Cheeks",
+            "Substitute",
+            "Sunny Day",
+            "Swallow",
+            "Swords Dance",
+            "Thief",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Toxic",
+            "Toxic Spikes",
+            "Venoshock",
+            "Water Pulse",
+            "Yawn",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Swalot"
+          }
+        },
+        "assets": {
+          "artworkFile": "Swalot.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Absol Z",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Absol Z",
+          "dexNumber": 359,
+          "types": [
+            "Dark",
+            "Ghost"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Sharpness"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Absol Z",
+          "dexNumber": 359,
+          "form": "Mega",
+          "hp": 65,
+          "atk": 154,
+          "def": 60,
+          "spa": 75,
+          "spd": 60,
+          "spe": 151,
+          "total": 565,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Slash",
+            "Assurance",
+            "Attract",
+            "Baton Pass",
+            "Bite",
+            "Blizzard",
+            "Body Slam",
+            "Bounce",
+            "Brutal Swing",
+            "Calm Mind",
+            "Close Combat",
+            "Confuse Ray",
+            "Curse",
+            "Dark Pulse",
+            "Detect",
+            "Double-Edge",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Feint",
+            "Fire Blast",
+            "Flamethrower",
+            "Focus Energy",
+            "Foul Play",
+            "Future Sight",
+            "Giga Impact",
+            "Hex",
+            "Hyper Beam",
+            "Ice Beam",
+            "Icy Wind",
+            "Iron Tail",
+            "Knock Off",
+            "Mean Look",
+            "Megahorn",
+            "Night Slash",
+            "Payback",
+            "Perish Song",
+            "Phantom Force",
+            "Play Rough",
+            "Protect",
+            "Psycho Cut",
+            "Quick Attack",
+            "Rain Dance",
+            "Rest",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sandstorm",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Shadow Sneak",
+            "Slash",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Stone Edge",
+            "Substitute",
+            "Sucker Punch",
+            "Sunny Day",
+            "Superpower",
+            "Swords Dance",
+            "Taunt",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Trailblaze",
+            "Will-O-Wisp",
+            "X-Scissor",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaAbsol Z"
+          }
+        },
+        "assets": {
+          "artworkFile": "Absol Mega Z.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Salamence",
+        "aliases": [],
+        "roster": {
+          "name": "Salamence",
+          "dexNumber": 373,
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "H": "Moxie"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Salamence",
+          "dexNumber": 373,
+          "form": "Base",
+          "hp": 95,
+          "atk": 135,
+          "def": 80,
+          "spa": 110,
+          "spd": 80,
+          "spe": 100,
+          "total": 600,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Slash",
+            "Bite",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Brutal Swing",
+            "Bulldoze",
+            "Crunch",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Dance",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Dual Wingbeat",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Spin",
+            "Flamethrower",
+            "Fly",
+            "Focus Energy",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Iron Defense",
+            "Iron Head",
+            "Iron Tail",
+            "Mud-Slap",
+            "Outrage",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Rock Slide",
+            "Rock Tomb",
+            "Roost",
+            "Round",
+            "Scary Face",
+            "Shadow Claw",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Steel Wing",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Tailwind",
+            "Temper Flare",
+            "Thrash",
+            "Thunder Fang",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Salamence"
+          }
+        },
+        "assets": {
+          "artworkFile": "Salamence.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Salamence",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Salamence",
+          "dexNumber": 373,
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Aerilate"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Salamence",
+          "dexNumber": 373,
+          "form": "Mega",
+          "hp": 95,
+          "atk": 145,
+          "def": 130,
+          "spa": 120,
+          "spd": 90,
+          "spe": 120,
+          "total": 700,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Slash",
+            "Bite",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Brutal Swing",
+            "Bulldoze",
+            "Crunch",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Dance",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Dual Wingbeat",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Spin",
+            "Flamethrower",
+            "Fly",
+            "Focus Energy",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Iron Defense",
+            "Iron Head",
+            "Iron Tail",
+            "Mud-Slap",
+            "Outrage",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Rock Slide",
+            "Rock Tomb",
+            "Roost",
+            "Round",
+            "Scary Face",
+            "Shadow Claw",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Steel Wing",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Tailwind",
+            "Temper Flare",
+            "Thrash",
+            "Thunder Fang",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaSalamence"
+          }
+        },
+        "assets": {
+          "artworkFile": "Salamence Mega.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Garchomp Z",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Garchomp Z",
+          "dexNumber": 445,
+          "types": [
+            "Dragon"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Levitate"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Garchomp Z",
+          "dexNumber": 445,
+          "form": "Mega",
+          "hp": 108,
+          "atk": 130,
+          "def": 85,
+          "spa": 141,
+          "spd": 85,
+          "spe": 151,
+          "total": 700,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Bite",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Brutal Swing",
+            "Bulldoze",
+            "Crunch",
+            "Dig",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Earth Power",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Fire Blast",
+            "Fire Fang",
+            "Flamethrower",
+            "Fling",
+            "Giga Impact",
+            "Helping Hand",
+            "Hyper Beam",
+            "Iron Head",
+            "Iron Tail",
+            "Liquidation",
+            "Mud Shot",
+            "Outrage",
+            "Poison Jab",
+            "Power Gem",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Sandstorm",
+            "Sand Tomb",
+            "Scale Shot",
+            "Scary Face",
+            "Scorching Sands",
+            "Shadow Claw",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Spikes",
+            "Stealth Rock",
+            "Stomping Tantrum",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Surf",
+            "Swords Dance",
+            "Thrash",
+            "Thunder Fang"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaGarchomp Z"
+          }
+        },
+        "assets": {
+          "artworkFile": "Garchomp Mega Z.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Lucario Z",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Lucario Z",
+          "dexNumber": 448,
+          "types": [
+            "Fighting",
+            "Steel"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Aura Guard"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Lucario Z",
+          "dexNumber": 448,
+          "form": "Mega",
+          "hp": 70,
+          "atk": 100,
+          "def": 70,
+          "spa": 164,
+          "spd": 70,
+          "spe": 151,
+          "total": 625,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Agility",
+            "Aura Sphere",
+            "Bite",
+            "Blaze Kick",
+            "Body Slam",
+            "Bone Rush",
+            "Brick Break",
+            "Bulk Up",
+            "Bulldoze",
+            "Bullet Punch",
+            "Calm Mind",
+            "Circle Throw",
+            "Close Combat",
+            "Coaching",
+            "Copycat",
+            "Counter",
+            "Cross Chop",
+            "Crunch",
+            "Dark Pulse",
+            "Detect",
+            "Dig",
+            "Dragon Pulse",
+            "Drain Punch",
+            "Earthquake",
+            "Endure",
+            "Extreme Speed",
+            "Facade",
+            "Feint",
+            "Final Gambit",
+            "Flash Cannon",
+            "Fling",
+            "Focus Blast",
+            "Focus Energy",
+            "Focus Punch",
+            "Giga Impact",
+            "Heal Pulse",
+            "Helping Hand",
+            "High Jump Kick",
+            "Howl",
+            "Hyper Beam",
+            "Ice Punch",
+            "Iron Defense",
+            "Iron Tail",
+            "Life Dew",
+            "Low Kick",
+            "Low Sweep",
+            "Mega Kick",
+            "Metal Sound",
+            "Meteor Mash",
+            "Nasty Plot",
+            "Payback",
+            "Poison Jab",
+            "Protect",
+            "Psychic",
+            "Psych Up",
+            "Quick Attack",
+            "Quick Guard",
+            "Rain Dance",
+            "Rest",
+            "Reversal",
+            "Roar",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Snore",
+            "Steel Beam",
+            "Stone Edge",
+            "Substitute",
+            "Sunny Day",
+            "Swords Dance",
+            "Terrain Pulse",
+            "Thunder Punch",
+            "Trailblaze",
+            "Upper Hand",
+            "Vacuum Wave",
+            "Water Pulse",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaLucario Z"
+          }
+        },
+        "assets": {
+          "artworkFile": "Lucario Mega Z.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Gogoat",
+        "aliases": [],
+        "roster": {
+          "name": "Gogoat",
+          "dexNumber": 673,
+          "types": [
+            "Grass"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Sap Sipper",
+            "H": "Grass Pelt"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Gogoat",
+          "dexNumber": 673,
+          "form": "Base",
+          "hp": 123,
+          "atk": 100,
+          "def": 62,
+          "spa": 97,
+          "spd": 81,
+          "spe": 68,
+          "total": 531,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Body Slam",
+            "Brick Break",
+            "Bulk Up",
+            "Bulldoze",
+            "Bullet Seed",
+            "Dig",
+            "Double-Edge",
+            "Earthquake",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Growth",
+            "Helping Hand",
+            "High Horsepower",
+            "Horn Leech",
+            "Hyper Beam",
+            "Iron Tail",
+            "Leaf Blade",
+            "Leaf Storm",
+            "Leech Seed",
+            "Megahorn",
+            "Milk Drink",
+            "Mud Shot",
+            "Mud-Slap",
+            "Payback",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Roar",
+            "Rock Slide",
+            "Round",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snore",
+            "Solar Beam",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Superpower",
+            "Surf",
+            "Synthesis",
+            "Throat Chop",
+            "Trailblaze",
+            "Wild Charge",
+            "Worry Seed",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Gogoat"
+          }
+        },
+        "assets": {
+          "artworkFile": "Gogoat.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Golisopod",
+        "aliases": [],
+        "roster": {
+          "name": "Golisopod",
+          "dexNumber": 768,
+          "types": [
+            "Bug",
+            "Water"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Emergency Exit"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Golisopod",
+          "dexNumber": 768,
+          "form": "Base",
+          "hp": 75,
+          "atk": 125,
+          "def": 140,
+          "spa": 60,
+          "spd": 90,
+          "spe": 40,
+          "total": 530,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Agility",
+            "Aqua Jet",
+            "Assurance",
+            "Attract",
+            "Blizzard",
+            "Brick Break",
+            "Bug Bite",
+            "Bug Buzz",
+            "Bulk Up",
+            "Chilling Water",
+            "Close Combat",
+            "Dark Pulse",
+            "Dive",
+            "Double Hit",
+            "Drill Run",
+            "Endure",
+            "Facade",
+            "First Impression",
+            "Fling",
+            "Focus Blast",
+            "Giga Impact",
+            "Gunk Shot",
+            "Hyper Beam",
+            "Ice Beam",
+            "Icy Wind",
+            "Iron Defense",
+            "Iron Head",
+            "Leech Life",
+            "Liquidation",
+            "Muddy Water",
+            "Mud Shot",
+            "Night Slash",
+            "Payback",
+            "Pin Missile",
+            "Poison Jab",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Razor Shell",
+            "Rest",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Scald",
+            "Screech",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Slash",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snarl",
+            "Snore",
+            "Spikes",
+            "Spite",
+            "Struggle Bug",
+            "Substitute",
+            "Sucker Punch",
+            "Surf",
+            "Swords Dance",
+            "Taunt",
+            "Throat Chop",
+            "U-turn",
+            "Venoshock",
+            "Waterfall",
+            "Wide Guard",
+            "X-Scissor"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Golisopod"
+          }
+        },
+        "assets": {
+          "artworkFile": "Golisopod.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Golisopod",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Golisopod",
+          "dexNumber": 768,
+          "types": [
+            "Bug",
+            "Steel"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Tough Claws"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Golisopod",
+          "dexNumber": 768,
+          "form": "Mega",
+          "hp": 75,
+          "atk": 150,
+          "def": 175,
+          "spa": 70,
+          "spd": 120,
+          "spe": 40,
+          "total": 630,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Agility",
+            "Aqua Jet",
+            "Assurance",
+            "Attract",
+            "Blizzard",
+            "Brick Break",
+            "Bug Bite",
+            "Bug Buzz",
+            "Bulk Up",
+            "Chilling Water",
+            "Close Combat",
+            "Dark Pulse",
+            "Dive",
+            "Double Hit",
+            "Drill Run",
+            "Endure",
+            "Facade",
+            "First Impression",
+            "Fling",
+            "Focus Blast",
+            "Giga Impact",
+            "Gunk Shot",
+            "Hyper Beam",
+            "Ice Beam",
+            "Icy Wind",
+            "Iron Defense",
+            "Iron Head",
+            "Leech Life",
+            "Liquidation",
+            "Muddy Water",
+            "Mud Shot",
+            "Night Slash",
+            "Payback",
+            "Pin Missile",
+            "Poison Jab",
+            "Pounce",
+            "Protect",
+            "Rain Dance",
+            "Razor Shell",
+            "Rest",
+            "Rock Slide",
+            "Rock Tomb",
+            "Round",
+            "Scald",
+            "Screech",
+            "Shadow Claw",
+            "Skitter Smack",
+            "Slash",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snarl",
+            "Snore",
+            "Spikes",
+            "Spite",
+            "Struggle Bug",
+            "Substitute",
+            "Sucker Punch",
+            "Surf",
+            "Swords Dance",
+            "Taunt",
+            "Throat Chop",
+            "U-turn",
+            "Venoshock",
+            "Waterfall",
+            "Wide Guard",
+            "X-Scissor"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaGolisopod"
+          }
+        },
+        "assets": {
+          "artworkFile": "Golisopod Mega.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Rillaboom",
+        "aliases": [],
+        "roster": {
+          "name": "Rillaboom",
+          "dexNumber": 812,
+          "types": [
+            "Grass"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Overgrow",
+            "H": "Grassy Surge"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Rillaboom",
+          "dexNumber": 812,
+          "form": "Base",
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85,
+          "total": 530,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acrobatics",
+            "Assurance",
+            "Body Press",
+            "Body Slam",
+            "Boomburst",
+            "Brick Break",
+            "Brutal Swing",
+            "Bulk Up",
+            "Bulldoze",
+            "Bullet Seed",
+            "Double-Edge",
+            "Double Hit",
+            "Drain Punch",
+            "Drum Beating",
+            "Earth Power",
+            "Earthquake",
+            "Endeavor",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fake Out",
+            "Fling",
+            "Focus Blast",
+            "Focus Energy",
+            "Focus Punch",
+            "Frenzy Plant",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Glide",
+            "Grassy Terrain",
+            "Growth",
+            "Hammer Arm",
+            "High Horsepower",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Knock Off",
+            "Leaf Storm",
+            "Leech Seed",
+            "Low Kick",
+            "Low Sweep",
+            "Mega Kick",
+            "Mud Shot",
+            "Noble Roar",
+            "Protect",
+            "Rest",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Solar Beam",
+            "Solar Blade",
+            "Stomping Tantrum",
+            "Substitute",
+            "Sunny Day",
+            "Superpower",
+            "Swords Dance",
+            "Taunt",
+            "Thief",
+            "Trailblaze",
+            "Uproar",
+            "U-turn",
+            "Wood Hammer",
+            "Worry Seed"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Rillaboom"
+          }
+        },
+        "assets": {
+          "artworkFile": "Rillaboom.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Cinderace",
+        "aliases": [],
+        "roster": {
+          "name": "Cinderace",
+          "dexNumber": 815,
+          "types": [
+            "Fire"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Blaze",
+            "H": "Libero"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Cinderace",
+          "dexNumber": 815,
+          "form": "Base",
+          "hp": 80,
+          "atk": 116,
+          "def": 75,
+          "spa": 65,
+          "spd": 75,
+          "spe": 119,
+          "total": 530,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acrobatics",
+            "Agility",
+            "Assurance",
+            "Baton Pass",
+            "Blast Burn",
+            "Blaze Kick",
+            "Bounce",
+            "Bulk Up",
+            "Burning Jealousy",
+            "Coaching",
+            "Counter",
+            "Court Change",
+            "Double-Edge",
+            "Electro Ball",
+            "Endure",
+            "Facade",
+            "Feint",
+            "Fire Blast",
+            "Fire Fang",
+            "Fire Punch",
+            "Fire Spin",
+            "Flame Charge",
+            "Flamethrower",
+            "Flare Blitz",
+            "Fling",
+            "Focus Blast",
+            "Focus Energy",
+            "Giga Impact",
+            "Gunk Shot",
+            "Heat Wave",
+            "Helping Hand",
+            "High Jump Kick",
+            "Hyper Beam",
+            "Iron Head",
+            "Low Kick",
+            "Low Sweep",
+            "Mega Kick",
+            "Mud Shot",
+            "Mud-Slap",
+            "Overheat",
+            "Protect",
+            "Pyro Ball",
+            "Quick Attack",
+            "Rest",
+            "Reversal",
+            "Round",
+            "Scorching Sands",
+            "Shadow Ball",
+            "Sleep Talk",
+            "Smack Down",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Sucker Punch",
+            "Sunny Day",
+            "Super Fang",
+            "Swords Dance",
+            "Taunt",
+            "Temper Flare",
+            "Trailblaze",
+            "U-turn",
+            "Weather Ball",
+            "Will-O-Wisp",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Cinderace"
+          }
+        },
+        "assets": {
+          "artworkFile": "Cinderace.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Inteleon",
+        "aliases": [],
+        "roster": {
+          "name": "Inteleon",
+          "dexNumber": 818,
+          "types": [
+            "Water"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Torrent",
+            "H": "Sniper"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Inteleon",
+          "dexNumber": 818,
+          "form": "Base",
+          "hp": 70,
+          "atk": 85,
+          "def": 65,
+          "spa": 125,
+          "spd": 65,
+          "spe": 120,
+          "total": 530,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acrobatics",
+            "Agility",
+            "Air Cutter",
+            "Air Slash",
+            "Aqua Jet",
+            "Aqua Ring",
+            "Baton Pass",
+            "Bind",
+            "Blizzard",
+            "Bounce",
+            "Breaking Swipe",
+            "Chilling Water",
+            "Dark Pulse",
+            "Dive",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Fell Stinger",
+            "Fling",
+            "Flip Turn",
+            "Focus Energy",
+            "Giga Impact",
+            "Haze",
+            "Hydro Cannon",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Shard",
+            "Icicle Spear",
+            "Icy Wind",
+            "Light Screen",
+            "Liquidation",
+            "Muddy Water",
+            "Mud Shot",
+            "Protect",
+            "Psych Up",
+            "Rain Dance",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Scald",
+            "Scale Shot",
+            "Shadow Ball",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Smack Down",
+            "Snipe Shot",
+            "Snore",
+            "Snowscape",
+            "Soak",
+            "Substitute",
+            "Sucker Punch",
+            "Surf",
+            "Swords Dance",
+            "Taunt",
+            "Tearful Look",
+            "U-turn",
+            "Vacuum Wave",
+            "Waterfall",
+            "Water Pulse",
+            "Weather Ball",
+            "Whirlpool"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Inteleon"
+          }
+        },
+        "assets": {
+          "artworkFile": "Inteleon.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Thievul",
+        "aliases": [],
+        "roster": {
+          "name": "Thievul",
+          "dexNumber": 828,
+          "types": [
+            "Dark"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Run Away",
+            "1": "Unburden",
+            "H": "Stakeout"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Thievul",
+          "dexNumber": 828,
+          "form": "Base",
+          "hp": 70,
+          "atk": 58,
+          "def": 58,
+          "spa": 87,
+          "spd": 92,
+          "spe": 90,
+          "total": 455,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acrobatics",
+            "Agility",
+            "Assurance",
+            "Attract",
+            "Baton Pass",
+            "Beat Up",
+            "Burning Jealousy",
+            "Crunch",
+            "Dark Pulse",
+            "Dig",
+            "Double Team",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fire Fang",
+            "First Impression",
+            "Foul Play",
+            "Giga Impact",
+            "Grass Knot",
+            "Howl",
+            "Hyper Beam",
+            "Ice Fang",
+            "Knock Off",
+            "Lash Out",
+            "Mud Shot",
+            "Nasty Plot",
+            "Night Slash",
+            "Parting Shot",
+            "Play Rough",
+            "Protect",
+            "Psychic",
+            "Quick Attack",
+            "Quick Guard",
+            "Rest",
+            "Roar",
+            "Round",
+            "Screech",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Sleep Talk",
+            "Snarl",
+            "Snore",
+            "Substitute",
+            "Sucker Punch",
+            "Tail Slap",
+            "Taunt",
+            "Thief",
+            "Thunder Fang",
+            "Torment",
+            "Trailblaze",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Thievul"
+          }
+        },
+        "assets": {
+          "artworkFile": "Thievul.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Toxtricity Amped",
+        "aliases": [
+          "Toxtricity (Amped Form)"
+        ],
+        "roster": {
+          "name": "Toxtricity Amped",
+          "dexNumber": 849,
+          "types": [
+            "Electric",
+            "Poison"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Punk Rock",
+            "1": "Plus",
+            "H": "Technician"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Toxtricity Amped",
+          "dexNumber": 849,
+          "form": "Base",
+          "hp": 75,
+          "atk": 98,
+          "def": 70,
+          "spa": 114,
+          "spd": 70,
+          "spe": 75,
+          "total": 502,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acid Spray",
+            "Belch",
+            "Boomburst",
+            "Brick Break",
+            "Charge",
+            "Charge Beam",
+            "Charm",
+            "Discharge",
+            "Drain Punch",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fire Punch",
+            "Flail",
+            "Fling",
+            "Giga Impact",
+            "Gunk Shot",
+            "Helping Hand",
+            "Hex",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Mega Kick",
+            "Metal Sound",
+            "Noble Roar",
+            "Nuzzle",
+            "Overdrive",
+            "Payback",
+            "Poison Jab",
+            "Protect",
+            "Psychic Noise",
+            "Rain Dance",
+            "Rest",
+            "Rising Voltage",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Shift Gear",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snarl",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Taunt",
+            "Tearful Look",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Toxic",
+            "Toxic Spikes",
+            "Trailblaze",
+            "Uproar",
+            "Venoshock",
+            "Volt Switch",
+            "Wild Charge",
+            "Zap Cannon"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Toxtricity (Forma Melodia)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Toxtricity Amped.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Toxtricity Low Key",
+        "aliases": [
+          "Toxtricity (Low Key Form)"
+        ],
+        "roster": {
+          "name": "Toxtricity Low Key",
+          "dexNumber": 849,
+          "types": [
+            "Electric",
+            "Poison"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Punk Rock",
+            "1": "Minus",
+            "H": "Technician"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Toxtricity Low Key",
+          "dexNumber": 849,
+          "form": "Base",
+          "hp": 75,
+          "atk": 98,
+          "def": 70,
+          "spa": 114,
+          "spd": 70,
+          "spe": 75,
+          "total": 502,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acid Spray",
+            "Belch",
+            "Boomburst",
+            "Brick Break",
+            "Charge",
+            "Charge Beam",
+            "Charm",
+            "Discharge",
+            "Drain Punch",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Encore",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fire Punch",
+            "Flail",
+            "Fling",
+            "Giga Impact",
+            "Gunk Shot",
+            "Helping Hand",
+            "Hex",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Magnetic Flux",
+            "Mega Kick",
+            "Metal Sound",
+            "Noble Roar",
+            "Nuzzle",
+            "Overdrive",
+            "Parabolic Charge",
+            "Payback",
+            "Poison Jab",
+            "Protect",
+            "Psychic Noise",
+            "Rain Dance",
+            "Rest",
+            "Rising Voltage",
+            "Round",
+            "Scary Face",
+            "Screech",
+            "Sleep Talk",
+            "Sludge Bomb",
+            "Sludge Wave",
+            "Snarl",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Taunt",
+            "Tearful Look",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Toxic",
+            "Toxic Spikes",
+            "Trailblaze",
+            "Uproar",
+            "Venoshock",
+            "Volt Switch",
+            "Wild Charge"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Toxtricity (Forma Basso)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Toxtricity Low Key.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Grapploct",
+        "aliases": [],
+        "roster": {
+          "name": "Grapploct",
+          "dexNumber": 853,
+          "types": [
+            "Fighting"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Limber",
+            "H": "Technician"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Grapploct",
+          "dexNumber": 853,
+          "form": "Base",
+          "hp": 80,
+          "atk": 118,
+          "def": 90,
+          "spa": 70,
+          "spd": 80,
+          "spe": 42,
+          "total": 480,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Attract",
+            "Bind",
+            "Body Slam",
+            "Brick Break",
+            "Brutal Swing",
+            "Bulk Up",
+            "Chilling Water",
+            "Circle Throw",
+            "Close Combat",
+            "Coaching",
+            "Detect",
+            "Dig",
+            "Dive",
+            "Drain Punch",
+            "Endure",
+            "Facade",
+            "Feint",
+            "Focus Blast",
+            "Giga Impact",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Ice Punch",
+            "Liquidation",
+            "Mach Punch",
+            "Muddy Water",
+            "Mud Shot",
+            "Octolock",
+            "Pain Split",
+            "Payback",
+            "Protect",
+            "Rest",
+            "Reversal",
+            "Round",
+            "Scary Face",
+            "Seismic Toss",
+            "Skitter Smack",
+            "Sleep Talk",
+            "Snore",
+            "Soak",
+            "Stomping Tantrum",
+            "Storm Throw",
+            "Substitute",
+            "Sucker Punch",
+            "Superpower",
+            "Surf",
+            "Taunt",
+            "Topsy-Turvy",
+            "Waterfall",
+            "Whirlpool"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Grapploct"
+          }
+        },
+        "assets": {
+          "artworkFile": "Grapploct.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Perrserker",
+        "aliases": [],
+        "roster": {
+          "name": "Perrserker",
+          "dexNumber": 863,
+          "types": [
+            "Steel"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Battle Armor",
+            "1": "Tough Claws",
+            "H": "Steely Spirit"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Perrserker",
+          "dexNumber": 863,
+          "form": "Base",
+          "hp": 70,
+          "atk": 110,
+          "def": 100,
+          "spa": 50,
+          "spd": 60,
+          "spe": 50,
+          "total": 440,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Amnesia",
+            "Assurance",
+            "Baton Pass",
+            "Bite",
+            "Body Slam",
+            "Brick Break",
+            "Bulk Up",
+            "Charm",
+            "Chilling Water",
+            "Close Combat",
+            "Covet",
+            "Crunch",
+            "Curse",
+            "Dark Pulse",
+            "Dig",
+            "Double-Edge",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Out",
+            "Fake Tears",
+            "Flail",
+            "Flash Cannon",
+            "Fling",
+            "Foul Play",
+            "Giga Impact",
+            "Gunk Shot",
+            "Gyro Ball",
+            "Heavy Slam",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Iron Defense",
+            "Iron Head",
+            "Iron Tail",
+            "Knock Off",
+            "Lash Out",
+            "Metal Burst",
+            "Metal Sound",
+            "Nasty Plot",
+            "Night Slash",
+            "Payback",
+            "Play Rough",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Round",
+            "Screech",
+            "Seed Bomb",
+            "Shadow Ball",
+            "Shadow Claw",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Spikes",
+            "Spite",
+            "Stealth Rock",
+            "Steel Beam",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Swords Dance",
+            "Taunt",
+            "Thief",
+            "Thrash",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Trailblaze",
+            "Uproar",
+            "U-turn",
+            "X-Scissor"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Perrserker"
+          }
+        },
+        "assets": {
+          "artworkFile": "Perrserker.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Sirfetch'd",
+        "aliases": [
+          "Sirfetch’d"
+        ],
+        "roster": {
+          "name": "Sirfetch'd",
+          "dexNumber": 865,
+          "types": [
+            "Fighting"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Steadfast",
+            "H": "Scrappy"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Sirfetch'd",
+          "dexNumber": 865,
+          "form": "Base",
+          "hp": 62,
+          "atk": 135,
+          "def": 95,
+          "spa": 68,
+          "spd": 82,
+          "spe": 65,
+          "total": 507,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Assurance",
+            "Attract",
+            "Body Slam",
+            "Brave Bird",
+            "Brick Break",
+            "Brutal Swing",
+            "Close Combat",
+            "Coaching",
+            "Counter",
+            "Covet",
+            "Curse",
+            "Defog",
+            "Detect",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endure",
+            "Facade",
+            "Feather Dance",
+            "Feint",
+            "Final Gambit",
+            "First Impression",
+            "Flail",
+            "Focus Energy",
+            "Grassy Glide",
+            "Helping Hand",
+            "Iron Defense",
+            "Knock Off",
+            "Leaf Blade",
+            "Meteor Assault",
+            "Night Slash",
+            "Poison Jab",
+            "Protect",
+            "Quick Attack",
+            "Quick Guard",
+            "Rest",
+            "Round",
+            "Simple Beam",
+            "Sky Attack",
+            "Slash",
+            "Sleep Talk",
+            "Snore",
+            "Solar Blade",
+            "Steel Wing",
+            "Substitute",
+            "Sunny Day",
+            "Superpower",
+            "Swords Dance",
+            "Throat Chop"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Sirfetch’d"
+          }
+        },
+        "assets": {
+          "artworkFile": "Sirfetchd.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Pincurchin",
+        "aliases": [],
+        "roster": {
+          "name": "Pincurchin",
+          "dexNumber": 871,
+          "types": [
+            "Electric"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Lightning Rod",
+            "H": "Electric Surge"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Pincurchin",
+          "dexNumber": 871,
+          "form": "Base",
+          "hp": 48,
+          "atk": 101,
+          "def": 95,
+          "spa": 91,
+          "spd": 85,
+          "spe": 15,
+          "total": 435,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Acupressure",
+            "Assurance",
+            "Body Slam",
+            "Charge",
+            "Charge Beam",
+            "Chilling Water",
+            "Curse",
+            "Discharge",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Endure",
+            "Facade",
+            "Giga Impact",
+            "Hex",
+            "Hydro Pump",
+            "Hyper Beam",
+            "Liquidation",
+            "Memento",
+            "Muddy Water",
+            "Pain Split",
+            "Payback",
+            "Pin Missile",
+            "Poison Jab",
+            "Protect",
+            "Rain Dance",
+            "Recover",
+            "Rest",
+            "Reversal",
+            "Rising Voltage",
+            "Round",
+            "Scald",
+            "Self-Destruct",
+            "Sleep Talk",
+            "Snore",
+            "Spikes",
+            "Substitute",
+            "Sucker Punch",
+            "Supercell Slam",
+            "Surf",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Toxic Spikes",
+            "Venoshock",
+            "Wild Charge",
+            "Zing Zap"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Pincurchin"
+          }
+        },
+        "assets": {
+          "artworkFile": "Pincurchin.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Indeedee Male",
+        "aliases": [
+          "Indeedee (Male)"
+        ],
+        "roster": {
+          "name": "Indeedee Male",
+          "dexNumber": 876,
+          "types": [
+            "Psychic",
+            "Normal"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Inner Focus",
+            "1": "Synchronize",
+            "H": "Psychic Surge"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Indeedee Male",
+          "dexNumber": 876,
+          "form": "Base",
+          "hp": 60,
+          "atk": 65,
+          "def": 55,
+          "spa": 105,
+          "spd": 95,
+          "spe": 95,
+          "total": 475,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "After You",
+            "Body Slam",
+            "Calm Mind",
+            "Dazzling Gleam",
+            "Draining Kiss",
+            "Drain Punch",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Expanding Force",
+            "Extrasensory",
+            "Facade",
+            "Fake Out",
+            "Future Sight",
+            "Gravity",
+            "Healing Wish",
+            "Helping Hand",
+            "Hyper Voice",
+            "Imprison",
+            "Last Resort",
+            "Magic Room",
+            "Mystical Fire",
+            "Play Rough",
+            "Power Split",
+            "Power Swap",
+            "Protect",
+            "Psychic",
+            "Psychic Noise",
+            "Psychic Terrain",
+            "Psych Up",
+            "Psyshock",
+            "Rest",
+            "Round",
+            "Shadow Ball",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Terrain Pulse",
+            "Tri Attack",
+            "Trick",
+            "Trick Room",
+            "Wish",
+            "Wonder Room",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Indeedee (Maschio)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Indeedee Male.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Indeedee Female",
+        "aliases": [
+          "Indeedee (Female)"
+        ],
+        "roster": {
+          "name": "Indeedee Female",
+          "dexNumber": 876,
+          "types": [
+            "Psychic",
+            "Normal"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Own Tempo",
+            "1": "Synchronize",
+            "H": "Psychic Surge"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Indeedee Female",
+          "dexNumber": 876,
+          "form": "Base",
+          "hp": 70,
+          "atk": 55,
+          "def": 65,
+          "spa": 95,
+          "spd": 105,
+          "spe": 85,
+          "total": 475,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Alluring Voice",
+            "Baton Pass",
+            "Body Slam",
+            "Calm Mind",
+            "Charm",
+            "Dazzling Gleam",
+            "Draining Kiss",
+            "Drain Punch",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Fake Out",
+            "Follow Me",
+            "Future Sight",
+            "Guard Split",
+            "Guard Swap",
+            "Healing Wish",
+            "Heal Pulse",
+            "Helping Hand",
+            "Hyper Voice",
+            "Imprison",
+            "Light Screen",
+            "Mystical Fire",
+            "Play Rough",
+            "Protect",
+            "Psychic",
+            "Psychic Terrain",
+            "Psych Up",
+            "Psyshock",
+            "Reflect",
+            "Rest",
+            "Round",
+            "Safeguard",
+            "Shadow Ball",
+            "Sing",
+            "Skill Swap",
+            "Sleep Talk",
+            "Snore",
+            "Stored Power",
+            "Substitute",
+            "Terrain Pulse",
+            "Trick",
+            "Trick Room",
+            "Wish",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Indeedee (Femmina)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Indeedee Female.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Pawmot",
+        "aliases": [],
+        "roster": {
+          "name": "Pawmot",
+          "dexNumber": 923,
+          "types": [
+            "Electric",
+            "Fighting"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Volt Absorb",
+            "1": "Natural Cure",
+            "H": "Iron Fist"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Pawmot",
+          "dexNumber": 923,
+          "form": "Base",
+          "hp": 70,
+          "atk": 115,
+          "def": 70,
+          "spa": 70,
+          "spd": 60,
+          "spe": 105,
+          "total": 490,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Agility",
+            "Baton Pass",
+            "Bite",
+            "Body Press",
+            "Brick Break",
+            "Bulk Up",
+            "Charge",
+            "Charge Beam",
+            "Charm",
+            "Close Combat",
+            "Coaching",
+            "Crunch",
+            "Dig",
+            "Discharge",
+            "Double-Edge",
+            "Double Shock",
+            "Eerie Impulse",
+            "Electric Terrain",
+            "Electro Ball",
+            "Electroweb",
+            "Encore",
+            "Endure",
+            "Entrainment",
+            "Facade",
+            "Fake Out",
+            "Fire Punch",
+            "Fling",
+            "Focus Blast",
+            "Focus Punch",
+            "Giga Impact",
+            "Grass Knot",
+            "Helping Hand",
+            "Hyper Beam",
+            "Ice Punch",
+            "Knock Off",
+            "Low Kick",
+            "Low Sweep",
+            "Mach Punch",
+            "Nuzzle",
+            "Play Rough",
+            "Protect",
+            "Quick Attack",
+            "Rain Dance",
+            "Rest",
+            "Revival Blessing",
+            "Rock Tomb",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Supercell Slam",
+            "Super Fang",
+            "Sweet Kiss",
+            "Thief",
+            "Throat Chop",
+            "Thunder",
+            "Thunderbolt",
+            "Thunder Fang",
+            "Thunder Punch",
+            "Thunder Wave",
+            "Upper Hand",
+            "Volt Switch",
+            "Wild Charge",
+            "Wish"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Pawmot"
+          }
+        },
+        "assets": {
+          "artworkFile": "Pawmot.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Arboliva",
+        "aliases": [],
+        "roster": {
+          "name": "Arboliva",
+          "dexNumber": 930,
+          "types": [
+            "Grass",
+            "Normal"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Seed Sower",
+            "H": "Harvest"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Arboliva",
+          "dexNumber": 930,
+          "form": "Base",
+          "hp": 78,
+          "atk": 69,
+          "def": 90,
+          "spa": 125,
+          "spd": 109,
+          "spe": 39,
+          "total": 510,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Alluring Voice",
+            "Bullet Seed",
+            "Charm",
+            "Dazzling Gleam",
+            "Earth Power",
+            "Encore",
+            "Endure",
+            "Energy Ball",
+            "Facade",
+            "Flail",
+            "Fling",
+            "Giga Drain",
+            "Giga Impact",
+            "Grass Knot",
+            "Grassy Terrain",
+            "Growth",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Leaf Storm",
+            "Leech Seed",
+            "Light Screen",
+            "Memento",
+            "Mirror Coat",
+            "Petal Blizzard",
+            "Petal Dance",
+            "Pollen Puff",
+            "Protect",
+            "Psych Up",
+            "Reflect",
+            "Rest",
+            "Safeguard",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Solar Beam",
+            "Solar Blade",
+            "Strength Sap",
+            "Substitute",
+            "Sunny Day",
+            "Sweet Scent",
+            "Synthesis",
+            "Terrain Pulse",
+            "Trailblaze",
+            "Weather Ball"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Arboliva"
+          }
+        },
+        "assets": {
+          "artworkFile": "Arboliva.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Squawkabilly Green Plumage",
+        "aliases": [
+          "Squawkabilly (Green Plumage)"
+        ],
+        "roster": {
+          "name": "Squawkabilly Green Plumage",
+          "dexNumber": 931,
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "1": "Hustle",
+            "H": "Guts"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Squawkabilly Green Plumage",
+          "dexNumber": 931,
+          "form": "Base",
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92,
+          "total": 417,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Brave Bird",
+            "Copycat",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Feather Dance",
+            "Final Gambit",
+            "Flatter",
+            "Fly",
+            "Foul Play",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Lash Out",
+            "Lunge",
+            "Parting Shot",
+            "Pounce",
+            "Protect",
+            "Quick Attack",
+            "Rest",
+            "Reversal",
+            "Roost",
+            "Scary Face",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Tailwind",
+            "Taunt",
+            "Thief",
+            "Torment",
+            "Uproar",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Squawkabilly (Piume Verdi)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Squawkabilly Green Plumage.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Squawkabilly Blue Plumage",
+        "aliases": [
+          "Squawkabilly (Blue Plumage)"
+        ],
+        "roster": {
+          "name": "Squawkabilly Blue Plumage",
+          "dexNumber": 931,
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "1": "Hustle",
+            "H": "Guts"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Squawkabilly Blue Plumage",
+          "dexNumber": 931,
+          "form": "Base",
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92,
+          "total": 417,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Brave Bird",
+            "Copycat",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Feather Dance",
+            "Final Gambit",
+            "Flatter",
+            "Fly",
+            "Foul Play",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Lash Out",
+            "Lunge",
+            "Parting Shot",
+            "Pounce",
+            "Protect",
+            "Quick Attack",
+            "Rest",
+            "Reversal",
+            "Roost",
+            "Scary Face",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Tailwind",
+            "Taunt",
+            "Thief",
+            "Torment",
+            "Uproar",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Squawkabilly (Piume Azzurre)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Squawkabilly Blue Plumage.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Squawkabilly White Plumage",
+        "aliases": [
+          "Squawkabilly (White Plumage)"
+        ],
+        "roster": {
+          "name": "Squawkabilly White Plumage",
+          "dexNumber": 931,
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "1": "Hustle",
+            "H": "Sheer Force"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Squawkabilly White Plumage",
+          "dexNumber": 931,
+          "form": "Base",
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92,
+          "total": 417,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Brave Bird",
+            "Copycat",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Feather Dance",
+            "Final Gambit",
+            "Flatter",
+            "Fly",
+            "Foul Play",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Lash Out",
+            "Lunge",
+            "Parting Shot",
+            "Pounce",
+            "Protect",
+            "Quick Attack",
+            "Rest",
+            "Reversal",
+            "Roost",
+            "Scary Face",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Tailwind",
+            "Taunt",
+            "Thief",
+            "Torment",
+            "Uproar",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Squawkabilly (Piume Bianche)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Squawkabilly White Plumage.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Squawkabilly Yellow Plumage",
+        "aliases": [
+          "Squawkabilly (Yellow Plumage)"
+        ],
+        "roster": {
+          "name": "Squawkabilly Yellow Plumage",
+          "dexNumber": 931,
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "1": "Hustle",
+            "H": "Sheer Force"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Squawkabilly Yellow Plumage",
+          "dexNumber": 931,
+          "form": "Base",
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92,
+          "total": 417,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Air Slash",
+            "Brave Bird",
+            "Copycat",
+            "Double-Edge",
+            "Dual Wingbeat",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Feather Dance",
+            "Final Gambit",
+            "Flatter",
+            "Fly",
+            "Foul Play",
+            "Giga Impact",
+            "Heat Wave",
+            "Helping Hand",
+            "Hurricane",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Lash Out",
+            "Lunge",
+            "Parting Shot",
+            "Pounce",
+            "Protect",
+            "Quick Attack",
+            "Rest",
+            "Reversal",
+            "Roost",
+            "Scary Face",
+            "Seed Bomb",
+            "Sleep Talk",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Tailwind",
+            "Taunt",
+            "Thief",
+            "Torment",
+            "Uproar",
+            "U-turn"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Squawkabilly (Piume Gialle)"
+          }
+        },
+        "assets": {
+          "artworkFile": "Squawkabilly Yellow Plumage.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mabosstiff",
+        "aliases": [],
+        "roster": {
+          "name": "Mabosstiff",
+          "dexNumber": 943,
+          "types": [
+            "Dark"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Intimidate",
+            "1": "Guard Dog",
+            "H": "Stakeout"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mabosstiff",
+          "dexNumber": 943,
+          "form": "Base",
+          "hp": 80,
+          "atk": 120,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85,
+          "total": 505,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Bite",
+            "Body Slam",
+            "Comeuppance",
+            "Crunch",
+            "Curse",
+            "Dark Pulse",
+            "Destiny Bond",
+            "Dig",
+            "Double-Edge",
+            "Endeavor",
+            "Endure",
+            "Facade",
+            "Fake Tears",
+            "Fire Fang",
+            "Focus Energy",
+            "Giga Impact",
+            "Helping Hand",
+            "Hyper Beam",
+            "Hyper Voice",
+            "Ice Fang",
+            "Jaw Lock",
+            "Lash Out",
+            "Outrage",
+            "Pain Split",
+            "Payback",
+            "Play Rough",
+            "Protect",
+            "Psychic Fangs",
+            "Rain Dance",
+            "Rest",
+            "Reversal",
+            "Roar",
+            "Scary Face",
+            "Sleep Talk",
+            "Snarl",
+            "Spite",
+            "Substitute",
+            "Sunny Day",
+            "Swagger",
+            "Taunt",
+            "Thief",
+            "Thunder Fang",
+            "Trailblaze",
+            "Wild Charge"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Mabosstiff"
+          }
+        },
+        "assets": {
+          "artworkFile": "Mabosstiff.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Baxcalibur",
+        "aliases": [],
+        "roster": {
+          "name": "Baxcalibur",
+          "dexNumber": 998,
+          "types": [
+            "Dragon",
+            "Ice"
+          ],
+          "form": "Base",
+          "abilities": {
+            "0": "Thermal Exchange",
+            "H": "Ice Body"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Baxcalibur",
+          "dexNumber": 998,
+          "form": "Base",
+          "hp": 115,
+          "atk": 145,
+          "def": 92,
+          "spa": 75,
+          "spd": 86,
+          "spe": 87,
+          "total": 600,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Aqua Tail",
+            "Avalanche",
+            "Bite",
+            "Blizzard",
+            "Body Press",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Bulldoze",
+            "Crunch",
+            "Dig",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Dance",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Focus Energy",
+            "Freeze-Dry",
+            "Frost Breath",
+            "Giga Impact",
+            "Glaive Rush",
+            "Helping Hand",
+            "High Horsepower",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Fang",
+            "Ice Shard",
+            "Icicle Crash",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Head",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Scale Shot",
+            "Scary Face",
+            "Sleep Talk",
+            "Snowscape",
+            "Stomping Tantrum",
+            "Substitute",
+            "Swords Dance",
+            "Thunder Fang",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Baxcalibur"
+          }
+        },
+        "assets": {
+          "artworkFile": "Baxcalibur.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Mega Baxcalibur",
+        "aliases": [],
+        "roster": {
+          "name": "Mega Baxcalibur",
+          "dexNumber": 998,
+          "types": [
+            "Dragon",
+            "Ice"
+          ],
+          "form": "Mega",
+          "abilities": {
+            "0": "Thermal Exchange"
+          },
+          "championsVerified": true
+        },
+        "baseStats": {
+          "name": "Mega Baxcalibur",
+          "dexNumber": 998,
+          "form": "Mega",
+          "hp": 115,
+          "atk": 175,
+          "def": 117,
+          "spa": 105,
+          "spd": 101,
+          "spe": 87,
+          "total": 700,
+          "championsVerified": true
+        },
+        "learnset": {
+          "inheritFrom": null,
+          "moves": [
+            "Aerial Ace",
+            "Aqua Tail",
+            "Avalanche",
+            "Bite",
+            "Blizzard",
+            "Body Press",
+            "Body Slam",
+            "Breaking Swipe",
+            "Brick Break",
+            "Bulldoze",
+            "Crunch",
+            "Dig",
+            "Double-Edge",
+            "Draco Meteor",
+            "Dragon Cheer",
+            "Dragon Claw",
+            "Dragon Dance",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Dragon Tail",
+            "Earthquake",
+            "Endure",
+            "Facade",
+            "Focus Energy",
+            "Freeze-Dry",
+            "Frost Breath",
+            "Giga Impact",
+            "Glaive Rush",
+            "Helping Hand",
+            "High Horsepower",
+            "Hyper Beam",
+            "Ice Beam",
+            "Ice Fang",
+            "Ice Shard",
+            "Icicle Crash",
+            "Icicle Spear",
+            "Icy Wind",
+            "Iron Head",
+            "Outrage",
+            "Protect",
+            "Rain Dance",
+            "Rest",
+            "Scale Shot",
+            "Scary Face",
+            "Sleep Talk",
+            "Snowscape",
+            "Stomping Tantrum",
+            "Substitute",
+            "Swords Dance",
+            "Thunder Fang",
+            "Zen Headbutt"
+          ],
+          "source": "showdown-champions-data",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "MegaBaxcalibur"
+          }
+        },
+        "assets": {
+          "artworkFile": "Baxcalibur Mega.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      }
+    ],
+    "moves": [
+      {
+        "operation": "update",
+        "canonicalName": "Court Change",
+        "data": {
+          "name": "Court Change",
+          "type": "Normal",
+          "category": "Status",
+          "description": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+          "target": "all",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": null,
+          "accuracy": 100,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Cambiocampo",
+            "description": "Scambia fra i due lati del campo gli effetti che appartengono a una squadra, come barriere e pericoli. Non infligge danno diretto."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Campo"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Double Shock",
+        "data": {
+          "name": "Double Shock",
+          "type": "Electric",
+          "category": "Physical",
+          "description": "Fails unless the user is an Electric type. If this move is successful and the user is not Terastallized, the user's Electric type becomes typeless as long as it remains active.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 120,
+          "accuracy": 100,
+          "pp": 8,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Doppiolampo",
+            "description": "Infligge danno e, dopo l’uso riuscito, l’utilizzatore perde il tipo Elettro. Fallisce se l’utilizzatore non possiede il tipo Elettro in quel momento."
+          }
+        },
+        "metadata": {
+          "contact": true,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Drum Beating",
+        "data": {
+          "name": "Drum Beating",
+          "type": "Grass",
+          "category": "Physical",
+          "description": "Has a 100% chance to lower the target's Speed by 1 stage.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 80,
+          "accuracy": 100,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Tamburattacco",
+            "description": "Infligge danno e riduce di 1 grado la Velocità del bersaglio."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Glaive Rush",
+        "data": {
+          "name": "Glaive Rush",
+          "type": "Dragon",
+          "category": "Physical",
+          "description": "If this move is successful, moves targeted at the user deal double damage and do not check accuracy until the user's next turn.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 120,
+          "accuracy": 100,
+          "pp": 8,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Spadoncarica",
+            "description": "Infligge danno. Dopo averla usata, l’utilizzatore rimane nello stato “Wide Open” fino alla sua prossima azione: in quel periodo è particolarmente vulnerabile agli attacchi avversari secondo le regole di Champions."
+          }
+        },
+        "metadata": {
+          "contact": true,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Jaw Lock",
+        "data": {
+          "name": "Jaw Lock",
+          "type": "Dark",
+          "category": "Physical",
+          "description": "Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 80,
+          "accuracy": 100,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Morsostretto",
+            "description": "Infligge danno e intrappola sia l’utilizzatore sia il bersaglio con l’effetto Jaw Locked, impedendo normalmente a entrambi di cambiare Pokémon finché l’effetto resta attivo."
+          }
+        },
+        "metadata": {
+          "contact": true,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Meteor Assault",
+        "data": {
+          "name": "Meteor Assault",
+          "type": "Fighting",
+          "category": "Physical",
+          "description": "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 170,
+          "accuracy": 100,
+          "pp": 8,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Sfolgorassalto",
+            "description": "Attacco molto potente. Dopo l’uso l’utilizzatore entra nello stato di ricarica e deve spendere la sua azione successiva per ricaricarsi."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Milk Drink",
+        "data": {
+          "name": "Milk Drink",
+          "type": "Normal",
+          "category": "Status",
+          "description": "The user restores 1/2 of its maximum HP, rounded half up.",
+          "target": "self",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": null,
+          "accuracy": null,
+          "pp": 8,
+          "championsChanges": "PP 5→8",
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Buonlatte",
+            "description": "Ripristina il 50% dei PS massimi dell’utilizzatore oppure di un alleato selezionato. In Champions può quindi essere usata anche come cura di supporto sul compagno."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Utilizzatore o alleato"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Octolock",
+        "data": {
+          "name": "Octolock",
+          "type": "Fighting",
+          "category": "Status",
+          "description": "Prevents the target from switching out. At the end of each turn during effect, the target's Defense and Special Defense are lowered by 1 stage. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": null,
+          "accuracy": 100,
+          "pp": 16,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Tentacolock",
+            "description": "Applica al bersaglio gli effetti Octolocked e “non può fuggire/cambiare”. Finché l’effetto resta attivo, Difesa e Difesa Speciale del bersaglio diminuiscono progressivamente alla fine dei turni secondo la meccanica della mossa."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Overdrive",
+        "data": {
+          "name": "Overdrive",
+          "type": "Electric",
+          "category": "Special",
+          "description": "No additional effect.",
+          "target": "allAdjacentFoes",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 80,
+          "accuracy": 100,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Overdrive",
+            "description": "Infligge danno di tipo Elettro ed è una mossa basata sul suono. Per questo interagisce con abilità ed effetti che potenziano o bloccano le mosse sonore, come Punk Rock e Antisuono."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": true,
+          "targetDescription": "Avversari nell’area della mossa"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Pyro Ball",
+        "data": {
+          "name": "Pyro Ball",
+          "type": "Fire",
+          "category": "Physical",
+          "description": "Has a 10% chance to burn the target.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 120,
+          "accuracy": 90,
+          "pp": 8,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Palla Infuocata",
+            "description": "Infligge danno e ha il 10% di probabilità di scottare il bersaglio. Se l’utilizzatore è congelato, l’uso della mossa può liberarlo dal congelamento."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Revival Blessing",
+        "data": {
+          "name": "Revival Blessing",
+          "type": "Normal",
+          "category": "Status",
+          "description": "A fainted party member is selected and revived with 1/2 its max HP, rounded down. Fails if there are no fainted party members.",
+          "target": "self",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": null,
+          "accuracy": null,
+          "pp": 1,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Preghiera Vitale",
+            "description": "Rianima un Pokémon della propria squadra che è KO e lo riporta al 50% dei suoi PS massimi. Ha soltanto 1 PP di base."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un Pokémon alleato KO nella squadra"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Shift Gear",
+        "data": {
+          "name": "Shift Gear",
+          "type": "Steel",
+          "category": "Status",
+          "description": "Raises the user's Speed by 2 stages and its Attack by 1 stage.",
+          "target": "self",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": null,
+          "accuracy": null,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Cambiomarcia",
+            "description": "Aumenta di 1 grado l’Attacco e di 2 gradi la Velocità dell’utilizzatore."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Utilizzatore"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Slash",
+        "data": {
+          "name": "Slash",
+          "type": "Normal",
+          "category": "Physical",
+          "description": "Has a higher chance for a critical hit.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 80,
+          "accuracy": 100,
+          "pp": 20,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Lacerazione",
+            "description": "Infligge danno e ha un rapporto di brutto colpo aumentato di 1 livello. È anche classificata come mossa da taglio, quindi interagisce con Affilama/Sharpness."
+          }
+        },
+        "metadata": {
+          "contact": true,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Snipe Shot",
+        "data": {
+          "name": "Snipe Shot",
+          "type": "Water",
+          "category": "Special",
+          "description": "Has a higher chance for a critical hit. This move cannot be redirected to a different target by any effect.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 85,
+          "accuracy": 100,
+          "pp": 16,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Tiromirato",
+            "description": "Infligge danno, ha un rapporto di brutto colpo aumentato di 1 livello e ignora gli effetti di reindirizzamento di mosse e abilità: il colpo resta diretto verso il bersaglio scelto."
+          }
+        },
+        "metadata": {
+          "contact": false,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Zing Zap",
+        "data": {
+          "name": "Zing Zap",
+          "type": "Electric",
+          "category": "Physical",
+          "description": "Has a 30% chance to make the target flinch.",
+          "target": "normal",
+          "inChampions": true,
+          "championsVerified": true,
+          "power": 80,
+          "accuracy": 100,
+          "pp": 12,
+          "priority": 0
+        },
+        "localization": {
+          "it": {
+            "name": "Elettropizzico",
+            "description": "Infligge danno e ha il 30% di probabilità di far tentennare il bersaglio, se il bersaglio non ha già agito e non è protetto da effetti che impediscono il tentennamento."
+          }
+        },
+        "metadata": {
+          "contact": true,
+          "sound": false,
+          "targetDescription": "Un bersaglio"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      }
+    ],
+    "abilities": [
+      {
+        "operation": "add",
+        "canonicalName": "Aura Guard",
+        "data": {
+          "name": "Aura Guard",
+          "description": "Halves damage taken from moves that make contact.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Aura Guard",
+            "description": "Dimezza il danno subito dalle mosse che effettuano contatto. L’effetto è passivo e si applica automaticamente quando la mossa avversaria possiede la proprietà “contatto”."
+          }
+        },
+        "associatedPokemon": [
+          "MegaLucario Z"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Emergency Exit",
+        "data": {
+          "name": "Emergency Exit",
+          "description": "The Pokemon switches out when its HP falls to half or less after taking damage.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Passoindietro",
+            "description": "Quando i PS del Pokémon scendono a metà dei PS massimi o meno in seguito al danno, il Pokémon viene sostituito. L’attivazione dipende dalle normali condizioni della meccanica di Passoindietro."
+          }
+        },
+        "associatedPokemon": [
+          "Golisopod"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Grass Pelt",
+        "data": {
+          "name": "Grass Pelt",
+          "description": "Boosts the Pokemon's Defense by 50% while Grassy Terrain is active.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Peloderba",
+            "description": "Finché è attivo il Campo Erboso, la Difesa del Pokémon aumenta del 50%. L’effetto termina quando il terreno non è più Campo Erboso."
+          }
+        },
+        "associatedPokemon": [
+          "Gogoat"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Grassy Surge",
+        "data": {
+          "name": "Grassy Surge",
+          "description": "Creates Grassy Terrain for 5 turns when the Pokemon enters battle.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Erbogenesi",
+            "description": "Quando il Pokémon entra in campo crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+          }
+        },
+        "associatedPokemon": [
+          "Rillaboom"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Guard Dog",
+        "data": {
+          "name": "Guard Dog",
+          "description": "Prevents forced switching and raises Attack instead of having it lowered by Intimidate.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Cane da Guardia",
+            "description": "Prepotenza/Intimidate non riduce l’Attacco: invece aumenta l’Attacco del possessore di 1 grado. Inoltre il Pokémon non viene forzato a cambiare da mosse o strumenti avversari che provocano uno switch forzato."
+          }
+        },
+        "associatedPokemon": [
+          "Mabosstiff"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Libero",
+        "data": {
+          "name": "Libero",
+          "description": "Before using a move, the Pokemon changes to that move's type. In Champions, this activates once per switch-in.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Libero",
+            "description": "Prima di usare una mossa, il Pokémon cambia il proprio tipo nel tipo di quella mossa. In Champions l’effetto può attivarsi una sola volta per ogni permanenza in campo; tornando in campo può nuovamente attivarsi."
+          }
+        },
+        "associatedPokemon": [
+          "Cinderace"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Liquid Ooze",
+        "data": {
+          "name": "Liquid Ooze",
+          "description": "Damages opponents that attempt to drain HP from this Pokemon instead of healing them.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Melma",
+            "description": "Quando un avversario prova a recuperare PS sottraendoli a questo Pokémon con una mossa drenante, invece di curarsi perde una quantità di PS equivalente a quella che avrebbe recuperato."
+          }
+        },
+        "associatedPokemon": [
+          "Swalot"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Psychic Surge",
+        "data": {
+          "name": "Psychic Surge",
+          "description": "Creates Psychic Terrain for 5 turns when the Pokemon enters battle.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Psicogenesi",
+            "description": "Quando il Pokémon entra in campo crea Campo Psichico per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+          }
+        },
+        "associatedPokemon": [
+          "Indeedee (Maschio)",
+          "Indeedee (Femmina)"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Punk Rock",
+        "data": {
+          "name": "Punk Rock",
+          "description": "Boosts the power of sound-based moves by 30% and halves damage taken from sound-based moves.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Punk Rock",
+            "description": "Aumenta del 30% la potenza delle mosse basate sul suono usate dal Pokémon e dimezza il danno che il Pokémon riceve dalle mosse sonore."
+          }
+        },
+        "associatedPokemon": [
+          "Toxtricity (Forma Melodia)",
+          "Toxtricity (Forma Basso)"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Rattled",
+        "data": {
+          "name": "Rattled",
+          "description": "Raises Speed by 1 stage when hit by a Bug-, Dark-, or Ghost-type move or affected by Intimidate.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Paura",
+            "description": "Aumenta di 1 grado la Velocità quando il Pokémon subisce una mossa di tipo Buio, Spettro o Coleottero; si attiva anche quando viene colpito dall’effetto di Prepotenza/Intimidate."
+          }
+        },
+        "associatedPokemon": [
+          "Persian di Alola"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Run Away",
+        "data": {
+          "name": "Run Away",
+          "description": "In Champions, allows the Pokemon to ignore effects that would prevent it from switching out.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Fugafacile",
+            "description": "In Champions consente al possessore di ignorare gli effetti che normalmente gli impedirebbero di cambiare Pokémon. Non è soltanto un’abilità per fuggire dalle lotte selvatiche."
+          }
+        },
+        "associatedPokemon": [
+          "Thievul"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Seed Sower",
+        "data": {
+          "name": "Seed Sower",
+          "description": "Creates Grassy Terrain for 5 turns when the Pokemon takes damage from a move.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Spargisemi",
+            "description": "Quando il Pokémon subisce danno da una mossa, crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender."
+          }
+        },
+        "associatedPokemon": [
+          "Arboliva"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Stakeout",
+        "data": {
+          "name": "Stakeout",
+          "description": "Doubles the power of moves used against a target that has just switched in.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Sorveglianza",
+            "description": "Raddoppia la potenza delle mosse usate contro un bersaglio che è appena entrato in campo tramite sostituzione. È particolarmente efficace nel punire gli switch."
+          }
+        },
+        "associatedPokemon": [
+          "Thievul",
+          "Mabosstiff"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Steely Spirit",
+        "data": {
+          "name": "Steely Spirit",
+          "description": "Boosts the power of Steel-type moves used by the Pokemon and its allies by 50%.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Spiritoferreo",
+            "description": "Aumenta del 50% la potenza delle mosse di tipo Acciaio usate dal possessore e dai suoi alleati."
+          }
+        },
+        "associatedPokemon": [
+          "Perrserker"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      },
+      {
+        "operation": "add",
+        "canonicalName": "Thermal Exchange",
+        "data": {
+          "name": "Thermal Exchange",
+          "description": "Raises Attack by 1 stage when hit by a Fire-type move and prevents burns.",
+          "championsVerified": true
+        },
+        "localization": {
+          "it": {
+            "name": "Termoscambio",
+            "description": "Quando il Pokémon subisce una mossa di tipo Fuoco, il suo Attacco aumenta di 1 grado. Inoltre non può essere scottato."
+          }
+        },
+        "associatedPokemon": [
+          "Baxcalibur",
+          "MegaBaxcalibur"
+        ],
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "showdown-champions-data",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": [
+          "Descrizione inglese normalizzata dal testo italiano fornito."
+        ]
+      }
+    ],
+    "items": [
+      {
+        "operation": "update",
+        "canonicalName": "Absolite Z",
+        "data": {
+          "name": "Absolite Z",
+          "description": "Permette ad Absol di megaevolversi in MegaAbsol Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Absolite Z",
+            "description": "Permette ad Absol di megaevolversi in MegaAbsol Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Air Balloon",
+        "data": {
+          "name": "Air Balloon",
+          "description": "Holder is immune to Ground-type attacks. Pops when holder is hit.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Palloncino",
+            "description": "Finché è intatto mantiene il possessore sollevato da terra: lo rende immune alle mosse di tipo Terra e agli effetti a terra come Punte, Fielepunte e Rete Vischiosa. Se il possessore subisce danno da una mossa, il Palloncino scoppia e il suo effetto termina per il resto della lotta."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "air-balloon.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Baxcalibrite",
+        "data": {
+          "name": "Baxcalibrite",
+          "description": "Permette a Baxcalibur di megaevolversi in MegaBaxcalibur durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Baxcaliburite",
+            "description": "Permette a Baxcalibur di megaevolversi in MegaBaxcalibur durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Binding Band",
+        "data": {
+          "name": "Binding Band",
+          "description": "Holder's partial-trapping moves deal 1/6 max HP per turn instead of 1/8.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Legafascia",
+            "description": "Aumenta il danno residuo degli effetti di intrappolamento: in Champions il danno periodico passa da 1/8 a 1/6 dei PS massimi del bersaglio."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": "binding-band.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Eject Button",
+        "data": {
+          "name": "Eject Button",
+          "description": "If holder survives a hit, it immediately switches out to a chosen ally. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Pulsantefuga",
+            "description": "Quando il possessore subisce danno da una mossa, viene fatto uscire dal campo e il giocatore sceglie un sostituto, se possibile. È monouso."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "eject-button.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Electric Seed",
+        "data": {
+          "name": "Electric Seed",
+          "description": "If the terrain is Electric Terrain, raises holder's Defense by 1 stage. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Elettroseme",
+            "description": "Se il possessore si trova su Campo Elettrico, lo strumento viene consumato e aumenta la Difesa di 1 grado."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "electric-seed.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Garchompite Z",
+        "data": {
+          "name": "Garchompite Z",
+          "description": "Permette a Garchomp di megaevolversi in MegaGarchomp Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Garchompite Z",
+            "description": "Permette a Garchomp di megaevolversi in MegaGarchomp Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Golisopite",
+        "data": {
+          "name": "Golisopite",
+          "description": "Permette a Golisopod di megaevolversi in MegaGolisopod durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Golisopodite",
+            "description": "Permette a Golisopod di megaevolversi in MegaGolisopod durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Grassy Seed",
+        "data": {
+          "name": "Grassy Seed",
+          "description": "If the terrain is Grassy Terrain, raises holder's Defense by 1 stage. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Erbaseme",
+            "description": "Se il possessore si trova su Campo Erboso, lo strumento viene consumato e aumenta la Difesa di 1 grado."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "grassy-seed.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Leek",
+        "data": {
+          "name": "Leek",
+          "description": "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Gambo",
+            "description": "Se tenuto da Farfetch’d o Sirfetch’d, aumenta di 2 livelli il rapporto di brutto colpo delle loro mosse, rendendo molto più probabili i colpi critici."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto specifico",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Lucarionite Z",
+        "data": {
+          "name": "Lucarionite Z",
+          "description": "Permette a Lucario di megaevolversi in MegaLucario Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Lucarite Z",
+            "description": "Permette a Lucario di megaevolversi in MegaLucario Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": null
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Misty Seed",
+        "data": {
+          "name": "Misty Seed",
+          "description": "If the terrain is Misty Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Nebbiaseme",
+            "description": "Se il possessore si trova su Campo Nebbioso, lo strumento viene consumato e aumenta la Difesa Speciale di 1 grado."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "misty-seed.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Normal Gem",
+        "data": {
+          "name": "Normal Gem",
+          "description": "Holder's first successful Normal-type attack will have 1.3x power. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Bijounormale",
+            "description": "La prima volta che il possessore usa una mossa di tipo Normale, lo strumento viene consumato e aumenta del 30% la potenza di quella mossa."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "normal-gem.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Psychic Seed",
+        "data": {
+          "name": "Psychic Seed",
+          "description": "If the terrain is Psychic Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Psicoseme",
+            "description": "Se il possessore si trova su Campo Psichico, lo strumento viene consumato e aumenta la Difesa Speciale di 1 grado."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "psychic-seed.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Red Card",
+        "data": {
+          "name": "Red Card",
+          "description": "If holder survives a hit, attacker is forced to switch to a random ally. Single use.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Cartelrosso",
+            "description": "Quando il possessore subisce danno da una mossa, costringe l’attaccante a essere sostituito, se l’effetto può applicarsi. È monouso."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": true
+        },
+        "assets": {
+          "spriteFile": "red-card.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Rocky Helmet",
+        "data": {
+          "name": "Rocky Helmet",
+          "description": "If holder is hit by a contact move, the attacker loses 1/6 of its max HP.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Bitorzolelmo",
+            "description": "Quando un avversario colpisce il possessore con una mossa a contatto, l’attaccante perde 1/6 dei propri PS massimi."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": "rocky-helmet.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Salamencite",
+        "data": {
+          "name": "Salamencite",
+          "description": "If held by a Salamence, this item allows it to Mega Evolve in battle.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Salamencite",
+            "description": "Permette a Salamence di megaevolversi in MegaSalamence durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione."
+          }
+        },
+        "metadata": {
+          "category": "Megapietra",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": "salamencite.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      },
+      {
+        "operation": "update",
+        "canonicalName": "Terrain Extender",
+        "data": {
+          "name": "Terrain Extender",
+          "description": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",
+          "inChampions": true
+        },
+        "localization": {
+          "it": {
+            "name": "Fissacampo",
+            "description": "Se il possessore crea un terreno tramite una mossa o un’abilità, ne estende la durata di 3 turni: normalmente il terreno dura quindi 8 turni invece di 5."
+          }
+        },
+        "metadata": {
+          "category": "Strumento tenuto",
+          "consumable": false
+        },
+        "assets": {
+          "spriteFile": "terrain-extender.png"
+        },
+        "sourceRefs": [
+          "official-regulation-m-c",
+          "pokemon-zone-regulation-m-c",
+          "pokeapi-localizations"
+        ],
+        "confidence": "verified",
+        "notes": []
+      }
+    ]
+  },
+  "review": {
+    "required": [
+      {
+        "entityType": "move",
+        "entity": "Court Change",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 0,
+            "recommended": null
+          },
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Double Shock",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 5,
+            "recommended": 8
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Drum Beating",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Glaive Rush",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 5,
+            "recommended": 8
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Jaw Lock",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Meteor Assault",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 150,
+            "recommended": 170
+          },
+          {
+            "field": "pp",
+            "current": 5,
+            "recommended": 8
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Milk Drink",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 0,
+            "recommended": null
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Octolock",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 0,
+            "recommended": null
+          },
+          {
+            "field": "pp",
+            "current": 15,
+            "recommended": 16
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Overdrive",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Pyro Ball",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 5,
+            "recommended": 8
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Revival Blessing",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 0,
+            "recommended": null
+          },
+          {
+            "field": "accuracy",
+            "current": true,
+            "recommended": null
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Shift Gear",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 0,
+            "recommended": null
+          },
+          {
+            "field": "accuracy",
+            "current": true,
+            "recommended": null
+          },
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Slash",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 70,
+            "recommended": 80
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Snipe Shot",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "power",
+            "current": 80,
+            "recommended": 85
+          },
+          {
+            "field": "pp",
+            "current": 15,
+            "recommended": 16
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      },
+      {
+        "entityType": "move",
+        "entity": "Zing Zap",
+        "field": "technicalData",
+        "values": [
+          {
+            "field": "pp",
+            "current": 10,
+            "recommended": 12
+          }
+        ],
+        "recommendedValue": "Usare i valori del pacchetto M-C",
+        "reason": "Valori specifici di Champions differenti dal database generale."
+      }
+    ],
+    "warnings": [
+      "I numeri Pokédex non erano presenti nei TXT e sono stati associati tramite la fonte di localizzazione PokéAPI.",
+      "Le descrizioni inglesi delle nuove abilità sono traduzioni normalizzate dei testi italiani del pacchetto grezzo.",
+      "Absolite Z: descrizione inglese assente nel database; il candidato mantiene temporaneamente il testo italiano.",
+      "Absolite Z: sprite specifico non trovato; sarà usato il fallback del frontend.",
+      "Baxcalibrite: descrizione inglese assente nel database; il candidato mantiene temporaneamente il testo italiano.",
+      "Baxcalibrite: sprite specifico non trovato; sarà usato il fallback del frontend.",
+      "Garchompite Z: descrizione inglese assente nel database; il candidato mantiene temporaneamente il testo italiano.",
+      "Garchompite Z: sprite specifico non trovato; sarà usato il fallback del frontend.",
+      "Golisopite: descrizione inglese assente nel database; il candidato mantiene temporaneamente il testo italiano.",
+      "Golisopite: sprite specifico non trovato; sarà usato il fallback del frontend.",
+      "Leek: sprite specifico non trovato; sarà usato il fallback del frontend.",
+      "Lucarionite Z: descrizione inglese assente nel database; il candidato mantiene temporaneamente il testo italiano.",
+      "Lucarionite Z: sprite specifico non trovato; sarà usato il fallback del frontend."
+    ],
+    "notes": []
+  }
+}

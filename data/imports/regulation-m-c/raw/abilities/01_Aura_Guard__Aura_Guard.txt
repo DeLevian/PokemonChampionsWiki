@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Aura Guard
+Nome inglese: Aura Guard
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Dimezza il danno subito dalle mosse che effettuano contatto. L’effetto è passivo e si applica automaticamente quando la mossa avversaria possiede la proprietà “contatto”.
+
+POKÉMON M-C ASSOCIATI
+- MegaLucario Z
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

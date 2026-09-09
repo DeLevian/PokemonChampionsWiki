@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — MOSSA INTRODOTTA/RESA DISPONIBILE CON M-C
+Nome italiano: Palla Infuocata
+Nome inglese: Pyro Ball
+
+DATI TECNICI
+Tipo: Fuoco / Fire
+Categoria: Fisica
+Potenza / Base Power: 120
+Precisione / Accuracy: 90%
+PP: 8
+Priorità: 0
+Contatto: No
+Mossa sonora: No
+Bersaglio: Un bersaglio
+
+DESCRIZIONE
+Infligge danno e ha il 10% di probabilità di scottare il bersaglio. Se l’utilizzatore è congelato, l’uso della mossa può liberarlo dal congelamento.
+
+Nota: i valori riportati sono quelli usati da Pokémon Champions per il regolamento M-C; possono differire dai giochi della serie principale.

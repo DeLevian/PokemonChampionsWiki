@@ -1,3 +1,5 @@
+import { getPokemonSpriteUrl } from '../services/assets.js';
+
 const NATURE_DATA = {
     "Ardita / Hardy": { plus: null, minus: null },
     "Schiva / Lonely": { plus: "attack", minus: "defense" },
@@ -60,44 +62,7 @@ export class TeamBuildingView {
     }
 
     getSpriteUrl(pokemon, type = null) {
-        if (!pokemon) return 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2UyZThlZiIvPjx0ZXh0IHg9IjUwIiB5PSI2NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ1IiBmaWxsPSIjOTQzMzIyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4/PC90ZXh0Pjwvc3ZnPg==';
-        
-        const id = typeof pokemon === 'object' ? pokemon.id : pokemon;
-        const name = typeof pokemon === 'object' ? (pokemon.name || id) : id;
-        const style = type || 'artwork';
-        let fileName = (typeof pokemon === 'object' && pokemon.name) ? pokemon.name : id;
-
-        // Mappature per sprite con discrepanze di nome
-        if (fileName === "Kommo-o") fileName = "Kommo O";
-        else if (fileName === "Pyroar") fileName = "Pyroar Male";
-
-
-        const flippedMegas = [
-            "Sceptile", "Blaziken", "Swampert", "Mawile", "Metagross",
-            "Staraptor", "Scolipede", "Scrafty", "Eelektross", "Pyroar",
-            "Malamar", "Barbaracle", "Dragalge", "Falinks", "Raichu"
-        ];
-        if (fileName.startsWith("Mega ")) {
-            const base = fileName.substring(5);
-            const match = flippedMegas.find(m => base.startsWith(m));
-            if (match) {
-                if (base.endsWith(" X") || base.endsWith(" Y")) {
-                    const suffix = base.slice(-2);
-                    const mainName = base.slice(0, -2);
-                    fileName = `${mainName} Mega${suffix}`;
-                } else {
-                    fileName = `${base} Mega`;
-                }
-            }
-        }
-
-        const paths = {
-            'artwork': `data/sprites/pokemon/artwork/${fileName}.png`,
-            'standard': `data/sprites/pokemon/standard/${id}.png`,
-            'animated': `data/sprites/pokemon/animated/${id}.gif`
-        };
-
-        return paths[style] || paths['artwork'];
+        return getPokemonSpriteUrl(pokemon, type || 'artwork');
     }
 
     loadTeams() {

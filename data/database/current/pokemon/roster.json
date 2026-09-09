@@ -4097,5 +4097,492 @@
       "H": "Intimidate"
     },
     "championsVerified": true
+  },
+  {
+    "name": "Wigglytuff",
+    "dexNumber": 40,
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Cute Charm",
+      "1": "Competitive",
+      "H": "Frisk"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Persian",
+    "dexNumber": 53,
+    "types": [
+      "Normal"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Limber",
+      "1": "Technician",
+      "H": "Unnerve"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Alolan Persian",
+    "dexNumber": 53,
+    "types": [
+      "Dark"
+    ],
+    "form": "Regional",
+    "abilities": {
+      "0": "Fur Coat",
+      "1": "Technician",
+      "H": "Rattled"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Farfetch'd",
+    "dexNumber": 83,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Keen Eye",
+      "1": "Inner Focus",
+      "H": "Defiant"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mr. Mime",
+    "dexNumber": 122,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Soundproof",
+      "1": "Filter",
+      "H": "Technician"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Swalot",
+    "dexNumber": 317,
+    "types": [
+      "Poison"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Liquid Ooze",
+      "1": "Sticky Hold",
+      "H": "Gluttony"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Absol Z",
+    "dexNumber": 359,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Sharpness"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Salamence",
+    "dexNumber": 373,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "H": "Moxie"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Salamence",
+    "dexNumber": 373,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Aerilate"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Garchomp Z",
+    "dexNumber": 445,
+    "types": [
+      "Dragon"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Levitate"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Lucario Z",
+    "dexNumber": 448,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Aura Guard"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Gogoat",
+    "dexNumber": 673,
+    "types": [
+      "Grass"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Sap Sipper",
+      "H": "Grass Pelt"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Golisopod",
+    "dexNumber": 768,
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Emergency Exit"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Golisopod",
+    "dexNumber": 768,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Tough Claws"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Rillaboom",
+    "dexNumber": 812,
+    "types": [
+      "Grass"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Grassy Surge"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Cinderace",
+    "dexNumber": 815,
+    "types": [
+      "Fire"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Blaze",
+      "H": "Libero"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Inteleon",
+    "dexNumber": 818,
+    "types": [
+      "Water"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Torrent",
+      "H": "Sniper"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Thievul",
+    "dexNumber": 828,
+    "types": [
+      "Dark"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Run Away",
+      "1": "Unburden",
+      "H": "Stakeout"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Toxtricity Amped",
+    "dexNumber": 849,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Punk Rock",
+      "1": "Plus",
+      "H": "Technician"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Toxtricity Low Key",
+    "dexNumber": 849,
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Punk Rock",
+      "1": "Minus",
+      "H": "Technician"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Grapploct",
+    "dexNumber": 853,
+    "types": [
+      "Fighting"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Limber",
+      "H": "Technician"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Perrserker",
+    "dexNumber": 863,
+    "types": [
+      "Steel"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Battle Armor",
+      "1": "Tough Claws",
+      "H": "Steely Spirit"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Sirfetch'd",
+    "dexNumber": 865,
+    "types": [
+      "Fighting"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Steadfast",
+      "H": "Scrappy"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Pincurchin",
+    "dexNumber": 871,
+    "types": [
+      "Electric"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Lightning Rod",
+      "H": "Electric Surge"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Indeedee Male",
+    "dexNumber": 876,
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Inner Focus",
+      "1": "Synchronize",
+      "H": "Psychic Surge"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Indeedee Female",
+    "dexNumber": 876,
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Own Tempo",
+      "1": "Synchronize",
+      "H": "Psychic Surge"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Pawmot",
+    "dexNumber": 923,
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Volt Absorb",
+      "1": "Natural Cure",
+      "H": "Iron Fist"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Arboliva",
+    "dexNumber": 930,
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Seed Sower",
+      "H": "Harvest"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Squawkabilly Green Plumage",
+    "dexNumber": 931,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Hustle",
+      "H": "Guts"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Squawkabilly Blue Plumage",
+    "dexNumber": 931,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Hustle",
+      "H": "Guts"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Squawkabilly White Plumage",
+    "dexNumber": 931,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Hustle",
+      "H": "Sheer Force"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Squawkabilly Yellow Plumage",
+    "dexNumber": 931,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Hustle",
+      "H": "Sheer Force"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mabosstiff",
+    "dexNumber": 943,
+    "types": [
+      "Dark"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Intimidate",
+      "1": "Guard Dog",
+      "H": "Stakeout"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Baxcalibur",
+    "dexNumber": 998,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "form": "Base",
+    "abilities": {
+      "0": "Thermal Exchange",
+      "H": "Ice Body"
+    },
+    "championsVerified": true
+  },
+  {
+    "name": "Mega Baxcalibur",
+    "dexNumber": 998,
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "form": "Mega",
+    "abilities": {
+      "0": "Thermal Exchange"
+    },
+    "championsVerified": true
   }
 ]

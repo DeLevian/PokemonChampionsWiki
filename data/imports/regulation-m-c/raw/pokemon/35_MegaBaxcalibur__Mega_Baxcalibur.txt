@@ -1,0 +1,78 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: MegaBaxcalibur
+Nome inglese: Mega Baxcalibur
+
+TIPO
+Drago (Dragon) / Ghiaccio (Ice)
+
+STATISTICHE BASE
+PS / HP: 115
+Attacco / Attack: 175
+Difesa / Defense: 117
+Attacco Speciale / Special Attack: 105
+Difesa Speciale / Special Defense: 101
+Velocità / Speed: 87
+Totale / BST: 700
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Termoscambio / Thermal Exchange [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando il Pokémon subisce una mossa di tipo Fuoco, il suo Attacco aumenta di 1 grado. Inoltre non può essere scottato.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Aeroassalto / Aerial Ace
+- Idrondata / Aqua Tail
+- Slavina / Avalanche
+- Morso / Bite
+- Bora / Blizzard
+- Schiacciacorpo / Body Press
+- Corposcontro / Body Slam
+- Vastoimpatto / Breaking Swipe
+- Breccia / Brick Break
+- Battiterra / Bulldoze
+- Sgranocchio / Crunch
+- Fossa / Dig
+- Sdoppiatore / Double-Edge
+- Dragobolide / Draco Meteor
+- Grido del Drago / Dragon Cheer
+- Dragartigli / Dragon Claw
+- Dragodanza / Dragon Dance
+- Dragopulsar / Dragon Pulse
+- Dragofuria / Dragon Rush
+- Codadrago / Dragon Tail
+- Terremoto / Earthquake
+- Resistenza / Endure
+- Facciata / Facade
+- Focalenergia / Focus Energy
+- Liofilizzazione / Freeze-Dry
+- Alitogelido / Frost Breath
+- Gigaimpatto / Giga Impact
+- Spadoncarica / Glaive Rush
+- Altruismo / Helping Hand
+- Forza Equina / High Horsepower
+- Iper Raggio / Hyper Beam
+- Geloraggio / Ice Beam
+- Gelodenti / Ice Fang
+- Geloscheggia / Ice Shard
+- Scagliagelo / Icicle Crash
+- Gelolancia / Icicle Spear
+- Ventogelato / Icy Wind
+- Metaltestata / Iron Head
+- Oltraggio / Outrage
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Squamacolpo / Scale Shot
+- Visotruce / Scary Face
+- Sonnolalia / Sleep Talk
+- Vista Innevata / Snowscape
+- Battipiedi / Stomping Tantrum
+- Sostituto / Substitute
+- Danzaspada / Swords Dance
+- Fulmindenti / Thunder Fang
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 51
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

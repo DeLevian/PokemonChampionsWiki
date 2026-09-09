@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Garchompite Z
+Nome inglese: Garchompite Z
+
+DATI
+Categoria: Megapietra
+Monouso/consumato: No
+
+DESCRIZIONE
+Permette a Garchomp di megaevolversi in MegaGarchomp Z durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

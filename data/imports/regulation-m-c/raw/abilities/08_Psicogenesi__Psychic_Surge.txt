@@ -1,0 +1,19 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Psicogenesi
+Nome inglese: Psychic Surge
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Quando il Pokémon entra in campo crea Campo Psichico per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender.
+
+POKÉMON M-C ASSOCIATI
+- Indeedee (Maschio)
+- Indeedee (Femmina)
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

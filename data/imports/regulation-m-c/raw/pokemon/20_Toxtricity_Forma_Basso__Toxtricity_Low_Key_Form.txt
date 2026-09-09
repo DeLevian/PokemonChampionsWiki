@@ -1,0 +1,97 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Toxtricity (Forma Basso)
+Nome inglese: Toxtricity (Low Key Form)
+
+TIPO
+Elettro (Electric) / Veleno (Poison)
+
+STATISTICHE BASE
+PS / HP: 75
+Attacco / Attack: 98
+Difesa / Defense: 70
+Attacco Speciale / Special Attack: 114
+Difesa Speciale / Special Defense: 70
+Velocità / Speed: 75
+Totale / BST: 502
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Punk Rock / Punk Rock [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Aumenta del 30% la potenza delle mosse basate sul suono usate dal Pokémon e dimezza il danno che il Pokémon riceve dalle mosse sonore.
+- Meno / Minus
+- Tecnico / Technician
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acidobomba / Acid Spray
+- Rutto / Belch
+- Ondaboato / Boomburst
+- Breccia / Brick Break
+- Sottocarica / Charge
+- Raggioscossa / Charge Beam
+- Fascino / Charm
+- Scarica / Discharge
+- Assorbipugno / Drain Punch
+- Elettromistero / Eerie Impulse
+- Campo Elettrico / Electric Terrain
+- Energisfera / Electro Ball
+- Elettrotela / Electroweb
+- Ripeti / Encore
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Facciata / Facade
+- Fuocopugno / Fire Punch
+- Flagello / Flail
+- Lancio / Fling
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Altruismo / Helping Hand
+- Sciagura / Hex
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Controllo Polare / Magnetic Flux
+- Megacalcio / Mega Kick
+- Ferrostrido / Metal Sound
+- Urlo / Noble Roar
+- Elettrococcola / Nuzzle
+- Overdrive / Overdrive
+- Caricaparabola / Parabolic Charge
+- Rivincita / Payback
+- Velenpuntura / Poison Jab
+- Protezione / Protect
+- Psicorumore / Psychic Noise
+- Pioggiadanza / Rain Dance
+- Riposo / Rest
+- Elettroimpennata / Rising Voltage
+- Coro / Round
+- Visotruce / Scary Face
+- Stridio / Screech
+- Sonnolalia / Sleep Talk
+- Fangobomba / Sludge Bomb
+- Fangonda / Sludge Wave
+- Urlorabbia / Snarl
+- Russare / Snore
+- Veicolaforza / Stored Power
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Bullo / Swagger
+- Provocazione / Taunt
+- Occhionilucidi / Tearful Look
+- Furto / Thief
+- Colpo Infernale / Throat Chop
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Fulmindenti / Thunder Fang
+- Tuonopugno / Thunder Punch
+- Tuononda / Thunder Wave
+- Tossina / Toxic
+- Fielepunte / Toxic Spikes
+- Apripista / Trailblaze
+- Baraonda / Uproar
+- Velenoshock / Venoshock
+- Invertivolt / Volt Switch
+- Sprizzalampo / Wild Charge
+
+Numero mosse elencate: 68
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

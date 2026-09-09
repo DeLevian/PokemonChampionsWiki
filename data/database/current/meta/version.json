@@ -1,38 +1,50 @@
 {
-  "version": "1.1.0",
-  "lastUpdated": "2026-06-17",
+  "version": "regulation-m-c",
+  "lastUpdated": "2026-09-09",
   "gameVersion": "Pokemon Champions",
+  "regulation": "Regolamento M-C",
   "dataFormat": "JSON",
   "sources": [
-    "Pokemon Showdown (base stats, abilities, types — already updated for Champions)",
-    "Serebii.net Champions pages (move stats, PP, learnsets — scraped April 16 2026)",
-    "Serebii.net Champions updated attacks page (power/accuracy/effect changes)"
+    {
+      "id": "official-regulation-m-c",
+      "title": "È in arrivo il Regolamento M-C in Pokémon Champions",
+      "url": "https://www.pokemon.com/it/novita/e-in-arrivo-il-regolamento-m-c-in-pokemon-champions"
+    },
+    {
+      "id": "pokemon-zone-regulation-m-c",
+      "title": "Pokémon Champions Regulation M-C",
+      "url": "https://www.pokemon-zone.com/champions/regulations/m-c/"
+    },
+    {
+      "id": "showdown-champions-data",
+      "title": "Pokémon Showdown — Champions mod",
+      "url": "https://github.com/smogon/pokemon-showdown/tree/master/data/mods/champions"
+    },
+    {
+      "id": "pokeapi-localizations",
+      "title": "PokéAPI data repository",
+      "url": "https://github.com/PokeAPI/pokeapi"
+    }
   ],
   "verification": {
-    "description": "All data has been cross-referenced against Serebii's Champions pages. The championsVerified flag is true for all entries. Moves include an inChampions field — 494 moves are available in Champions, 406 are not.",
+    "description": "Dati correnti integrati tramite un pacchetto normalizzato, con fonti e report conservati nel repository.",
     "stats": {
-      "pokemon_verified": 298,
-      "pokemon_total": 298,
-      "abilities_verified": 201,
-      "abilities_total": 201,
+      "pokemon_verified": 333,
+      "pokemon_total": 333,
+      "abilities_verified": 216,
+      "abilities_total": 216,
       "moves_verified": 900,
-      "moves_in_champions": 494,
+      "moves_in_champions": 508,
       "moves_total": 900,
-      "learnsets_verified": 298,
-      "learnsets_total": 298
-    },
-    "moveCorrectionSummary": {
-      "ppChanges": 399,
-      "powerChanges": 12,
-      "accuracyChanges": 2,
-      "notInChampions": 406
+      "learnsets_verified": 333,
+      "learnsets_total": 333
     }
   },
   "counts": {
-    "pokemon": 298,
-    "movesInChampions": 494,
+    "pokemon": 333,
+    "movesInChampions": 508,
     "movesTotal": 900,
-    "abilities": 201,
+    "abilities": 216,
     "items": 583,
     "natures": 25,
     "types": 18

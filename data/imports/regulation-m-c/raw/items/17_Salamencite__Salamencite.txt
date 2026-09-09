@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Salamencite
+Nome inglese: Salamencite
+
+DATI
+Categoria: Megapietra
+Monouso/consumato: No
+
+DESCRIZIONE
+Permette a Salamence di megaevolversi in MegaSalamence durante la lotta, quando sono soddisfatte le condizioni per la megaevoluzione.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

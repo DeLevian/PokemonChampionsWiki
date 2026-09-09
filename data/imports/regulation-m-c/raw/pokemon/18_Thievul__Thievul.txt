@@ -1,0 +1,81 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Thievul
+Nome inglese: Thievul
+
+TIPO
+Buio (Dark)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 58
+Difesa / Defense: 58
+Attacco Speciale / Special Attack: 87
+Difesa Speciale / Special Defense: 92
+Velocità / Speed: 90
+Totale / BST: 455
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Fugafacile / Run Away [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: In Champions consente al possessore di ignorare gli effetti che normalmente gli impedirebbero di cambiare Pokémon. Non è soltanto un’abilità per fuggire dalle lotte selvatiche.
+- Agiltecnica / Unburden
+- Sorveglianza / Stakeout [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Raddoppia la potenza delle mosse usate contro un bersaglio che è appena entrato in campo tramite sostituzione. È particolarmente efficace nel punire gli switch.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acrobazia / Acrobatics
+- Agilità / Agility
+- Garanzia / Assurance
+- Attrazione / Attract
+- Staffetta / Baton Pass
+- Picchiaduro / Beat Up
+- Fiamminvidia / Burning Jealousy
+- Sgranocchio / Crunch
+- Neropulsar / Dark Pulse
+- Fossa / Dig
+- Doppioteam / Double Team
+- Resistenza / Endure
+- Facciata / Facade
+- Falselacrime / Fake Tears
+- Rogodenti / Fire Fang
+- Schermaglia / First Impression
+- Ripicca / Foul Play
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Gridodilotta / Howl
+- Iper Raggio / Hyper Beam
+- Gelodenti / Ice Fang
+- Privazione / Knock Off
+- Sfogarabbia / Lash Out
+- Colpodifango / Mud Shot
+- Congiura / Nasty Plot
+- Nottesferza / Night Slash
+- Monito / Parting Shot
+- Carineria / Play Rough
+- Protezione / Protect
+- Psichico / Psychic
+- Attacco Rapido / Quick Attack
+- Anticipo / Quick Guard
+- Riposo / Rest
+- Boato / Roar
+- Coro / Round
+- Stridio / Screech
+- Palla Ombra / Shadow Ball
+- Ombrartigli / Shadow Claw
+- Sonnolalia / Sleep Talk
+- Urlorabbia / Snarl
+- Russare / Snore
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Spazzasberla / Tail Slap
+- Provocazione / Taunt
+- Furto / Thief
+- Fulmindenti / Thunder Fang
+- Attaccalite / Torment
+- Apripista / Trailblaze
+- Retromarcia / U-turn
+
+Numero mosse elencate: 51
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

@@ -1,0 +1,89 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Inteleon
+Nome inglese: Inteleon
+
+TIPO
+Acqua (Water)
+
+STATISTICHE BASE
+PS / HP: 70
+Attacco / Attack: 85
+Difesa / Defense: 65
+Attacco Speciale / Special Attack: 125
+Difesa Speciale / Special Defense: 65
+Velocità / Speed: 120
+Totale / BST: 530
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Acquaiuto / Torrent
+- Cecchino / Sniper
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Acrobazia / Acrobatics
+- Agilità / Agility
+- Aerasoio / Air Cutter
+- Eterelama / Air Slash
+- Acquagetto / Aqua Jet
+- Acquanello / Aqua Ring
+- Staffetta / Baton Pass
+- Legatutto / Bind
+- Bora / Blizzard
+- Rimbalzo / Bounce
+- Vastoimpatto / Breaking Swipe
+- Doccia Fredda / Chilling Water
+- Neropulsar / Dark Pulse
+- Sub / Dive
+- Doppioteam / Double Team
+- Resistenza / Endure
+- Facciata / Facade
+- Pungiglione / Fell Stinger
+- Lancio / Fling
+- Virata / Flip Turn
+- Focalenergia / Focus Energy
+- Gigaimpatto / Giga Impact
+- Nube / Haze
+- Idrocannone / Hydro Cannon
+- Idropompa / Hydro Pump
+- Iper Raggio / Hyper Beam
+- Geloraggio / Ice Beam
+- Geloscheggia / Ice Shard
+- Gelolancia / Icicle Spear
+- Ventogelato / Icy Wind
+- Schermoluce / Light Screen
+- Idrobreccia / Liquidation
+- Fanghiglia / Muddy Water
+- Colpodifango / Mud Shot
+- Protezione / Protect
+- Psicamisù / Psych Up
+- Pioggiadanza / Rain Dance
+- Riflesso / Reflect
+- Riposo / Rest
+- Coro / Round
+- Idrovampata / Scald
+- Squamacolpo / Scale Shot
+- Palla Ombra / Shadow Ball
+- Strisciacolpo / Skitter Smack
+- Sonnolalia / Sleep Talk
+- Abbattimento / Smack Down
+- Tiromirato / Snipe Shot
+- Russare / Snore
+- Vista Innevata / Snowscape
+- Inondazione / Soak
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Surf / Surf
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Occhionilucidi / Tearful Look
+- Retromarcia / U-turn
+- Vuotonda / Vacuum Wave
+- Cascata / Waterfall
+- Idropulsar / Water Pulse
+- Palla Clima / Weather Ball
+- Mulinello / Whirlpool
+
+Numero mosse elencate: 62
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

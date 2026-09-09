@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Spiritoferreo
+Nome inglese: Steely Spirit
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Aumenta del 50% la potenza delle mosse di tipo Acciaio usate dal possessore e dai suoi alleati.
+
+POKÉMON M-C ASSOCIATI
+- Perrserker
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

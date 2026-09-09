@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Bitorzolelmo
+Nome inglese: Rocky Helmet
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: No
+
+DESCRIZIONE
+Quando un avversario colpisce il possessore con una mossa a contatto, l’attaccante perde 1/6 dei propri PS massimi.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.

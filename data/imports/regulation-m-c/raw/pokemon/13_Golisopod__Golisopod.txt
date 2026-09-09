@@ -1,0 +1,94 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Golisopod
+Nome inglese: Golisopod
+
+TIPO
+Coleottero (Bug) / Acqua (Water)
+
+STATISTICHE BASE
+PS / HP: 75
+Attacco / Attack: 125
+Difesa / Defense: 140
+Attacco Speciale / Special Attack: 60
+Difesa Speciale / Special Defense: 90
+Velocità / Speed: 40
+Totale / BST: 530
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Passoindietro / Emergency Exit [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando i PS del Pokémon scendono a metà dei PS massimi o meno in seguito al danno, il Pokémon viene sostituito. L’attivazione dipende dalle normali condizioni della meccanica di Passoindietro.
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Agilità / Agility
+- Acquagetto / Aqua Jet
+- Garanzia / Assurance
+- Attrazione / Attract
+- Bora / Blizzard
+- Breccia / Brick Break
+- Coleomorso / Bug Bite
+- Ronzio / Bug Buzz
+- Granfisico / Bulk Up
+- Doccia Fredda / Chilling Water
+- Zuffa / Close Combat
+- Neropulsar / Dark Pulse
+- Sub / Dive
+- Doppiosmash / Double Hit
+- Giravvita / Drill Run
+- Resistenza / Endure
+- Facciata / Facade
+- Schermaglia / First Impression
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Gigaimpatto / Giga Impact
+- Sporcolancio / Gunk Shot
+- Iper Raggio / Hyper Beam
+- Geloraggio / Ice Beam
+- Ventogelato / Icy Wind
+- Ferroscudo / Iron Defense
+- Metaltestata / Iron Head
+- Sanguisuga / Leech Life
+- Idrobreccia / Liquidation
+- Fanghiglia / Muddy Water
+- Colpodifango / Mud Shot
+- Nottesferza / Night Slash
+- Rivincita / Payback
+- Missilspillo / Pin Missile
+- Velenpuntura / Poison Jab
+- Balzo / Pounce
+- Protezione / Protect
+- Pioggiadanza / Rain Dance
+- Conchilama / Razor Shell
+- Riposo / Rest
+- Frana / Rock Slide
+- Rocciotomba / Rock Tomb
+- Coro / Round
+- Idrovampata / Scald
+- Stridio / Screech
+- Ombrartigli / Shadow Claw
+- Strisciacolpo / Skitter Smack
+- Lacerazione / Slash
+- Sonnolalia / Sleep Talk
+- Fangobomba / Sludge Bomb
+- Fangonda / Sludge Wave
+- Urlorabbia / Snarl
+- Russare / Snore
+- Punte / Spikes
+- Dispetto / Spite
+- Entomoblocco / Struggle Bug
+- Sostituto / Substitute
+- Sbigoattacco / Sucker Punch
+- Surf / Surf
+- Danzaspada / Swords Dance
+- Provocazione / Taunt
+- Colpo Infernale / Throat Chop
+- Retromarcia / U-turn
+- Velenoshock / Venoshock
+- Cascata / Waterfall
+- Bodyguard / Wide Guard
+- Forbice X / X-Scissor
+
+Numero mosse elencate: 67
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

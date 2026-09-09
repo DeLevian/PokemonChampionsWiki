@@ -1,0 +1,18 @@
+POKÉMON CHAMPIONS — ABILITÀ/PASSIVA INTRODOTTA O RESA DISPONIBILE CON M-C
+Nome italiano: Melma
+Nome inglese: Liquid Ooze
+
+DATI TECNICI
+Categoria: Abilità / passiva
+Potenza / Base Power: non applicabile
+Precisione / Accuracy: non applicabile
+PP: non applicabile
+Priorità: non applicabile
+
+DESCRIZIONE
+Quando un avversario prova a recuperare PS sottraendoli a questo Pokémon con una mossa drenante, invece di curarsi perde una quantità di PS equivalente a quella che avrebbe recuperato.
+
+POKÉMON M-C ASSOCIATI
+- Swalot
+
+Nota: “introdotta con M-C” in questo archivio significa introdotta nel pool di Pokémon Champions con questo regolamento; molte abilità esistevano già nella serie Pokémon.

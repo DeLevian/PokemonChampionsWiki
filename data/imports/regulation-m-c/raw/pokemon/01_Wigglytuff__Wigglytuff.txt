@@ -1,0 +1,126 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Wigglytuff
+Nome inglese: Wigglytuff
+
+TIPO
+Normale (Normal) / Folletto (Fairy)
+
+STATISTICHE BASE
+PS / HP: 140
+Attacco / Attack: 70
+Difesa / Defense: 45
+Attacco Speciale / Special Attack: 85
+Difesa Speciale / Special Defense: 50
+Velocità / Speed: 45
+Totale / BST: 435
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Incantevole / Cute Charm
+- Tenacia / Competitive
+- Indagine / Frisk
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Ammaliavoce / Alluring Voice
+- Amnesia / Amnesia
+- Staffetta / Baton Pass
+- Bora / Blizzard
+- Schiacciacorpo / Body Press
+- Corposcontro / Body Slam
+- Rimbalzo / Bounce
+- Breccia / Brick Break
+- Calmamente / Calm Mind
+- Fascino / Charm
+- Doccia Fredda / Chilling Water
+- Copione / Copycat
+- Supplica / Covet
+- Neropulsar / Dark Pulse
+- Magibrillio / Dazzling Gleam
+- Fossa / Dig
+- Inibitore / Disable
+- Sdoppiatore / Double-Edge
+- Assorbibacio / Draining Kiss
+- Assorbipugno / Drain Punch
+- Ripeti / Encore
+- Rimonta / Endeavor
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Vastenergia / Expanding Force
+- Facciata / Facade
+- Falselacrime / Fake Tears
+- Fuocobomba / Fire Blast
+- Fuocopugno / Fire Punch
+- Lanciafiamme / Flamethrower
+- Lancio / Fling
+- Focalcolpo / Focus Blast
+- Centripugno / Focus Punch
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Gravità / Gravity
+- Vortexpalla / Gyro Ball
+- Ondasana / Heal Pulse
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Geloraggio / Ice Beam
+- Gelopugno / Ice Punch
+- Vortighiaccio / Ice Spinner
+- Ventogelato / Icy Wind
+- Privazione / Knock Off
+- Ultimascelta / Last Resort
+- Schermoluce / Light Screen
+- Magicozona / Magic Room
+- Megacalcio / Mega Kick
+- Nebbioscoppio / Misty Explosion
+- Campo Nebbioso / Misty Terrain
+- Forza Lunare / Moonblast
+- Congiura / Nasty Plot
+- Malcomune / Pain Split
+- Ultimocanto / Perish Song
+- Carineria / Play Rough
+- Protezione / Protect
+- Psichico / Psychic
+- Psicorumore / Psychic Noise
+- Psicamisù / Psych Up
+- Psicoshock / Psyshock
+- Pioggiadanza / Rain Dance
+- Riflesso / Reflect
+- Riposo / Rest
+- Coro / Round
+- Salvaguardia / Safeguard
+- Terrempesta / Sandstorm
+- Stridio / Screech
+- Autodistruzione / Self-Destruct
+- Palla Ombra / Shadow Ball
+- Canto / Sing
+- Baratto / Skill Swap
+- Sonnolalia / Sleep Talk
+- Russare / Snore
+- Solarraggio / Solar Beam
+- Sfoghenergia / Spit Up
+- Levitoroccia / Stealth Rock
+- Ferrorullo / Steel Roller
+- Accumulo / Stockpile
+- Veicolaforza / Stored Power
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Introenergia / Swallow
+- Dolcebacio / Sweet Kiss
+- Provocazione / Taunt
+- Furto / Thief
+- Tuono / Thunder
+- Fulmine / Thunderbolt
+- Tuonopugno / Thunder Punch
+- Tuononda / Thunder Wave
+- Apripista / Trailblaze
+- Tripletta / Tri Attack
+- Baraonda / Uproar
+- Idropulsar / Water Pulse
+- Sprizzalampo / Wild Charge
+- Desiderio / Wish
+- Cozzata Zen / Zen Headbutt
+
+Numero mosse elencate: 98
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

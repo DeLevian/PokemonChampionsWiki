@@ -1,0 +1,72 @@
+POKÉMON CHAMPIONS — REGOLAMENTO M-C
+Nome italiano: Arboliva
+Nome inglese: Arboliva
+
+TIPO
+Erba (Grass) / Normale (Normal)
+
+STATISTICHE BASE
+PS / HP: 78
+Attacco / Attack: 69
+Difesa / Defense: 90
+Attacco Speciale / Special Attack: 125
+Difesa Speciale / Special Defense: 109
+Velocità / Speed: 39
+Totale / BST: 510
+
+ABILITÀ / PASSIVE DISPONIBILI IN CHAMPIONS
+- Spargisemi / Seed Sower [INTRODOTTA/RESA DISPONIBILE CON M-C]
+  Effetto: Quando il Pokémon subisce danno da una mossa, crea Campo Erboso per 5 turni. La durata può essere estesa da Fissacampo/Terrain Extender.
+- Coglibacche / Harvest
+
+MOSSE DISPONIBILI IN POKÉMON CHAMPIONS
+Elenco completo del movepool attualmente associato a questa specie/forma in Champions. Per le Mega, il movepool deriva dalla specie base.
+
+- Ammaliavoce / Alluring Voice
+- Semitraglia / Bullet Seed
+- Fascino / Charm
+- Magibrillio / Dazzling Gleam
+- Geoforza / Earth Power
+- Ripeti / Encore
+- Resistenza / Endure
+- Energipalla / Energy Ball
+- Facciata / Facade
+- Flagello / Flail
+- Lancio / Fling
+- Gigassorbimento / Giga Drain
+- Gigaimpatto / Giga Impact
+- Laccioerboso / Grass Knot
+- Campo Erboso / Grassy Terrain
+- Crescita / Growth
+- Altruismo / Helping Hand
+- Iper Raggio / Hyper Beam
+- Granvoce / Hyper Voice
+- Verdebufera / Leaf Storm
+- Parassiseme / Leech Seed
+- Schermoluce / Light Screen
+- Memento / Memento
+- Specchiovelo / Mirror Coat
+- Fiortempesta / Petal Blizzard
+- Petalodanza / Petal Dance
+- Sferapolline / Pollen Puff
+- Protezione / Protect
+- Psicamisù / Psych Up
+- Riflesso / Reflect
+- Riposo / Rest
+- Salvaguardia / Safeguard
+- Semebomba / Seed Bomb
+- Sonnolalia / Sleep Talk
+- Solarraggio / Solar Beam
+- Lama Solare / Solar Blade
+- Assorbiforza / Strength Sap
+- Sostituto / Substitute
+- Giornodisole / Sunny Day
+- Profumino / Sweet Scent
+- Sintesi / Synthesis
+- Campopulsar / Terrain Pulse
+- Apripista / Trailblaze
+- Palla Clima / Weather Ball
+
+Numero mosse elencate: 44
+
+Nota: statistiche, abilità e learnset sono riferiti a Pokémon Champions, non a un gioco della serie principale.

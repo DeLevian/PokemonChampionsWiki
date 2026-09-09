@@ -1,0 +1,24 @@
+name: Validate game data
+
+on:
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON and cross-references
+        run: python tools/validate_data.py
+      - name: Compile maintenance scripts
+        run: python -m py_compile tools/*.py

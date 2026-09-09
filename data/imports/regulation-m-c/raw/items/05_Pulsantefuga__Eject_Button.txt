@@ -1,0 +1,12 @@
+POKÉMON CHAMPIONS — STRUMENTO INTRODOTTO/RESO DISPONIBILE CON M-C
+Nome italiano: Pulsantefuga
+Nome inglese: Eject Button
+
+DATI
+Categoria: Strumento tenuto
+Monouso/consumato: Sì
+
+DESCRIZIONE
+Quando il possessore subisce danno da una mossa, viene fatto uscire dal campo e il giocatore sceglie un sostituto, se possibile. È monouso.
+
+Nota: l’effetto descritto è riferito al funzionamento in Pokémon Champions nel regolamento M-C.
