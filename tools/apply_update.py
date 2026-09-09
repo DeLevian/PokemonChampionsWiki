@@ -158,6 +158,7 @@ def apply_package(root: Path, package: dict[str, Any], sources: dict[str, Any]) 
             "movesTotal": len(state["moves"]),
             "abilities": len(state["abilities"]),
             "items": len(state["items"]),
+            "itemsInChampions": sum(item.get("inChampions") is True for item in state["items"]),
             "natures": 25,
             "types": len(VALID_TYPES),
         },

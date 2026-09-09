@@ -37,12 +37,14 @@ class App {
                  if (Array.isArray(target)) {
                      target.forEach(item => {
                          const enName = item.name;
-                         if (enName && localeDict[enName]) {
-                             item.name_it = localeDict[enName].name;
-                             item.effect_it = localeDict[enName].description || "";
-                             item.description_it = localeDict[enName].description || "";
-                             item.effect = localeDict[enName].description || "";
-                         }
+                         if (!enName) return;
+
+                         item.name_en = enName;
+                         const localized = localeDict?.[enName];
+                         item.name_it = localized?.name || enName;
+                         item.effect_it = localized?.description || item.description || "";
+                         item.description_it = localized?.description || item.description || "";
+                         item.effect = item.effect_it;
                      });
                  }
              };
@@ -50,7 +52,7 @@ class App {
             // Load official database files + static old files + Locales
             const [
                 rosterData, statsData, learnsetsData, speciesMetaData,
-                evolutionData, aliasesData,
+                evolutionData, aliasesData, typeChartData, versionData,
                 itemsData, abilitiesData, movesData, naturesData, 
                 locAbilities, locMoves, locItems, locPokemon, locNatures
             ] = await Promise.all([
@@ -60,6 +62,8 @@ class App {
                 loadJson('data/database/current/pokemon/species-data.json', {}),
                 loadJson('data/evolution_chains.json', { chains: {}, species_to_chain: {} }),
                 loadJson('data/mappings/entity-aliases.json', { pokemon: {}, pokemonArtwork: {} }),
+                loadJson('data/database/current/type-chart/effectiveness.json', { chart: {} }),
+                loadJson('data/database/current/meta/version.json', {}),
                 loadJson('data/database/current/items/items.json', []),
                 loadJson('data/database/current/abilities/abilities.json', []),
                 loadJson('data/database/current/moves/moves.json', []),
@@ -137,6 +141,25 @@ class App {
             };
             window.evolutionData = evolutionData;
             window.entityAliases = aliasesData;
+            const supportedTypes = new Set(
+                (typeChartData.types || []).map(type => type.toLowerCase())
+            );
+            window.typeChart = Object.fromEntries(
+                Object.entries(typeChartData.chart || {})
+                    .filter(([attackType]) => supportedTypes.has(attackType.toLowerCase()))
+                    .map(([attackType, defenses]) => [
+                        attackType.toLowerCase(),
+                        Object.fromEntries(
+                            Object.entries(defenses)
+                                .filter(([defenseType]) => supportedTypes.has(defenseType.toLowerCase()))
+                                .map(([defenseType, multiplier]) => [
+                                    defenseType.toLowerCase(),
+                                    multiplier
+                                ])
+                        )
+                    ])
+            );
+            window.dataVersion = versionData;
             window.speciesMetaData = speciesMetaData;
             window.learnsetsData = learnsetsData;
 
@@ -145,6 +168,13 @@ class App {
             window.abilitiesDb = { abilities: abilitiesData }; 
             window.movesDb = { moves: movesData }; 
             window.naturesData = naturesData;
+
+            const versionLabel = document.getElementById('data-version');
+            if (versionLabel) {
+                const regulation = versionData.regulation || versionData.version || 'versione sconosciuta';
+                const updated = versionData.lastUpdated ? ` · dati ${versionData.lastUpdated}` : '';
+                versionLabel.textContent = `${regulation}${updated}`;
+            }
 
             // Merge Localizations!
             mapLocaleNames('itemsData', 'items', locItems);

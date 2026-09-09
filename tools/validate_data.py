@@ -33,6 +33,7 @@ DATA_FILES = {
     "version": "data/database/current/meta/version.json",
     "species": "data/database/current/pokemon/species-data.json",
     "evolutions": "data/evolution_chains.json",
+    "type_chart": "data/database/current/type-chart/effectiveness.json",
     "locale_pokemon": "data/locales/it/pokemon.json",
     "locale_moves": "data/locales/it/moves.json",
     "locale_abilities": "data/locales/it/abilities.json",
@@ -92,7 +93,7 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
 
     list_names = ("roster", "stats", "moves", "abilities", "items", "natures")
     dict_names = (
-        "learnsets", "version", "species", "evolutions", "locale_pokemon",
+        "learnsets", "version", "species", "evolutions", "type_chart", "locale_pokemon",
         "locale_moves", "locale_abilities", "locale_items", "locale_natures", "aliases",
     )
     for name in list_names:
@@ -156,11 +157,9 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
         if not isinstance(pokemon_abilities, dict) or not pokemon_abilities:
             result.error(f"{prefix} {name}: abilities deve essere un oggetto non vuoto")
         else:
-            invalid_slots = set(pokemon_abilities) - {"0", "1", "H"}
+            invalid_slots = set(pokemon_abilities) - {"0", "1", "H", "S"}
             if invalid_slots:
-                result.warn(
-                    f"{prefix} {name}: slot abilità legacy/non standard: {', '.join(invalid_slots)}"
-                )
+                result.error(f"{prefix} {name}: slot abilità non validi: {', '.join(invalid_slots)}")
             unknown = set(pokemon_abilities.values()) - ability_names
             if unknown:
                 result.error(f"{prefix} {name}: abilità inesistenti: {', '.join(sorted(unknown))}")
@@ -241,8 +240,35 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
         for index, record in enumerate(collection):
             if not isinstance(record.get("name"), str) or not record["name"].strip():
                 result.error(f"{collection_name}[{index}]: name non valido")
-            if not isinstance(record.get("description"), str) or not record["description"].strip():
+            has_description = isinstance(record.get("description"), str) and bool(record["description"].strip())
+            localized_description = data["locale_items"].get(record.get("name"), {}).get("description", "")
+            if collection_name == "abilities" and not has_description:
                 result.warn(f"{collection_name}[{index}] {record.get('name')}: description assente")
+            if collection_name == "items" and record.get("inChampions") is True and not (has_description or localized_description):
+                result.warn(f"items[{index}] {record.get('name')}: descrizione assente in entrambe le lingue")
+            if collection_name == "items" and not isinstance(record.get("inChampions"), bool):
+                result.error(f"items[{index}] {record.get('name')}: inChampions deve essere booleano")
+
+    type_chart = data["type_chart"].get("chart")
+    if not isinstance(type_chart, dict):
+        result.error("type-chart/effectiveness.json: chart deve essere un oggetto")
+    else:
+        for attack_type in VALID_TYPES:
+            defenses = type_chart.get(attack_type)
+            if not isinstance(defenses, dict):
+                result.error(f"Type chart: riga assente per {attack_type}")
+                continue
+            missing_defenses = VALID_TYPES - set(defenses)
+            if missing_defenses:
+                result.error(
+                    f"Type chart {attack_type}: tipi difensivi assenti: {', '.join(sorted(missing_defenses))}"
+                )
+            invalid_values = {
+                defense: value for defense, value in defenses.items()
+                if defense in VALID_TYPES and value not in {0, 0.5, 1, 2}
+            }
+            if invalid_values:
+                result.error(f"Type chart {attack_type}: moltiplicatori non validi: {invalid_values}")
 
     version = data["version"]
     counts = version.get("counts", {})
@@ -252,6 +278,7 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
         "movesTotal": len(moves),
         "abilities": len(abilities),
         "items": len(items),
+        "itemsInChampions": sum(item.get("inChampions") is True for item in items),
         "natures": len(data["natures"]),
         "types": len(VALID_TYPES),
     }
@@ -289,9 +316,13 @@ def validate(root: Path) -> tuple[Validation, dict[str, Any]]:
     if bad_aliases:
         result.error(f"Alias artwork verso file inesistenti: {', '.join(bad_aliases)}")
 
-    item_locale_missing = {record["name"] for record in items} - set(data["locale_items"])
+    available_item_names = {record["name"] for record in items if record.get("inChampions") is True}
+    item_locale_missing = available_item_names - set(data["locale_items"])
     if item_locale_missing:
-        result.warn(f"Traduzione italiana mancante per {len(item_locale_missing)} strumenti")
+        result.warn(
+            f"Traduzione italiana mancante per {len(item_locale_missing)} strumenti disponibili: "
+            f"{', '.join(sorted(item_locale_missing))}"
+        )
 
     return result, data
 

@@ -47,6 +47,7 @@
     "abilities": 216,
     "items": 583,
     "natures": 25,
-    "types": 18
+    "types": 18,
+    "itemsInChampions": 166
   }
 }

@@ -431,7 +431,7 @@ Regole:
 - `canonicalName` e `roster.name` devono coincidere;
 - `total` deve essere la somma delle sei statistiche;
 - `form` usa normalmente `Base`, `Mega` o `Regional`;
-- gli slot abilità ammessi sono `0`, `1` e `H`;
+- gli slot abilità ammessi sono `0`, `1`, `H` e `S`; `S` è riservato ad abilità o forme speciali, per esempio Battle Bond;
 - ogni abilità deve esistere nel database finale;
 - ogni mossa deve esistere nel database finale;
 - `inheritFrom` deve essere `null` oppure il nome canonico di un Pokémon;

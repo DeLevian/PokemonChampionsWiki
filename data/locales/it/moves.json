@@ -2150,5 +2150,21 @@
   "Zing Zap": {
     "name": "Elettropizzico",
     "description": "Infligge danno e ha il 30% di probabilità di far tentennare il bersaglio, se il bersaglio non ha già agito e non è protetto da effetti che impediscono il tentennamento."
+  },
+  "Barb Barrage": {
+    "name": "Mille Fielespine",
+    "description": "Ha il 50% di probabilità di avvelenare il bersaglio. La potenza raddoppia se il bersaglio è già avvelenato."
+  },
+  "No Retreat": {
+    "name": "Spalle al Muro",
+    "description": "Aumenta di un grado Attacco, Difesa, Attacco Speciale, Difesa Speciale e Velocità dell'utilizzatore, che però non può più essere sostituito normalmente."
+  },
+  "Rage Fist": {
+    "name": "Pugno Furibondo",
+    "description": "La potenza aumenta di 50 ogni volta che l'utilizzatore viene colpito durante la lotta, fino a un massimo di 350. Il conteggio non si azzera quando viene sostituito o va KO."
+  },
+  "Topsy-Turvy": {
+    "name": "Sottosopra",
+    "description": "Inverte tutte le modifiche alle statistiche del bersaglio. Fallisce se le sue statistiche non sono state modificate."
   }
 }

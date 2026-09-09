@@ -40,5 +40,10 @@
     "Mega Lucario Z": "Lucario Mega Z.png",
     "Mega Golisopod": "Golisopod Mega.png",
     "Mega Baxcalibur": "Baxcalibur Mega.png"
+  },
+  "itemSprites": {
+    "Absolite Z": "absolite.png",
+    "Garchompite Z": "garchompite.png",
+    "Lucarionite Z": "lucarionite.png"
   }
 }

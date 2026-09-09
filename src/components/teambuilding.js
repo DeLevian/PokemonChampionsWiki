@@ -1227,8 +1227,9 @@ export class TeamBuildingView {
         const pkm = this.selectedPokemon;
         const editor = this.container.querySelector('#tb-editor');
         
-        const items = Object.values(window.itemsData?.items || {}).filter(it => it.name_it);
-        items.sort((a, b) => a.name_it.localeCompare(b.name_it));
+        const items = Object.values(window.itemsData?.items || {})
+            .filter(item => item.inChampions === true);
+        items.sort((a, b) => (a.name_it || a.name).localeCompare(b.name_it || b.name));
 
         editor.innerHTML = `
             <div class="selection-list-view">
@@ -1248,7 +1249,10 @@ export class TeamBuildingView {
         const search = editor.querySelector('#item-search-inner');
         search.oninput = (e) => {
             const q = e.target.value.toLowerCase();
-            const filtered = items.filter(it => it.name_it.toLowerCase().includes(q) || (it.name_en || "").toLowerCase().includes(q));
+            const filtered = items.filter(item =>
+                (item.name_it || item.name || '').toLowerCase().includes(q) ||
+                (item.name_en || item.name || '').toLowerCase().includes(q)
+            );
             editor.querySelector('#inner-items-grid').innerHTML = this.renderItemItems(filtered);
             this.bindItemItems();
         };
@@ -1259,8 +1263,8 @@ export class TeamBuildingView {
 
     renderItemItems(items) {
         return items.map(it => {
-            const name = it.name_it;
-            const desc = it.effect_it || it.effect_en || "Nessun effetto registrato.";
+            const name = it.name_it || it.name;
+            const desc = it.effect_it || it.description || it.effect_en || "Nessun effetto registrato.";
             return `
                 <div class="selection-item-card" data-iname="${name}">
                     <h4>${name}</h4>
